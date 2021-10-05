@@ -14,7 +14,8 @@ These credits are based on our [course contributors table guidelines](https://gi
 
 &nbsp;
 
-*These are currently from another course ... will update later*
+***These are currently from another course ... will update later***
+
 |Credits|Names| 
 |-------|-----|
 |**Pedagogy**||
