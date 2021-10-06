@@ -1,0 +1,21 @@
+---
+title: "Data Management Platforms & Systems"
+output: html_document
+---
+
+
+```{r, include = FALSE}
+leanbuild::set_knitr_image_path()
+```
+
+# Data Management Platforms & Systems
+
+In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and that this is not a complete list. Let us know if there is a platform or system that you think we should include!
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
+```
+
+
+
+
