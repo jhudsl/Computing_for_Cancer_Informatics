@@ -8,13 +8,21 @@ If you would like to contribute to this course material, take a look at the [get
 
 ## About this course
 
-This course introduces aspects about the economic, privacy, security, usability, and discoverability implications of data management for cancer research.
+This course introduces aspects about the economic, privacy, security, usability, and discoverability implications of data management for cancer research. The course will also highlight concrete workflows for managing genomic, imaging, and clinical data. We will feature tools that focus on data management including platforms like Galaxy and individual data sharing systems.
+
+This course is intended for researchers with limited to intermediate informatics expertise. 
 
 ## Learning Objectives
 
 This course will teach learners to:  
 
-- Learning objectives coming!
+- Recognize various data management systems especially for cancer research related data
+- Compare and make informed decisions about computation platforms (including economic considerations)
+- Implement best practices for data security and privacy
+- Share data safely and securely in a variety of contexts
+- Handle IRB and data access requests
+- Apply ethical consideration in data management workflows
+
 
 ## Encountering problems?
 
