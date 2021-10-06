@@ -1,0 +1,21 @@
+---
+title: "Data Sharing"
+output: html_document
+---
+
+
+```{r, include = FALSE}
+leanbuild::set_knitr_image_path()
+```
+
+# Data Sharing
+
+In this chapter we will discuss the importance of data sharing, best practices for data sharing, as well as methods to share data in contexts in which you might have thought sharing was not possible!
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
+```
+
+
+
+
