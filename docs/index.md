@@ -1,6 +1,6 @@
 --- 
 title: "Data Management for Cancer Research"
-date: "2021-10-05"
+date: "2021-10-06"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
