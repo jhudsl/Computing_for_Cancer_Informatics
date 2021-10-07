@@ -31,5 +31,12 @@ omics
 proteomic
 RStudio
 scalable
+SSD
+Supercomputing
+TACC
+transcriptomic
 UE
+Vick
+Wheelan
 www
+Xsede
