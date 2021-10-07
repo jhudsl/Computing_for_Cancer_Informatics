@@ -4,11 +4,11 @@ repo: https://github.com/jhudsl/DaSL_Course_Template_Bookdown/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-Data_Management_Platforms_&_Systems.Rmd",
-            "03-Data_Management_Decisions",
-            "04-Data_Security",
-            "05-Data_Privacy",
-            "06-Data_Sharing",
-            "07-Data_Ethics"
+            "03-Data_Management_Decisions.Rmd",
+            "04-Data_Security.Rmd",
+            "05-Data_Privacy.Rmd",
+            "06-Data_Sharing.Rmd",
+            "07-Data_Ethics.Rmd"
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
