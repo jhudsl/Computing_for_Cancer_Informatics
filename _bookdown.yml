@@ -3,12 +3,14 @@ chapter_name: "Chapter "
 repo: https://github.com/jhudsl/Data_Management
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-Data_Management_Platforms.Rmd",
-            "03-Data_Management_Decisions.Rmd",
-            "04-Data_Security.Rmd",
-            "05-Data_Privacy.Rmd",
-            "06-Data_Sharing.Rmd",
-            "07-Data_Ethics.Rmd",
+            "02-Computing_Basics.Rmd",
+            "03-General_Platforms.Rmd",
+            "04-Specific_Platforms.Rmd",
+            "05-Computing_Decisions.Rmd",
+            "06-Data_Security.Rmd",
+            "07-Data_Privacy.Rmd",
+            "08-Data_Sharing.Rmd",
+            "09-Data_Ethics.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
