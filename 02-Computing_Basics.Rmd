@@ -62,14 +62,14 @@ If the base prong of the transistor does not receive a small current than the tr
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_328")
 ```
 
-These two states for the flow of current ultimately allow for the storage and use of binary data, which we think of a zeros and ones, but its really the absence or presence of current with a voltage beyond a threshold for this part of the circuit. 
+These two states for the flow of current ultimately allow for the storage and use of binary data, which we think of a zeros and ones, but it is really the absence or presence of current with a voltage beyond a threshold for this part of the circuit. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_147")
 ```
 
 
-Thus our computers are ultimately based on the assessment of only two states of current (0 (or FALSE) = bellow a threshold and 1 (or TRUE) = above a threshold) makes the creation of hardware (the physical components of a computer) much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this is all that is needed for computers to perform all the complex tasks that we rely on them for everyday.  
+Thus our computershysical components of a computer are ultimately based on the assessment of only two states of current (0 (or FALSE) = bellow a threshold and 1 (or TRUE) = above a threshold) makes the creation of hardware (the p) much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this is all that is needed for computers to perform all the complex tasks that we rely on them for everyday.  
 
 
 Very importantly transistors have gotten much smaller over time.
