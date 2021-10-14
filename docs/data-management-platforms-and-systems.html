@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Data Management Platforms and Systems | Data Management for Cancer Research</title>
+  <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Data Management Platforms and Systems | Data Management for Cancer Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Data Management Platforms and Systems | Data Management for Cancer Research" />
+  
+  <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+
+
+<meta name="date" content="2021-10-14" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="computing-basics.html"/>
+<link rel="next" href="data-management-platforms-and-systems-1.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="computing-basics.html"><a href="computing-basics.html"><i class="fa fa-check"></i><b>2</b> Computing basics</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="computing-basics.html"><a href="computing-basics.html#computing-components"><i class="fa fa-check"></i><b>2.1</b> Computing Components</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="computing-basics.html"><a href="computing-basics.html#transistors"><i class="fa fa-check"></i><b>2.1.1</b> Transistors</a></li>
+<li class="chapter" data-level="2.1.2" data-path="computing-basics.html"><a href="computing-basics.html#alu---arithmetic-logic-unit"><i class="fa fa-check"></i><b>2.1.2</b> ALU - Arithmetic Logic Unit</a></li>
+<li class="chapter" data-level="2.1.3" data-path="computing-basics.html"><a href="computing-basics.html#boolean-algebra"><i class="fa fa-check"></i><b>2.1.3</b> Boolean Algebra</a></li>
+<li class="chapter" data-level="2.1.4" data-path="computing-basics.html"><a href="computing-basics.html#flip-flops-and-registers"><i class="fa fa-check"></i><b>2.1.4</b> Flip-flops and registers</a></li>
+<li class="chapter" data-level="2.1.5" data-path="computing-basics.html"><a href="computing-basics.html#cpu---central-processing-unit-or-core"><i class="fa fa-check"></i><b>2.1.5</b> <strong>CPU</strong> - Central Processing Unit or Core</a></li>
+<li class="chapter" data-level="2.1.6" data-path="computing-basics.html"><a href="computing-basics.html#memory-or-ram---short-term-memory"><i class="fa fa-check"></i><b>2.1.6</b> <strong>Memory or RAM</strong> - short-term memory</a></li>
+<li class="chapter" data-level="2.1.7" data-path="computing-basics.html"><a href="computing-basics.html#storage---long-term-memory"><i class="fa fa-check"></i><b>2.1.7</b> <strong>Storage</strong> - long-term memory</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html"><i class="fa fa-check"></i><b>3</b> Data Management Platforms and Systems</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html#galaxy"><i class="fa fa-check"></i><b>3.0.1</b> Galaxy</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-management-platforms-and-systems-1.html"><a href="data-management-platforms-and-systems-1.html"><i class="fa fa-check"></i><b>4</b> Data Management Platforms and Systems</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="data-management-platforms-and-systems-1.html"><a href="data-management-platforms-and-systems-1.html#galaxy-1"><i class="fa fa-check"></i><b>4.0.1</b> Galaxy</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-management-decisions.html"><a href="data-management-decisions.html"><i class="fa fa-check"></i><b>5</b> Data Management Decisions</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing"><i class="fa fa-check"></i><b>5.1</b> Computing</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#core-computing-components"><i class="fa fa-check"></i><b>5.1.1</b> Core Computing Components</a></li>
+<li class="chapter" data-level="5.1.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#current-computer-capacity"><i class="fa fa-check"></i><b>5.1.2</b> Current Computer Capacity</a></li>
+<li class="chapter" data-level="5.1.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#servers"><i class="fa fa-check"></i><b>5.1.3</b> Servers</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing-platforms"><i class="fa fa-check"></i><b>5.2</b> Computing Platforms</a></li>
+<li class="chapter" data-level="5.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#hardware"><i class="fa fa-check"></i><b>5.3</b> Hardware</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#personal-computers"><i class="fa fa-check"></i><b>5.3.1</b> <strong>Personal computers</strong></a></li>
+<li class="chapter" data-level="5.3.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#shared-computers"><i class="fa fa-check"></i><b>5.3.2</b> <strong>Shared Computers</strong></a></li>
+<li class="chapter" data-level="5.3.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#accessing-shared-computer-resources"><i class="fa fa-check"></i><b>5.3.3</b> Accessing Shared Computer Resources</a></li>
+<li class="chapter" data-level="5.3.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-computing"><i class="fa fa-check"></i><b>5.3.4</b> <strong>Cloud Computing</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>5.4</b> Choosing a Computing Platform</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#important-questions"><i class="fa fa-check"></i><b>5.4.1</b> Important questions</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>5.4.2</b> Benefits of Cloud Computing</a></li>
+<li class="chapter" data-level="5.4.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>5.4.3</b> Challenges of Cloud Computing</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-costs"><i class="fa fa-check"></i><b>5.5</b> Local Costs</a></li>
+<li class="chapter" data-level="5.6" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-costs"><i class="fa fa-check"></i><b>5.6</b> Cloud Costs</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>6</b> Data Security</a></li>
+<li class="chapter" data-level="7" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>7</b> Data Privacy</a></li>
+<li class="chapter" data-level="8" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>8</b> Data Sharing</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>8.1</b> Data sharing is important!</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>9</b> Data Ethics</a></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/Data_Management" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Management for Cancer Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="data-management-platforms-and-systems" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Data Management Platforms and Systems</h1>
+<p>In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!</p>
+<p><img src="resources/images/03-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" /></p>
+<div id="galaxy" class="section level3" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> Galaxy</h3>
+<p>This section was written by Jeremy Goecks:</p>
+<p>Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API (Figure 1). Galaxy (<a href="https://galaxyproject.org/" class="uri">https://galaxyproject.org/</a>) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.</p>
+<p>Galaxy is used daily by thousands of scientists across the world. A vibrant Galaxy community has deployed hundreds of Galaxy servers across the world, including more than 150 public and three large national/international servers in the United States, Europe, and Australia (<a href="https://usegalaxy.org" class="uri">https://usegalaxy.org</a>, <a href="https://usegalaxy.eu" class="uri">https://usegalaxy.eu</a>, <a href="https://usegalaxy.org.au" class="uri">https://usegalaxy.org.au</a>). The three national/international servers (Figure 2) have more than 250,000 registered users who execute &gt;500,000 analysis jobs each month. Galaxy has been cited more than 10,000 times with &gt;20% from papers related to cancer. The Galaxy Tool Shed (<a href="https://usegalaxy.org/toolshed" class="uri">https://usegalaxy.org/toolshed</a>) provides a central location where developers can upload tools and visualizations and users can search and install tools and visualizations into any Galaxy server. Galaxy has a large presence in the cancer research community. Galaxy serves as an integration and/or analysis platform for 7 projects in the NCI ITCR program. There is also increasing use of Galaxy in key NIH initiatives such as the NCI Cancer Moonshot Human Tumor Atlas Network (HTAN) and the NHGRI Data Commons, called the AnVIL (<a href="https://anvilproject.org/" class="uri">https://anvilproject.org/</a>).</p>
+<p>Galaxy’s user interface, accessible via a web browser, provides access to all Galaxy functionality. The main Galaxy interface (Figure 3) has three panels: available tools (left), running analyses and viewing data (middle), and a full history of tools run and datasets generated (right). Datasets for analysis in Galaxy can be uploaded from a laptop or desktop computer or obtained from public data repositories connected to Galaxy. With Galaxy, complex workflows composed of tens or even hundreds of analysis tools can be created and run. In Galaxy’s workflow interface (Figure 4), tools can be added and connected via a simple drag-and-drop approach. Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.</p>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="computing-basics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-management-platforms-and-systems-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
