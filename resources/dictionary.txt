@@ -1,4 +1,6 @@
 ACI
+ALU
+ALUs
 AnVIL
 Biostrings
 CyVerse
@@ -31,6 +33,7 @@ omics
 proteomic
 RStudio
 scalable
+semiconductive
 SSD
 Supercomputing
 TACC

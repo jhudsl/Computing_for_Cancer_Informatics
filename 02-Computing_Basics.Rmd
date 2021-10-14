@@ -87,7 +87,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 [[Source](https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png)]
 
-Both the smaller size of the transistors and the increased number of transistors possible within computers have in part allowed computers to become faster and more powerful [@Pokropivny2007].
+Both the smaller size of the transistors and the increased number of transistors within computers have in part allowed computers to become faster and more powerful [@Pokropivny2007].
 
 
 These silicon transistors became so important for the field of electronics, that the late 20th century and early 21st century is sometimes called the "Silicon Age". This is also why many places in the world where there are many technological institutes are often called a name with silicon, such as [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley). Here is an interesting [article](https://futurism.com/could-mark-end-silicon-age) about what our next age might be about, and it has to do with changing the way we harness electrons (the current role of transistors) - that's how important they are!
@@ -125,14 +125,14 @@ Importantly using more complex arrangements of these logic gates can allow the c
 https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
 
 
-If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also goe into great detail.
+If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
 
 In case you are wondering about the semantics of phrases like the "flow of current", check this [discussion](https://electronics.stackexchange.com/questions/61780/isnt-current-flow-a-wrong-term).
 
 
 ### Boolean Algebra
 
-ALUs perform arithmetic operations using [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra), meaning that values are represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). This is called Boolean, because it was invented by George Boole 1854 [@explainthatstuff]. These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system.
+An ALU performs arithmetic operations using [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra), meaning that values are represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). This is called Boolean, because it was invented by George Boole 1854 [@explainthatstuff]. These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system.
 
 With our decimal system when we reach a value of 10, we start to carry over the 1. With the binary system when we reach a value of 2, we start to carry over the 1.
 
@@ -189,7 +189,7 @@ Modern computers now have multiple cores. What does this mean?
 
 This means that there are multiple CPUs within the same computer chip.  A dual core CPU is a chip with two CPUs. A quad-core CPU is a chip with 4 CPUs and so on.This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
 
-In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus any tasks that require the involvment of images are done using the GPU and not the CPU. This frees up the CPU to continue on the tasks not involving images more efficiently.
+In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus any tasks that require the involvement of images are done using the GPU and not the CPU. This frees up the CPU to continue on the tasks not involving images more efficiently.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
