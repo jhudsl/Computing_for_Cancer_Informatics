@@ -21,6 +21,7 @@ Jetstream
 Kai
 Kammers
 Klarman
+macOS
 Markua
 metabolomic
 microbiome
@@ -44,3 +45,4 @@ Vick
 Wheelan
 www
 Xsede
+20th

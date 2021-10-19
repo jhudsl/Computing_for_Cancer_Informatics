@@ -21,51 +21,8 @@ To afford you the best opportunity to perform the informatics research that you 
 
 ***Note:** This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [AnVIL project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).*
 
-## Computing
-
-First we would like to start off with some background about computers. This will better enable you to make decisions about what type of hardware and software you might need for your research.
-
-### Core Computing Components
-
-There are **three** core and important components of computers for computing: 
-
-![](images/computing_comp.png)
-
-1) **CPU** - the Central Processing Unit  
-
-The CPU is often called **the brain** of the computer. It performs and orchestrates computational tasks. 
-Modern computers often perform multiple tasks at once, ranging from 4 tasks on a typical laptop. In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that can perform over 5,000 simpler tasks at once!
-
-2) **Memory or RAM** - short-term memory
-
-[RAM](https://www.computerhope.com/jargon/r/ram.htm) stands for **Random Access Memory**.  It is often simply referred to as memory.  This short-term memory holds the information that the CPU needs to perform calculations. Since CPUs are fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of memory is that it is temporary. When the electricity is shut off, the data stored in RAM disappears.  
-
-3) **Storage**  - long-term memory
-
-Storage is also sometimes referred to as long-term memory because electricity is not required to preserve the data. This type of memory is stored using [hard disk drives (HDD) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSD)](https://www.computerhope.com/jargon/s/ssd.htm). Typically ranging from gigabytes to terabytes or more, this type of storage offers big data capacity for a relatively low price at the cost of speed.
 
 
-### Current Computer Capacity
-
-So how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
-
-
-![](images/current_comp.png)
-These values will probably change very soon, but currently:
-
-* **Laptops** can perform 8 CPU tasks at once, storing 64 GB in memory and 8 TB on storage.  
-* **Handheld tablets** can now perform 8 CPU tasks, and store 6 GB in memory and 1 TB on storage. 
-* Some **phones** can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB on storage.  
-
-### Servers
-
-What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.
-
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
-
-For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
-
-![](images/Servers.png)
 
 
 ## Computing Platforms
