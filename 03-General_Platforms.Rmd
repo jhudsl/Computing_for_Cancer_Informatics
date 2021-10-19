@@ -8,7 +8,7 @@ output: html_document
 leanbuild::set_knitr_image_path()
 ```
 
-# Data Management Platforms and Systems
+# Computing Systems
 
 In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
 
@@ -122,7 +122,7 @@ https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-comp
 
 More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** In addition there are options like Jetstream which is a more "Cloud-like" part of Xsede.
 
-AVOCADO need a new shared computer image and moer about Jetstream which I think is a good option for many people
+AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people
 
 ### Accessing Shared Computer Resources
 

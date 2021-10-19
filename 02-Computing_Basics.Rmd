@@ -199,7 +199,7 @@ Hyper-threading is also an option for improving processing. This technology star
 
 OK, so we have already talked about how data can be stored in the registers within the CPU. This data or memory is used directly by the CPU during operations or tasks. However, our CPUs need additional quick access to data to tell the CPU what to do to perform the operations. This bring us to [RAM](https://www.computerhope.com/jargon/r/ram.htm).  [RAM](https://www.computerhope.com/jargon/r/ram.htm) stands for **Random Access Memory**.  It is often simply referred to as **memory**.  Since CPUs are fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of this type of memory is that it is temporary. When your computer no longer has power, the data stored in RAM disappears. This type of memory is also called volatile.  
 
-is Ram just registers located outside the cPU?
+is Ram just registers located outside the CPU?
 
 For more information about how RAM works, check out this website: https://computer.howstuffworks.com/ram.htm.
 
