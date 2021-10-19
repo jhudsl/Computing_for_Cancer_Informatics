@@ -1,5 +1,5 @@
 ---
-title: "Data Management Platforms and Systems"
+title: "Computing Systems"
 output: html_document
 ---
 
@@ -10,26 +10,25 @@ leanbuild::set_knitr_image_path()
 
 # Computing Systems
 
-In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
+In this chapter we will describe the basics about data size, as well as methods to perform informatics work that might require more intensive computing than your personal computer.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems", out.width="100%"}
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the size of various data, 2. Recognize the difference between personal computers and remote computing options. 2.Explain how cloud computing and server computing works 3. Determine which options will provide enough computing capacity for your research needs", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
-This chapter aims to provide research leaders with some guidance about making decisions for computing [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and "Cloud" computing.
+This chapter aims to provide research leaders with some guidance about general computing options, such as personal computers,  local computing clusters, and cloud options. We will discuss how networks, servers and cloud computing work and we will describe the computing capacity of each option as well as other considerations. virtual machines???
 
-How the internet works:
+## Data Sizes
 
-
-```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
-knitr::include_url("https://www.youtube.com/embed/82m2du-zgmY")
-```
+Recall that the smallest unit of data is a bit which is either a zero or a one. A group of a bits is called a bite, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bites at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
 
 
 
-### Current Computer Capacity
 
-So how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
+## Computer Capacity
+
+Now that we know about the CPU, how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
 
 
 ![](images/current_comp.png)
@@ -38,6 +37,9 @@ These values will probably change very soon, but currently:
 * **Laptops** can perform 8 CPU tasks at once, storing 64 GB in memory and 8 TB on storage.  
 * **Handheld tablets** can now perform 8 CPU tasks, and store 6 GB in memory and 1 TB on storage. 
 * Some **phones** can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB on storage.  
+
+
+
 
 ### Servers
 

@@ -5,13 +5,13 @@ output: html_document
 
 # Computing basics
 
-In this chapter we will describe the basics about computing, what cloud computing actually is, and methods to perform informatics work that might require more intensive computing.
+First we would like to start off with some background information about how computers actually work. Understanding how computers actually work will be very helpful for understanding what computing resources your research will actually require and better enable you to discuss your computing needs with computing experts. 
 
-```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe the basics of how computers work, 2. Define basic computing terminology, 3. Recognize different methods for performing intensive computations, 4. Explain the difference between cloud computing and local computing", out.width= "100%"}
+```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe the basics of how computers work, 2. Explain how digital data is used and stored by computers, 3. Define basic computing terminology, 4. Recognize important computing hardware components, 5. Explain how the operating system influences how computations are processed", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_4")
 ```
 
-First we would like to start off with some background information about how computers actually work. Understanding how computers actually work will be very helpful for understanding what computing resources your research will actually require. 
+ 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!", out.width= "100%"}
@@ -160,7 +160,7 @@ A group of flip-flops is called a register. You may have heard about a computer 
 
 You may also be wondering how letters and other symbols are stored in this binary system. 
 
-Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of the number. In the ASCII system, this ultimately works out to letters being stored by 8 binary bits or digits also called a byte [@computerhope]. Since this is consistent, this works well with systems that have registers that can store in sets of 8 bits. Since 64 divided by 8 is 8, this means for a 64-bit operating system, each register can store 8 letters or symbols at a time. This is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the unit of data that the CPU works with.
+Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of the number. In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits). A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the CPU can work with at a time. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits.
 
 Below you can see the decimal value for some of the symbols and letters:
 
@@ -251,6 +251,9 @@ Examples of commonly used operating systems on computers and phones are:
 * macOS (notice the OS here - it might make more sense now why it is called this)
 * Linux  
 * Android
+
+Recall that we previously talked about how computers today are often called 64-bit? Operating systems are also designed in this way. A 64-bit operating system expects the hardware of the computer to allow for processing at least 64 bits of data at a time (the word size). If we have registers of at least this length in the CPU, than we can in fact perform operations on data that may be up to 64 bits in length. This also means that we can perform operations on values that take up less than 64 bits. This can be important because if you try to use an operating system that expects a longer word size than the hardware can accommodate, for example a 64-bit operating system on a 32-bit computer, this will not work. Application programs are also designed according to different word sizes and again you need to choose options that are equal to or less than the word size that your CPU can accommodate.
+
 
 Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
 
