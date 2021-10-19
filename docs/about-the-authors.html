@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-10-14" />
+<meta name="date" content="2021-10-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,6 +55,28 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -85,45 +107,51 @@
 <ul>
 <li class="chapter" data-level="2.1.1" data-path="computing-basics.html"><a href="computing-basics.html#transistors"><i class="fa fa-check"></i><b>2.1.1</b> Transistors</a></li>
 <li class="chapter" data-level="2.1.2" data-path="computing-basics.html"><a href="computing-basics.html#alu---arithmetic-logic-unit"><i class="fa fa-check"></i><b>2.1.2</b> ALU - Arithmetic Logic Unit</a></li>
-<li class="chapter" data-level="2.1.3" data-path="computing-basics.html"><a href="computing-basics.html#boolean-algebra"><i class="fa fa-check"></i><b>2.1.3</b> Boolean Algebra</a></li>
+<li class="chapter" data-level="2.1.3" data-path="computing-basics.html"><a href="computing-basics.html#binary-or-boolean-data"><i class="fa fa-check"></i><b>2.1.3</b> Binary or Boolean data</a></li>
 <li class="chapter" data-level="2.1.4" data-path="computing-basics.html"><a href="computing-basics.html#flip-flops-and-registers"><i class="fa fa-check"></i><b>2.1.4</b> Flip-flops and registers</a></li>
 <li class="chapter" data-level="2.1.5" data-path="computing-basics.html"><a href="computing-basics.html#cpu---central-processing-unit-or-core"><i class="fa fa-check"></i><b>2.1.5</b> <strong>CPU</strong> - Central Processing Unit or Core</a></li>
 <li class="chapter" data-level="2.1.6" data-path="computing-basics.html"><a href="computing-basics.html#memory-or-ram---short-term-memory"><i class="fa fa-check"></i><b>2.1.6</b> <strong>Memory or RAM</strong> - short-term memory</a></li>
 <li class="chapter" data-level="2.1.7" data-path="computing-basics.html"><a href="computing-basics.html#storage---long-term-memory"><i class="fa fa-check"></i><b>2.1.7</b> <strong>Storage</strong> - long-term memory</a></li>
+<li class="chapter" data-level="2.1.8" data-path="computing-basics.html"><a href="computing-basics.html#hardware-and-software"><i class="fa fa-check"></i><b>2.1.8</b> Hardware and Software</a></li>
+<li class="chapter" data-level="2.1.9" data-path="computing-basics.html"><a href="computing-basics.html#operating-systems"><i class="fa fa-check"></i><b>2.1.9</b> Operating Systems</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html"><i class="fa fa-check"></i><b>3</b> Data Management Platforms and Systems</a>
+<li class="chapter" data-level="3" data-path="computing-systems.html"><a href="computing-systems.html"><i class="fa fa-check"></i><b>3</b> Computing Systems</a>
 <ul>
-<li class="chapter" data-level="3.0.1" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html#galaxy"><i class="fa fa-check"></i><b>3.0.1</b> Galaxy</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="data-management-platforms-and-systems-1.html"><a href="data-management-platforms-and-systems-1.html"><i class="fa fa-check"></i><b>4</b> Data Management Platforms and Systems</a>
+<li class="chapter" data-level="3.0.1" data-path="computing-systems.html"><a href="computing-systems.html#current-computer-capacity"><i class="fa fa-check"></i><b>3.0.1</b> Current Computer Capacity</a></li>
+<li class="chapter" data-level="3.0.2" data-path="computing-systems.html"><a href="computing-systems.html#servers"><i class="fa fa-check"></i><b>3.0.2</b> Servers</a></li>
+<li class="chapter" data-level="3.1" data-path="computing-systems.html"><a href="computing-systems.html#computing-platforms"><i class="fa fa-check"></i><b>3.1</b> Computing Platforms</a></li>
+<li class="chapter" data-level="3.2" data-path="computing-systems.html"><a href="computing-systems.html#hardware"><i class="fa fa-check"></i><b>3.2</b> Hardware</a>
 <ul>
-<li class="chapter" data-level="4.0.1" data-path="data-management-platforms-and-systems-1.html"><a href="data-management-platforms-and-systems-1.html#galaxy-1"><i class="fa fa-check"></i><b>4.0.1</b> Galaxy</a></li>
+<li class="chapter" data-level="3.2.1" data-path="computing-systems.html"><a href="computing-systems.html#personal-computers"><i class="fa fa-check"></i><b>3.2.1</b> <strong>Personal computers</strong></a></li>
+<li class="chapter" data-level="3.2.2" data-path="computing-systems.html"><a href="computing-systems.html#shared-computers"><i class="fa fa-check"></i><b>3.2.2</b> <strong>Shared Computers</strong></a></li>
+<li class="chapter" data-level="3.2.3" data-path="computing-systems.html"><a href="computing-systems.html#accessing-shared-computer-resources"><i class="fa fa-check"></i><b>3.2.3</b> Accessing Shared Computer Resources</a></li>
+<li class="chapter" data-level="3.2.4" data-path="computing-systems.html"><a href="computing-systems.html#cloud-computing"><i class="fa fa-check"></i><b>3.2.4</b> <strong>Cloud Computing</strong></a></li>
+<li class="chapter" data-level="3.2.5" data-path="computing-systems.html"><a href="computing-systems.html#galaxy"><i class="fa fa-check"></i><b>3.2.5</b> Galaxy</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html"><i class="fa fa-check"></i><b>4</b> Data Management Platforms and Systems</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="data-management-platforms-and-systems.html"><a href="data-management-platforms-and-systems.html#galaxy-1"><i class="fa fa-check"></i><b>4.0.1</b> Galaxy</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-management-decisions.html"><a href="data-management-decisions.html"><i class="fa fa-check"></i><b>5</b> Data Management Decisions</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing"><i class="fa fa-check"></i><b>5.1</b> Computing</a>
+<li class="chapter" data-level="5.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing-platforms-1"><i class="fa fa-check"></i><b>5.1</b> Computing Platforms</a></li>
+<li class="chapter" data-level="5.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#hardware-1"><i class="fa fa-check"></i><b>5.2</b> Hardware</a>
 <ul>
-<li class="chapter" data-level="5.1.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#core-computing-components"><i class="fa fa-check"></i><b>5.1.1</b> Core Computing Components</a></li>
-<li class="chapter" data-level="5.1.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#current-computer-capacity"><i class="fa fa-check"></i><b>5.1.2</b> Current Computer Capacity</a></li>
-<li class="chapter" data-level="5.1.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#servers"><i class="fa fa-check"></i><b>5.1.3</b> Servers</a></li>
+<li class="chapter" data-level="5.2.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#personal-computers-1"><i class="fa fa-check"></i><b>5.2.1</b> <strong>Personal computers</strong></a></li>
+<li class="chapter" data-level="5.2.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#shared-computers-1"><i class="fa fa-check"></i><b>5.2.2</b> <strong>Shared Computers</strong></a></li>
+<li class="chapter" data-level="5.2.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#accessing-shared-computer-resources-1"><i class="fa fa-check"></i><b>5.2.3</b> Accessing Shared Computer Resources</a></li>
+<li class="chapter" data-level="5.2.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-computing-1"><i class="fa fa-check"></i><b>5.2.4</b> <strong>Cloud Computing</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing-platforms"><i class="fa fa-check"></i><b>5.2</b> Computing Platforms</a></li>
-<li class="chapter" data-level="5.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#hardware"><i class="fa fa-check"></i><b>5.3</b> Hardware</a>
+<li class="chapter" data-level="5.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>5.3</b> Choosing a Computing Platform</a>
 <ul>
-<li class="chapter" data-level="5.3.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#personal-computers"><i class="fa fa-check"></i><b>5.3.1</b> <strong>Personal computers</strong></a></li>
-<li class="chapter" data-level="5.3.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#shared-computers"><i class="fa fa-check"></i><b>5.3.2</b> <strong>Shared Computers</strong></a></li>
-<li class="chapter" data-level="5.3.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#accessing-shared-computer-resources"><i class="fa fa-check"></i><b>5.3.3</b> Accessing Shared Computer Resources</a></li>
-<li class="chapter" data-level="5.3.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-computing"><i class="fa fa-check"></i><b>5.3.4</b> <strong>Cloud Computing</strong></a></li>
+<li class="chapter" data-level="5.3.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#important-questions"><i class="fa fa-check"></i><b>5.3.1</b> Important questions</a></li>
+<li class="chapter" data-level="5.3.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>5.3.2</b> Benefits of Cloud Computing</a></li>
+<li class="chapter" data-level="5.3.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>5.3.3</b> Challenges of Cloud Computing</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>5.4</b> Choosing a Computing Platform</a>
-<ul>
-<li class="chapter" data-level="5.4.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#important-questions"><i class="fa fa-check"></i><b>5.4.1</b> Important questions</a></li>
-<li class="chapter" data-level="5.4.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>5.4.2</b> Benefits of Cloud Computing</a></li>
-<li class="chapter" data-level="5.4.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>5.4.3</b> Challenges of Cloud Computing</a></li>
-</ul></li>
-<li class="chapter" data-level="5.5" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-costs"><i class="fa fa-check"></i><b>5.5</b> Local Costs</a></li>
-<li class="chapter" data-level="5.6" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-costs"><i class="fa fa-check"></i><b>5.6</b> Cloud Costs</a></li>
+<li class="chapter" data-level="5.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-costs"><i class="fa fa-check"></i><b>5.4</b> Local Costs</a></li>
+<li class="chapter" data-level="5.5" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-costs"><i class="fa fa-check"></i><b>5.5</b> Cloud Costs</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>6</b> Data Security</a></li>
 <li class="chapter" data-level="7" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>7</b> Data Privacy</a></li>
@@ -282,7 +310,7 @@
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2021-10-14                  
+##  date     2021-10-19                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            

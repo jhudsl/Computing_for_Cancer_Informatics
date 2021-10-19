@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Data Management Decisions | Data Management for Cancer Research</title>
+  <title>Chapter 3 Computing Systems | Data Management for Cancer Research</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Data Management Decisions | Data Management for Cancer Research" />
+  <meta property="og:title" content="Chapter 3 Computing Systems | Data Management for Cancer Research" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Data Management Decisions | Data Management for Cancer Research" />
+  <meta name="twitter:title" content="Chapter 3 Computing Systems | Data Management for Cancer Research" />
   
   <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="data-management-platforms-and-systems.html"/>
-<link rel="next" href="data-security.html"/>
+<link rel="prev" href="computing-basics.html"/>
+<link rel="next" href="data-management-platforms-and-systems.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -197,35 +197,53 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="data-management-decisions" class="section level1" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Data Management Decisions</h1>
-<p>In this chapter we will discuss aspects that you should consider when deciding what data and computing management systems to use for your own work.</p>
-<p><img src="resources/images/05-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" /></p>
-<p>To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and “Cloud” computing, as well as the associated costs of each.</p>
-<p><em><strong>Note:</strong> This content was adapted from content by <a href="https://leanpub.com/u/cutsort">Frederick Tan</a> for the <a href="https://anvilproject.org/">AnVIL project</a>. See his course created with <a href="https://leanpub.com/u/jtleek">Jeff Leek</a>, <a href="https://leanpub.com/u/swheelan">Sarah Wheelan</a>, and <a href="https://leanpub.com/u/kaikammers">Kai Kammers</a> <a href="https://leanpub.com/universities/courses/jhu/anvil-intro">here</a>.</em></p>
-<div id="computing-platforms-1" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> Computing Platforms</h2>
+<div id="computing-systems" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Computing Systems</h1>
+<p>In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!</p>
+<p><img src="resources/images/03-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" /></p>
+<p>This chapter aims to provide research leaders with some guidance about making decisions for computing <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and “Cloud” computing.</p>
+<div id="current-computer-capacity" class="section level3" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> Current Computer Capacity</h3>
+<p>So how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?</p>
+<p><img src="images/current_comp.png" />
+These values will probably change very soon, but currently:</p>
+<ul>
+<li><strong>Laptops</strong> can perform 8 CPU tasks at once, storing 64 GB in memory and 8 TB on storage.<br />
+</li>
+<li><strong>Handheld tablets</strong> can now perform 8 CPU tasks, and store 6 GB in memory and 1 TB on storage.</li>
+<li>Some <strong>phones</strong> can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB on storage.</li>
+</ul>
+</div>
+<div id="servers" class="section level3" number="3.0.2">
+<h3><span class="header-section-number">3.0.2</span> Servers</h3>
+<p>What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.</p>
+<p>In terms of hardware, the term <a href="https://techterms.com/definition/server">server</a> means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more.</p>
+<p>For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don’t have capabilities to support a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> (more on what that is later). They are designed to optimize data storage and computational power.</p>
+<p><img src="images/Servers.png" /></p>
+</div>
+<div id="computing-platforms" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Computing Platforms</h2>
 <p>Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your computing platform. A computing platform, is all the <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.</p>
 <p>Choosing a computing platform involves both software and hardware decisions. We will focus on hardware.</p>
 </div>
-<div id="hardware-1" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Hardware</h2>
+<div id="hardware" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Hardware</h2>
 <p>With regards to hardware, there are two major options:</p>
 <ol style="list-style-type: decimal">
 <li>Personal computers<br />
 </li>
 <li>Shared computers</li>
 </ol>
-<div id="personal-computers-1" class="section level3" number="5.2.1">
-<h3><span class="header-section-number">5.2.1</span> <strong>Personal computers</strong></h3>
+<div id="personal-computers" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> <strong>Personal computers</strong></h3>
 <p>These are computers that your lab might own, such as a laptop, a desktop, or a small <a href="https://techterms.com/definition/server">server</a> used by just your lab.</p>
-<p><img src="images/Personal.png" />
-If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.</p>
-<p>Note that you could technically purchase your own server. However, this is very likely not as economical, feasible (as having your own server would require that you personally maintain it), or scalable (you might outgrow your server) as other computing options that we will discuss in a bit.</p>
+<p><img src="images/Personal.png" /></p>
+<p>If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.</p>
+<p>Note that you could technically purchase your own server. However, this is very likely not as economical, feasible (as having your own server would require that you personally maintain it), or salable (you might outgrow your server) as other computing options that we will discuss in a bit.</p>
 <p><a href="https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf" class="uri">https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf</a></p>
 </div>
-<div id="shared-computers-1" class="section level3" number="5.2.2">
-<h3><span class="header-section-number">5.2.2</span> <strong>Shared Computers</strong></h3>
+<div id="shared-computers" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> <strong>Shared Computers</strong></h3>
 <p>These are servers (groups of computers) that are shared with other people that you can connect to from your computer (typically using the internet) to help you perform more intensive computational tasks or to store large amounts of data.</p>
 <p>Among shared computers there are three major options:</p>
 <ol style="list-style-type: decimal">
@@ -256,11 +274,11 @@ Users need to write their scripts in a way that can be performed by multiple com
 <li><a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud” computing</a>] <a href="https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html" class="uri">https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html</a>
 <a href="https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/" class="uri">https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/</a></li>
 </ol>
-<p>More recently, commercial <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream which is a more “Cloud-like” part of Xsede.</p>
-<p>AVOCADO need a new shared computer image</p>
+<p>More recently, commercial <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. <strong>Somewhere these companies have clusters of computers that paying customers use through the internet.</strong> In addition there are options like Jetstream which is a more “Cloud-like” part of Xsede.</p>
+<p>AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people</p>
 </div>
-<div id="accessing-shared-computer-resources-1" class="section level3" number="5.2.3">
-<h3><span class="header-section-number">5.2.3</span> Accessing Shared Computer Resources</h3>
+<div id="accessing-shared-computer-resources" class="section level3" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Accessing Shared Computer Resources</h3>
 <p>All of the shared computing options that already exist and that you could utilize involve a <a href="https://en.wikipedia.org/wiki/Data_center">data center</a> where are large number of computers are physically housed.</p>
 <p><img src="images/taylor-vick.jpg" /></p>
 <p>Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taylor Vick</a> on <a href="https://unsplash.com/s/photos/data-center?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
@@ -284,114 +302,22 @@ Users need to write their scripts in a way that can be performed by multiple com
 <li>Communicate with others if you will be submitting a large or intensive job</li>
 </ol>
 </div>
-<div id="cloud-computing-1" class="section level3" number="5.2.4">
-<h3><span class="header-section-number">5.2.4</span> <strong>Cloud Computing</strong></h3>
+<div id="cloud-computing" class="section level3" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> <strong>Cloud Computing</strong></h3>
 <p><a href="https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html" class="uri">https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html</a>
 <a href="https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/" class="uri">https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/</a></p>
 <p>More recently, commercial <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream which is a more “Cloud-like” part of Xsede.</p>
 <p>What is the difference between the “Cloud” and other shared computer options?</p>
 <p><img src="images/Cloud.png" /></p>
 </div>
-</div>
-<div id="choosing-a-computing-platform" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Choosing a Computing Platform</h2>
-<p>Choosing a <a href="https://en.wikipedia.org/wiki/Computing_platform">computing platform</a> depends on many different considerations.</p>
-<p><img src="images/Considerations.png" /></p>
-<div id="important-questions" class="section level3" number="5.3.1">
-<h3><span class="header-section-number">5.3.1</span> Important questions</h3>
-<p>Asking yourself and your research team these questions can help you find the right computing platform:</p>
-<ol style="list-style-type: decimal">
-<li>Do I need a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</li>
-</ol>
-<p>What do we mean by this?</p>
-<p>A <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a “user-centered” design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.</p>
-<p><a href="https://usegalaxy.org/">Galaxy</a> offers a graphical interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:</p>
-<p><img src="images/Galaxy.png" /></p>
-<p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.</p>
-<p>For example, one could perform functions in R using Bioconductor packages such as <a href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">Biostrings</a> with a command line interface:</p>
-<p><img src="images/Biostrings.png" /></p>
-<p>A situation where you might use <strong>both</strong> a command line interface and a GUI, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development environment</a>, which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI.</p>
-<p><img src="images/both.png" />
-2) Am I working with protected data that requires special security precautions?</p>
-<p>If you are working with data that might be protected by <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a>, such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.</p>
-<p><img src="images/HIPAA.jpg" />
-[<a href="https://www.paubox.com/blog/what-is-hipaa/">source</a>]</p>
-<ol start="3" style="list-style-type: decimal">
-<li>How computationally intensive are my tasks?</li>
-</ol>
-<p>If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called “Cloud” computing (more on that later).</p>
-<p><img src="images/computationally_intensive.png" /></p>
-<ol start="4" style="list-style-type: decimal">
-<li>How much storage space do I need for both temporary and long-term data?</li>
-</ol>
-<p><img src="images/Storage.png" /></p>
-<p>If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or “Cloud” storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.</p>
-<p>Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede</p>
-<ol style="list-style-type: decimal">
-<li>Are my local resources sufficient?</li>
-</ol>
-<p>When a local solution already works, one may rightly question the time required to migrate to the Cloud. However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Am I working with especially big or controlled access datasets?</li>
-</ol>
-<p>Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud. If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option. Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPAA and FedRAMP.</p>
-<ol start="3" style="list-style-type: decimal">
-<li>Do I need to work with collaborators? Computational research increasingly involves larger and larger collaborations. While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.</li>
-</ol>
-<p>If Cloud Computing makes sense for you, then you’re in luck! The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable. As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.</p>
-</div>
-<div id="benefits-of-cloud-computing" class="section level3" number="5.3.2">
-<h3><span class="header-section-number">5.3.2</span> Benefits of Cloud Computing</h3>
-<p>The state of Cloud computing is continually evolving. Here, we highlight three main current benefits:</p>
-<p><a href="https://jetstream-cloud.org/files/Jetstream-Outreach-C2Exchange-Sep2019.pdf" class="uri">https://jetstream-cloud.org/files/Jetstream-Outreach-C2Exchange-Sep2019.pdf</a></p>
-<ol style="list-style-type: decimal">
-<li><strong>Sharing Workflows</strong></li>
-</ol>
-<p>The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of <a href="https://usegalaxy.org/">Galaxy</a>. Using this, one can share not only what datasets they used but also every computational manipulation that was performed.</p>
-<p><img src="images/Galaxy_history.png" /></p>
-<p>By sharing such a history, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work with ease.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Sharing Workflows between Platforms</strong></li>
-</ol>
-<p>While sharing complete analysis histories is for the most part constrained to a particular software platform, a second benefit that has arisen is the ability to share Workflows between platforms.</p>
-<p>Shown here is a diagram of a single cell analysis pipeline published by the Klarman Cell Observatory on Dockstore:</p>
-<p><img src="images/workflow.png" /></p>
-<p>This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra or DNAnexus.</p>
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Using Commodity Hardware</strong></li>
-</ol>
-<p>The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.</p>
-<p><img src="images/cloud_Services.png" /></p>
-<p>What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers – importantly stopping the bill when your analysis is complete. Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.</p>
-</div>
-<div id="challenges-of-cloud-computing" class="section level3" number="5.3.3">
-<h3><span class="header-section-number">5.3.3</span> Challenges of Cloud Computing</h3>
-<p>Balancing these three benefits are four challenges:</p>
-<ol style="list-style-type: decimal">
-<li><strong>Data Transfer</strong></li>
-</ol>
-<p>Data transfer and data management remains a cumbersome task. While storing data in the “Cloud” has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Data Security</strong></li>
-</ol>
-<p>Most Cloud resources offer features that make it easier to access and share data, and these features often come at the <strong>expense of security</strong>. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records.</p>
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Costs</strong></li>
-</ol>
-<p>Controlling costs, especially with regards to storage, presents a third formidable challenge. As many Cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future. We will briefly overview cost controls in the next section.</p>
-<p>While software platforms can help mitigate these challenges, Cloud computing still incurs costs from the underlying hardware providers.</p>
-<ol start="4" style="list-style-type: decimal">
-<li><strong>IT</strong></li>
-</ol>
-<p>A final challenge is that many IT support staff do not have extensive experience managing Cloud resources. Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management. Fortunately, large initiatives like AnVIL, <a href="https://usegalaxy.org/">Galaxy</a>, and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.</p>
-</div>
-</div>
-<div id="local-costs" class="section level2" number="5.4">
-<h2><span class="header-section-number">5.4</span> Local Costs</h2>
-</div>
-<div id="cloud-costs" class="section level2" number="5.5">
-<h2><span class="header-section-number">5.5</span> Cloud Costs</h2>
+<div id="galaxy" class="section level3" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> Galaxy</h3>
+<p>This section was written by Jeremy Goecks:</p>
+<p>Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API (Figure 1). Galaxy (<a href="https://galaxyproject.org/" class="uri">https://galaxyproject.org/</a>) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.</p>
+<p>Galaxy is used daily by thousands of scientists across the world. A vibrant Galaxy community has deployed hundreds of Galaxy servers across the world, including more than 150 public and three large national/international servers in the United States, Europe, and Australia (<a href="https://usegalaxy.org" class="uri">https://usegalaxy.org</a>, <a href="https://usegalaxy.eu" class="uri">https://usegalaxy.eu</a>, <a href="https://usegalaxy.org.au" class="uri">https://usegalaxy.org.au</a>). The three national/international servers (Figure 2) have more than 250,000 registered users who execute &gt;500,000 analysis jobs each month. Galaxy has been cited more than 10,000 times with &gt;20% from papers related to cancer. The Galaxy Tool Shed (<a href="https://usegalaxy.org/toolshed" class="uri">https://usegalaxy.org/toolshed</a>) provides a central location where developers can upload tools and visualizations and users can search and install tools and visualizations into any Galaxy server. Galaxy has a large presence in the cancer research community. Galaxy serves as an integration and/or analysis platform for 7 projects in the NCI ITCR program. There is also increasing use of Galaxy in key NIH initiatives such as the NCI Cancer Moonshot Human Tumor Atlas Network (HTAN) and the NHGRI Data Commons, called the AnVIL (<a href="https://anvilproject.org/" class="uri">https://anvilproject.org/</a>).</p>
+<p>Galaxy’s user interface, accessible via a web browser, provides access to all Galaxy functionality. The main Galaxy interface (Figure 3) has three panels: available tools (left), running analyses and viewing data (middle), and a full history of tools run and datasets generated (right). Datasets for analysis in Galaxy can be uploaded from a laptop or desktop computer or obtained from public data repositories connected to Galaxy. With Galaxy, complex workflows composed of tens or even hundreds of analysis tools can be created and run. In Galaxy’s workflow interface (Figure 4), tools can be added and connected via a simple drag-and-drop approach. Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.</p>
 
+</div>
 </div>
 </div>
 <hr>
@@ -407,8 +333,8 @@ Users need to write their scripts in a way that can be performed by multiple com
           </div>
         </div>
       </div>
-<a href="data-management-platforms-and-systems.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-security.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="computing-basics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-management-platforms-and-systems.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
