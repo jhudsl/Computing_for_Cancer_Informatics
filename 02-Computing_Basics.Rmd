@@ -75,7 +75,7 @@ Thus the physical components of a computer are ultimately based on the assessmen
 
 Very importantly transistors have gotten much smaller over time.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Graph showing how the size of transitors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today", out.width= "100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_27")
 ```
 
@@ -216,7 +216,7 @@ For more information about how RAM works, check out this [website](https://compu
 
 ### **Storage**  - long-term memory
 
-We can also store data that we aren't directly using when our computer is performing operations. So for example, our excel files and word files that aren't currently in use. This type of memory is called storage and is sometimes referred to as long-term or non-volatile memory because electricity is not required to preserve this data. This type of memory is stored using [hard disk drives (HDD) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSD)](https://www.computerhope.com/jargon/s/ssd.htm). The reason accessing this memory is slower than accessing data stored in RAM is that it is located further away from the CPU and data needs to be transferred from the storage to the CPU along a wire when a user wants to perform operations on such data. In addition the right data needs to be found out of all of your files, which also takes some time. This type of storage allows for much larger data capacity than RAM and it is also cheaper.
+We can also store data that we aren't directly using when our computer is performing operations. So for example, our excel files and word files that aren't currently in use. This type of memory is called storage and is sometimes referred to as long-term or non-volatile memory because electricity is not required to preserve this data. This type of memory is stored using [hard disk drives (HDDs) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSDs)](https://www.computerhope.com/jargon/s/ssd.htm). The reason accessing this memory is slower than accessing data stored in RAM is that it is located further away from the CPU and data needs to be transferred from the storage to the CPU along a wire when a user wants to perform operations on such data. In addition the right data needs to be found out of all of your files, which also takes some time. This type of storage allows for much larger data capacity than RAM and it is also cheaper.
 
 Hard disk drives store memory using [magnetic methods](https://www.extremetech.com/computing/88078-how-a-hard-drive-works), while solid-state drives store memory using chips that have guess what??
 
@@ -231,7 +231,7 @@ knitr::include_url("https://www.youtube.com/embed/wI0upu9eVcw?start=22")
 ```
 
 
-See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an indepth explanation.
+See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.
 
 
 ### Hardware and Software
@@ -262,7 +262,7 @@ The first operating system just allowed different programs to be run sequentiall
 See [here](https://www.deskdecode.com/operating-systems-os/) for more information about operating systems and [here](https://www.wikiwand.com/en/Punched_card) for really interesting information about the history of punched cards.
 
 
-Also, here is some fascinating additional reading on the role of women as computer operators in the 1950s. Initially computer science was actually thought of as a field for women, however this changed over time: 
+Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time: 
 
 * [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523)
 * [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer)
@@ -276,10 +276,10 @@ We hope that this chapter has given you some more knowledge about how computers 
 In conclusion, here are some of the major take-home messages:
 
 1) Computers rely on millions to billions of tiny transistors
-2) transitors act like electrical switches that allow for the storage and processing of digital binary data
+2) transistors act like electrical switches that allow for the storage and processing of digital binary data
 3) binary data is essentially the encoding of current states in the hardware of a computer as zeros and ones
 4) As transistors got smaller and more transistors were included in computers, computers got faster and more powerful (also due to other additional reasons)
-5) The central processing unit or CPU contains the Arithmetic Logic Unitor ALU which performs operations on data using transistor logic gates 
+5) The central processing unit or CPU contains the Arithmetic Logic Unit or ALU which performs operations on data using transistor logic gates 
 6) A CPU chip can contain multiple cores (also called CPUs) allowing a computer to perform multiple operational tasks at a time
 7) RAM is the memory for a computer for the tasks that its currently working on and is very fast to access because it is close to the CPU
 8) Storage on a hard drive or solid state drive is the memory for a computer that is long-term, such as files that you aren't currently working on. It takes longer to access data from this memory as it has to travel to the CPU

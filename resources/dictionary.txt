@@ -7,10 +7,12 @@ CyVerse
 DNAnexus
 Dockstore
 discoverability
+ENIAC
 FedRAMP
 Goecks
 GPUs
 HIPAA
+HDDs
 HPC
 HTAN
 IRB
@@ -35,7 +37,7 @@ proteomic
 RStudio
 scalable
 semiconductive
-SSD
+SSDs
 Supercomputing
 TACC
 transcriptomic
