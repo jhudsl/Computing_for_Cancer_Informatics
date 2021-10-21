@@ -1,5 +1,5 @@
 ---
-title: "Data Management Platforms and Systems"
+title: "Computing Systems"
 output: html_document
 ---
 
@@ -10,18 +10,45 @@ leanbuild::set_knitr_image_path()
 
 # Computing Systems
 
-In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
+In this chapter we will describe the basics about data size, as well as methods to perform informatics work that might require more intensive computing than your personal computer.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems", out.width="100%"}
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the size of various data, 2. Recognize the difference between personal computers and remote computing options. 2.Explain how cloud computing and server computing works 3. Determine which options will provide enough computing capacity for your research needs", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
-This chapter aims to provide research leaders with some guidance about making decisions for computing [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and "Cloud" computing.
+This chapter aims to provide research leaders with some guidance about general computing options, such as personal computers,  local computing clusters, and cloud options. We will discuss how networks and servers work, as well as cloud computing and we will describe the computing capacity of each option as well as other considerations. virtual machines???
+
+## Data Sizes
+
+Recall that the smallest unit of data is a bit which is either a zero or a one. A group of a bits is called a bite, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bites at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
 
 
-### Current Computer Capacity
+https://www.backblaze.com/blog/how-many-bytes-are-in-a-megabyte-really/
+https://www.strand-ngs.com/support/ngs-data-storage-requirements
+http://massgenomics.org/2014/11/brace-yourself-for-large-scale-whole-genome-sequencing.html
+https://www.ridom.de/u/WGS_Data_Types_&_Sizes_and_Runtimes.html
+https://www.biostars.org/p/315213/
 
-So how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
+Want examples of different relevant data sizes:
+imaging data
+genomic data:
+- raw  fastq files
+- fasta files
+- bam files
+- whole genome
+- exome
+- RNA seq
+- small RNA seq
+- proteomics
+- methylation
+- human and mouse...
+clinical data
+
+
+## Computer Capacity
+
+Now that we know about the CPU, how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
 
 
 ![](images/current_comp.png)
@@ -29,7 +56,10 @@ These values will probably change very soon, but currently:
 
 * **Laptops** can perform 8 CPU tasks at once, storing 64 GB in memory and 8 TB on storage.  
 * **Handheld tablets** can now perform 8 CPU tasks, and store 6 GB in memory and 1 TB on storage. 
-* Some **phones** can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB on storage.  
+* Some **phones** can compete with laptops from the not so distant past by performing 6 CPU tasks at once and storing 4 GB in memory and 0.5 TB of storage.  
+
+
+
 
 ### Servers
 
@@ -46,7 +76,6 @@ For example, your lab members could connect to a server from their own computers
 
 Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
 
-Choosing a computing platform involves both software and hardware decisions. We will focus on hardware.
 
 ## Hardware
 
@@ -76,7 +105,7 @@ Note that you could technically purchase your own server. However, this is very 
 
 https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf
 
-### **Shared Computers**
+### **Shared Computers or Networks**
 
 These are servers (groups of computers) that are shared with other people that you can connect to from your computer (typically using the internet) to help you perform more intensive computational tasks or to store large amounts of data. 
 
@@ -172,22 +201,8 @@ https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-comp
 More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. Somewhere these companies have clusters of computers that paying customers use through the internet. In addition there are options like Jetstream which is a more "Cloud-like" part of Xsede.
 
 
-What is the difference between the "Cloud" and other shared computer options?
-
-
-
-
 ![](images/Cloud.png)
 
 
-### Galaxy
-
-This section was written by Jeremy Goecks:
-
-Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API (Figure 1). Galaxy (https://galaxyproject.org/) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.
-
-Galaxy is used daily by thousands of scientists across the world. A vibrant Galaxy community has deployed hundreds of Galaxy servers across the world, including more than 150 public and three large national/international servers in the United States, Europe, and Australia (https://usegalaxy.org, https://usegalaxy.eu, https://usegalaxy.org.au). The three national/international servers (Figure 2) have more than 250,000 registered users who execute >500,000 analysis jobs each month. Galaxy has been cited more than 10,000 times with >20% from papers related to cancer. The Galaxy Tool Shed (https://usegalaxy.org/toolshed) provides a central location where developers can upload tools and visualizations and users can search and install tools and visualizations into any Galaxy server. Galaxy has a large presence in the cancer research community. Galaxy serves as an integration and/or analysis platform for 7 projects in the NCI ITCR program. There is also increasing use of Galaxy in key NIH initiatives such as the NCI Cancer Moonshot Human Tumor Atlas Network (HTAN) and the NHGRI Data Commons, called the AnVIL (https://anvilproject.org/).
-
-Galaxy’s user interface, accessible via a web browser, provides access to all Galaxy functionality. The main Galaxy interface (Figure 3) has three panels: available tools (left), running analyses and viewing data (middle), and a full history of tools run and datasets generated (right). Datasets for analysis in Galaxy can be uploaded from a laptop or desktop computer or obtained from public data repositories connected to Galaxy. With Galaxy, complex workflows composed of tens or even hundreds of analysis tools can be created and run. In Galaxy’s workflow interface (Figure 4), tools can be added and connected via a simple drag-and-drop approach. Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.
 
 
