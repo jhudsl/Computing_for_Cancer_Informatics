@@ -16,7 +16,6 @@ operating-systems
 conclusion
 computing-systems
 data-sizes
-computer-capacity
 servers
 computing-platforms
 hardware
