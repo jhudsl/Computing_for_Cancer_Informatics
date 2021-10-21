@@ -2,6 +2,7 @@ ACI
 ALU
 ALUs
 AnVIL
+ArrayExpress
 bam
 Biostrings
 CyVerse
@@ -43,6 +44,7 @@ RNA
 RStudio
 scalable
 semiconductive
+SRA
 SSDs
 Supercomputing
 TACC

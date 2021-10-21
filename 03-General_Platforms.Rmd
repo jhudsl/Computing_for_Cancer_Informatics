@@ -47,7 +47,7 @@ genomic data:
 clinical data
 
 https://transcriptomics.sequentiabiotech.com/
-REpositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress
+Repositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress
 ## Computer Capacity
 
 Now that we know about the CPU, how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have?
