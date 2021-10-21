@@ -2,12 +2,16 @@ ACI
 ALU
 ALUs
 AnVIL
+bam
 Biostrings
 CyVerse
 DNAnexus
 Dockstore
 discoverability
 ENIAC
+exome
+fasta
+fastq
 FedRAMP
 Goecks
 GPUs
@@ -26,6 +30,7 @@ Klarman
 macOS
 Markua
 metabolomic
+methylation
 microbiome
 middleware
 multistep
@@ -34,6 +39,7 @@ NCSA
 NHGRI
 omics
 proteomic
+RNA
 RStudio
 scalable
 semiconductive
