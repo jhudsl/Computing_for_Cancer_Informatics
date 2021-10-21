@@ -38,8 +38,8 @@ genomic data:
 - bam files
 - whole genome
 - exome
-- rna seq
-- small rna seq
+- RNA seq
+- small RNA seq
 - proteomics
 - methylation
 - human and mouse...
