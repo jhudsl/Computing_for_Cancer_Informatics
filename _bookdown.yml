@@ -4,7 +4,7 @@ repo: https://github.com/jhudsl/Data_Management
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-Computing_Basics.Rmd",
-            "03-General_Platforms.Rmd",
+            "03-Computing_Systems.Rmd",
             "04-Specific_Platforms.Rmd",
             "05-Computing_Decisions.Rmd",
             "06-Data_Security.Rmd",
