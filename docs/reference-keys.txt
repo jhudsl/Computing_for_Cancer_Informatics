@@ -16,6 +16,10 @@ operating-systems
 conclusion
 computing-systems
 data-sizes
+checking-file-sizes-on-mac
+checking-file-sizes-on-pcwindows
+computer-capacity
+checking-your-computer-capacity---mac
 servers
 computing-platforms
 hardware
