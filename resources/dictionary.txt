@@ -20,6 +20,7 @@ HIPAA
 HDDs
 HPC
 HTAN
+JHPCE
 IRB
 itcrtraining
 ITN
@@ -28,6 +29,7 @@ Jetstream
 Kai
 Kammers
 Klarman
+leanbuild
 macOS
 Markua
 metabolomic
@@ -45,6 +47,7 @@ RStudio
 scalable
 semiconductive
 SRA
+SSD
 SSDs
 Supercomputing
 TACC
