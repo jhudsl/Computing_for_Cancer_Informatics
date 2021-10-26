@@ -17,12 +17,27 @@ In this chapter we will describe the basics about data size, as well as methods 
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
-This chapter aims to provide research leaders with some guidance about general computing options, such as personal computers,  local computing clusters, and cloud options. We will discuss how networks and servers work, as well as cloud computing and we will describe the computing capacity of each option as well as other considerations. virtual machines???
 
 ## Data Sizes
 
-Recall that the smallest unit of data is a bit which is either a zero or a one. A group of a bits is called a bite, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bites at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
+Recall that the smallest unit of data is a bit which is either a zero or a one. A group of 8 bits is called a byte, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
 
+Genomic data is typically the most storage costly.
+
+Here is an image of sizes of common file types:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_0")
+```
+
+Imaging data, although often smaller than genomic data, can start to add up quickly with more images and samples.
+
+Here is an image of average file sizes for various medical imaging modalities:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_35")
+```
+[[source](https://www.mdpi.com/2078-2489/8/4/131)]
 
 https://www.backblaze.com/blog/how-many-bytes-are-in-a-megabyte-really/
 https://www.strand-ngs.com/support/ngs-data-storage-requirements
@@ -30,22 +45,15 @@ http://massgenomics.org/2014/11/brace-yourself-for-large-scale-whole-genome-sequ
 https://www.ridom.de/u/WGS_Data_Types_&_Sizes_and_Runtimes.html
 https://www.biostars.org/p/315213/
 
-Want examples of different relevant data sizes:
-imaging data
-genomic data:
-- raw  fastq files
-- fasta files
-- bam files
-- whole genome
-- exome
-- RNA seq
-- small RNA seq
+
 - single cell
 - proteomics
 - methylation
 - human and mouse...
 clinical data
 
+
+Somewhere want to talk about where you can access data... or share it...
 https://transcriptomics.sequentiabiotech.com/
 Repositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress
 
@@ -126,7 +134,7 @@ If we click on the Storage button at the top, we can learn about how much storag
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Mac storage information showing 1 TB capactity", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_80")
 ```
-### Checking your computer capacity - PC
+### Checking your computer capacity - Windows/PC
 
 
 If you have a PC or Windows computer, the steps may vary depending on your operating system, but try the following:
@@ -164,39 +172,34 @@ Here we can see that this computer has 466 GB + 465 GB = 932 GB across the two d
 
 ### Servers
 
-What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer.
+What if we need to more computational power than our laptop? You may encounter times where certain informatics tasks take way too long or are not even possible on your personal computer. Evaluating the potential file sizes of the data that you might be working with is a good place to start. However, keep in mind that sometimes certain computations may require more memory. Particularly when working with image files which are often automatically compressed, it's possible that you might need more memory than you expect to work with the image. So what can you do when you face this issue?
+
+One great option, which can be quite affordable is using a server.
 
 In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
-For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (more on what that is later). They are designed to optimize data storage and computational power.
+For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(more on what that is later). They are designed to optimize data storage and computational power.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_18")
 ```
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_48")
+```
 
 ## Computing Platforms
 
 Now that we have discussed a bit about how computers perform computations, lets discuss more about how you might choose your computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
 
 
-## Hardware
-
-With regards to hardware, there are two major options:  
-
-1) Personal computers   
-2) Shared computers   
 
 
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_48")
-```
 
 
 ### **Personal computers**
 
-These are computers that your lab might own, such as a laptop, a desktop, or a small [server](https://techterms.com/definition/server) used by just your lab.  
+These are computers that your lab might own, such as a laptop, a desktop, used by one individual or maybe just a few individuals in your lab.  
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_3")
@@ -207,8 +210,6 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 
 If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.
-
-Note that you could technically purchase your own server. However, this is very likely not as economical, feasible (as having your own server would require that you personally maintain it), or salable (you might outgrow your server) as other computing options that we will discuss in a bit. 
 
 
 https://profs.info.uaic.ro/~adria/teach/courses/pcdfeaa/resources/C5_PCD_FEEA_ClusterGridComputing_en.pdf
@@ -224,11 +225,10 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
  Among shared computers there are three major options: 
 
-1) Clusters - institutional or national resources
-2) Grids - institutional or national resources
-3) "Cloud" - commercial or national resources
+* **Clusters** - institutional or national resources
+* **Grids** - institutional or national resources
+* **"the Cloud"** - commercial or national resources
 
-AVOCADO - maybe put the image here for shared computers - check how anvil images were added within lists
 
 1) [Computer Cluster](https://en.wikipedia.org/wiki/Computer_cluster)
 
@@ -236,7 +236,7 @@ In a computing cluster several of the **same** type of computer (often in close 
 
 There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform. 
 
-For example, if a large file needs to be converted to a different format, pieces of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
+For example, if a large file needs to be converted to a different format, **pieces** of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
 
 It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.
 
@@ -251,7 +251,7 @@ The concept for grid computing is similar to that of an [electric power grid](ht
 Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.
 
 Both grids and clusters use a special type of software called middleware to coordinate the various computers involved.
-Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing. 
+Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing (more on that soon!). 
 
 See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/) for more information about the difference between clusters and grids.
  
@@ -276,9 +276,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 
-You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. Or you could consider using national resources like [Xsede](https://www.xsede.org/).
+You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. If not, you could consider using national resources like [Xsede](https://www.xsede.org/).
 
-Your university or institution may have a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
+If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
 
 AVOCADO - add image below to say cluster and grid access
 
