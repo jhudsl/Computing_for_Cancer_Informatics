@@ -20,7 +20,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 ## Data Sizes
 
-Recall that the smallest unit of data is a bit which is either a zero or a one. A group of 8 bits is called a byte, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file that is 2 GBs? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
+Recall that the smallest unit of data is a bit which is either a zero or a one. A group of 8 bits is called a byte, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file that is 2 GB? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
 
 
 First let's take a look at how the size of binary data is typically described and what this actually means in terms of bits and bytes:
@@ -54,7 +54,7 @@ This means that typical laptops can multitask quite well, have in some cases 16 
 
 Check out this [link](https://www.apple.com/mac/compare/?modelList=iMac,MacBook-Pro-14,MacBook-Pro-16-2021) to compare the prices of different macs and this [link](https://www.hp.com/us-en/shop/slp/weekly-deals) to compare specs for PC computers from HP. 
 
-If you want to get really indepth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM).
+If you want to get really in-depth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM).
 
 https://www.businessinsider.com/laptops-vs-desktops-2018-8#for-most-laptops-youre-stuck-with-their-specs-until-its-time-to-upgrade-to-a-new-model-desktops-can-be-upgraded-pretty-easily-3
 
@@ -267,7 +267,7 @@ https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-comp
 
 3) ["Cloud" computing](https://en.wikipedia.org/wiki/Cloud_computing)] 
 
-More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the comercial options, there arenational resource options like Jetstream which is a more "Cloud-like" part of Xsede.
+More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the commercial options, there are national resource options like Jetstream which is a more "Cloud-like" part of Xsede.
 
 AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people
 https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
