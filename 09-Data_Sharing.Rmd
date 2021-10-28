@@ -23,3 +23,6 @@ Sharing data is critical for optimizing the advancement of scientific understand
 This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 
 
+AVOCADO Somewhere want to talk about where you can access data... or share it...
+https://transcriptomics.sequentiabiotech.com/
+Repositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress
