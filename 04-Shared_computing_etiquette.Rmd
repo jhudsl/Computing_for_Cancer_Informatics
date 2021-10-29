@@ -19,6 +19,10 @@ We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) 
 
 For this particular resource there are 400 active users.It is optimized for genomic and biomedical research and has 4,000 cores! That's right, as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically currently only have around 8 cores. There is also 28TB of RAM and 14 PB of storage!! Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers' computer might have something like 16 GB of RAM and 1TB of storage. Individual users connect and perform jobs on the cluster using a formal common pool resource (CPR) hierarchy system. 
 
+
+There are 68 Nodes that make up the JHPCE currently and each one has 2-4 CPUs that provide 24-128 cores! As you can see these processors or chips have a lot more cores per each CPU than a typical personal computer.
+
+
 ## General rules
 
  - don't share password
