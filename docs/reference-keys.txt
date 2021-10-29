@@ -6,7 +6,7 @@ computing-basics
 computing-components
 transistors
 alu---arithmetic-logic-unit
-binary-or-boolean-data
+binary-data
 flip-flops-and-registers
 cpu---central-processing-unit
 memory-or-ram---short-term-memory
@@ -38,6 +38,10 @@ specifying-memory-ram-needs
 checking-status
 data-management-platforms-and-systems
 galaxy
+sciserver
+materials-cloud
+aiida
+atlas.ti
 data-management-decisions
 computing-platforms
 hardware

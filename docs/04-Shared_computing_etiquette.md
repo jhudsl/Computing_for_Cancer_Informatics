@@ -27,6 +27,7 @@ For this particular resource there are 400 active users.It is optimized for geno
  - Don't use more nodes if you don't need to (if you need all nodes - let someone know!)
  - Don't use all RAM on a node if you don't need to (if you need to - let someone know!)
  - Communicate with others if you will be submitting a large or intensive job
+ - Don't submit too many jobs at once
 
 https://www.doi.gov/sites/doi.gov/files/uploads/DOI-RULES-OF-BEHAVIOR-FOR-COMPUTER-NETWORK-USERS-REFERENCE-GUIDE.pdf
 

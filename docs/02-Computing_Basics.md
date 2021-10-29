@@ -5,7 +5,9 @@ output: html_document
 
 # Computing basics
 
-First we would like to start off with some background information about how computers actually work. Understanding how computers actually work will be very helpful for understanding what computing resources your research will actually require and better enable you to discuss your computing needs with computing experts. 
+First we would like to start off with some background information about how computers actually work. Note that this is one of the longer chapters of the course, as we feel that this knowledge will be very helpful for understanding what computing resources your research will actually require and will better enable you to discuss your computing needs with computing experts. 
+
+If you are already more familiar with these topics, we hope that this chapter might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.
 
 <img src="02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_4.png" title="Learning Objectives: 1. Describe the basics of how computers work, 2. Explain how digital data is used and stored by computers, 3. Define basic computing terminology, 4. Recognize important computing hardware components, 5. Explain how the operating system influences how computations are processed" alt="Learning Objectives: 1. Describe the basics of how computers work, 2. Explain how digital data is used and stored by computers, 3. Define basic computing terminology, 4. Recognize important computing hardware components, 5. Explain how the operating system influences how computations are processed" width="100%" />
 
@@ -54,7 +56,7 @@ These two states for the flow of current ultimately allow for the storage and us
 <img src="02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_147.png" title="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." alt="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." width="100%" style="display: block; margin: auto;" />
 
 
-Thus the physical components of a computer are ultimately based on the assessment of only two states of current (0 (or FALSE) = below a threshold and 1 (or TRUE) = above a threshold), which is much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this is all that is needed for computers to perform all the complex tasks that we rely on them for everyday.  
+Thus the physical components of a computer are ultimately based on the assessment of only two states of current (0 (or FALSE) = below a threshold and 1 (or TRUE) = above a threshold), which is much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this binary encoding of current as digital data is the basis for all the complex tasks that we use computers for everyday.  
 
 
 Very importantly transistors have gotten much smaller over time.
@@ -68,10 +70,10 @@ The smaller size of transistors has allowed for many more transistors to be used
 
 [[Source](https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png)]
 
-Both the smaller size of the transistors and the increased number of transistors within computers have in part allowed computers to become faster and more powerful [@Pokropivny2007].
+Both the smaller size of the transistors and the increased number of transistors have in part allowed computers to become faster and more powerful [@Pokropivny2007].
 
 
-These silicon transistors became so important for the field of electronics, that the late 20th century and early 21st century is sometimes called the "Silicon Age". This is also why many places in the world where there are many technological institutes are often called a name with silicon, such as [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley). Here is an interesting [article](https://futurism.com/could-mark-end-silicon-age) about what our next age might be about, and it has to do with changing the way we harness electrons (the current role of transistors) - that's how important they are!
+These silicon transistors became so important for the field of electronics, that the time period of heavy computing development during the late 20th century and early 21st century is sometimes called the "Silicon Age". This is also why many places in the world where there are many technological institutes are often called a name with the word "silicon", such as [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley). Here is an interesting [article](https://futurism.com/could-mark-end-silicon-age) about what our next age might be about, and it has to do with changing the way we harness electrons (the current role of transistors) - that's how important they are!
 
 
 If you would like to learn more about the history of transistors and how they work check out this [website](https://www.explainthatstuff.com/howtransistorswork.html).
@@ -109,7 +111,7 @@ If you would like to learn more about these gates with circuit diagrams, check o
 In case you are wondering about the semantics of phrases like the "flow of current", check this [discussion](https://electronics.stackexchange.com/questions/61780/isnt-current-flow-a-wrong-term).
 
 
-### Binary or Boolean data
+### Binary data
 
 An ALU performs arithmetic operations using values are represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). Data like this is also called [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra), because George Boole invented a system of algebra for such data in 1854 . These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system. What does this mean?
 With our decimal system when we reach a value of 10, we start to carry over the 1. With the binary system when we reach a value of 2, we start to carry over the 1.
@@ -128,7 +130,7 @@ See [here](https://www.calculator.net/binary-calculator.html) to learn more abou
 
 Flip-flops are used for storing one bit of digital binary data. They are made of transistors (that's right it's transistors again!) and capacitors in a configuration that allows for the flip-flop to hold one of two states, thus enabling the storage of binary data.
 
-A group of flip-flops is called a register. You may have heard about a computer having a 64- or 32- bit operating system (more on what this is soon). These computers have registers with 64 bits or 32 bits respectively. Thus there are 64 flip-flops within the registers of a [64-bit](https://www.computerhope.com/jargon/num/64bit.htm) system. Each of these are capable of storing and processing binary values 64 digits in length (which works out to an unsigned integer in our decimal system of up to 2^64-1, or 18,446,744,073,709,551,615)! 
+A group of flip-flops is called a register. You may have heard about a computer having a 64- or 32- bit operating system (more on what this soon). These computers have registers with 64 bits or 32 bits respectively. Thus there are 64 flip-flops within the registers of a [64-bit](https://www.computerhope.com/jargon/num/64bit.htm) system. Each of these are capable of storing and processing binary values 64 digits in length (which works out to an unsigned integer in our decimal system of up to 2^64-1, or 18,446,744,073,709,551,615)! 
 
 You may also be wondering how letters and other symbols are stored in this binary system. 
 
@@ -219,7 +221,9 @@ Examples of commonly used operating systems on computers and phones are:
 Recall that we previously talked about how computers today are often called 64-bit? Operating systems are also designed in this way. A 64-bit operating system expects the hardware of the computer to allow for processing at least 64 bits of data at a time (the word size). If we have registers of at least this length in the CPU, than we can in fact perform operations on data that may be up to 64 bits in length. This also means that we can perform operations on values that take up less than 64 bits. This can be important because if you try to use an operating system that expects a longer word size than the hardware can accommodate, for example a 64-bit operating system on a 32-bit computer, this will not work. Application programs are also designed according to different word sizes and again you need to choose options that are equal to or less than the word size that your CPU can accommodate.
 
 
-Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
+Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
+
+<img src="02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" title="Image of a punchcard" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" />
 
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
 
@@ -249,6 +253,6 @@ In conclusion, here are some of the major take-home messages:
 8) Storage on a hard drive or solid state drive is the memory for a computer that is long-term, such as files that you aren't currently working on. It takes longer to access data from this memory as it has to travel to the CPU
 9) The operating system is what tells the computer what the user wants the computer to do and when
 
-Now that we know how a computer works in general, we will next discuss how networks, servers, and cloud computing works. 
+Now that we know how a computer works in general, we will next discuss computing capacity (especially for informatics research) and how servers and cloud computing can help. 
 
 
