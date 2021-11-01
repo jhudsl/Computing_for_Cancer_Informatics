@@ -20,22 +20,83 @@ We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) 
 For this particular resource there are 400 active users.It is optimized for genomic and biomedical research and has 4,000 cores! That's right, as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically currently only have around 8 cores. There is also 28TB of RAM and 14 PB of storage!! Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers' computer might have something like 16 GB of RAM and 1TB of storage. Individual users connect and perform jobs on the cluster using a formal common pool resource (CPR) hierarchy system. 
 
 
-There are 68 Nodes that make up the JHPCE currently and each one has 2-4 CPUs that provide 24-128 cores! As you can see these processors or chips have a lot more cores per each CPU than a typical personal computer.
+There are 68 nodes that make up the JHPCE currently. As, with most clusters some of the nodes are dedicated to managing users logging in to the cluster and some of the nodes are dedicated to data transferring. Each node has 2-4 CPUs that provide 24-128 cores! As you can see these processors or chips have a lot more cores per each CPU than a typical personal computer. In addition the cluster also has a lot of RAM. Each node has at least 128 GB. There is also a large amount of storage, with many TB available for people to use.
 
+## General Guidelines for shared computing resources
 
-## General rules
+Each cluster or other shared computing resource will have different rules and requirements, but here are a few general rules to keep in make sure that you don't accidentally abuse the privilege of sharing an amazing resource like this. Don't be too worried, most shared resources will give you guidance about their specific rules and will often also have settings that don't allow users to make major blunders.
 
- - don't share password
+### Security guidelines
+
+ - use a good [secure password](https://its.lafayette.edu/policies/strongpasswords/) that is not easy for someone else to guess
+ 
+ Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers.
+ 
+ - don't share your password and keep it safe!
+ 
+ If you have a Mac, you could consider storing it in your [keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely.
+ 
  - don't access a server on a computer that is not authorized to do so
+
+Some servers will require that your computer be authorized for access for added security. It's a good idea to follow these rules. If you can, perhaps authorize a laptop in case you might need to gain access when you need to be out of town. However if you do so, make sure you also only access a server with a secure WiFi network. One way to ensure this is is to avoid using public WiFi networks, and if you must use a public WiFi network, consider using a [virtual private network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) for added security. Here is an [article](https://www.wired.com/story/best-vpn/) about different VPN options.
+
+ -  do not alter security settings without authorization
+ 
+Loosening security settings could pose a risk to the data stored on the server. On the other hand making more strict security settings could cause other users to not be able to perform their work. Contact the managers of the resource if you think changes need to be made.
+
+ - immediately report any data security concerns
+ 
+To protect the integrity of your data and your colleagues, be sure to report anything strange about the shared computing resource to those who manage it so that they can address it right away. Also report to them if you have any security breaches on the computer(s) that you use to access the shared computing resource.
+
+### Overall use guidelines
+
  - don't install software unless you have permission
+ 
+It is possible that the software you want to use might already be installed somewhere on the shared computing resource that you are unaware about. In addition, if you install a different version of a software program, it is possible that this version (especially if it is newer) will get automatically called by other people's scripts. This could actually break their scripts or modify their results.
+ 
  - don't use the server for storage or computation that you are not authorized for
 (personal use)
- - don't alter configuration or security settings without authorization
- - immediately report any data security concerns
- - Don't use more nodes if you don't need to (if you need all nodes - let someone know!)
- - Don't use all RAM on a node if you don't need to (if you need to - let someone know!)
- - Communicate with others if you will be submitting a large or intensive job
- - Don't submit too many jobs at once
+
+This is often a rule for shared computing resources, simply because such shared resources are intended for a specific reason and likely funded for that reason. Such resources are costly, and therefore the computational power should be used only for what it is intended for, otherwise people may view the use of the resources for other purposes as essentially theft.
+
+ - don't alter configurations without authorization
+ 
+This could result unintended and unexpected consequences for other users. 
+
+
+### Daily use guidelines
+When you submit jobs, make sure you follow the following guidelines. Again consider the fact that there may be more requirements for the specific resource that you might be using.
+
+ - Don't use the login or transfer nodes for your computations
+ 
+ This will cause issues for other users interms of logging in and transferring their data. This could cause them to be unable to do their work.
+ 
+ - Think about memory allocation and efficiency
+ 
+Consider how much RAM and storage is available for people on the shared computing resource. Try not to overload the resource with a really intensive job or jobs that will use most of the resources and either slow down the efficiency of the work for others or not allow them to perform their work at all.
+
+This involves:
+   * Not using too many nodes if you don't need to
+   * Not using too much RAM on a given node and overall if you don't need to
+   * Not submitting too many jobs at once
+   * communicate with others to give them advanced warning if you are going to submit large or intensive jobs
+   
+If you have a really large job that you need to perform, talk with the managers of the resource so that you can work out a time when perhaps fewer users would be inconvenienced. Consult the guidlines for your paticular resource about how one let's people know about large jobs before you email the adminitrators of the resource directly.
+
+### Communication Guidelines
+
+- Use the proper order for communication
+
+Often shared resources have rules about how they want people to communicate. For example for some resources it is suggested that you first ask your friends and lab mates  if you are confused about something, then consult any available forums, if that does not work then directly email the administrators/managers of the resource. Keep in mind that these people are very busy and get lots of communications. 
+
+- Use the ticket system
+
+If a resource has a ticket system for users to get support, use it instead of communicating by email. If such a system is in place, then the administrators running it are used to getting requests this way. If you email directly, you may not receive feedback in a timely manner or the email might get lost.
+
+### Specific Rules
+
+Ultimately it is very important to learn about the rules, practices, and etiquette for the resource that you are using and to follow them. Otherwise, you could lose access. Often other users are a great resource!
+ 
 
 https://www.doi.gov/sites/doi.gov/files/uploads/DOI-RULES-OF-BEHAVIOR-FOR-COMPUTER-NETWORK-USERS-REFERENCE-GUIDE.pdf
 
