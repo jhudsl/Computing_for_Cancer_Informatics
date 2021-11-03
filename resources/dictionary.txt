@@ -1,5 +1,6 @@
 ACI
 AiiDA
+AiiDAlab
 al
 ALU
 ALUs
@@ -7,6 +8,10 @@ AnVIL
 ArrayExpress
 bam
 Biostrings
+Bukner
+cBIBOP
+citable
+cyberinfastructure
 CyVerse
 Dashlane
 DNAnexus
@@ -25,6 +30,7 @@ HDDs
 HPC
 HTAN
 JHPCE
+iPlant
 IRB
 itcrtraining
 ITN
@@ -38,6 +44,7 @@ Klarman
 leanbuild
 macOS
 Markua
+metaboAnalyst
 metabolomic
 methylation
 microbiome
@@ -45,6 +52,7 @@ middleware
 MobaXterm
 modalities
 multistep
+mypone
 NCI
 NCSA
 NHGRI
@@ -52,6 +60,7 @@ OHIF
 omics
 proteomic
 punchcards
+QuIP
 RNA
 RStudio
 scalable
@@ -72,6 +81,7 @@ Unsplash
 Vick
 VPN
 Wheelan
+WUFlux
 www
 XNAT
 XQuartz
