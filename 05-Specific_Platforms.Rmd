@@ -1,5 +1,5 @@
 ---
-title: "Data Management Platforms and Systems"
+title: "General Platforms and Systems"
 output: html_document
 ---
 
@@ -8,7 +8,7 @@ output: html_document
 leanbuild::set_knitr_image_path()
 ```
 
-# Data Management Platforms and Systems
+# General Platforms and Systems
 
 In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
 
@@ -18,9 +18,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 ## General Platforms
 
-We will start out with more general platforms, that allow you flexibility to perform analyses with a variety of types of data. 
+We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. 
 
-## Galaxy
+### Galaxy
 
 This section was written by [Jeremy Goecks](https://goeckslab.org/people/jeremy.html):
 
@@ -53,8 +53,25 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.
 
+See[here](https://toolshed.g2.bx.psu.edu/) for the list of applications supported by Galaxy.
 
-## SciServer
+
+AnVil? 
+
+Terra and atmosphere?
+
+### CyVerse
+
+[CyVerse](https://cyverse.rocks/about) is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by Cyverse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
+
+See [here](https://learning.cyverse.org/en/latest/) to learn more.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "CyVerse graphical interface for performing analyses", out.width= "100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd56752f25_0_0
+")
+```
+
+### SciServer
 
 SciServer is similar to Galaxy in that it is accessible through a web browser and allows users to store, upload, download, share, and work with data and common tools on the same platform. It was originally built for the astrophysics community (and called SkyServer) but it has now been adapted to be used by scientists of all fields and is indeed used by many in the genomics field.  It allows users to use Python and R in environments like Jupyter notebooks and RStudio, and also supports (Structured Query Language) SQL for data querying and management and is built on the use of Docker. 
 
@@ -65,18 +82,82 @@ As compared to Galaxy, this resources may be better for users with a bit more fa
 For more information see 
 https://reader.elsevier.com/reader/sd/pii/S2213133720300664?token=D3EB0851DC2A36526E6999F0D95DA1E6C41D01E9787B690B2F06F7CE7C192B7141B9FA6BAE5DF1D4BFAD7E402540624E&originRegion=us-east-1&originCreation=20211028203856
 
-## Materials Cloud
+### Materials Cloud
 
-https://www.nature.com/articles/s41597-020-00637-5
+Another resource that might be of interest to Python users, particular those who collaborate with material scientists, is Materials Cloud. It is designed to promote reproducible work, collaboration, and sharing of resources among scientists, particularly for simulations for the materials science field. Users can share data in a citable way, download data, upload data, share workflows, and perform analyzes. This resource uses [AiiDAlab](https://www.materialscloud.org/work/aiidalab) as the computing environment for researchers, which is based on [AiiDa](https://www.nature.com/articles/s41597-020-00638-4). According to their website:
 
-## AiiDA 
-https://www.nature.com/articles/s41597-020-00638-4
+> AiiDAlab builds on [AiiDA](https://www.nature.com/articles/s41597-020-00638-4) as the computational workflow engine, and the Jupyter environment (notebooks, widgets, …) for writing and sharing apps
 
-## Atlas.ti?
-https://atlasti.com/
+See [here](https://www.sciencedirect.com/science/article/pii/S092702562030656X?via%3Dihub) to learn more about how AiiDAlab supports the sharing of scientific workflows, particularly for those that use Python.
 
-I think featuring XNAT and OHIF open health imaging foundation might make sense... OHIF is an web-based imaging analysis platform that is widely used. It was developed by Gordon Harris et al.
+To learn more about Materials Cloud, check out this [article](https://www.nature.com/articles/s41597-020-00637-5)
+
+
+### ATLAS.ti
+
+[ATLAS.ti](https://atlasti.com/) is another option but particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses s.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
+
+
+## Data Specific Analysis Platforms
+
+Now we will describe some platforms that offer data storage, sharing, and analysis resources for more specific data types.
+
+### Imaging Data Analysis Platforms
+
+We will start with a few imaging data platforms that make it easier for researchers to perform analyses and share their data.
+
+#### XNAT
+
+[XNAT](https://www.xnat.org/about/) offers computing resources and tools for performing imaging analysis and for storing and sharing imaging data in a HIPAA complaint manner (more on that in the coming). Developed by the [Bukner lab](https://cnl.rc.fas.harvard.edu/) previously at the Washington University and now at Harvard, it supports a variety of imaging data as well as other data types like clinical data.  Some tools can be used with a graphical interface and others with the command-line. See [here](https://wiki.xnat.org/documentation/case-studies) for example use cases. There is also a great deal of documentation available about how to use the tools and resources available at https://wiki.xnat.org/documentation.
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/ENk589mOkhI")
+```
+
+
+#### OHIF
+
+The open health imaging foundation (OHIF) is a web-based imaging analysis platform that is widely used, particularly for radiology analysis, but it also supports whole-slide microscopy image analysis. It was developed by Gordon Harris et al. and can be used for a variety of applications from cardiology to vetrinary medicine. Check out these [example use cases](https://ohif.org/examples) of OHIF. OHIF also provides thourough documentation with images and videos about how to use the image viewer and tools available.
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports.", out.width= "100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2
+")
+```
+
+Price: free
+
+For those interested, Gordon Harris and others are also working on a project called [Cornerstone](https://docs.cornerstonejs.org/), with the goal of providing software for others to display medical images in web browsers.
+
+### QuIP
+
+### cBIBOP
+
+### Genomic Data Analysis Platforms
+
+
+### 
+
+### Clinical Data Analysis Platforms
+
+#### MetaboAnalyst?
+https://www.metaboanalyst.ca/home.xhtml
+
+#### mypone?
+https://www.mypnoe.com/metabolic-analysis/
+
+## WUFlux
+
+for microbiome research https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1314-0
+
+Avocado want to add pricing to each platform...
+
+### Machine Learning... 
+want to add that tool for sharing data
+
 
 https://www.toptal.com/scientific-computing/scientific-computing-with-open-source-tools
 
 google: "https://www.youtube.com/embed/N4eT9Lfvuro"
+
+most of these work on Virtual machines... still might need to describe this
