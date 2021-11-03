@@ -15,7 +15,6 @@ In this chapter we will provide examples of data management systems that you mig
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
-## General Platforms
 
 We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. 
 
