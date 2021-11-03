@@ -129,6 +129,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 Importantly using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](
 https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
 
+Finally, it is important to note that modern transistors 
 
 If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
 
@@ -272,7 +273,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
 
 See [here](https://www.deskdecode.com/operating-systems-os/) for more information about operating systems and [here](https://www.wikiwand.com/en/Punched_card) for really interesting information about the history of punched cards.
-
+Check out this really interesting [Wikipedia article](https://en.wikipedia.org/wiki/History_of_computing_hardware) for more extensive history about how computer hardware was developed.
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time: 
 
@@ -300,3 +301,4 @@ In conclusion, here are some of the major take-home messages:
 Now that we know how a computer works in general, we will next discuss computing capacity (especially for informatics research) and how servers and cloud computing can help. 
 
 
+avocado - add more about modern computer transistors, add an image about ram and cpu etc

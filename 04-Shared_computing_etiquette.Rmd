@@ -17,7 +17,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) is a High-Performance Computing (HPC) cluster facility as an example for guidance.
 
-For this particular resource there are 400 active users.It is optimized for genomic and biomedical research and has 4,000 cores! That's right, as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically currently only have around 8 cores. There is also 28TB of RAM and 14 PB of storage!! Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers' computer might have something like 16 GB of RAM and 1TB of storage. Individual users connect and perform jobs on the cluster using a formal common pool resource (CPR) hierarchy system. 
+For this particular resource there are 400 active users.It is optimized for genomic and biomedical research and has 4,000 cores! That's right, as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically currently only have around 8 cores. There is also 28TB of RAM and 14 PB of storage!! Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers' computer might have something like 16 GB of RAM and 1TB of storage. Individual users connect and perform jobs (aka computational tasks) on the cluster using a formal common pool resource (CPR) hierarchy system. 
 
 
 There are 68 nodes that make up the JHPCE currently. As, with most clusters some of the nodes are dedicated to managing users logging in to the cluster and some of the nodes are dedicated to data transferring. Each node has 2-4 CPUs that provide 24-128 cores! As you can see these processors or chips have a lot more cores per each CPU than a typical personal computer. In addition the cluster also has a lot of RAM. Each node has at least 128 GB. There is also a large amount of storage, with many TB available for people to use.
@@ -100,12 +100,38 @@ Ultimately it is very important to learn about the rules, practices, and etiquet
 
 https://www.doi.gov/sites/doi.gov/files/uploads/DOI-RULES-OF-BEHAVIOR-FOR-COMPUTER-NETWORK-USERS-REFERENCE-GUIDE.pdf
 
+## Interacting with shared resources
+
+Often you will need to use the command line to interact with a server from your personal computer. To do so on a Mac or a Linux computer you can typically do so using the terminal program that is already on your computer. For PC or Windows computer users, you can use programs like [MobaXterm](http://mobaxterm.mobatek.net/).
+
+If you wish to run a program with a graphical interface, then you might need to have a program to help you do so. On Macs, you can download [Xquartz](http://xquartz.macosforge.org/landing/). If you use MobaXterm on your PC or Windows computer, then you will already be set. Linux computers also typically should already have what you need.
+
+If you are new to Unix commands check out this cheat sheet below.
+
+```{r}
+knitr::include_url(url = "https://files.fosswire.com/2007/08/fwunixref.pdf")
+```
+
+
 ## Running Jobs
+
+Typically a program is used to schedule jobs. Remember that jobs are the individual computational tasks that you ask the server to run. For example, this could be something as simple as moving large files from one directory to another or as complex as running a complicated script on a file.  In the case of the JHPCE, the use a program called Sun Grid Engine (SGE), but there are others. Such programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. They have their own commands for running jobs, checking resources, and checking jobs. Remember to use what ever management system like SGE to run your jobs using the compute nodes not the login nodes.
 
 ### Specifying memory (RAM) needs
 
+Often there is a default file size limit for jobs. For example the JHPCE has a 10GB file size limit for jobs. You may need to specify when you have a job using a file that exceeds the file size limit and set the file size for that job. (As you may recall if you are using whole genome files you are likely to exceed the default file limit size.) Often you are also given a default amount of RAM for your job as well. Again, you can typically run a job with more RAM if you specify. Similar to the file size limit, you will likely need to set the RAM that you will need for your job if it is above the default limit . Often this  involves setting a lower and upper limit to the RAM that your job can use. If your job exceeds that amount of RAM it will be stopped. Typically people call stopping a job "killing" it. The lower and upper limit can be the same number.
+
+How do you know how much RAM to assign to your job? Well if you are performing a job with files that are two times the size of the file size default limit, then it might make sense to double the RAM you would typically get. It's also a good idea to test on one file first if you are going to perform the same job on multiple files. You can then assess how much RAM the job used. First try to perform the job with lower limits and progressively increase until you see that the job was successful and not killed for exceeding the limit.  Keep in mind however how much RAM there is on each node. Remember, it is important to not ask for all the RAM on a single node or core on that node, as this will result in you hogging that node and other users will not be able to use RAM on that node or core on that node. Remember that you will likely have the option to use multiple cores, this can also help you to use less RAM across each core. For example, a job that needs 120GB of RAM could use 10 cores with 12 GB of RAM each.
+
+Often there will be a limit for the number of jobs, the amount of RAM, and the number of cores that a single user can use beyond the default limits. This is to ensure that a user doesn't use all of the resources and not allow others to perform their jobs. Check to see what these limits are and then figure out what the appropriate way is to contact to request for more. Again communication standards and workflows may vary based on the resource.
+
 ### Checking status
 
+ It's also a good idea to check the status of your jobs to see if they worked or got killed. You can check for the expected file outputs or there are commands for the server management software that can help you check currently running jobs.
+
+## Storage
+
+Often you will be given a home directory which will likely be backed up, however, other storage directories often will not be. Be careful about where you store your data, as some directories might be for temporary use and get wiped to keep space available for others.
 
 
-
+See [here](https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf) for more information on how people use SGE for the JHPCE shared resource.
