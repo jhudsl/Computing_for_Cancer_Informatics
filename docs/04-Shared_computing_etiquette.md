@@ -104,11 +104,6 @@ If you wish to run a program with a graphical interface, then you might need to 
 
 If you are new to Unix commands check out this cheat sheet below.
 
-
-```r
-knitr::include_url(url = "https://files.fosswire.com/2007/08/fwunixref.pdf")
-```
-
 <iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="672" height="400px"></iframe>
 
 
