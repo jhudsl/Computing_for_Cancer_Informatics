@@ -34,7 +34,7 @@ Each cluster or other shared computing resource will have different rules and re
  
  - don't share your password and keep it safe!
  
- If you have a Mac, you could consider storing it in your [keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely.
+ If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely.
  
  - don't access a server on a computer that is not authorized to do so
 
@@ -69,7 +69,7 @@ When you submit jobs, make sure you follow the following guidelines. Again consi
 
  - Don't use the login or transfer nodes for your computations
  
- This will cause issues for other users interms of logging in and transferring their data. This could cause them to be unable to do their work.
+ This will cause issues for other users in terms of logging in and transferring their data. This could cause them to be unable to do their work.
  
  - Think about memory allocation and efficiency
  
@@ -81,7 +81,7 @@ This involves:
    * Not submitting too many jobs at once
    * communicate with others to give them advanced warning if you are going to submit large or intensive jobs
    
-If you have a really large job that you need to perform, talk with the managers of the resource so that you can work out a time when perhaps fewer users would be inconvenienced. Consult the guidlines for your paticular resource about how one let's people know about large jobs before you email the adminitrators of the resource directly.
+If you have a really large job that you need to perform, talk with the managers of the resource so that you can work out a time when perhaps fewer users would be inconvenienced. Consult the guidelines for your particular resource about how one let's people know about large jobs before you email the administrators of the resource directly.
 
 ### Communication Guidelines
 
@@ -104,7 +104,7 @@ https://www.doi.gov/sites/doi.gov/files/uploads/DOI-RULES-OF-BEHAVIOR-FOR-COMPUT
 
 Often you will need to use the command line to interact with a server from your personal computer. To do so on a Mac or a Linux computer you can typically do so using the terminal program that is already on your computer. For PC or Windows computer users, you can use programs like [MobaXterm](http://mobaxterm.mobatek.net/).
 
-If you wish to run a program with a graphical interface, then you might need to have a program to help you do so. On Macs, you can download [Xquartz](http://xquartz.macosforge.org/landing/). If you use MobaXterm on your PC or Windows computer, then you will already be set. Linux computers also typically should already have what you need.
+If you wish to run a program with a graphical interface, then you might need to have a program to help you do so. On Macs, you can download [XQuartz](http://xquartz.macosforge.org/landing/). If you use MobaXterm on your PC or Windows computer, then you will already be set. Linux computers also typically should already have what you need.
 
 If you are new to Unix commands check out this cheat sheet below.
 

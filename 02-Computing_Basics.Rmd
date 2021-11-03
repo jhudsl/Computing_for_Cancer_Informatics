@@ -301,4 +301,4 @@ In conclusion, here are some of the major take-home messages:
 Now that we know how a computer works in general, we will next discuss computing capacity (especially for informatics research) and how servers and cloud computing can help. 
 
 
-avocado - add more about modern computer transistors, add an image about ram and cpu etc
+avocado - add more about modern computer transistors, add an image about RAM and CPU etc
