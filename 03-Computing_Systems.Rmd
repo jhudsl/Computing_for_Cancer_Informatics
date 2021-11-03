@@ -218,17 +218,26 @@ What if you decide that you do need more computational power than your personal 
 
 One great option, which can be quite affordable is using a server.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer or computers that can be accessed through a direct local network or the internet to perform computations or store data.  They are often shared by people to allow them to  perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a supercomputer if it is just one) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data.  They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
-For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. For instance they often don't have capabilities to support a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer). They are designed to optimize data storage and computational power.
+For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer). 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this.", out.width= "100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_58")
+```
+
+
+Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface, meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface. In order to support this they have memory, processors or CPUs, and storage like your laptop.
 
 Here is what a server might look like:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_58")
 ```
+ In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
 
- Among shared computers there are three major options: 
+
+Among shared computers/servers there are three major options: 
 
 * **Clusters** - institutional or national resources
 * **Grids** - institutional or national resources
@@ -239,7 +248,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 In a computing cluster several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
 
-There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called client nodes or simply nodes) perform. 
+There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform. 
 
 For example, if a large file needs to be converted to a different format, **pieces** of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
 

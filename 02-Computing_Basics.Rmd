@@ -129,6 +129,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 Importantly using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](
 https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
 
+Finally, it is important to note that modern transistors 
 
 If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
 
@@ -162,7 +163,7 @@ A group of flip-flops is called a register. You may have heard about a computer 
 
 You may also be wondering how letters and other symbols are stored in this binary system. 
 
-Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of the number. In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits). A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the CPU can work with at a time. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits.
+Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of the number. In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits). A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the computer can work with at a time. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits.
 
 Below you can see the decimal value for some of the symbols and letters:
 
@@ -193,19 +194,25 @@ The CPU is made up of several components, a few that are particularly important 
  2) Registers  
  3) Control Unit (CU)  
  
+ A group of these components together is called a **core**.
+ 
 The Control Unit coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time.
  
 Modern computers now have multiple cores. What does this mean?
 
-This means that there are multiple CPUs within the same computer chip.  A dual core CPU is a chip with two CPUs. A quad-core CPU is a chip with 4 CPUs and so on.This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
+This means that there are multiple groups of the above components that can each process data within the same computer chip.  A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on.This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
 
 In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus any tasks that require the involvement of images are done using the GPU and not the CPU. This frees up the CPU to continue on the tasks not involving images more efficiently.
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_381")
 ```
-Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel. The idea is that while part of the same CPU is idle or waiting for a given task,  another part of the CPU can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading.
+Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip that has hyperthreading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously.", out.width= "100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_75")
+```
 
 ### **Memory or RAM** - short-term memory
 
@@ -266,7 +273,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
 
 See [here](https://www.deskdecode.com/operating-systems-os/) for more information about operating systems and [here](https://www.wikiwand.com/en/Punched_card) for really interesting information about the history of punched cards.
-
+Check out this really interesting [Wikipedia article](https://en.wikipedia.org/wiki/History_of_computing_hardware) for more extensive history about how computer hardware was developed.
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time: 
 
@@ -294,3 +301,4 @@ In conclusion, here are some of the major take-home messages:
 Now that we know how a computer works in general, we will next discuss computing capacity (especially for informatics research) and how servers and cloud computing can help. 
 
 
+avocado - add more about modern computer transistors, add an image about RAM and CPU etc
