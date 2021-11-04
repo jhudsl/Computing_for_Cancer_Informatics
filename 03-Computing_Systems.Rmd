@@ -1,7 +1,3 @@
----
-title: "Computing Systems"
-output: html_document
----
 
 
 ```{r, include = FALSE}

@@ -1,7 +1,4 @@
----
-title: "02-Computing_basics"
-output: html_document
----
+
 
 # Computing basics
 
