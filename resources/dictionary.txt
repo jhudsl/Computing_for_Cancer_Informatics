@@ -64,6 +64,7 @@ QuIP
 RNA
 RStudio
 scalable
+scalability
 SciServer
 SciUIs
 SkyServer
