@@ -205,13 +205,13 @@ Here's a great explanation for how HDDs work and the difference with SSDs. It wi
 See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.
 
 
-### Hardware and Software
+### Hardware and software
 
 So far we have talked about the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) of a computer, which is the physical components of a computer, while [software](https://simple.wikipedia.org/wiki/Software) is the code that tells the hardware how to function.
 
 Software is also important to know about. Most importantly it is useful to know about operating systems.
 
-### Operating Systems
+### Operating systems
 
 The [operating system](https://en.wikipedia.org/wiki/Operating_system) (sometimes simply called the OS) is a set of code or software that translates user interactions with the computer to tell the hardware (including memory and the CPU) of the computer what tasks the user wants the computer to perform and when.
 
@@ -226,6 +226,7 @@ Examples of commonly used operating systems on computers and phones are:
 Recall that we previously talked about how computers today are often called 64-bit? Operating systems are also designed in this way. A 64-bit operating system expects the hardware of the computer to allow for processing at least 64 bits of data at a time (the word size). If we have registers of at least this length in the CPU, than we can in fact perform operations on data that may be up to 64 bits in length. This also means that we can perform operations on values that take up less than 64 bits. This can be important because if you try to use an operating system that expects a longer word size than the hardware can accommodate, for example a 64-bit operating system on a 32-bit computer, this will not work. Application programs are also designed according to different word sizes and again you need to choose options that are equal to or less than the word size that your CPU can accommodate.
 
 
+### Historical context
 Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
 
 <img src="02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" title="Image of a punchcard" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" />

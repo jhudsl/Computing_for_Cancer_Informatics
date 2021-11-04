@@ -13,6 +13,7 @@ memory-or-ram---short-term-memory
 storage---long-term-memory
 hardware-and-software
 operating-systems
+historical-context
 conclusion
 computing-systems
 data-sizes
@@ -54,7 +55,6 @@ imaging-data-analysis-platforms
 xnat
 ohif
 quip
-cbibop
 genomic-data-analysis-platforms
 section
 clinical-data-analysis-platforms

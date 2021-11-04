@@ -33,7 +33,9 @@ For those interested, Gordon Harris and others are also working on a project cal
 
 ### QuIP
 
-### cBIBOP
+<iframe src="https://www.youtube.com/embed/dK4c6ti1Dvc" width="100%" height="400px"></iframe>
+
+
 
 ### Genomic Data Analysis Platforms
 
@@ -52,7 +54,7 @@ https://www.mypnoe.com/metabolic-analysis/
 
 for microbiome research https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1314-0
 
-Avocado want to add pricing to each platform...
+Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible.
 
 ### Machine Learning... 
 want to add that tool for sharing data
