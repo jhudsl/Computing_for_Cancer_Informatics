@@ -44,7 +44,7 @@ Klarman
 leanbuild
 macOS
 Markua
-metaboAnalyst
+MetaboAnalyst
 metabolomic
 methylation
 microbiome

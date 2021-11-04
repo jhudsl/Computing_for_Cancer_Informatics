@@ -54,7 +54,7 @@ Galaxy users can share all their work—analysis histories, workflows, and visua
 See[here](https://toolshed.g2.bx.psu.edu/) for the list of applications supported by Galaxy.
 
 
-AnVIl? 
+AnVIL? 
 
 Terra and atmosphere?
 
@@ -112,4 +112,4 @@ To learn more about Materials Cloud, check out this [article](https://www.nature
 knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf")
 ```
 
-Avocado - want to add in content about price, security, privacy/HIPPA, scalability/file/ram limits for each if possible.
+Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible.
