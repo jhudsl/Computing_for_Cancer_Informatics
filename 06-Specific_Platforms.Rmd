@@ -40,7 +40,11 @@ For those interested, Gordon Harris and others are also working on a project cal
 
 ### QuIP
 
-### cBIBOP
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/dK4c6ti1Dvc")
+```
+
+
 
 ### Genomic Data Analysis Platforms
 
