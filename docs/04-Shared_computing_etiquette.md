@@ -1,7 +1,4 @@
----
-title: "04-Shared_Computing_Resource_Etiquette"
-output: html_document
----
+
 
 
 # Shared Computing Etiquette

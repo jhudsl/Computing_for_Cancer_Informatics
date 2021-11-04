@@ -1,7 +1,4 @@
----
-title: 'General Platforms'
-output: html_document
----
+
 
 
 

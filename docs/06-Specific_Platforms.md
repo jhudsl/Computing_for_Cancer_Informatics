@@ -1,7 +1,4 @@
----
-title: 'Specific Platforms'
-output: html_document
----
+
 
 
 
