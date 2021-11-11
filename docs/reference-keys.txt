@@ -75,6 +75,11 @@ cloud-costs
 data-security
 data-security-strategies
 data-access
+authorization
+privilege
+wifi
+passwords
+stale-access
 data-masking
 de-identification
 encryption

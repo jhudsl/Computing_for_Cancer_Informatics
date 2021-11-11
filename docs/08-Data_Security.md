@@ -19,6 +19,19 @@ There a several major strategies to achieve data security. We will cover the fol
 
 ## Data access
 
+### Authorization
+
+### Privilege
+https://en.wikipedia.org/wiki/File-system_permissions
+
+https://en.wikipedia.org/wiki/Privilege_(computing)
+
+### Wifi
+
+### Passwords
+
+### Stale access
+
 ## Data masking
 
 Encryption is actually just one of the more complex methods of a larger concept called data masking for protecting sensitive data. There are other methods for obscuring parts of the data besides the complexity of encryption, such as the following:
@@ -28,7 +41,10 @@ Encryption is actually just one of the more complex methods of a larger concept 
 ### De-identification
 https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html
 https://opin.com/de-identify-health-information-phi-v2/
-
+https://en.wikipedia.org/wiki/De-identification
+#### Safe harbor
+#### Expert Determination
+#### Limitations
 
 ### Encryption
 
