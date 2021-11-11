@@ -1,4 +1,5 @@
 ACI
+AES
 AiiDA
 AiiDAlab
 al
@@ -11,12 +12,17 @@ Biostrings
 Bukner
 cBIBOP
 citable
+cybercriminal
+cybercriminals
 cyberinfastructure
 CyVerse
 Dashlane
+decrypt
+de-identification
+discoverability
 DNAnexus
 Dockstore
-discoverability
+DSA
 ENIAC
 et
 exome
@@ -41,6 +47,7 @@ Kai
 Kammers
 Keychain
 Klarman
+Kubernettes
 leanbuild
 macOS
 Markua
@@ -58,10 +65,12 @@ NCSA
 NHGRI
 OHIF
 omics
+PKCS
 proteomic
 punchcards
 QuIP
 RNA
+RSA
 RStudio
 scalable
 scalability
@@ -75,6 +84,7 @@ SSD
 SSDs
 Supercomputing
 TACC
+TCIA
 th
 transcriptomic
 UE
