@@ -43,6 +43,10 @@ AnVIL?
 
 Terra and atmosphere?
 
+### Terra
+
+https://www.youtube.com/embed/3rH86vcAqK8
+
 ### CyVerse
 
 [CyVerse](https://cyverse.rocks/about) is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
@@ -89,3 +93,5 @@ To learn more about Materials Cloud, check out this [article](https://www.nature
 <iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="672" height="400px"></iframe>
 
 Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible.
+
+https://community.i2b2.org/wiki/pages/viewpage.action?pageId=342684

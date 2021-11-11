@@ -46,6 +46,7 @@ checking-status
 storage
 general-platforms
 galaxy
+terra
 cyverse
 sciserver
 materials-cloud
@@ -55,6 +56,7 @@ imaging-data-analysis-platforms
 xnat
 ohif
 quip
+prism
 genomic-data-analysis-platforms
 section
 clinical-data-analysis-platforms
@@ -71,6 +73,14 @@ challenges-of-cloud-computing
 local-costs
 cloud-costs
 data-security
+data-security-strategies
+data-access
+data-masking
+de-identification
+encryption
+data-erasure
+data-resiliency
+security-in-workflows
 data-privacy
 data-sharing
 data-sharing-is-important
