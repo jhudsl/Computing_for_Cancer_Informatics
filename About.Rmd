@@ -1,7 +1,4 @@
----
-title: "Data Management for Cancer Research"
-output: html_document
----
+
 
 # About the Authors {-}
 

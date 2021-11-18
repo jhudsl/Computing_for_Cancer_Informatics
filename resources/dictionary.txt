@@ -18,6 +18,7 @@ cyberinfastructure
 CyVerse
 Dashlane
 decrypt
+De-identification
 de-identification
 discoverability
 DNAnexus
@@ -35,7 +36,10 @@ HIPAA
 HDDs
 HPC
 HTAN
+http
+https
 JHPCE
+IBM
 iPlant
 IRB
 itcrtraining
@@ -66,6 +70,7 @@ NHGRI
 OHIF
 omics
 PKCS
+PoLP
 proteomic
 punchcards
 QuIP
@@ -82,10 +87,12 @@ SGE
 SRA
 SSD
 SSDs
+SSL
 Supercomputing
 TACC
 TCIA
 th
+TLS
 transcriptomic
 UE
 Unsplash
