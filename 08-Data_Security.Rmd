@@ -43,7 +43,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 
-These letters indicate the users ability to peform tasks for each file called file system permissions.
+These letters indicate the users ability to perform tasks for each file called file system permissions.
 
 
 
@@ -95,7 +95,7 @@ If someone does not need access to perform work, they should not be given access
 As an example of this in practice: If a postdoc is working on a project with sensitive data, and the PI does not need to see the raw data to collaborate on the project, then the PI should not have access to the data.
 
 
-### Wifi
+### WiFi
 
 ### Passwords
 
@@ -121,7 +121,7 @@ https://en.wikipedia.org/wiki/De-identification
 
 ### Encryption
 
-Encryption is one of the most well-known methods for keeping data safe. It is used as a last method in case unauthorized users can access to data, and it is also used to protect data when transerring it.
+Encryption is one of the most well-known methods for keeping data safe. It is used as a last method in case unauthorized users can access to data, and it is also used to protect data when transferring it.
 
 The process involves encoding or scrambling the data in a nonrandom format (we call this form of the data **encrypted**) that given the right instructions, a computer can reformat into the original form in a process called **decryption**. The instructions called the **key** are kept safe like a password and depending on the type of encryption, it can require quite a lot of computational power to decrypt the data. This protects the data because if a cybercriminal accesses the data or if the data is somehow made public when it shouldn't be, it will not be easily interpreted [@Forcepoint_2018]. 
 
@@ -156,7 +156,7 @@ According to @digicert this involves the following steps:
 
 3) The browser checks the certificate to make sure that it comes from a trusted certificate authority and that the certificate has not expired or been revoked. The browser also checks that the names on the certificate  and the website match.  It then sends the server an encrypted session key based on the public key.
 
-4) The server then decrypts the session key using the private key and sens an encrypted acknowledgement to start an encrypted session.
+4) The server then decrypts the session key using the private key and sends an encrypted acknowledgment to start an encrypted session.
 
 5) The server and browser can now transmit encrypted data back and forth.
 
@@ -176,7 +176,7 @@ https://www.jscape.com/blog/ssl-vs-ssh-simplified
 
 It turns out that when you delete a file (even after emptying the trash), it  isn't as "deleted" as you might think. This is because when a file is deleted, the data for that file actually stays on the storage hardware, and it's simply the computer's ability to find the data that is hindered. However, there is software that can help people recover data on storage hardware. This can be a great security issue, as sensitive data can remain on people's hardware when they get a new computer or stop using particular data on a server.  
 
-One method to ensure that the deleated data is really eliminated is to physically destroy the hardware that it was stored on. However, this isn't always necessary, as there are methods using software. This option is great because the hardware can be reused without allowing future users potential access to your data. As you might imagine, this is the preferred method for erasing data on shared computing resources like servers [@Holland_2020]. These methods erase the data by overwriting the data with random digital information [@wikipedia_erasure_2021]. 
+One method to ensure that the deleted data is really eliminated is to physically destroy the hardware that it was stored on. However, this isn't always necessary, as there are methods using software. This option is great because the hardware can be reused without allowing future users potential access to your data. As you might imagine, this is the preferred method for erasing data on shared computing resources like servers [@Holland_2020]. These methods erase the data by overwriting the data with random digital information [@wikipedia_erasure_2021]. 
 
 ## Data resiliency
 
