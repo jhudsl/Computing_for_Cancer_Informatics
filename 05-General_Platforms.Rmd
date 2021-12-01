@@ -13,7 +13,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 
-We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. 
+We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. The major advantage of these platforms is that users can analyze data where it lives. There is less need for data transfers, saving time an resources, and users can easily share data with the entire field. 
 
 ### Galaxy
 
@@ -51,17 +51,45 @@ Galaxy users can share all their work—analysis histories, workflows, and visua
 See[here](https://toolshed.g2.bx.psu.edu/) for the list of applications supported by Galaxy.
 
 
-AnVIL? 
 
-Terra and atmosphere?
+
 
 ### Terra
 
-https://www.youtube.com/embed/3rH86vcAqK8
+[Terra](https://terra.bio/) is a biomedical reserach computing platform that is based on the Google Cloud platform, that also allows users easier ways to manage the billing of their projects. It provides users with access to data, workflows, interactive analyses using Jupyter Notebooks, RStudio, and Galaxy, data access tools from [FireCloud from the Broad Institute](https://firecloud.terra.bio/) (a [National Cancer Institute (NCI)](https://www.cancer.gov/) Cloud Resource project),  as well as workspaces to organize projects and collaborate with others. Terra also has [many measures](https://terra.bio/resources/security/) to ensure that data is especially secure and the offer clinical features for ensuring that [health data is protected](https://terra.bio/about/privacy/). Note that according users who do upload protected health information must select to use these extra clinical features and enter a formal agree with [Firecloud](https://firecloud.terra.bio/) about their data. 
+
+Importantly users can get access to use [Genoytpe -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) and [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) data using the platform. See [here](https://support.terra.bio/hc/en-us/articles/4402326091675-Accessing-GTEx-TARGET-TCGA-data) for information on how. 
+
+Users can pay for data storage and computing costs for Google Cloud conveniently through terra. users can browse data for free.
+
+Check out this video for more information:
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/3rH86vcAqK8")
+```
+
+
+## FireCloud
+
+Users can also specifically use [FireCloud](https://datacommons.cancer.gov/analytical-resource/broad-institute-firecloud) as a data analysis platform which uses Terra, much like Terra uses FireCloud for various features. At this [link](https://support.terra.bio/hc/en-us/articles/360022694271) you can see a comparison of the two. 
+
+FireCloud which is a project from the Broad institute and funded by the [National Insitutes of Health (NIH)](https://www.nihlibrary.nih.gov/training/introduction-broad-firecloud-powered-terra-securely-analyzing-cancer-datasets-cloud). Datasets accessible to Terra are also accessible through FireCloud.
+
+## AnVIL
+
+If you could use some guidance on how to perform analyses using Galaxy and Terra, especially for genomic research, check out [AnVIL](https://anvilproject.org/), the [National Human Genome Research Institute (NHGRI)](https://www.genome.gov/) Analysis Visualization and Informatics Lab-space. It also provides access to many important genomic and related [datasets](https://anvilproject.org/data) from the NHGRI.
+
+
+According to their website:
+
+> By providing a unified environment for data management and compute, AnVIL eliminates the need for data movement, allows for active threat detection and monitoring, and provides elastic, shared computing resources that can be acquired by researchers as needed.
+
+It relies on Terra for the cloud based compute environment, Dockstore for  standardized tools and workflows, Gen3 for data management for querying and organizing data, Galaxy tools and environment for analyses with less code requirements, and Bioconductor tools for R programming users.
+
 
 ### CyVerse
 
-[CyVerse](https://cyverse.rocks/about) is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
+[CyVerse](https://cyverse.rocks/about) is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using CyVerse's own cloud computing platform called [Atmosphere](https://cyverse.org/refocusing-atmosphere-to-support-cloud-native-development), which relied on users using virtual machines. Users will now  use a new version of Atmosphere with partnership with [Jetstream](https://jetstream-cloud.org/). This allows users to use containers for easier collaboration and also offers users more computing power and storage for US users. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
 
 See [here](https://learning.cyverse.org/en/latest/) to learn more.
 
@@ -115,4 +143,4 @@ knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_br
 
 Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible.
 
-https://community.i2b2.org/wiki/pages/viewpage.action?pageId=342684
+
