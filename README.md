@@ -1,5 +1,8 @@
 # Data Management for Cancer Research
 
+** This course is still a work in progress** The authors will be working on it for the next couple of months.
+
+
 This course was created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
 You can see the rendered course material here:  https://jhudatascience.org/Computing_and_Data_Management
