@@ -86,3 +86,18 @@ https://www.toptal.com/scientific-computing/scientific-computing-with-open-sourc
 google: "https://www.youtube.com/embed/N4eT9Lfvuro"
 
 most of these work on Virtual machines... still might need to describe this
+
+
+## i2B2
+
+[Informatics for Integrating Biology and the Bedside (i2b2)](https://community.i2b2.org/wiki/) is a research platform with a [web client tool](https://community.i2b2.org/wiki/display/webclient/) (which can be accessed from a browser after [downloading](https://www.i2b2.org/software/index.html) software) and data resource for healthcare related data, that has a community called the [i2b2 Community](https://community.i2b2.org/wiki/pages/viewpage.action?pageId=342684) for support. It is especially focused on pharmacology and translational research using [tranSMARt](https://pubmed.ncbi.nlm.nih.gov/24303286/) and [OpenBEL](https://www.openhealthnews.com/resources/open-biological-expression-language-openbel) translational research platforms. 
+
+Data previously available directly with [i2b2](https://www.uab.edu/ccts/images/i2b2_FAQ.pdf) is now available as the [(n2c2) NLP research datasets](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/), which are data related to unstructured clinical notes at the [Partners HealthCare System](https://www.massgeneralbrigham.org/) now called Mass General Brigham from 2004 to 2014, as part of the [Department of Biomedical Informatics (DBMI) Data Portal](https://portal.dbmi.hms.harvard.edu/) in the Blavatnik Institute at Harvard Medical School. Data like this includes demographic data, visit details, immunizations etc. 
+
+At this [link](https://community.i2b2.org/wiki/display/webclient/1.+Quick+Start) you can see a quick video introduction of what you can do with i2b2.
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url(" https://www.uab.edu/ccts/images/i2b2_FAQ.pdf")
+```
+
+avocado I think this should be moved to the course about clinical research.
