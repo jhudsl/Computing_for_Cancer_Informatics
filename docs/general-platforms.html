@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-11-18" />
+<meta name="date" content="2021-12-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -165,10 +165,14 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="5.0.1" data-path="general-platforms.html"><a href="general-platforms.html#galaxy"><i class="fa fa-check"></i><b>5.0.1</b> Galaxy</a></li>
 <li class="chapter" data-level="5.0.2" data-path="general-platforms.html"><a href="general-platforms.html#terra"><i class="fa fa-check"></i><b>5.0.2</b> Terra</a></li>
-<li class="chapter" data-level="5.0.3" data-path="general-platforms.html"><a href="general-platforms.html#cyverse"><i class="fa fa-check"></i><b>5.0.3</b> CyVerse</a></li>
-<li class="chapter" data-level="5.0.4" data-path="general-platforms.html"><a href="general-platforms.html#sciserver"><i class="fa fa-check"></i><b>5.0.4</b> SciServer</a></li>
-<li class="chapter" data-level="5.0.5" data-path="general-platforms.html"><a href="general-platforms.html#materials-cloud"><i class="fa fa-check"></i><b>5.0.5</b> Materials Cloud</a></li>
-<li class="chapter" data-level="5.0.6" data-path="general-platforms.html"><a href="general-platforms.html#atlas.ti"><i class="fa fa-check"></i><b>5.0.6</b> ATLAS.ti</a></li>
+<li class="chapter" data-level="5.1" data-path="general-platforms.html"><a href="general-platforms.html#firecloud"><i class="fa fa-check"></i><b>5.1</b> FireCloud</a></li>
+<li class="chapter" data-level="5.2" data-path="general-platforms.html"><a href="general-platforms.html#anvil"><i class="fa fa-check"></i><b>5.2</b> AnVIL</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="general-platforms.html"><a href="general-platforms.html#cyverse"><i class="fa fa-check"></i><b>5.2.1</b> CyVerse</a></li>
+<li class="chapter" data-level="5.2.2" data-path="general-platforms.html"><a href="general-platforms.html#sciserver"><i class="fa fa-check"></i><b>5.2.2</b> SciServer</a></li>
+<li class="chapter" data-level="5.2.3" data-path="general-platforms.html"><a href="general-platforms.html#materials-cloud"><i class="fa fa-check"></i><b>5.2.3</b> Materials Cloud</a></li>
+<li class="chapter" data-level="5.2.4" data-path="general-platforms.html"><a href="general-platforms.html#atlas.ti"><i class="fa fa-check"></i><b>5.2.4</b> ATLAS.ti</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="specific-platforms.html"><a href="specific-platforms.html"><i class="fa fa-check"></i><b>6</b> Specific Platforms</a>
 <ul>
@@ -183,6 +187,7 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="6.1.1" data-path="specific-platforms.html"><a href="specific-platforms.html#machine-learning"><i class="fa fa-check"></i><b>6.1.1</b> Machine Learning…</a></li>
 </ul></li>
+<li class="chapter" data-level="6.2" data-path="specific-platforms.html"><a href="specific-platforms.html#i2b2"><i class="fa fa-check"></i><b>6.2</b> i2B2</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="data-management-decisions.html"><a href="data-management-decisions.html"><i class="fa fa-check"></i><b>7</b> Data Management Decisions</a>
 <ul>
@@ -285,7 +290,7 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 5</span> General Platforms</h1>
 <p>In this chapter we will provide examples of data management systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!</p>
 <p><img src="resources/images/05-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" /></p>
-<p>We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data.</p>
+<p>We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. The major advantage of these platforms is that users can analyze data where it lives. There is less need for data transfers, saving time an resources, and users can easily share data with the entire field.</p>
 <div id="galaxy" class="section level3" number="5.0.1">
 <h3><span class="header-section-number">5.0.1</span> Galaxy</h3>
 <p>This section was written by <a href="https://goeckslab.org/people/jeremy.html">Jeremy Goecks</a>:</p>
@@ -299,21 +304,37 @@ div.csl-indent {
 <p><img src="resources/images/05-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_141.png" title="Galaxy workflow example showing the beginning steps of a workflow" alt="Galaxy workflow example showing the beginning steps of a workflow" width="100%" style="display: block; margin: auto;" /></p>
 <p>Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.</p>
 <p>See<a href="https://toolshed.g2.bx.psu.edu/">here</a> for the list of applications supported by Galaxy.</p>
-<p>AnVIL?</p>
-<p>Terra and atmosphere?</p>
 </div>
 <div id="terra" class="section level3" number="5.0.2">
 <h3><span class="header-section-number">5.0.2</span> Terra</h3>
-<p><a href="https://www.youtube.com/embed/3rH86vcAqK8" class="uri">https://www.youtube.com/embed/3rH86vcAqK8</a></p>
+<p><a href="https://terra.bio/">Terra</a> is a biomedical research computing platform that is based on the Google Cloud platform, that also allows users easier ways to manage the billing of their projects. It provides users with access to data, workflows, interactive analyses using Jupyter Notebooks, RStudio, and Galaxy, data access tools from <a href="https://firecloud.terra.bio/">FireCloud from the Broad Institute</a> (a <a href="https://www.cancer.gov/">National Cancer Institute (NCI)</a> Cloud Resource project), as well as workspaces to organize projects and collaborate with others. Terra also has <a href="https://terra.bio/resources/security/">many measures</a> to ensure that data is especially secure and the offer clinical features for ensuring that <a href="https://terra.bio/about/privacy/">health data is protected</a>. Note that according users who do upload protected health information must select to use these extra clinical features and enter a formal agree with <a href="https://firecloud.terra.bio/">FireCloud</a> about their data.</p>
+<p>Importantly users can get access to use <a href="https://gtexportal.org/home/">Genotype -Tissue Expression (GTEx)</a>, <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8">Therapeutically Applicable Research to Generate Effective Treatments (TARGET)</a> and <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga">The Cancer Genome Atlas (TCGA)</a> data using the platform. See <a href="https://support.terra.bio/hc/en-us/articles/4402326091675-Accessing-GTEx-TARGET-TCGA-data">here</a> for information on how.</p>
+<p>Users can pay for data storage and computing costs for Google Cloud conveniently through Terra. users can browse data for free.</p>
+<p>Check out this video for more information:</p>
+<iframe src="https://www.youtube.com/embed/3rH86vcAqK8" width="100%" height="400px">
+</iframe>
 </div>
-<div id="cyverse" class="section level3" number="5.0.3">
-<h3><span class="header-section-number">5.0.3</span> CyVerse</h3>
-<p><a href="https://cyverse.rocks/about">CyVerse</a> is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See <a href="https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications">here</a> for a list of applications that are supported by CyVerse. Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.</p>
+<div id="firecloud" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> FireCloud</h2>
+<p>Users can also specifically use <a href="https://datacommons.cancer.gov/analytical-resource/broad-institute-firecloud">FireCloud</a> as a data analysis platform which uses Terra, much like Terra uses FireCloud for various features. At this <a href="https://support.terra.bio/hc/en-us/articles/360022694271">link</a> you can see a comparison of the two.</p>
+<p>FireCloud which is a project from the Broad institute and funded by the <a href="https://www.nihlibrary.nih.gov/training/introduction-broad-firecloud-powered-terra-securely-analyzing-cancer-datasets-cloud">National Institutes of Health (NIH)</a>. Datasets accessible to Terra are also accessible through FireCloud.</p>
+</div>
+<div id="anvil" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> AnVIL</h2>
+<p>If you could use some guidance on how to perform analyses using Galaxy and Terra, especially for genomic research, check out <a href="https://anvilproject.org/">AnVIL</a>, the <a href="https://www.genome.gov/">National Human Genome Research Institute (NHGRI)</a> Analysis Visualization and Informatics Lab-space. It also provides access to many important genomic and related <a href="https://anvilproject.org/data">datasets</a> from the NHGRI.</p>
+<p>According to their website:</p>
+<blockquote>
+<p>By providing a unified environment for data management and compute, AnVIL eliminates the need for data movement, allows for active threat detection and monitoring, and provides elastic, shared computing resources that can be acquired by researchers as needed.</p>
+</blockquote>
+<p>It relies on Terra for the cloud based compute environment, Dockstore for standardized tools and workflows, Gen3 for data management for querying and organizing data, Galaxy tools and environment for analyses with less code requirements, and Bioconductor tools for R programming users.</p>
+<div id="cyverse" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> CyVerse</h3>
+<p><a href="https://cyverse.rocks/about">CyVerse</a> is a computing platform or cyberinfastructure similar to Galaxy that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called <a href="https://cyverse.org/refocusing-atmosphere-to-support-cloud-native-development">Atmosphere</a>, which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with <a href="https://jetstream-cloud.org/">Jetstream</a>. This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See <a href="https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications">here</a> for a list of applications that are supported by CyVerse. Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.</p>
 <p>See <a href="https://learning.cyverse.org/en/latest/">here</a> to learn more.</p>
 <p><img src="resources/images/05-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_0.png" title="CyVerse graphical interface for performing analyses" alt="CyVerse graphical interface for performing analyses" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="sciserver" class="section level3" number="5.0.4">
-<h3><span class="header-section-number">5.0.4</span> SciServer</h3>
+<div id="sciserver" class="section level3" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> SciServer</h3>
 <p>SciServer is similar to Galaxy in that it is accessible through a web browser and allows users to store, upload, download, share, and work with data and common tools on the same platform. It was originally built for the astrophysics community (and called SkyServer) but it has now been adapted to be used by scientists of all fields and is indeed used by many in the genomics field. It allows users to use Python and R in environments like Jupyter notebooks and RStudio, and also supports (Structured Query Language) SQL for data querying and management and is built on the use of Docker.</p>
 <p>The main idea of SciServer, is based on this premise: “bring the analysis to the data”. It is free to use after users register. However, users can buy extra resources. Users can keep data private or share their data.</p>
 <p>As compared to Galaxy, this resources may be better for users with a bit more familiarity with informatics but who require more flexibility, particularly for working with collaborators such as physicists or material scientists as there are more tools supported across disciplines. In addition it also gives users access to very large data sets on Petabyte-scale (note that some of these require special permission to use) and supports developers to create their own web interfaces called SciUIs for particular use cases.</p>
@@ -321,8 +342,8 @@ div.csl-indent {
 <a href="https://reader.elsevier.com/reader/sd/pii/S2213133720300664?token=D3EB0851DC2A36526E6999F0D95DA1E6C41D01E9787B690B2F06F7CE7C192B7141B9FA6BAE5DF1D4BFAD7E402540624E&amp;originRegion=us-east-1&amp;originCreation=20211028203856" class="uri">https://reader.elsevier.com/reader/sd/pii/S2213133720300664?token=D3EB0851DC2A36526E6999F0D95DA1E6C41D01E9787B690B2F06F7CE7C192B7141B9FA6BAE5DF1D4BFAD7E402540624E&amp;originRegion=us-east-1&amp;originCreation=20211028203856</a></p>
 <p><img src="resources/images/05-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_13.png" title="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." alt="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="materials-cloud" class="section level3" number="5.0.5">
-<h3><span class="header-section-number">5.0.5</span> Materials Cloud</h3>
+<div id="materials-cloud" class="section level3" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Materials Cloud</h3>
 <p>Another resource that might be of interest to Python users, particular those who collaborate with material scientists, is Materials Cloud. It is designed to promote reproducible work, collaboration, and sharing of resources among scientists, particularly for simulations for the materials science field. Users can share data in a citable way, download data, upload data, share workflows, and perform analyzes.</p>
 <p><img src="resources/images/05-General_Platforms_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_6.png" title="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." alt="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." width="100%" style="display: block; margin: auto;" /></p>
 <p>This resource uses <a href="https://www.materialscloud.org/work/aiidalab">AiiDAlab</a> as the computing environment for researchers, which is based on <a href="https://www.nature.com/articles/s41597-020-00638-4">AiiDA</a>. According to their website:</p>
@@ -332,14 +353,14 @@ div.csl-indent {
 <p>See <a href="https://www.sciencedirect.com/science/article/pii/S092702562030656X?via%3Dihub">here</a> to learn more about how AiiDAlab supports the sharing of scientific workflows, particularly for those that use Python.</p>
 <p>To learn more about Materials Cloud, check out this <a href="https://www.nature.com/articles/s41597-020-00637-5">article</a></p>
 </div>
-<div id="atlas.ti" class="section level3" number="5.0.6">
-<h3><span class="header-section-number">5.0.6</span> ATLAS.ti</h3>
+<div id="atlas.ti" class="section level3" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> ATLAS.ti</h3>
 <p><a href="https://atlasti.com/">ATLAS.ti</a> is another option but particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>, which is the process of assigning a general tone or feeling to text and <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named-entity recognition</a>, which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person’s name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses s.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.</p>
 <iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="672" height="400px">
 </iframe>
 <p>Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible.</p>
-<p><a href="https://community.i2b2.org/wiki/pages/viewpage.action?pageId=342684" class="uri">https://community.i2b2.org/wiki/pages/viewpage.action?pageId=342684</a></p>
 
+</div>
 </div>
 </div>
 <hr>

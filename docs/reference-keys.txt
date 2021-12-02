@@ -47,6 +47,8 @@ storage
 general-platforms
 galaxy
 terra
+firecloud
+anvil
 cyverse
 sciserver
 materials-cloud
@@ -65,6 +67,7 @@ metaboanalyst
 mypone
 wuflux
 machine-learning
+i2b2
 data-management-decisions
 computing-platforms
 choosing-a-computing-platform
