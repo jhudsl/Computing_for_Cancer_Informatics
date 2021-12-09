@@ -214,7 +214,7 @@ What if you decide that you do need more computational power than your personal 
 
 One great option, which can be quite affordable is using a server.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a supercomputer if it is just one) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data.  They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data.  They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more. 
 
 For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer). 
 
@@ -237,7 +237,7 @@ Among shared computers/servers there are three major options:
 
 * **Clusters** - institutional or national resources
 * **Grids** - institutional or national resources
-* **"the Cloud"** - commercial or national resources
+* **Cloud** - commercial or national resources
 
 
 ### [Computer Cluster](https://en.wikipedia.org/wiki/Computer_cluster)
@@ -272,7 +272,7 @@ https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-comp
 
 3) ["Cloud" computing](https://en.wikipedia.org/wiki/Cloud_computing)] 
 
-More recently, commercial ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the commercial options, there are national resource options like Jetstream which is a more "Cloud-like" part of Xsede.
+More recently, ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft, as well as through government funding projects. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the commercial options, there are national resource options like Jetstream which is a more "Cloud-like" part of Xsede.
 
 AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people
 https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
@@ -285,30 +285,24 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 ### Accessing Shared Computer Resources
 
-All of the shared computing options that already exist and that you could utilize involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
-
-You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. If not, you could consider using national resources like [Xsede](https://www.xsede.org/).
-
-Here are a couple of examples:
+It's important to remember that all of the shared computing options that we previously described involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_23")
 ```
 
 
-If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster, allowing for what is called parallel computing. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper.
+You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. This can be a great cost effective and typically secure option.  
 
 
-AVOCADO - add image below to say cluster and grid access
+If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute might even have a sever with multiple supercomputers!
 
 
-
-Alternatively, you could consider an option like [Xsede](https://www.xsede.org/).
+If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
 [Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
 
 
 Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
-
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "An image of Stampede2 one of the supercomputers that members of Xsede can use.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_63")
@@ -324,12 +318,25 @@ See [here](https://portal.xsede.org/tacc-stampede2) for more information about h
 
 Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
+We will also discuss how these options might differ from cloud computing options. Importantly there are some that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
 
 
-avocado maybe distinguish more about supercomputers?
+## Conclusion
 
+We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer. 
 
+In conclusion, here are some of the major take-home messages:
 
+1) A bit is the smallest binary digital data unit. It is a single 0 or 1.
+2) A byte is a group of 8 bits, file sizes are typically described using units based on bytes.
+3) A typical fancy laptop today might allow for up to 1 TB of storage, however this can quickly get used up if you are working with large data files. 
+4) Even if you have enough storage for a large file, you might not have enough RAM to actually work with a large data file. Your computer might be too slow to handle that type of work. AVOCADO - want to say more about this
+5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them  perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
+6) The computers in a server  are optimized for assisting users with computations or storing data.
+7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity. Avocado need to add this in the content!
+8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
+9) Cloud computing is essentially the use of many servers through some company or institute. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. 
+10) If your institute doesn't allow you to access a shared computing resource, you could consider options like [Xsede](https://www.xsede.org/), which is a national resource that you can request access to or some of the other options that we will describe next.
 
-
+AVOCADO - add image about clusters and grids 
 
