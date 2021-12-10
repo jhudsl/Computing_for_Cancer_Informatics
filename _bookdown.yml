@@ -9,10 +9,6 @@ rmd_files: ["index.Rmd",
             "05-General_Platforms.Rmd",
             "06-Specific_Platforms.Rmd",
             "07-Computing_Decisions.Rmd",
-            "08-Data_Security.Rmd",
-            "09-Data_Privacy.Rmd",
-            "10-Data_Sharing.Rmd",
-            "11-Data_Ethics.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
