@@ -4,11 +4,12 @@ repo: https://github.com/jhudsl/Computing_for_Cancer_Informatics
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-Computing_Basics.Rmd",
-            "03-Computing_Systems.Rmd",
-            "04-Shared_computing_etiquette.Rmd", 
-            "05-General_Platforms.Rmd",
-            "06-Specific_Platforms.Rmd",
-            "07-Computing_Decisions.Rmd",
+            "03-Binary_data_to_computations.Rmd",
+            "04-Computing_Systems.Rmd",
+            "05-Shared_computing_etiquette.Rmd", 
+            "06-General_Platforms.Rmd",
+            "07-Specific_Platforms.Rmd",
+            "08-Computing_Decisions.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
