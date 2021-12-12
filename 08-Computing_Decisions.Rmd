@@ -1,7 +1,4 @@
----
-title: "Data Management Decisions"
-output: html_document
----
+
 
 
 ```{r, include = FALSE}
