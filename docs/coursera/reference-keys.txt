@@ -5,6 +5,9 @@ curriculum
 the-basic-building-block-of-computers
 computing-components
 transistors
+alu---arithmetic-logic-unit
+binary-data
+flip-flops-and-registers
 conclusion
 binary-data-to-computations
 cpu---central-processing-unit
