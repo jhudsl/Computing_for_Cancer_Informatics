@@ -27,7 +27,7 @@ Now that we know how to describe binary data sizes, let's next think about how m
 
 ## Computing Capacity
 
-Now that we know about the CPU, how many tasks can the CPU of an average computer do these days? How much memory and storage do they typically have? What size of files can a typical computer handle? This information is sometimes called the **specs** of a computer.
+We have discussed a bit about CPUs and how they can help us perform more than one task at a time, but how many tasks can the CPU of an average computer do simultaneously these days? How much memory and storage do they typically have? What size of files can a typical computer handle? This information is sometimes called the **specs** of a computer.
 
 These values will probably change very soon, and different computers vary widely, but currently:
 
