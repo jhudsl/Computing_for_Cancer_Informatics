@@ -9,25 +9,27 @@ Now that we are familiar with transistors and binary data, we will next discuss 
 ### **CPU** - Central Processing Unit
 
 
-The CPU is often called **the brain** of the computer. It is also called a core or processor. This is what people are referring to when they describe a "computer chip". It performs and orchestrates computational tasks. 
+The CPU is often called **the brain** of the computer. It has some confusing additional names, because it is such an important and prominent part of the computer, as it performs and orchestrates computational tasks. 
+
+It is sometimes called a **processor** or **microprocessor** (but technically these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again technically includes other elements). 
 
 The CPU is made up of several components, a few that are particularly important (two of which we have discussed): 
  1) ALU  
  2) Registers  
  3) Control Unit (CU)  
  
-A group of these components together is called a **core**.
+A group of these components together is called a **core**. Multiple cores together are also referred to as CPU**s**. As you can see describing this can get kinda tricky.
  
-The Control Unit coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time.
+The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time.
  
 Modern computers now have multiple cores. What does this mean?
 
-This means that there are multiple groups of the above components that can each process data within the same computer chip.  A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on. This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
+This means that there are multiple groups of the above components that can each process data within the same computer.  A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on. This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
 
-In addition to the main CPU, computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus tasks that involve images are done using the GPU(s) and not the CPU(s). This frees up the CPU(s) to continue on the tasks not involving images more efficiently. Note however, that GPU processors are also generally programmable (meaning they can work with different types of data) and can also be used to perform tasks that don't involve images. It's also really good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for running a task more efficiently overall. 
+In addition to the main CPU or CPUs or cores (chose your favorite name), computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus often tasks that involve images are done using the GPU(s) and not the CPU(s). This frees up the CPU(s) to continue on the tasks not involving images more efficiently. Note however, that GPU processors are also "generally programmable" (meaning they can work with different types of data) and can also be used to perform tasks that don't involve images. It's also really good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for running a task more efficiently overall. People also use GPU graphics cards which can add additional GPUs for more computational power.
 
 
-<img src="03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" title="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores." alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" />
+<img src="03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" title="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" />
 
 Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading.
 
