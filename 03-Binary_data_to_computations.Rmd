@@ -1,4 +1,8 @@
 
+```{r, include = FALSE}
+leanbuild::set_knitr_image_path()
+```
+
 # Binary data to computations
 
 Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data. 

@@ -1,4 +1,7 @@
 
+```{r, include = FALSE}
+leanbuild::set_knitr_image_path()
+```
 
 # The basic building block of computers
 
