@@ -432,3 +432,57 @@ Depending on their complexity, modern hardware devices can have many registers. 
 }
 
 
+@misc{Wikipedia_ascii_2021,
+	title = {{ASCII}},
+	copyright = {Creative Commons Attribution-ShareAlike License},
+	url = {https://en.wikipedia.org/w/index.php?title=ASCII&oldid=1058507634},
+	abstract = {ASCII ( (listen) ASS-kee),: 6  abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters.
+The Internet Assigned Numbers Authority (IANA) prefers the name US-ASCII for this character encoding.ASCII is one of the IEEE milestones.},
+	language = {en},
+	urldate = {2021-12-14},
+	journal = {Wikipedia},
+	month = dec,
+	year = {2021},
+	note = {Page Version ID: 1058507634},
+}
+
+
+@misc{Wikipedia_unicode_2021,
+	title = {Unicode},
+	copyright = {Creative Commons Attribution-ShareAlike License},
+	url = {https://en.wikipedia.org/w/index.php?title=Unicode&oldid=1060083479},
+	abstract = {Unicode, formally the Unicode Standard, is an information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. The standard, which is maintained by the Unicode Consortium, defines 144,697 characters covering 159 modern and historic scripts, as well as symbols, emoji, and non-visual control and formatting codes.
+The Unicode character repertoire is synchronized with ISO/IEC 10646, each being code-for-code identical with the other. The Unicode Standard, however, includes more than just the base code. Alongside the character encodings, the Consortium's official publication includes a wide variety of details about the scripts and how to display them: normalization rules, decomposition, collation, rendering, and bidirectional text display order for multilingual texts, and so on. The Standard also includes reference data files and visual charts to help developers and designers correctly implement the repertoire.
+Unicode's success at unifying character sets has led to its widespread and predominant use in the internationalization and localization of computer software. The standard has been implemented in many recent technologies, including modern operating systems, XML, and most modern programming languages.
+Unicode can be implemented by different character encodings. The Unicode standard defines Unicode Transformation Formats (UTF): UTF-8, UTF-16, and UTF-32, and several other encodings.  The most commonly used encodings are UTF-8, UTF-16, and the obsolete UCS-2 (a precursor of UTF-16 without full support for Unicode); GB18030, while not an official Unicode standard, is standardized in China and implements Unicode fully.
+UTF-8, the dominant encoding on the World Wide Web (used in over 95\% of websites as of 2020, and up to 100\% for some languages) and on most Unix-like operating systems, uses one byte (8 bits) for the first 128 code points, and up to 4 bytes for other characters. The first 128 Unicode code points represent the ASCII characters, which means that any ASCII text is also a UTF-8 text.
+UCS-2 uses two bytes (16 bits) for each character but can only encode the first 65,536 code points, the so-called Basic Multilingual Plane (BMP).  With 1,112,064 possible Unicode code points corresponding to characters (see below) on 17 planes, and with over 144,000 code points defined as of version 14.0, UCS-2 is only able to represent less than half of all encoded Unicode characters. Therefore, UCS-2 is obsolete, though still used in software. UTF-16 extends UCS-2, by using the same 16-bit encoding as UCS-2 for the Basic Multilingual Plane, and a 4-byte encoding for the other planes. As long as it contains no code points in the reserved range U+D800–U+DFFF, a UCS-2 text is valid UTF-16 text.
+UTF-32 (also referred to as UCS-4) uses four bytes to encode any given code point, but not necessarily any given user-perceived character (loosely speaking, a grapheme), since a user-perceived character may be represented by a grapheme cluster (a sequence of multiple code points). Like UCS-2, the number of bytes per code point is fixed, facilitating code point indexing; but unlike UCS-2, UTF-32 is able to encode all Unicode code points. However, because each code point uses four bytes, UTF-32 takes significantly more space than other encodings, and is not widely used. Although UTF-32 has a fixed size for each code point, it is also variable-length with respect to user-perceived characters. Examples include: the Devanagari kshi, which is encoded by 4 code points, and national flag emojis, which are composed of two code points. All combining character sequences are graphemes, but there are other sequences of code points that are as well, for example {\textbackslash}r{\textbackslash}n.},
+	language = {en},
+	urldate = {2021-12-14},
+	journal = {Wikipedia},
+	month = dec,
+	year = {2021},
+	note = {Page Version ID: 1060083479},
+}
+
+
+@misc{Wikipedia_word_length_2021,
+	title = {Word (computer architecture)},
+	copyright = {Creative Commons Attribution-ShareAlike License},
+	url = {https://en.wikipedia.org/w/index.php?title=Word_(computer_architecture)&oldid=1058922992},
+	abstract = {In computing, a word is the natural unit of data used by a particular processor design. A word is a fixed-sized piece of data handled as a unit by the instruction set or the hardware of the processor. The number of bits in a word (the word size, word width, or word length) is an important characteristic of any specific processor design or computer architecture.  
+The size of a word is reflected in many aspects of a computer's structure and operation; the majority of the registers in a processor are usually word sized and the largest piece of data that can be transferred to and from the working memory in a single operation is a word in many (not all) architectures. The largest possible address size, used to designate a location in memory, is typically a hardware word (here, "hardware word" means the full-sized natural word of the processor, as opposed to any other definition used).
+Documentation for computers with fixed word size commonly stated memory sizes in words rather than bytes or characters. Terms such as kilowords (KW) meaning 1024 words (210) and megawords (MW) meaning 1,048,576 words (220) were normally used. With standardization on 8-bit bytes and byte addressability, stating memory sizes in bytes, kilobytes, and megabytes has become the norm.
+Several of the earliest computers (and a few modern as well) used binary-coded decimal rather than plain binary, typically having a word size of 10 or 12 decimal digits, and some early decimal computers had no fixed word length at all. Early binary systems tended to use word lengths that were some multiple of 6-bits, with the 36-bit word being especially common on mainframe computers. The introduction of ASCII led to the move to systems with word lengths that were a multiple of 8-bits, with 16-bit machines being popular in the 1970s before the move to modern processors with 32 or 64 bits. Special-purpose designs like digital signal processors, may have any word length from 4 to 80 bits.The size of a word can sometimes differ from the expected due to backward compatibility with earlier computers. If multiple compatible variations or a family of processors share a common architecture and instruction set but differ in their word sizes, their documentation and software may become notationally complex to accommodate the difference (see Size families below).},
+	language = {en},
+	urldate = {2021-12-14},
+	journal = {Wikipedia},
+	month = dec,
+	year = {2021},
+	note = {Page Version ID: 1058922992},
+	annote = {undefined},
+}
+
+
+
