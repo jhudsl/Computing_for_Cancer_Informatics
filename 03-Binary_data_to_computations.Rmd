@@ -37,7 +37,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip that has hyperthreading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously.", out.width= "100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_75")
 ```
 
