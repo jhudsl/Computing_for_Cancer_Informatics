@@ -1,4 +1,4 @@
-# Computing for Cancer Research
+# Computing for Cancer Informatics
 
 ** This course is still a work in progress** The authors will be working on it for the next couple of months.
 
