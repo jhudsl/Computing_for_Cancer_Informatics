@@ -1,17 +1,17 @@
-# Data Management for Cancer Research
+# Computing for Cancer Research
 
 ** This course is still a work in progress** The authors will be working on it for the next couple of months.
 
 
 This course was created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
-You can see the rendered course material here:  https://jhudatascience.org/Computing_and_Data_Management
+You can see the rendered course material here:  https://jhudatascience.org/Computing_for_Cancer_Informatics
 
 If you would like to contribute to this course material, take a look at the [getting_started.md](./getting_started.md).
 
 ## About this course
 
-This course introduces aspects about the economic, privacy, security, usability, and discoverability implications of data management for cancer research. The course will also highlight concrete workflows for managing genomic, imaging, and clinical data. We will feature tools that focus on data management including platforms like Galaxy and individual data sharing systems.
+The course will cover the key underlying principles and concepts in computing. It will cover concrete discussions of the differences between cloud and local computing. The course will highlight a number of computing options and etiquette for using shared resources. 
 
 This course is intended for researchers with limited to intermediate informatics expertise. 
 
@@ -19,12 +19,12 @@ This course is intended for researchers with limited to intermediate informatics
 
 This course will teach learners to:  
 
-- Recognize various data management systems especially for cancer research related data
-- Compare and make informed decisions about computation platforms (including economic considerations)
-- Implement best practices for data security and privacy
-- Share data safely and securely in a variety of contexts
-- Handle IRB and data access requests
-- Apply ethical consideration in data management workflows
+- Recognize basic computing terminology and understand the basics about how computers and computing systems work
+- Understand what a server is and the differences between cluster, grid, and cloud computing
+- Be aware of the appropriate etiquette for shared computing resources
+- Recognize available shared computing resources for multiple data modalities
+- Recognize shared computing resources designed for specific types of data
+- Compare and make informed decisions about computing resources (including economic considerations)
 
 
 ## Encountering problems?
