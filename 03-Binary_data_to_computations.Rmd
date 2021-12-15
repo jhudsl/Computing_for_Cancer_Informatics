@@ -15,31 +15,31 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ### **CPU** - Central Processing Unit
 
 
-The CPU is often called **the brain** of the computer. It has some confusing additional names, because it is such an important and prominent part of the computer, as it performs and orchestrates computational tasks. 
+The CPU is often called **the brain** of the computer. It has some confusing additional names, because it is such an important and prominent part of the computer, as it performs and orchestrates computational tasks [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
-It is sometimes called a **processor** or **microprocessor** (but technically these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again technically includes other elements). 
+It is sometimes called a **processor** or **microprocessor** (but technically these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again technically includes other elements) [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
 The CPU is made up of several components, a few that are particularly important (two of which we have discussed): 
- 1) ALU  
- 2) Registers  
- 3) Control Unit (CU)  
+ * ALU  
+ * Registers  
+ * Control Unit (CU)  
  
 A group of these components together is called a **core**. Multiple cores together are also referred to as CPU**s**. As you can see describing this can get kinda tricky.
  
-The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time.
+The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time [@@braunl_central_2008].
  
 Modern computers now have multiple cores. What does this mean?
 
-This means that there are multiple groups of the above components that can each process data within the same computer.  A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on. This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be. 
+This means that there are multiple groups of the above components that can each process data within the same computer.  A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on. This allows modern computers to perform multiple tasks at the same time instead of sequentially, such as 4 tasks simultaneously on a current typical laptop (with 4 cores). This makes our computers much faster than they used to be [@Wikipedia_CPU_2021]. 
 
-In addition to the main CPU or CPUs or cores (chose your favorite name), computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images. Thus often tasks that involve images are done using the GPU(s) and not the CPU(s). This frees up the CPU(s) to continue on the tasks not involving images more efficiently. Note however, that GPU processors are also "generally programmable" (meaning they can work with different types of data) and can also be used to perform tasks that don't involve images. It's also really good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for running a task more efficiently overall. People also use GPU graphics cards which can add additional GPUs for more computational power.
+In addition to the main CPU or CPUs or cores (chose your favorite name), computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images [@GPU]. Thus often tasks that involve images are done using the GPU(s) and not the CPU(s). This frees up the CPU(s) to continue on the tasks not involving images more efficiently. Note however, that GPU processors are also "generally programmable" (meaning they can work with different types of data) and can also be used to perform tasks that don't involve images [@GPU]. It's also really good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for running a task more efficiently overall. People also use GPU graphics cards which can add additional GPUs for more computational power [@GPU].
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_381")
 ```
 
-Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading.
+Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency [@hyperthreading ; @Wikipedia_hyper-threading]. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading [[@hyperthreading ; @Wikipedia_hyper-threading].
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_75")
@@ -47,24 +47,24 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 ### **Memory or RAM** - short-term memory
 
-OK, so we have already talked about how data can be stored in the registers within the CPU. This data or memory is used directly by the CPU during operations or tasks. However, our CPUs need additional quick access to instructional data to tell the CPU what to do to perform the operations and what data to use. This is also the data in a file that we are working with at a particular moment in time. This bring us to [RAM](https://www.computerhope.com/jargon/r/ram.htm), which stands for **Random Access Memory**.  It is often simply referred to as **memory**. Ram is similarly made out of transistors and capacitors like the registers within the CPU, but it is located nearby but outside of the CPU. Since CPUs need to be fast, RAM needs to be fast, making it relatively expensive. One distinctive feature of this type of memory is that it is temporary. Data is stored in RAM  for only a short time, while your computer is running a task on it, but then it disappears. Due to the fact that what is stored disappears, this type of memory is also called volatile.  This is why when you are working on a file, but forget to save it, you might lose your work. 
+OK, so we have already talked about how data can be stored in the registers within the CPU. This data or memory is used directly by the CPU during operations or tasks. However, our CPUs need additional quick access to instructional data to tell the CPU what to do to perform the operations and what data to use. This is also the data in a file that we are working with at a particular moment in time [@RAM_ComputerHope]. This bring us to [RAM](https://www.computerhope.com/jargon/r/ram.htm), which stands for **Random Access Memory**.  It is often simply referred to as **memory**. Ram is similarly made out of transistors and capacitors like the registers within the CPU, but it is located nearby but outside of the CPU [@RAM_ComputerHope; @RAM_HowStuff_Works]. This type of memory is that it is temporary. Data is stored in RAM  for only a short time, while your computer is running a task on it, but then it disappears. Due to the fact that what is stored disappears, this type of memory is also called volatile.  This is why when you are working on a file, but forget to save it, you might lose your work [@RAM_ComputerHope; @RAM_HowStuff_Works]. 
 
-For more information about how RAM works, check out this [website](https://computer.howstuffworks.com/ram.htm).
+For more information about how RAM works, check out this [website](https://computer.howstuffworks.com/ram.htm) [@RAM_HowStuff_Works].
 
 
 
 
 ### **Storage**  - long-term memory
 
-We can also store data that we aren't directly using when our computer is performing operations. So for example, our excel files and word files that aren't currently in use. This type of memory is called storage and is sometimes referred to as long-term or non-volatile memory because electricity is not required to preserve this data. This type of memory is stored using [hard disk drives (HDDs) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSDs)](https://www.computerhope.com/jargon/s/ssd.htm). The reason accessing this memory is slower than accessing data stored in RAM is that it is located further away from the CPU and data needs to be transferred from the storage to the CPU along a wire when a user wants to perform operations on such data. In addition the right data needs to be found out of all of your files, which also takes some time. Furthermore, the way in which data is retrieved from HDDs and SSDs is slower than that of RAM. This type of storage allows for much larger data capacity than RAM and it is also cheaper.
+We can also store data that we aren't directly using when our computer is performing operations. So for example, our excel files and word files that aren't currently in use. This type of memory is called storage and is sometimes referred to as long-term or non-volatile memory because electricity is not required to preserve this data. This type of memory is stored using [hard disk drives (HDDs) also called hard drives](https://www.computerhope.com/jargon/h/harddriv.htm) or more recently [solid-state drives (SSDs)](https://www.computerhope.com/jargon/s/ssd.htm). The reason accessing this memory is slower than accessing data stored in RAM is that it is located further away from the CPU and data needs to be transferred from the storage to the CPU along a wire when a user wants to perform operations on such data. In addition the right data needs to be found out of all of your files, which also takes some time. Furthermore, the way in which data is retrieved from HDDs and SSDs is slower than that of RAM. This type of storage allows for much larger data capacity than RAM and it is also cheaper [@hard_drive; @hard_drive_works].
 
-Hard disk drives store memory using [magnetic methods](https://www.extremetech.com/computing/88078-how-a-hard-drive-works), while solid-state drives store memory using chips that have guess what??
+Hard disk drives store memory using [magnetic methods](https://www.extremetech.com/computing/88078-how-a-hard-drive-works) [@hard_drive_works], while solid-state drives store memory using chips that have guess what??
 
 They are made of yet again the important basic building block of computers - tiny bees!  Oops, I mean transistors yet again, just like the CPU chip! See, those transistors are really important.
 
-SSDs allow for much faster reading and writing of files, as well as increased reliability. However, they are more expensive and they also wear out eventually. 
+SSDs allow for much faster reading and writing of files, as well as increased reliability. However, they are more expensive and they also wear out eventually [@SSD]. 
 
-Here's a great explanation for how HDDs work and the difference with SSDs. It will also introduce the concept of [caching](https://en.wikipedia.org/wiki/CPU_cache), which allows for faster use of data from storage for the CPU:
+Here's a great explanation for how HDDs work and the difference with SSDs. It will also introduce the concept of [caching](https://en.wikipedia.org/wiki/CPU_cache), which allows for faster use of data from storage for the CPU. It is a special kind of memory that's even faster and closer to the CPU than RAM [@Wikipedia_cache_2021]:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
 knitr::include_url("https://www.youtube.com/embed/wI0upu9eVcw?start=22")
@@ -76,15 +76,15 @@ See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for mo
 
 ### Hardware and software
 
-So far we have talked about the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) of a computer, which is the physical components of a computer, while [software](https://simple.wikipedia.org/wiki/Software) is the code that tells the hardware how to function.
+So far we have talked about the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) of a computer, which is the physical components of a computer, while [software](https://simple.wikipedia.org/wiki/Software) is the code that tells the hardware how to function [@Wikipedia_hardware_2021; @Wikipedia_software_2021].
 
 Software is also important to know about. Most importantly it is useful to know about operating systems.
 
 ### Operating systems
 
-The [operating system](https://en.wikipedia.org/wiki/Operating_system) (sometimes simply called the OS) is a set of code or software that translates user interactions with the computer to tell the hardware (including memory and the CPU) of the computer what tasks the user wants the computer to perform and when.
+The [operating system](https://en.wikipedia.org/wiki/Operating_system) (sometimes simply called the OS) is a set of code or software that translates user interactions with the computer to tell the hardware (including memory and the CPU) of the computer what tasks the user wants the computer to perform and when [@Wikipedia_OS_2021].
 
-You can think of this as the basic code to keep the computer running and functional and to allow the user to use other forms of software, such as applications. Applications are specialized software programs like Microsoft Word, or an internet browser like Chrome that allow a user to do specific tasks on the computer. So your OS is what allows you to name, rename, move and save files. It helps you to keep track of memory and decides what memory should be used when and to run all of your application software. It also allows you to talk to other devices like printers or other computers.
+You can think of this as the basic code to keep the computer running and functional and to allow the user to use other forms of software, such as applications [@Wikipedia_OS_2021]. Applications are specialized software programs like Microsoft Word, or an internet browser like Chrome that allow a user to do specific tasks on the computer. So your OS is what allows you to name, rename, move and save files. It helps you to keep track of memory and decides what memory should be used when and to run all of your application software. It also allows you to talk to other devices like printers or other computers.
 
 Examples of commonly used operating systems on computers and phones are:
 * Microsoft Windows (such as Windows 10, Windows 11 etc.)
@@ -93,7 +93,7 @@ Examples of commonly used operating systems on computers and phones are:
 * Linux  
 * Android
 
-Recall that we previously talked about how computers today are often called 64-bit? Operating systems are also designed in this way. A 64-bit operating system expects the hardware of the computer to allow for processing at least 64 bits of data at a time (the word size). If we have registers of at least this length in the CPU, than we can in fact perform operations on data that may be up to 64 bits in length. This also means that we can perform operations on values that take up less than 64 bits. This can be important because if you try to use an operating system that expects a longer word size than the hardware can accommodate, for example a 64-bit operating system on a 32-bit computer, this will not work. Application programs are also designed according to different word sizes and again you need to choose options that are equal to or less than the word size that your CPU can accommodate.
+Recall that we previously talked about how computers today are often called 64-bit? Operating systems are also designed in this way. A 64-bit operating system expects the hardware of the computer to allow for processing at least 64 bits of data at a time (the word size) [@Wikipedia_word_length_2021]. If we have registers of at least this length in the CPU, than we can in fact perform operations on data that may be up to 64 bits in length. This also means that we can perform operations on values that take up less than 64 bits. This can be important because if you try to use an operating system that expects a longer word size than the hardware can accommodate, for example a 64-bit operating system on a 32-bit computer, this will not work. Application programs are also designed according to different word sizes and again you need to choose options that are equal to or less than the word size that your CPU can accommodate [@ComputerHope_64-bit].
 
 
 ### Historical context
@@ -106,13 +106,13 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
 
-See [here](https://www.deskdecode.com/operating-systems-os/) for more information about operating systems and [here](https://www.wikiwand.com/en/Punched_card) for really interesting information about the history of punched cards.
-Check out this really interesting [Wikipedia article](https://en.wikipedia.org/wiki/History_of_computing_hardware) for more extensive history about how computer hardware was developed.
+See @OS_2017 for more information about operating systems and @punched_card_2021 for really interesting information about the history of punched cards.
+Also check out @hardware_history_2021 for really interesting and more extensive history about how computer hardware was developed.
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time (and now women and gender minorities are hopefully becoming more represented) : 
 
-* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523)
-* [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer)
+* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523) [@visions_women_2017]
+* [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer) [@untold_2019]
 
 
 ## Conclusion
