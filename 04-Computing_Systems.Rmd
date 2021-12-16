@@ -39,24 +39,30 @@ We have discussed a bit about CPUs and how they can help us perform more than on
 
 These values will probably change very soon, and different computers vary widely, but currently:
 
-* **Laptops** can often perform 4-8 CPU tasks at once, and typically range from 4-16 GB in memory and 250 GB-1 TB of storage. 
+- **Laptops** can often perform 4-8 CPU tasks at once, and typically range from 4-16 GB in memory and 250 GB-1 TB of storage. 
 
 This means that typical laptops can multitask quite well, have in some cases 16 gigabytes for random access memory to allow the CPU to work on relatively large tasks (as we can see from the previous table that GB are actually pretty large when you think about it), and possibly 1TB for the hard drive (and or SSD), meaning that you can store thousands of photos and files like PDFs, word documents etc. It turns out that you can store around 30,000 average size photos with 250GB, so a 1TB laptop can store quite a bit of data. Therefore overall, typical laptops today are pretty powerful compared to previous computers. Note that some programs require 16 or even 32 GB of memory to run.
 
-* **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference. In fact, some such desktops may be the same price as a laptop but have much lower computing and storage capacity due to higher GPU capacity. Focusing on GPUs as well might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find more expensive desktops with larger memory and storage options off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop. However of course, they certainly aren't super portable!
+- **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference [@antonio_villas-boas_laptops_2019]. In fact, some such desktops may be the same price as a laptop but have much lower computing and storage capacity due to higher graphics processing capacity. This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find more expensive desktops with larger memory and storage options off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop [@antonio_villas-boas_laptops_2019]. However of course, they certainly aren't super portable!
 
 
 * Some **phones** can compete with laptops by performing 6 CPU tasks at once and storing 6 GB in memory and 250 GB of storage.  
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1084414e81e_0_0")
+```
+
+
+
 Check out this [link](https://www.apple.com/mac/compare/?modelList=iMac,MacBook-Pro-14,MacBook-Pro-16-2021) to compare the prices of different macs and this [link](https://www.hp.com/us-en/shop/slp/weekly-deals) to compare specs for PC computers from HP. 
 
-If you want to get really in-depth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM).
+If you want to get really in-depth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM) [@userbenchmark].
 
-https://www.businessinsider.com/laptops-vs-desktops-2018-8#for-most-laptops-youre-stuck-with-their-specs-until-its-time-to-upgrade-to-a-new-model-desktops-can-be-upgraded-pretty-easily-3
 
-potentially suggest this book: https://play.google.com/store/books/details?id=sP0vEAAAQBAJ&rdid=book-sP0vEAAAQBAJ&rdot=1&source=gbs_vpt_read&pcampaignid=books_booksearch_viewport
 
 ### Checking your computer capacity - Mac
+
 So what about your computer? How do you know how many cores it has or how much memory and storage it has?
 
 If you have a Mac, you can click on the apple symbol on the far left of your screen. Then click on the "About This Mac" button.
@@ -68,9 +74,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 First we see the operating system is called Mojave.
-Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a clock cycle). That's a lot!
-If we look up more about this chip we would learn that it has 4 cores  and has hyper-threading, which allows it to  effectively perform 8 tasks at once.
-Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz of low power double data rate random access memory (LPDDR3), this means that the CPU can complete one operation with the RAM 2,133,000,000 times every second.
+Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock-cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
+If we look up more about this chip we would learn that it has 4 cores  and has hyper-threading, which allows it to  effectively perform 8 tasks at once [@hyperthreading].
+Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can pass operations to the CPU 2,133,000,000 times every second [@RAM_speed].
 
 If we click on the Storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
 
