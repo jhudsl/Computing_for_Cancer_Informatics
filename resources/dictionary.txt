@@ -42,6 +42,7 @@ GDUs
 Goecks
 GPUs
 GTEx
+HCUP
 HealthCare
 HIPAA
 HDDs
@@ -53,6 +54,7 @@ hyper-threading
 JHPCE
 IB
 IBM
+ionotropic
 iPlant
 IRB
 itcrtraining
@@ -66,6 +68,7 @@ Kammers
 Keychain
 Klarman
 Kubernettes
+ligand
 leanbuild
 macOS
 Markua
@@ -81,6 +84,7 @@ mypone
 NCI
 NCSA
 NHGRI
+NIS
 NLP
 n2c2
 OHIF

@@ -39,24 +39,30 @@ We have discussed a bit about CPUs and how they can help us perform more than on
 
 These values will probably change very soon, and different computers vary widely, but currently:
 
-* **Laptops** can often perform 4-8 CPU tasks at once, and typically range from 4-16 GB in memory and 250 GB-1 TB of storage. 
+- **Laptops** can often perform 4-8 CPU tasks at once, and typically range from 4-16 GB in memory and 250 GB-1 TB of storage. 
 
 This means that typical laptops can multitask quite well, have in some cases 16 gigabytes for random access memory to allow the CPU to work on relatively large tasks (as we can see from the previous table that GB are actually pretty large when you think about it), and possibly 1TB for the hard drive (and or SSD), meaning that you can store thousands of photos and files like PDFs, word documents etc. It turns out that you can store around 30,000 average size photos with 250GB, so a 1TB laptop can store quite a bit of data. Therefore overall, typical laptops today are pretty powerful compared to previous computers. Note that some programs require 16 or even 32 GB of memory to run.
 
-* **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference. In fact, some such desktops may be the same price as a laptop but have much lower computing and storage capacity due to higher GPU capacity. Focusing on GPUs as well might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find more expensive desktops with larger memory and storage options off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop. However of course, they certainly aren't super portable!
+- **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference [@antonio_villas-boas_laptops_2019]. In fact, some such desktops may be the same price as a laptop but have much lower computing and storage capacity due to higher graphics processing capacity. This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find more expensive desktops with larger memory and storage options off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop [@antonio_villas-boas_laptops_2019]. However of course, they certainly aren't super portable!
 
 
 * Some **phones** can compete with laptops by performing 6 CPU tasks at once and storing 6 GB in memory and 250 GB of storage.  
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1084414e81e_0_0")
+```
+
+
+
 Check out this [link](https://www.apple.com/mac/compare/?modelList=iMac,MacBook-Pro-14,MacBook-Pro-16-2021) to compare the prices of different macs and this [link](https://www.hp.com/us-en/shop/slp/weekly-deals) to compare specs for PC computers from HP. 
 
-If you want to get really in-depth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM).
+If you want to get really in-depth comparisons for PC or windows machines, check out this [link](https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM) [@userbenchmark].
 
-https://www.businessinsider.com/laptops-vs-desktops-2018-8#for-most-laptops-youre-stuck-with-their-specs-until-its-time-to-upgrade-to-a-new-model-desktops-can-be-upgraded-pretty-easily-3
 
-potentially suggest this book: https://play.google.com/store/books/details?id=sP0vEAAAQBAJ&rdid=book-sP0vEAAAQBAJ&rdot=1&source=gbs_vpt_read&pcampaignid=books_booksearch_viewport
 
 ### Checking your computer capacity - Mac
+
 So what about your computer? How do you know how many cores it has or how much memory and storage it has?
 
 If you have a Mac, you can click on the apple symbol on the far left of your screen. Then click on the "About This Mac" button.
@@ -68,9 +74,9 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 First we see the operating system is called Mojave.
-Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a clock cycle). That's a lot!
-If we look up more about this chip we would learn that it has 4 cores  and has hyper-threading, which allows it to  effectively perform 8 tasks at once.
-Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz of low power double data rate random access memory (LPDDR3), this means that the CPU can complete one operation with the RAM 2,133,000,000 times every second.
+Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock-cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
+If we look up more about this chip we would learn that it has 4 cores and has hyper-threading, which allows it to effectively perform 8 tasks at once [@hyperthreading].
+Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can process  2,133,000,000 commands every second [@RAM_speed; @mukherjee_ram_2019]. If you are interested you can checkout more about what this means at this blog post @scott_thornton_RAM. However, generally the amount of RAM is more important for assessing performance [@RAM_speed; @mukherjee_ram_2019]. 
 
 If we click on the Storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
 
@@ -113,6 +119,7 @@ To find out more information about your storage click the "Storage" button withi
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_114
 ")
 ```
+
 Here we can see that this computer has 466 GB + 465 GB = 932 GB across the two drives. The C drive is typically for the operating system, and the D drive is typically where you would install application programs and save files. There are 1000 GB in a TB, thus, this computer has about the same storage as the Mac that we just looked at.
 
 ## File Sizes
@@ -129,15 +136,13 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 Genomic data files can be quite large and can require quite a bit of storage and processing power.
 
-Here is an image of sizes of common file types:
+Here is an image of sizes of some common file types:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values.", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_0")
 ```
 
-- proteomics
-- methylation
-- human and mouse...
+
 
 ### Imaging Data File Sizes
 
@@ -151,9 +156,25 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 [[source](https://www.mdpi.com/2078-2489/8/4/131)]
 
 
+Note that depending on the study requirements, several images may be needed for each sample. Thus data storage needs can add up quickly.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Example table of overall file storage needs for samples in imaging studies.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_25")
+```
+
+
 ### Clinical Data File Sizes
 
-metabolomics?
+Really large clinical datasets can also produce sizable file sizes. For example the [Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp)  contains data on more than seven million hospital stays in the United States with regional information.
+
+According to the NIS website it "enables analyses of rare conditions, uncommon treatments, and special populations" [@NIS].
+
+Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB. You can see how this could add up across years and states quite quickly.
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states.", out.width="100%"}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_42")
+```
 
 ### Checking file sizes on Mac
 
