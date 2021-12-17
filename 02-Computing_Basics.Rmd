@@ -9,7 +9,7 @@ First we would like to start off with some background information about how comp
 
 If you are already more familiar with these topics, we hope that the next two chapters might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.
 
-```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe the basics of how computers work, 2. Explain how digital data is used and stored by computers, 3. Define basic computing terminology, 4. Recognize important computing hardware components, 5. Explain how the operating system influences how computations are processed", out.width= "100%"}
+```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_4")
 ```
 
