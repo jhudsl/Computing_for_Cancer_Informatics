@@ -22,7 +22,7 @@ The CPU is made up of several components, a few that are particularly important 
  
 A group of these components together is called a **core**. Multiple cores together are also referred to as CPU**s**. As you can see describing this can get kinda tricky.
  
-The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time [@@braunl_central_2008].
+The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time [@braunl_central_2008].
  
 Modern computers now have multiple cores. What does this mean?
 
