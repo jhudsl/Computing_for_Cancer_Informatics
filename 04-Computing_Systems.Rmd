@@ -78,7 +78,7 @@ Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz
 If we look up more about this chip we would learn that it has 4 cores and has hyper-threading, which allows it to effectively perform 8 tasks at once [@hyperthreading].
 Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can process  2,133,000,000 commands every second [@RAM_speed; @mukherjee_ram_2019]. If you are interested you can checkout more about what this means at this blog post @scott_thornton_RAM. However, generally the amount of RAM is more important for assessing performance [@RAM_speed; @mukherjee_ram_2019]. 
 
-If we click on the Storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
+If we click on the storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Mac storage information showing 1 TB capactity", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_80")
@@ -148,7 +148,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 Imaging data, although often smaller than genomic data, can start to add up quickly with more images and samples.
 
-Here is an image of average file sizes for various medical imaging modalities:
+Here is an table of average file sizes for various medical imaging modalities from @liu_imaging_2017:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values.", out.width="100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_35")
@@ -165,11 +165,11 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 ### Clinical Data File Sizes
 
-Really large clinical datasets can also produce sizable file sizes. For example the [Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp)  contains data on more than seven million hospital stays in the United States with regional information.
+Really large clinical datasets can also produce sizable file sizes. For example the [Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp) contains data on more than seven million hospital stays in the United States with regional information.
 
 According to the NIS website it "enables analyses of rare conditions, uncommon treatments, and special populations" [@NIS].
 
-Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB. You can see how this could add up across years and states quite quickly.
+Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB[@NIS]. You can see how this could add up across years and states quite quickly.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states.", out.width="100%"}
@@ -237,14 +237,14 @@ One great option, which can be quite affordable is using a server.
 
 In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data [@server_def].  They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
 
-For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer). 
+For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer) [@GUI]. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this.", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_58")
 ```
 
 
-Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface, meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface. In order to support this they have memory, processors or CPUs, and storage like your laptop.
+Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface), meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface [@command-line_2022]. In order to support this they have memory, processors or CPUs, and storage like your laptop.
 
 Here is what a server might look like:
 
