@@ -74,7 +74,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 ```
 
 First we see the operating system is called Mojave.
-Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock-cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
+Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock_cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
 If we look up more about this chip we would learn that it has 4 cores and has hyper-threading, which allows it to effectively perform 8 tasks at once [@hyperthreading].
 Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can process  2,133,000,000 commands every second [@RAM_speed; @mukherjee_ram_2019]. If you are interested you can checkout more about what this means at this blog post @scott_thornton_RAM. However, generally the amount of RAM is more important for assessing performance [@RAM_speed; @mukherjee_ram_2019]. 
 
@@ -263,43 +263,37 @@ Among shared computers/servers there are three major options:
 
 ### Computer Cluster
 
-In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
+In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously [@computer_cluster_2022]. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) [@parallel_2021].
 
-There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform. 
+There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform [@beowulf_2022]. 
 
 For example, if a large file needs to be converted to a different format, **pieces** of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
 
 It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.
 
-See [here](https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf) for more information.
+See [here](https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf) for more information[@de_doncker].
 
-### [Computer Grid](https://hazelcast.com/glossary/grid-computing/)
+### Computer Grid
 
-In a computing grid **different** types of computers (often in different locations) work towards an overall common goal by performing **different** tasks. 
-
-The concept for grid computing is similar to that of an [electric power grid](https://en.wikipedia.org/wiki/Electrical_grid), where only computers (nodes) actively performing a task are using resources at any given time. 
+In a [computing grid](https://hazelcast.com/glossary/grid-computing/) are often **different** types of computers in **different** locations work towards an overall common goal by performing **different** tasks [@grid]. 
 
 Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.
 
 Both grids and clusters use a special type of software called middleware to coordinate the various computers involved.
 Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing (more on that soon!). 
 
-See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/) for more information about the difference between clusters and grids.
+See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/)  and [here](https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/)for more information about the difference between clusters and grids [@lithmee_difference_2018;  @grid_cluster_difference_2019].
  
  
-AVOCADO maybe add as a reference https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1300502
+3) "Cloud" computing
 
-https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/
+More recently, the ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) has become a common computing option. The term "cloud" has become a widely used buzzword [@cha_cloud_2015] that can sound intimidating. However, cloud computing is basically the connection of **multiple servers** in multiple locations to one another [@cloud_2022] using the internet. In fact, many of us use cloud storage regularly for Google Docs, backing up photos using iPhoto and Google options. Cloud computing for research works in a similar way to these systems, in that you can perform computations using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need. 
 
-3) ["Cloud" computing](https://en.wikipedia.org/wiki/Cloud_computing)] 
-
-More recently, ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft, as well as through government funding projects. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the commercial options, there are national resource options like Jetstream which is a more "Cloud-like" part of Xsede.
-
-AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people
-https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are national government funded resource options like Jetstream. Typically users pay only for the resources that they use, which can often make this an afforable option. We will compare computing options in another chapter coming up.
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Cloud computing options", out.width= "100%"}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_28")
 ```
 
@@ -340,6 +334,8 @@ See [here](https://portal.xsede.org/tacc-stampede2) for more information about h
 Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
 We will also discuss how these options might differ from cloud computing options. Importantly there are some that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
+
+Avocado Jetstream
 
 
 ## Conclusion
