@@ -12,6 +12,7 @@ In this chapter we will provide examples of computing systems that you might fin
 leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
+avocado:https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
 
 We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. The major advantage of these platforms is that users can analyze data where it lives. There is less need for data transfers, saving time an resources, and users can easily share data with the entire field. 
 
