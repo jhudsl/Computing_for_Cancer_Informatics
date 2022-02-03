@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
+ottr::set_knitr_image_path()
 ```
 
 # Shared Computing Etiquette
@@ -9,7 +9,7 @@ In this chapter we will discuss the proper etiquette for using shared computing 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the size of various data, 2. Recognize the difference between personal computers and remote computing options. 2.Explain how cloud computing and server computing works 3. Determine which options will provide enough computing capacity for your research needs", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
 We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) is a High-Performance Computing (HPC) cluster facility as an example for guidance.
