@@ -229,13 +229,13 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.
 
 
-### **Shared Computers or Servers**
+### **Shared Computeing Resourcs**
 
 What if you decide that you do need more computational power than your personal computer? You may encounter times where certain informatics tasks take way too long or are not even possible. Evaluating the potential file sizes of the data that you might be working with is a good place to start. However, keep in mind that sometimes certain computations may require more memory than you expect. This is particularly true when working with genomic or image files which are often compressed. So what can you do when you face this issue?
 
 One great option, which can be quite affordable is using a server.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data [@server_def]. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed by other computers using a local network or the internet to perform computations or store data [@server_def]. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
 
 Using a group of computers is often a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server [@supercomputer_2022]. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute or company might even have a sever with multiple supercomputers!
 
@@ -255,7 +255,7 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
 
 
-Among shared computers/servers there are three major options: 
+Among shared computing resources/servers there are three major options: 
 
 * **Clusters** - institutional or national resources
 * **Grids** - institutional or national resources
@@ -290,7 +290,10 @@ See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/)  a
 
 More recently, the ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) has become a common computing option. The term "cloud" has become a widely used buzzword [@cha_cloud_2015] that can sound intimidating. However, cloud computing is basically the connection of **multiple servers** in multiple locations to one another [@cloud_2022] using the internet. In fact, many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need. 
 
-Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are national government funded resource options like Jetstream. Typically users pay only for the resources that they use, which can often make this an affordable option. We will compare computing options in another chapter coming up.
+Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources [@cloudvstrad].
+
+
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are national government funded resource options like [Jetstream](https://portal.xsede.org/jetstream) (described in the next section).  We will compare computing options in another chapter coming up.
 
 
 
@@ -311,7 +314,7 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. This can be a great cost-effective and typically secure option.  
 
 
-If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. Again, this means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
+If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like a server that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
 
 
 If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
@@ -350,8 +353,8 @@ In conclusion, here are some of the major take-home messages:
 2) A byte is a group of 8 bits, file sizes are typically described using units based on bytes.
 3) A typical fancy laptop today might allow for up to 1 TB of storage, however this can quickly get used up if you are working with large data files. 
 4) Even if you have enough storage for a large file, you might not have enough RAM to actually work with a large data file. Your computer might be too slow to handle that type of work. In which case, you might want to consider using shared computing resources.
-5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them  perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
-6) The computers in a server  are optimized for assisting users with computations or storing data.
+5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
+6) The computers in a server are optimized for assisting users with computations or storing data.
 7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity.
 8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
 9) Cloud computing is essentially the use of many servers through some company or institute. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. 
