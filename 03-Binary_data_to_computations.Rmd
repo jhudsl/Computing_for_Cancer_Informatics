@@ -20,6 +20,7 @@ The CPU is often called **the brain** of the computer. It has some confusing add
 It is sometimes called a **processor** or **microprocessor** (but technically these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again technically includes other elements) [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
 The CPU is made up of several components, a few that are particularly important (two of which we have discussed): 
+
  * ALU  
  * Registers  
  * Control Unit (CU)  
