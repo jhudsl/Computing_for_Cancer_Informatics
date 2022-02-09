@@ -88,6 +88,7 @@ The [operating system](https://en.wikipedia.org/wiki/Operating_system) (sometime
 You can think of this as the basic code to keep the computer running and functional and to allow the user to use other forms of software, such as applications [@Wikipedia_OS_2021]. Applications are specialized software programs like Microsoft Word, or an internet browser like Chrome that allow a user to do specific tasks on the computer. So your OS is what allows you to name, rename, move and save files. It helps you to keep track of memory and decides what memory should be used when and to run all of your application software. It also allows you to talk to other devices like printers or other computers.
 
 Examples of commonly used operating systems on computers and phones are:
+
 * Microsoft Windows (such as Windows 10, Windows 11 etc.)
 * macOS (notice the OS here - it might make more sense now why it is called this)
 * Unix
