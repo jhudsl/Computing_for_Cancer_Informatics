@@ -169,7 +169,7 @@ Really large clinical datasets can also produce sizable file sizes. For example 
 
 According to the NIS website it "enables analyses of rare conditions, uncommon treatments, and special populations" [@NIS].
 
-Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB[@NIS]. You can see how this could add up across years and states quite quickly.
+Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB [@NIS]. You can see how this could add up across years and states quite quickly.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states.", out.width="100%"}
