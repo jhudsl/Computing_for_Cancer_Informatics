@@ -62,11 +62,11 @@ You might see something like this:
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_69.png" title="Result of pressing `About this Mac` button of a typical Mac today" alt="Result of pressing `About this Mac` button of a typical Mac today" width="100%" style="display: block; margin: auto;" />
 
 First we see the operating system is called Mojave.
-Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock-cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
+Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a [clock cycle](http://www.techopedia.com/definition/5498/clock-cycle)) [@clock_cycle]. That's a lot compared to older computers which had clock cycle rate or [clock rate](https://en.wikipedia.org/wiki/Clock_rate) in the MegaHertz range in the 1980s [@clock_rate]!
 If we look up more about this chip we would learn that it has 4 cores and has hyper-threading, which allows it to effectively perform 8 tasks at once [@hyperthreading].
 Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can process  2,133,000,000 commands every second [@RAM_speed; @mukherjee_ram_2019]. If you are interested you can checkout more about what this means at this blog post @scott_thornton_RAM. However, generally the amount of RAM is more important for assessing performance [@RAM_speed; @mukherjee_ram_2019]. 
 
-If we click on the Storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
+If we click on the storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
 
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_80.png" title="Mac storage information showing 1 TB capactity" alt="Mac storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" />
 
@@ -120,7 +120,7 @@ Here is an image of sizes of some common file types:
 
 Imaging data, although often smaller than genomic data, can start to add up quickly with more images and samples.
 
-Here is an image of average file sizes for various medical imaging modalities:
+Here is an table of average file sizes for various medical imaging modalities from @liu_imaging_2017:
 
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_35.png" title="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." alt="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." width="100%" style="display: block; margin: auto;" />
 [[source](https://www.mdpi.com/2078-2489/8/4/131)]
@@ -133,11 +133,11 @@ Note that depending on the study requirements, several images may be needed for 
 
 ### Clinical Data File Sizes
 
-Really large clinical datasets can also produce sizable file sizes. For example the [Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp)  contains data on more than seven million hospital stays in the United States with regional information.
+Really large clinical datasets can also produce sizable file sizes. For example the [Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)](https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp) contains data on more than seven million hospital stays in the United States with regional information.
 
 According to the NIS website it "enables analyses of rare conditions, uncommon treatments, and special populations" [@NIS].
 
-Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB. You can see how this could add up across years and states quite quickly.
+Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp) for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB [@NIS]. You can see how this could add up across years and states quite quickly.
 
 
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_42.png" title="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." alt="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." width="100%" style="display: block; margin: auto;" />
@@ -189,19 +189,22 @@ What if you decide that you do need more computational power than your personal 
 
 One great option, which can be quite affordable is using a server.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data [@server_def].  They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data [@server_def]. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
 
-For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface)(meaning the visual display output that you see on your personal computer). 
-
-<img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" title="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" />
+Using a group of computers is often a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server [@supercomputer_2022]. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute or company might even have a sever with multiple supercomputers!
 
 
-Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface, meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface. In order to support this they have memory, processors or CPUs, and storage like your laptop.
+As an example use of a server, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (meaning the visual display output that you see on your personal computer) [@GUI]. 
+
+
+
+Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface), meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface [@command-line_2022]. In order to support this they have memory, processors or CPUs, and storage like your laptop.
 
 Here is what a server might look like:
 
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" title="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" />
- In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
+
+In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
 
 
 Among shared computers/servers there are three major options: 
@@ -213,43 +216,37 @@ Among shared computers/servers there are three major options:
 
 ### Computer Cluster
 
-In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
+In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously [@computer_cluster_2022]. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) [@parallel_2021].
 
-There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform. 
+There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform [@beowulf_2022]. 
 
-For example, if a large file needs to be converted to a different format, **pieces** of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. 
+For example, if a large file needs to be converted to a different format, **pieces** of the file will be converted simultaneously by the different nodes. Thus each node is performing the **same task** just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. See [here](https://www.freecodecamp.org/news/how-to-supercharge-your-bash-workflows-with-gnu-parallel-53aab0aea141/) for an introduction about how this is done @Zach_Caceres_GNU_Parallel_2019.
 
 It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.
 
-See [here](https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf) for more information.
+See [here](https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf) for more information [@de_doncker].
 
-### [Computer Grid](https://hazelcast.com/glossary/grid-computing/)
+### Computer Grid
 
-In a computing grid **different** types of computers (often in different locations) work towards an overall common goal by performing **different** tasks. 
-
-The concept for grid computing is similar to that of an [electric power grid](https://en.wikipedia.org/wiki/Electrical_grid), where only computers (nodes) actively performing a task are using resources at any given time. 
+In a [computing grid](https://hazelcast.com/glossary/grid-computing/) are often **different** types of computers in **different** locations work towards an overall common goal by performing **different** tasks [@grid]. 
 
 Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.
 
 Both grids and clusters use a special type of software called middleware to coordinate the various computers involved.
 Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing (more on that soon!). 
 
-See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/) for more information about the difference between clusters and grids.
+See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/)  and [here](https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/)for more information about the difference between clusters and grids [@lithmee_difference_2018;  @grid_cluster_difference_2019].
  
  
-AVOCADO maybe add as a reference https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1300502
+### "Cloud" computing
 
-https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/
+More recently, the ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) has become a common computing option. The term "cloud" has become a widely used buzzword [@cha_cloud_2015] that can sound intimidating. However, cloud computing is basically the connection of **multiple servers** in multiple locations to one another [@cloud_2022] using the internet. In fact, many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need. 
 
-3) ["Cloud" computing](https://en.wikipedia.org/wiki/Cloud_computing)] 
-
-More recently, ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) solutions are becoming a more viable hardware solution, offered by companies like Amazon, Google, and Microsoft, as well as through government funding projects. This option is technically also a shared computer situation. **Somewhere these companies have clusters of computers that paying customers use through the internet.** However, in this case **multiple servers** are connected to one another to create the "Cloud". This allows for even more computational dependability, as even if one or multiple servers is down, you can often still use the other servers for your computations. In addition to the commercial options, there are national resource options like Jetstream which is a more "Cloud-like" part of Xsede.
-
-AVOCADO need a new shared computer image and more about Jetstream which I think is a good option for many people
-https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are national government funded resource options like Jetstream. Typically users pay only for the resources that they use, which can often make this an affordable option. We will compare computing options in another chapter coming up.
 
 
-<img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" title="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." width="100%" style="display: block; margin: auto;" />
+
+<img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" title="Cloud computing options" alt="Cloud computing options" width="100%" style="display: block; margin: auto;" />
 
 
 ### Accessing Shared Computer Resources
@@ -259,10 +256,10 @@ It's important to remember that all of the shared computing options that we prev
 <img src="resources/images/04-Computing_Systems_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_23.png" title="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede." alt="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede." width="100%" style="display: block; margin: auto;" />
 
 
-You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. This can be a great cost effective and typically secure option.  
+You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. This can be a great cost-effective and typically secure option.  
 
 
-If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! This is also a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute might even have a sever with multiple supercomputers!
+If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. Again, this means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
 
 
 If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
@@ -280,10 +277,13 @@ Here you can see a photo of Stampede2, one of the supercomputers that members of
 
 See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
 
+There is also now (as of late January 2022) an option to access XSEDE computing resources (as well as others) through a cloud environment option called [Jetstream](https://portal.xsede.org/jetstream). Note however that it is not intended for intensive computations but rather for testing workflows or smaller-scale computations. 
 
-Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
+Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
 We will also discuss how these options might differ from cloud computing options. Importantly there are some that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
+
+
 
 
 ## Conclusion
@@ -295,10 +295,10 @@ In conclusion, here are some of the major take-home messages:
 1) A bit is the smallest binary digital data unit. It is a single 0 or 1.
 2) A byte is a group of 8 bits, file sizes are typically described using units based on bytes.
 3) A typical fancy laptop today might allow for up to 1 TB of storage, however this can quickly get used up if you are working with large data files. 
-4) Even if you have enough storage for a large file, you might not have enough RAM to actually work with a large data file. Your computer might be too slow to handle that type of work. AVOCADO - want to say more about this
+4) Even if you have enough storage for a large file, you might not have enough RAM to actually work with a large data file. Your computer might be too slow to handle that type of work. In which case, you might want to consider using shared computing resources.
 5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them  perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
 6) The computers in a server  are optimized for assisting users with computations or storing data.
-7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity. Avocado need to add this in the content!
+7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity.
 8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
 9) Cloud computing is essentially the use of many servers through some company or institute. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. 
 10) If your institute doesn't allow you to access a shared computing resource, you could consider options like [Xsede](https://www.xsede.org/), which is a national resource that you can request access to or some of the other options that we will describe next.

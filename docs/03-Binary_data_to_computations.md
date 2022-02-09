@@ -16,6 +16,7 @@ The CPU is often called **the brain** of the computer. It has some confusing add
 It is sometimes called a **processor** or **microprocessor** (but technically these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again technically includes other elements) [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
 The CPU is made up of several components, a few that are particularly important (two of which we have discussed): 
+
  * ALU  
  * Registers  
  * Control Unit (CU)  
@@ -33,7 +34,7 @@ In addition to the main CPU or CPUs or cores (chose your favorite name), compute
 
 <img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" title="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" />
 
-Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency [@hyperthreading ; @Wikipedia_hyper-threading]. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading [[@hyperthreading ; @Wikipedia_hyper-threading].
+Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency [@hyperthreading; @Wikipedia_hyper-threading]. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading [[@hyperthreading; @Wikipedia_hyper-threading].
 
 <img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png" title="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." alt="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." width="100%" style="display: block; margin: auto;" />
 
@@ -77,6 +78,7 @@ The [operating system](https://en.wikipedia.org/wiki/Operating_system) (sometime
 You can think of this as the basic code to keep the computer running and functional and to allow the user to use other forms of software, such as applications [@Wikipedia_OS_2021]. Applications are specialized software programs like Microsoft Word, or an internet browser like Chrome that allow a user to do specific tasks on the computer. So your OS is what allows you to name, rename, move and save files. It helps you to keep track of memory and decides what memory should be used when and to run all of your application software. It also allows you to talk to other devices like printers or other computers.
 
 Examples of commonly used operating systems on computers and phones are:
+
 * Microsoft Windows (such as Windows 10, Windows 11 etc.)
 * macOS (notice the OS here - it might make more sense now why it is called this)
 * Unix

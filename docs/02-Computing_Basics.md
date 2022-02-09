@@ -3,7 +3,7 @@
 
 # The basic building block of computers
 
-First we would like to start off with some background information about how computers actually work. We feel that this information, that we will describe in this chapter and the next, will be very helpful for understanding what computing resources your research will actually require. This information will also better enable you to discuss your computing needs with computing experts, for example people who manage shared computing resources that you might want to use. 
+First we would like to start off with some background information about how computers actually work (in this chapter and the next). We feel that this information, will be very helpful for understanding what computing resources your research will actually require. This information will also better enable you to discuss your computing needs with computing experts, for example people who manage shared computing resources that you might want to use. 
 
 If you are already more familiar with these topics, we hope that the next two chapters might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.
 

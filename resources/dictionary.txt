@@ -69,7 +69,7 @@ Keychain
 Klarman
 Kubernettes
 ligand
-leanbuild
+ottr
 macOS
 Markua
 MetaboAnalyst

@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
+ottr::set_knitr_image_path()
 ```
 
 # The basic building block of computers
@@ -10,14 +10,14 @@ First we would like to start off with some background information about how comp
 If you are already more familiar with these topics, we hope that the next two chapters might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.
 
 ```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_4")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_4")
 ```
 
  
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_166")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_166")
 ```
 
 
@@ -30,7 +30,7 @@ Luckily, you are likely not going to need to become a bee keeper to perform your
 [Transistors](https://www.physlink.com/education/askexperts/ae430.cfm) are one of if not the most important basic building blocks of computers. There are many different types of transistors, but they often look like a rectangle with three prongs [@how_transistors_work].  
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_274")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_274")
 ```
 
 
@@ -38,7 +38,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Comic: Galdolf lego character from the Lord of the Rings saying: You shall not pass! (He is holding a large transistor.)", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_10")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_10")
 ```
 
 [[Source](https://unsplash.com/photos/9paY25EHOBo)]
@@ -47,31 +47,31 @@ Inside the plastic, is often [silicon](https://en.wikipedia.org/wiki/Silicon), o
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_315")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_315")
 ```
 
 If the transistor receives a small amount of current to one of the prongs (called the base), this turns it on, and allows the larger current for the circuit to pass through the transistor (from a prong called the collector to the prong called the emitter). 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_296")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_296")
 ```
 
 If the base prong of the transistor does not receive a small current than the transistor is off and the current for the circuit is not allowed to flow through the transistor.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_328")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_328")
 ```
 You may see how this is similar to ligand-gated ion or ionotropic channels in biological systems, where a channel remains closed and does not allow ions to pass through the membrane unless a ligand (like a neurotransmitter) binds to the channel protein, allowing the channel to open [@ligand-gated_2021; @ligand-gated_2011] and allowing ions to flow through the channel.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1077711c9e7_301_0")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1077711c9e7_301_0")
 ```
 
 
 The two states for the flow of current ultimately allow for the storage and use of binary data, which we think of a zeros and ones, but it is really the absence or presence of current with a voltage beyond a threshold for this part of the circuit. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_147")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_147")
 ```
 
 
@@ -81,14 +81,14 @@ Thus the physical components of a computer are ultimately based on the assessmen
 Very importantly transistors have gotten much smaller over time.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_27")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_27")
 ```
 
 The **smaller** size of transistors has allowed for many more transistors to be used inside computers. Check out @transistor_count for more information about how the number of transistors in computers has grown over time. Early computers had thousands of transistors; now some supercomputers have trillions [@transistor_count]!
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_18")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_18")
 ```
 
 [[Source](https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png)]
@@ -119,14 +119,14 @@ Let's take a moment to understand how networks of transistors work for AND and O
 In this illustration of the transistor [AND gate](https://en.wikipedia.org/wiki/AND_gate), there are two transistors where the current going to the collector for each transistor is in series. This means the transistors are sequentially placed one after the other, where one receives current first before the other. A resulting high current output only occurs when both of the transistors allow for the flow of current. If either transistor is off or both of the transistors are off, then the current is not allowed to flow through, and the resulting digital output is zero [@Wikipedia_AND_gate_and_2021]. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Illustration of logic AND gate showing transistors in series. If either or both of the transistors is off (receiving digital input of 0 in the form of no small current to base prong), then the gate  does not allow the current to flow through this part of the circuit. If both transistors are on then the current can flow through this part of the circuit.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_63")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_63")
 ```
 
 
 In our next simple illustration, the transistor OR gate has two transistors in parallel, meaning they are next to one another each receiving the flow of current at the same time. A resulting high current output can occur when either of the transistors allows for the flow of current [@Wikipedia_OR_gate_2021].
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Illustration of logic OR gate showing transistors in parallel. If either or both of the transistors is on (receiving digital input of 1 in the form of a small current), then the gate allows the current to flow through this part of the circuit.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_217")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_217")
 ```
  
 
@@ -149,13 +149,13 @@ With our decimal system when we reach a value of 10, we start to carry over the 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
 ```
 
 Here we can see how the first 9 digits of the decimal system are represented in the binary system.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table showing how decimal values 0-10 are represented in the binary system.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_265")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_265")
 ```
 
 See [here](https://www.calculator.net/binary-calculator.html) to learn more about binary calculations [@binary_calc].
@@ -177,7 +177,7 @@ Below you can see the decimal value for some of the symbols and letters:
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Chart showing the ASCII decimal assigned to various characters or letters and the binary number for that ASCII value. For example an upper case letter A is coded  064 in ASCII and the binary number eight bit number is 01000001.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_187")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_187")
 ```
 
 Note that ASCII has largely been replaced since 1991 for [Unicode](https://en.wikipedia.org/wiki/Unicode), which allows for more characters, supporting languages like Chinese that require far more characters than the 256 that ASCII could support [@Wikipedia_unicode_2021]. However Unicode works in a similar way[@Wikipedia_unicode_2021].

@@ -295,7 +295,7 @@ To add an R package from GitHub you can add a line that follows this general for
 
 ```
 RUN Rscript --vanilla install_github.R \
-  --packages "jhudsl/didactr, jhudsl/leanbuild, <NEW_PACKAGE>" \
+  --packages "jhudsl/didactr, jhudsl/ottr, <NEW_PACKAGE>" \
 ```
 
 To add a Python package, you will need to add pip3 to install Python packages using this format:
@@ -489,7 +489,7 @@ Each Rmd with images that is a part of your bookdown needs to have this chunk at
 
 `````
 ```{r, include=FALSE}
-leanbuild::set_knitr_image_path()
+ottr::set_knitr_image_path()
 ```
 `````
 
@@ -594,7 +594,7 @@ To add images in the text in your Rmd, use the following function within an [R c
 
 `````
 ```{r, fig.alt="Alternative text", echo = FALSE, outwidth = "100%"}
-leanbuild::include_slide(<google_slide_url>)
+ottr::include_slide(<google_slide_url>)
 `````
 _You must define `fig.alt` in the code chunk options/parameters to pass to `knitr`._
 You can adjust the size(fig.hight, fig.width, out.width, out.height), alignment (fig.align), or caption (fig.cap) of the image you can use these arguments in the code chunk tag:  
