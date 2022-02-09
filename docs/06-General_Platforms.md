@@ -8,6 +8,7 @@ In this chapter we will provide examples of computing systems that you might fin
 
 <img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" />
 
+avocado:https://go.cloudhealthtech.com/eb-simplify-the-journey-data-center-to-public-cloud.html
 
 We will start out with more general computing platforms, that allow you flexibility to perform analyses with a variety of types of data. The major advantage of these platforms is that users can analyze data where it lives. There is less need for data transfers, saving time an resources, and users can easily share data with the entire field. 
 

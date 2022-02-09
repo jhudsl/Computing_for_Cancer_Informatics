@@ -10,7 +10,7 @@ See [Setting Up Images and Graphics](./getting_started.md#setting-up-images-and-
 - [ ] The color palette choices of the slide are contrasted in a way that is friendly to those with color vision deficiencies.
 You can check this using [Color Oracle](https://colororacle.org/).
 
-- [ ] Every image is [inserted into the text](./getting_started.md#s#adding-images-and-graphics-in-text) using one of these options: `leanbuild::include_slide()`, `knitr::include_image()`, or this format: `<img src="blah.png" alt="SOMETHING">`.
+- [ ] Every image is [inserted into the text](./getting_started.md#s#adding-images-and-graphics-in-text) using one of these options: `ottr::include_slide()`, `knitr::include_image()`, or this format: `<img src="blah.png" alt="SOMETHING">`.
 
 - [ ] Every image has [alternative text added to it](./getting_started.md#s#adding-images-and-graphics-in-text).
 

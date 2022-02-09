@@ -1,7 +1,7 @@
 
 
 ```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
+ottr::set_knitr_image_path()
 ```
 
 # Computing Systems
@@ -10,7 +10,7 @@ In this chapter we will describe the basics about data size and computing capaci
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the size of various data, 2. Recognize the difference between personal computers and remote computing options. 2.Explain how cloud computing and server computing works 3. Determine which options will provide enough computing capacity for your research needs", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
 
@@ -23,12 +23,12 @@ First let's take a look at how the size of binary data is typically described an
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_8")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_8")
 ```
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Cartoon - One character says:Hey I'm so stoked. I have a super cool computer now, it has yodabytes. The other character says: Do you mean yottabytes. The original character says: Nope, I have lots of files about Yoda! The other character says: Oh dear...", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb6624a387_0_1")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb6624a387_0_1")
 ```
 
 Now that we know how to describe binary data sizes, let's next think about how much computing capacity typical computers have today.
@@ -50,7 +50,7 @@ This means that typical laptops can multitask quite well, have in some cases 16 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1084414e81e_0_0")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1084414e81e_0_0")
 ```
 
 
@@ -70,7 +70,7 @@ If you have a Mac, you can click on the apple symbol on the far left of your scr
 You might see something like this:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Result of pressing `About this Mac` button of a typical Mac today", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_69")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_69")
 ```
 
 First we see the operating system is called Mojave.
@@ -81,7 +81,7 @@ Next we see that there is 16 Gigabytes of memory - this is how much RAM it has a
 If we click on the storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Mac storage information showing 1 TB capactity", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_80")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_80")
 ```
 
 ### Checking your computer capacity - Windows/PC
@@ -90,7 +90,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 If you have a PC or Windows computer, the steps may vary depending on your operating system, but try the following:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Windows/PC Start button", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_96")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_96")
 ```
 
 1. click the "Start" button - which looks like 4 squares together
@@ -102,11 +102,11 @@ See this [link](https://www.businessinsider.com/how-to-find-computer-specs-windo
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Windows/PC about section", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_90")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_90")
 ```
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= " Example of a Windows/PC computer processor and memory information", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_107
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_107
 ")
 ```
 
@@ -116,7 +116,7 @@ If we look up this chip we can see that it has 4 cores and 8 threads (due to hyp
 To find out more information about your storage click the "Storage" button within the "System" tab.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Windows/PC storage information showing 1 TB capactity", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_114
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_114
 ")
 ```
 
@@ -129,7 +129,7 @@ Now let's think about the files that we might need for our research, how big are
 Recall this table from earlier about digital data size units:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_8")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_8")
 ```
 
 ### Genomic data file sizes
@@ -139,7 +139,7 @@ Genomic data files can be quite large and can require quite a bit of storage and
 Here is an image of sizes of some common file types:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_0")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_0")
 ```
 
 
@@ -151,7 +151,7 @@ Imaging data, although often smaller than genomic data, can start to add up quic
 Here is an table of average file sizes for various medical imaging modalities from @liu_imaging_2017:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_35")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_35")
 ```
 [[source](https://www.mdpi.com/2078-2489/8/4/131)]
 
@@ -159,7 +159,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 Note that depending on the study requirements, several images may be needed for each sample. Thus data storage needs can add up quickly.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Example table of overall file storage needs for samples in imaging studies.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_25")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_25")
 ```
 
 
@@ -173,7 +173,7 @@ Looking at the [file sizes](https://www.hcup-us.ahrq.gov/db/state/sedddist/seddd
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_42")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_42")
 ```
 
 ### Checking file sizes on Mac
@@ -181,13 +181,13 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 If you own a Mac and want to check the size of a particular file, look at your file within a finder window. You can open a new finder window by clicking on the button that looks like a square with two colors and a face, typically in the bottom left corner if your dock or the strip of icons on your screen to help you navigate to different application programs.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Mac finder button", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_120")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_120")
 ```
 Once you open a finder window, you can navigate to one of your files. 
 
 If you have the view setting that looks like 4 lines, you will get information about the size of each file. 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Finder windows show file sizes on a Mac", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_133")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_133")
 ```
 
 
@@ -195,7 +195,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 You can right click on  a file and click the "Get Info" button. This will give your more specific information.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Right clicking on a file in the finder window can give you more info about a file.", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_128")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_128")
 ```
 
 
@@ -204,14 +204,14 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 In a similar manner to checking file sizes on a Mac, with a Windows or PC computer, you can navigate to files by first opening the File Explorer application by typing this in the search bar next to the "start" button.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Finding the File Explorer on a Windows/PC computer", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_139")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_139")
 ```
 
 
 Then navigate to a file of interest which will show information about the size in one of the columns to the right, if you hover over the file name, you will get more specific information.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "File sizes are listed for each file within File Explorer windows on Windows/PC computers", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_145")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_145")
 ```
 
 
@@ -222,7 +222,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 These are computers that your lab might own, such as a laptop, a desktop, used by one individual or maybe just a few individuals in your lab.  
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_3")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_3")
 ```
 
 
@@ -239,7 +239,9 @@ In terms of hardware, the term [server](https://techterms.com/definition/server)
 
 Using a group of computers is often a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server [@supercomputer_2022]. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute or company might even have a sever with multiple supercomputers!
 
+
 As an example use of a server, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don't have capabilities to support a [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) (meaning the visual display output that you see on your personal computer) [@GUI]. 
+
 
 
 Instead they are typically only accessed by using a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface), meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface [@command-line_2022]. In order to support this they have memory, processors or CPUs, and storage like your laptop.
@@ -247,7 +249,7 @@ Instead they are typically only accessed by using a [command-line interface](htt
 Here is what a server might look like:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_58")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_58")
 ```
 
 In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
@@ -293,7 +295,7 @@ Companies like Amazon, Google, Microsoft Azure, and others provide cloud computi
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Cloud computing options", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_28")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_28")
 ```
 
 
@@ -302,7 +304,7 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 It's important to remember that all of the shared computing options that we previously described involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_23")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_23")
 ```
 
 
@@ -319,7 +321,7 @@ If your institute doesn't have a shared computing resource like the HPCs we just
 Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "An image of Stampede2 one of the supercomputers that members of Xsede can use.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_63")
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_63")
 ```
 
 
