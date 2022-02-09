@@ -327,12 +327,13 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopO
 
 See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
 
+There is also now (as of late January 2022) an option to access XSEDE computing resources (as well as others) through a cloud environment option called [Jetstream](https://portal.xsede.org/jetstream). Note however that it is not intended for intensive computations but rather for testing workflows or smaller-scale computations. 
 
-Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPC clusters, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
+Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
 We will also discuss how these options might differ from cloud computing options. Importantly there are some that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
 
-Avocado Jetstream
+
 
 
 ## Conclusion
