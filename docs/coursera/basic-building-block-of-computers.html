@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Basic building block of computers | Computing Management for Cancer Research</title>
+  <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Basic building block of computers | Computing Management for Cancer Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Basic building block of computers | Computing Management for Cancer Research" />
+  
+  <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+
+
+<meta name="date" content="2022-02-09" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="binary-data-to-computations.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html"><i class="fa fa-check"></i><b>2</b> Basic building block of computers</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html#transistors"><i class="fa fa-check"></i><b>2.1</b> Transistors</a></li>
+<li class="chapter" data-level="2.2" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html#alu---arithmetic-logic-unit"><i class="fa fa-check"></i><b>2.2</b> ALU - Arithmetic Logic Unit</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html#binary-data"><i class="fa fa-check"></i><b>2.2.1</b> Binary data</a></li>
+<li class="chapter" data-level="2.2.2" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html#flip-flops-and-registers"><i class="fa fa-check"></i><b>2.2.2</b> Flip-flops and registers</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="basic-building-block-of-computers.html"><a href="basic-building-block-of-computers.html#conclusion"><i class="fa fa-check"></i><b>2.3</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html"><i class="fa fa-check"></i><b>3</b> Binary data to computations</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#cpu---central-processing-unit"><i class="fa fa-check"></i><b>3.0.1</b> <strong>CPU</strong> - Central Processing Unit</a></li>
+<li class="chapter" data-level="3.0.2" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#memory-or-ram---short-term-memory"><i class="fa fa-check"></i><b>3.0.2</b> <strong>Memory or RAM</strong> - short-term memory</a></li>
+<li class="chapter" data-level="3.0.3" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#storage---long-term-memory"><i class="fa fa-check"></i><b>3.0.3</b> <strong>Storage</strong> - long-term memory</a></li>
+<li class="chapter" data-level="3.0.4" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#hardware-and-software"><i class="fa fa-check"></i><b>3.0.4</b> Hardware and software</a></li>
+<li class="chapter" data-level="3.0.5" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#operating-systems"><i class="fa fa-check"></i><b>3.0.5</b> Operating systems</a></li>
+<li class="chapter" data-level="3.0.6" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#historical-context"><i class="fa fa-check"></i><b>3.0.6</b> Historical context</a></li>
+<li class="chapter" data-level="3.1" data-path="binary-data-to-computations.html"><a href="binary-data-to-computations.html#conclusion-1"><i class="fa fa-check"></i><b>3.1</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="computing-systems.html"><a href="computing-systems.html"><i class="fa fa-check"></i><b>4</b> Computing Systems</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="computing-systems.html"><a href="computing-systems.html#data-sizes"><i class="fa fa-check"></i><b>4.1</b> Data Sizes</a></li>
+<li class="chapter" data-level="4.2" data-path="computing-systems.html"><a href="computing-systems.html#computing-capacity"><i class="fa fa-check"></i><b>4.2</b> Computing Capacity</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="computing-systems.html"><a href="computing-systems.html#checking-your-computer-capacity---mac"><i class="fa fa-check"></i><b>4.2.1</b> Checking your computer capacity - Mac</a></li>
+<li class="chapter" data-level="4.2.2" data-path="computing-systems.html"><a href="computing-systems.html#checking-your-computer-capacity---windowspc"><i class="fa fa-check"></i><b>4.2.2</b> Checking your computer capacity - Windows/PC</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="computing-systems.html"><a href="computing-systems.html#file-sizes"><i class="fa fa-check"></i><b>4.3</b> File Sizes</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="computing-systems.html"><a href="computing-systems.html#genomic-data-file-sizes"><i class="fa fa-check"></i><b>4.3.1</b> Genomic data file sizes</a></li>
+<li class="chapter" data-level="4.3.2" data-path="computing-systems.html"><a href="computing-systems.html#imaging-data-file-sizes"><i class="fa fa-check"></i><b>4.3.2</b> Imaging Data File Sizes</a></li>
+<li class="chapter" data-level="4.3.3" data-path="computing-systems.html"><a href="computing-systems.html#clinical-data-file-sizes"><i class="fa fa-check"></i><b>4.3.3</b> Clinical Data File Sizes</a></li>
+<li class="chapter" data-level="4.3.4" data-path="computing-systems.html"><a href="computing-systems.html#checking-file-sizes-on-mac"><i class="fa fa-check"></i><b>4.3.4</b> Checking file sizes on Mac</a></li>
+<li class="chapter" data-level="4.3.5" data-path="computing-systems.html"><a href="computing-systems.html#checking-file-sizes-on-pcwindows"><i class="fa fa-check"></i><b>4.3.5</b> Checking file sizes on PC/Windows</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="computing-systems.html"><a href="computing-systems.html#computing-options"><i class="fa fa-check"></i><b>4.4</b> Computing Options</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="computing-systems.html"><a href="computing-systems.html#personal-computers"><i class="fa fa-check"></i><b>4.4.1</b> <strong>Personal computers</strong></a></li>
+<li class="chapter" data-level="4.4.2" data-path="computing-systems.html"><a href="computing-systems.html#shared-computers-or-servers"><i class="fa fa-check"></i><b>4.4.2</b> <strong>Shared Computers or Servers</strong></a></li>
+<li class="chapter" data-level="4.4.3" data-path="computing-systems.html"><a href="computing-systems.html#computer-cluster"><i class="fa fa-check"></i><b>4.4.3</b> Computer Cluster</a></li>
+<li class="chapter" data-level="4.4.4" data-path="computing-systems.html"><a href="computing-systems.html#computer-grid"><i class="fa fa-check"></i><b>4.4.4</b> Computer Grid</a></li>
+<li class="chapter" data-level="4.4.5" data-path="computing-systems.html"><a href="computing-systems.html#cloud-computing"><i class="fa fa-check"></i><b>4.4.5</b> “Cloud” computing</a></li>
+<li class="chapter" data-level="4.4.6" data-path="computing-systems.html"><a href="computing-systems.html#accessing-shared-computer-resources"><i class="fa fa-check"></i><b>4.4.6</b> Accessing Shared Computer Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="computing-systems.html"><a href="computing-systems.html#conclusion-2"><i class="fa fa-check"></i><b>4.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html"><i class="fa fa-check"></i><b>5</b> Shared Computing Etiquette</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#general-guidelines-for-shared-computing-resources"><i class="fa fa-check"></i><b>5.1</b> General Guidelines for shared computing resources</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#security-guidelines"><i class="fa fa-check"></i><b>5.1.1</b> Security guidelines</a></li>
+<li class="chapter" data-level="5.1.2" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#overall-use-guidelines"><i class="fa fa-check"></i><b>5.1.2</b> Overall use guidelines</a></li>
+<li class="chapter" data-level="5.1.3" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#daily-use-guidelines"><i class="fa fa-check"></i><b>5.1.3</b> Daily use guidelines</a></li>
+<li class="chapter" data-level="5.1.4" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#communication-guidelines"><i class="fa fa-check"></i><b>5.1.4</b> Communication Guidelines</a></li>
+<li class="chapter" data-level="5.1.5" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#specific-rules"><i class="fa fa-check"></i><b>5.1.5</b> Specific Rules</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#interacting-with-shared-resources"><i class="fa fa-check"></i><b>5.2</b> Interacting with shared resources</a></li>
+<li class="chapter" data-level="5.3" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#running-jobs"><i class="fa fa-check"></i><b>5.3</b> Running Jobs</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#specifying-memory-ram-needs"><i class="fa fa-check"></i><b>5.3.1</b> Specifying memory (RAM) needs</a></li>
+<li class="chapter" data-level="5.3.2" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#checking-status"><i class="fa fa-check"></i><b>5.3.2</b> Checking status</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="shared-computing-etiquette.html"><a href="shared-computing-etiquette.html#storage"><i class="fa fa-check"></i><b>5.4</b> Storage</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="general-platforms.html"><a href="general-platforms.html"><i class="fa fa-check"></i><b>6</b> General Platforms</a>
+<ul>
+<li class="chapter" data-level="6.0.1" data-path="general-platforms.html"><a href="general-platforms.html#galaxy"><i class="fa fa-check"></i><b>6.0.1</b> Galaxy</a></li>
+<li class="chapter" data-level="6.0.2" data-path="general-platforms.html"><a href="general-platforms.html#terra"><i class="fa fa-check"></i><b>6.0.2</b> Terra</a></li>
+<li class="chapter" data-level="6.1" data-path="general-platforms.html"><a href="general-platforms.html#firecloud"><i class="fa fa-check"></i><b>6.1</b> FireCloud</a></li>
+<li class="chapter" data-level="6.2" data-path="general-platforms.html"><a href="general-platforms.html#anvil"><i class="fa fa-check"></i><b>6.2</b> AnVIL</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="general-platforms.html"><a href="general-platforms.html#cyverse"><i class="fa fa-check"></i><b>6.2.1</b> CyVerse</a></li>
+<li class="chapter" data-level="6.2.2" data-path="general-platforms.html"><a href="general-platforms.html#sciserver"><i class="fa fa-check"></i><b>6.2.2</b> SciServer</a></li>
+<li class="chapter" data-level="6.2.3" data-path="general-platforms.html"><a href="general-platforms.html#materials-cloud"><i class="fa fa-check"></i><b>6.2.3</b> Materials Cloud</a></li>
+<li class="chapter" data-level="6.2.4" data-path="general-platforms.html"><a href="general-platforms.html#atlas.ti"><i class="fa fa-check"></i><b>6.2.4</b> ATLAS.ti</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="general-platforms.html"><a href="general-platforms.html#webmev"><i class="fa fa-check"></i><b>6.3</b> WebMeV</a></li>
+<li class="chapter" data-level="6.4" data-path="general-platforms.html"><a href="general-platforms.html#overture"><i class="fa fa-check"></i><b>6.4</b> Overture</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="specific-platforms.html"><a href="specific-platforms.html"><i class="fa fa-check"></i><b>7</b> Specific Platforms</a>
+<ul>
+<li class="chapter" data-level="7.0.1" data-path="specific-platforms.html"><a href="specific-platforms.html#imaging-data-analysis-platforms"><i class="fa fa-check"></i><b>7.0.1</b> Imaging Data Analysis Platforms</a></li>
+<li class="chapter" data-level="7.0.2" data-path="specific-platforms.html"><a href="specific-platforms.html#quip"><i class="fa fa-check"></i><b>7.0.2</b> QuIP</a></li>
+<li class="chapter" data-level="7.0.3" data-path="specific-platforms.html"><a href="specific-platforms.html#ib-server"><i class="fa fa-check"></i><b>7.0.3</b> IB server?</a></li>
+<li class="chapter" data-level="7.0.4" data-path="specific-platforms.html"><a href="specific-platforms.html#prism"><i class="fa fa-check"></i><b>7.0.4</b> PRISM</a></li>
+<li class="chapter" data-level="7.0.5" data-path="specific-platforms.html"><a href="specific-platforms.html#genomic-data-analysis-platforms"><i class="fa fa-check"></i><b>7.0.5</b> Genomic Data Analysis Platforms</a></li>
+<li class="chapter" data-level="7.0.6" data-path="specific-platforms.html"><a href="specific-platforms.html#section"><i class="fa fa-check"></i><b>7.0.6</b> </a></li>
+<li class="chapter" data-level="7.0.7" data-path="specific-platforms.html"><a href="specific-platforms.html#clinical-data-analysis-platforms"><i class="fa fa-check"></i><b>7.0.7</b> Clinical Data Analysis Platforms</a></li>
+<li class="chapter" data-level="7.1" data-path="specific-platforms.html"><a href="specific-platforms.html#wuflux"><i class="fa fa-check"></i><b>7.1</b> WUFlux</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="specific-platforms.html"><a href="specific-platforms.html#machine-learning"><i class="fa fa-check"></i><b>7.1.1</b> Machine Learning…</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="specific-platforms.html"><a href="specific-platforms.html#i2b2"><i class="fa fa-check"></i><b>7.2</b> i2B2</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="data-management-decisions.html"><a href="data-management-decisions.html"><i class="fa fa-check"></i><b>8</b> Data Management Decisions</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing-platforms"><i class="fa fa-check"></i><b>8.1</b> Computing Platforms</a></li>
+<li class="chapter" data-level="8.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>8.2</b> Choosing a Computing Platform</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#important-questions"><i class="fa fa-check"></i><b>8.2.1</b> Important questions</a></li>
+<li class="chapter" data-level="8.2.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>8.2.2</b> Benefits of Cloud Computing</a></li>
+<li class="chapter" data-level="8.2.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>8.2.3</b> Challenges of Cloud Computing</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-costs"><i class="fa fa-check"></i><b>8.3</b> Local Costs</a></li>
+<li class="chapter" data-level="8.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-costs"><i class="fa fa-check"></i><b>8.4</b> Cloud Costs</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/Data_Management" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Computing Management for Cancer Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGSJ7H9TXE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-TGSJ7H9TXE');
+  </script>
+      
+  </body>
+  </html>
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="basic-building-block-of-computers" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Basic building block of computers</h1>
+<p>First we would like to start off with some background information about how computers actually work (in this chapter and the next). We feel that this information, will be very helpful for understanding what computing resources your research will actually require. This information will also better enable you to discuss your computing needs with computing experts, for example people who manage shared computing resources that you might want to use.</p>
+<p>If you are already more familiar with these topics, we hope that the next two chapters might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_4.png" title="Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology" alt="Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology" width="100%" /></p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_166.png" title="comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!" alt="comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!" width="100%" style="display: block; margin: auto;" /></p>
+<div id="transistors" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Transistors</h2>
+<p>Luckily, you are likely not going to need to become a bee keeper to perform your computational research (unless of course that interests you)! Instead, computers rely on millions to billions of <a href="https://www.physlink.com/education/askexperts/ae430.cfm">transistors</a> <span class="citation">(<a href="#ref-transistor_count" role="doc-biblioref"><span>“Transistor Count”</span> 2021</a>)</span>.</p>
+<p><a href="https://www.physlink.com/education/askexperts/ae430.cfm">Transistors</a> are one of if not the most important basic building blocks of computers. There are many different types of transistors, but they often look like a rectangle with three prongs <span class="citation">(<a href="#ref-how_transistors_work" role="doc-biblioref"><span>“How Does a Transistor Work?”</span> n.d.</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_274.png" title="Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current" alt="Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current" width="100%" style="display: block; margin: auto;" /></p>
+<p><a href="https://technologystudent.com/elec1/transis1.htm">Transistors</a> behave like electronic switches or gates that either allow or do not allow current to flow through a particular part of a circuit <span class="citation">(<a href="#ref-transistor_basics" role="doc-biblioref">V.Ryan 2002</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_10.png" title="Comic: Galdolf lego character from the Lord of the Rings saying: You shall not pass! (He is holding a large transistor.)" alt="Comic: Galdolf lego character from the Lord of the Rings saying: You shall not pass! (He is holding a large transistor.)" width="100%" style="display: block; margin: auto;" /></p>
+<p>[<a href="https://unsplash.com/photos/9paY25EHOBo">Source</a>]</p>
+<p>Inside the plastic, is often <a href="https://en.wikipedia.org/wiki/Silicon">silicon</a>, or some other semiconductive crystal. Semiconductors materials are needed because they way that they conduct electricity can be modified by the application of more electricity, making them the perfect option for creating an electrical switch. Silicon is especially useful, because it doesn’t cause the circuit to get very hot, unlike previously used materials. It is also very abundant, in fact, it is the second most common element of the Earth’s crust! <span class="citation">(<a href="#ref-Wikipedia_Silicon" role="doc-biblioref"><span>“Silicon - <span>Wikipedia</span>”</span> n.d.</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_315.png" title="Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on." alt="Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on." width="100%" style="display: block; margin: auto;" /></p>
+<p>If the transistor receives a small amount of current to one of the prongs (called the base), this turns it on, and allows the larger current for the circuit to pass through the transistor (from a prong called the collector to the prong called the emitter).</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_296.png" title="The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on." alt="The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on." width="100%" style="display: block; margin: auto;" /></p>
+<p>If the base prong of the transistor does not receive a small current than the transistor is off and the current for the circuit is not allowed to flow through the transistor.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_328.png" title="Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through" alt="Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through" width="100%" style="display: block; margin: auto;" />
+You may see how this is similar to ligand-gated ion or ionotropic channels in biological systems, where a channel remains closed and does not allow ions to pass through the membrane unless a ligand (like a neurotransmitter) binds to the channel protein, allowing the channel to open <span class="citation">(<a href="#ref-ligand-gated_2021" role="doc-biblioref"><span>“Ligand-Gated Ion Channel”</span> 2021</a>; <a href="#ref-ligand-gated_2011" role="doc-biblioref"><span>“Ligand-<span>Gated</span> <span>Ion</span> <span>Channels</span>”</span> 2011</a>)</span> and allowing ions to flow through the channel.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1077711c9e7_301_0.png" title="Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information." alt="Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information." width="100%" style="display: block; margin: auto;" /></p>
+<p>The two states for the flow of current ultimately allow for the storage and use of binary data, which we think of a zeros and ones, but it is really the absence or presence of current with a voltage beyond a threshold for this part of the circuit.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_147.png" title="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." alt="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." width="100%" style="display: block; margin: auto;" /></p>
+<p>Thus the physical components of a computer are ultimately based on the assessment of only two states of current (0 (or FALSE) = below a threshold and 1 (or TRUE) = above a threshold), which is much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this binary encoding of current as digital data is the basis for all the complex tasks that we use computers for everyday.</p>
+<p>Very importantly transistors have gotten much smaller over time.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_27.png" title="Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today" alt="Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today" width="100%" style="display: block; margin: auto;" /></p>
+<p>The <strong>smaller</strong> size of transistors has allowed for many more transistors to be used inside computers. Check out <span class="citation"><span>“Transistor Count”</span> (<a href="#ref-transistor_count" role="doc-biblioref">2021</a>)</span> for more information about how the number of transistors in computers has grown over time. Early computers had thousands of transistors; now some supercomputers have trillions <span class="citation">(<a href="#ref-transistor_count" role="doc-biblioref"><span>“Transistor Count”</span> 2021</a>)</span>!</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_18.png" title="Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today" alt="Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today" width="100%" style="display: block; margin: auto;" /></p>
+<p>[<a href="https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png">Source</a>]</p>
+<p>Both the <strong>smaller size</strong> of the transistors and the <strong>increased number</strong> of transistors have in part allowed computers to become faster and more powerful <span class="citation">(<a href="#ref-Pokropivny2007" role="doc-biblioref">Pokropivny et al. 2007</a>)</span>. Thus transistors are a key reason why we have seen such an explosion of computing power and storage, which has facilitated what we have seen in the incredible expansion of data.</p>
+<p>These silicon transistors became so important for the field of electronics, that the time period of heavy computing development during the late 20th century and early 21st century is sometimes called the “Silicon Age”. This is also why many places in the world where there are many technological institutes are often called a name with the word “silicon”, such as <a href="https://en.wikipedia.org/wiki/Silicon_Valley">Silicon Valley</a> <span class="citation">(<a href="#ref-Wikipedia_silicon_2021" role="doc-biblioref"><span>“Silicon <span>Valley</span>”</span> 2021</a>)</span>. Here is an interesting <a href="https://futurism.com/could-mark-end-silicon-age">article</a> about what our next age might be about, and it has to do with changing the way we harness electrons (the current role of transistors) <span class="citation">(<a href="#ref-tom_ward_2017" role="doc-biblioref">Tom Ward 2017</a>)</span> — that’s how important they are!</p>
+<p>If you would like to learn more about the history of transistors and how they work check out this <a href="https://www.explainthatstuff.com/howtransistorswork.html">website</a> <span class="citation">(<a href="#ref-woodford_how_2007" role="doc-biblioref">Woodford 2007</a>)</span>.</p>
+<p>Finally, it is important to note that modern transistors have a 3D structure that allows them to be faster, more efficient, and more densely packed because now circuits can be layered in 3D structures, thus allowing for even more transistors to be included within modern computers <span class="citation">(<a href="#ref-finfet_2021" role="doc-biblioref"><span>“<span>FinFET</span>”</span> 2021</a>)</span>.</p>
+</div>
+<div id="alu---arithmetic-logic-unit" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> ALU - Arithmetic Logic Unit</h2>
+<p>The ALU is responsible for performing simple operations by using networks (in this case commonly called a circuit) of transistors.</p>
+<p>These simple operations include logical operations (AND, OR, NOT, etc.), and arithmetic operations (addition, subtraction, division, multiplication, etc.).</p>
+<p>Ultimately most of what we do everyday on our computers comes down to these simple operations.</p>
+<p>These operations are based on what is called <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean logic or Boolean algebra</a>, which was invented by George Boole in 1854 and largely comes down to thinking of possible sets of data <span class="citation">(<a href="#ref-explainthatstuff" role="doc-biblioref"><span>“How Do Logic Gates Work?”</span> n.d.</a>; <a href="#ref-Wikipedia_boolean_2021" role="doc-biblioref"><span>“Boolean Algebra”</span> 2021</a>)</span>. For example, if we have two transistors, they could both be on, they could both be off, or one or the other could be on. Considering these possibilities, we can make overall descriptions about the flow of current to perform logical operations.</p>
+<p>Let’s take a moment to understand how networks of transistors work for AND and OR operations. We call a network for a logical operation a <strong>logic gate</strong> <span class="citation">(<a href="#ref-Wikipedia_logic_gate_2021" role="doc-biblioref"><span>“Logic Gate”</span> 2021</a>)</span>. Note that this is a simple illustration and in actual electronics, additional transistors are often used for greater sustainability, consistency, efficiency, and speed, largely based on controlling the level of current and voltage in more nuanced ways.</p>
+<p>In this illustration of the transistor <a href="https://en.wikipedia.org/wiki/AND_gate">AND gate</a>, there are two transistors where the current going to the collector for each transistor is in series. This means the transistors are sequentially placed one after the other, where one receives current first before the other. A resulting high current output only occurs when both of the transistors allow for the flow of current. If either transistor is off or both of the transistors are off, then the current is not allowed to flow through, and the resulting digital output is zero <span class="citation">(<a href="#ref-Wikipedia_AND_gate_and_2021" role="doc-biblioref"><span>“<span>AND</span> Gate”</span> 2021</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_63.png" title="Illustration of logic AND gate showing transistors in series. If either or both of the transistors is off (receiving digital input of 0 in the form of no small current to base prong), then the gate  does not allow the current to flow through this part of the circuit. If both transistors are on then the current can flow through this part of the circuit." alt="Illustration of logic AND gate showing transistors in series. If either or both of the transistors is off (receiving digital input of 0 in the form of no small current to base prong), then the gate  does not allow the current to flow through this part of the circuit. If both transistors are on then the current can flow through this part of the circuit." width="100%" style="display: block; margin: auto;" /></p>
+<p>In our next simple illustration, the transistor OR gate has two transistors in parallel, meaning they are next to one another each receiving the flow of current at the same time. A resulting high current output can occur when either of the transistors allows for the flow of current <span class="citation">(<a href="#ref-Wikipedia_OR_gate_2021" role="doc-biblioref"><span>“<span>OR</span> Gate”</span> 2021</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_217.png" title="Illustration of logic OR gate showing transistors in parallel. If either or both of the transistors is on (receiving digital input of 1 in the form of a small current), then the gate allows the current to flow through this part of the circuit." alt="Illustration of logic OR gate showing transistors in parallel. If either or both of the transistors is on (receiving digital input of 1 in the form of a small current), then the gate allows the current to flow through this part of the circuit." width="100%" style="display: block; margin: auto;" /></p>
+<p>Importantly, using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations <span class="citation">(<a href="#ref-Wikipedia_adder_2021" role="doc-biblioref"><span>“Adder (Electronics)”</span> 2021</a>)</span>. See <a href="http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml">here</a> and <a href="https://en.wikipedia.org/wiki/Adder_(electronics)">here</a> for more information on how this works.</p>
+<p>If you would like to learn more about these gates with circuit diagrams, check out this [website] (<a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1" class="uri">http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1</a>) and this <a href="https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/">website</a> for some visualizations. This <a href="https://www.explainthatstuff.com/logicgates.html">website</a> and this <a href="https://www.electronics-tutorials.ws/logic/logic_1.html">website</a> also go into great detail.</p>
+<p>In case you are wondering about the semantics of phrases like the “flow of current”, check this <a href="https://electronics.stackexchange.com/questions/61780/isnt-current-flow-a-wrong-term">discussion</a>.</p>
+<div id="binary-data" class="section level3" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Binary data</h3>
+<p>An ALU performs arithmetic operations using values represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). Data like this is also called <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean</a>, based on George Boole system of algebra. These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system. What does this mean?
+With our decimal system when we reach a value of 10, we start to carry over the 1. With the binary system when we reach a value of 2, we start to carry over the 1 <span class="citation">(<a href="#ref-Wikipedia_boolean_2021" role="doc-biblioref"><span>“Boolean Algebra”</span> 2021</a>)</span>.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_104.png" title="Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place." alt="Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place." width="100%" style="display: block; margin: auto;" /></p>
+<p>Here we can see how the first 9 digits of the decimal system are represented in the binary system.</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_265.png" title="Table showing how decimal values 0-10 are represented in the binary system." alt="Table showing how decimal values 0-10 are represented in the binary system." width="100%" style="display: block; margin: auto;" /></p>
+<p>See <a href="https://www.calculator.net/binary-calculator.html">here</a> to learn more about binary calculations <span class="citation">(<a href="#ref-binary_calc" role="doc-biblioref"><span>“Binary <span>Calculator</span>”</span> n.d.</a>)</span>.</p>
+</div>
+<div id="flip-flops-and-registers" class="section level3" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Flip-flops and registers</h3>
+<p>Flip-flops are used for storing one bit of digital binary data. They are made of transistors (that’s right it’s transistors again!) and capacitors in a configuration that allows for the flip-flop to hold one of two states, thus enabling the storage of binary data <span class="citation">(<a href="#ref-Wikipedia_flip-flop_2021" role="doc-biblioref"><span>“Flip-Flop (Electronics)”</span> 2021</a>; <a href="#ref-Wikipedia_memory_2021" role="doc-biblioref"><span>“Memory Cell (Computing)”</span> 2021</a>)</span>.</p>
+<p>A group of flip-flops is called a register <span class="citation">(<a href="#ref-Wikipedia_register_2021" role="doc-biblioref"><span>“Hardware Register”</span> 2021</a>)</span>. You may have heard about a computer having a 64- or 32- bit operating system (more on this soon). These computers have registers with 64 bits or 32 bits respectively. Thus there are 64 flip-flops within the registers of a <a href="https://www.computerhope.com/jargon/num/64bit.htm">64-bit</a> system <span class="citation">(<a href="#ref-ComputerHope_64-bit" role="doc-biblioref"><span>“What Is 64-Bit (<span>Wow64</span> and <span>X64</span>)?”</span> n.d.</a>)</span>. Each of these are capable of storing and processing binary values 64 digits in length (which works out to an unsigned integer in our decimal system of up to 2^64-1, or 18,446,744,073,709,551,615)<span class="citation">(<a href="#ref-ComputerHope_64-bit" role="doc-biblioref"><span>“What Is 64-Bit (<span>Wow64</span> and <span>X64</span>)?”</span> n.d.</a>)</span>!</p>
+<p>You may also be wondering how letters and other symbols are stored in this binary system.</p>
+<p>Letters are each assigned a numeric decimal value according to an encoding system such as the <a href="https://www.computerhope.com/jargon/a/ascii.htm">ASCII system</a>, and these are converted into the binary form of this numeric number. In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits) <span class="citation">(<a href="#ref-Wikipedia_ascii_2021" role="doc-biblioref"><span>“<span>ASCII</span>”</span> 2021</a>)</span>. A group of 8 bits (8 digits of zeros and or ones) is called a byte <span class="citation">(<a href="#ref-computerhope" role="doc-biblioref"><span>“What Is <span>ASCII</span> (<span>American</span> <span>Standard</span> <span>Code</span> for <span>Information</span> <span>Interexchange</span>)?”</span> n.d.</a>)</span>. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The “64-bit” part of what is called a 64-bit computer indicates what is called the <a href="https://en.wikipedia.org/wiki/Word_(computer_architecture)">word size or word length</a>, which is the maximum unit of data that the computer can work with at a time <span class="citation">(<a href="#ref-Wikipedia_word_length_2021" role="doc-biblioref"><span>“Word (Computer Architecture)”</span> 2021</a>)</span>. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Note that it is possible to combine registers to make computations with larger numbers. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits. As you might guess 64-bit computers are more capable of faster speeds and greater precision (by giving more decimal places) when computing operations with values that are larger than 32 binary digits, as compared to such operations using a 32-bit computer.</p>
+<p>Below you can see the decimal value for some of the symbols and letters:</p>
+<p><img src="resources/images/02-Computing_Basics_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_187.png" title="Chart showing the ASCII decimal assigned to various characters or letters and the binary number for that ASCII value. For example an upper case letter A is coded  064 in ASCII and the binary number eight bit number is 01000001." alt="Chart showing the ASCII decimal assigned to various characters or letters and the binary number for that ASCII value. For example an upper case letter A is coded  064 in ASCII and the binary number eight bit number is 01000001." width="100%" style="display: block; margin: auto;" /></p>
+<p>Note that ASCII has largely been replaced since 1991 for <a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>, which allows for more characters, supporting languages like Chinese that require far more characters than the 256 that ASCII could support <span class="citation">(<a href="#ref-Wikipedia_unicode_2021" role="doc-biblioref"><span>“Unicode”</span> 2021</a>)</span>. However Unicode works in a similar way<span class="citation">(<a href="#ref-Wikipedia_unicode_2021" role="doc-biblioref"><span>“Unicode”</span> 2021</a>)</span>.</p>
+<p>Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with and after the computations are made, the computer then translates the data back to numeric and alphabetic form for us to understand. Thus computers do a lot of data conversions!</p>
+<p>Here’s a video that puts everything we have explained so far together:</p>
+<iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px">
+</iframe>
+<p>If you want to watch another optional video that explains things further and describes how transistors are used to add numbers together check out this <a href="https://www.youtube.com/watch?v=VBDoT8o4q00">link</a>.</p>
+</div>
+</div>
+<div id="conclusion" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Conclusion</h2>
+<p>We hope that this chapter has given you some more knowledge about how computers are physically made.</p>
+<p>In conclusion, here are some of the major take-home messages:</p>
+<ol style="list-style-type: decimal">
+<li>Computers rely on millions to billions of tiny transistors</li>
+<li>Transistors act like electrical switches that allow for the storage and processing of digital binary data</li>
+<li>Binary data is essentially the encoding of current states in the hardware of a computer as zeros and ones</li>
+<li>As transistors got smaller and more transistors were included in computers, computers got faster and more powerful (also due to other additional reasons)</li>
+</ol>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Wikipedia_adder_2021" class="csl-entry">
+<span>“Adder (Electronics).”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Adder_(electronics)&amp;oldid=1054161978">https://en.wikipedia.org/w/index.php?title=Adder_(electronics)&amp;oldid=1054161978</a>.
+</div>
+<div id="ref-Wikipedia_AND_gate_and_2021" class="csl-entry">
+<span>“<span>AND</span> Gate.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=AND_gate&amp;oldid=1057207215">https://en.wikipedia.org/w/index.php?title=AND_gate&amp;oldid=1057207215</a>.
+</div>
+<div id="ref-Wikipedia_ascii_2021" class="csl-entry">
+<span>“<span>ASCII</span>.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=ASCII&amp;oldid=1058507634">https://en.wikipedia.org/w/index.php?title=ASCII&amp;oldid=1058507634</a>.
+</div>
+<div id="ref-binary_calc" class="csl-entry">
+<span>“Binary <span>Calculator</span>.”</span> n.d. Accessed December 14, 2021. <a href="https://www.calculator.net/binary-calculator.html">https://www.calculator.net/binary-calculator.html</a>.
+</div>
+<div id="ref-Wikipedia_boolean_2021" class="csl-entry">
+<span>“Boolean Algebra.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Boolean_algebra&amp;oldid=1058093529">https://en.wikipedia.org/w/index.php?title=Boolean_algebra&amp;oldid=1058093529</a>.
+</div>
+<div id="ref-finfet_2021" class="csl-entry">
+<span>“<span>FinFET</span>.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=FinFET&amp;oldid=1040651882">https://en.wikipedia.org/w/index.php?title=FinFET&amp;oldid=1040651882</a>.
+</div>
+<div id="ref-Wikipedia_flip-flop_2021" class="csl-entry">
+<span>“Flip-Flop (Electronics).”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Flip-flop_(electronics)&amp;oldid=1055073341">https://en.wikipedia.org/w/index.php?title=Flip-flop_(electronics)&amp;oldid=1055073341</a>.
+</div>
+<div id="ref-Wikipedia_register_2021" class="csl-entry">
+<span>“Hardware Register.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Hardware_register&amp;oldid=1024702439">https://en.wikipedia.org/w/index.php?title=Hardware_register&amp;oldid=1024702439</a>.
+</div>
+<div id="ref-explainthatstuff" class="csl-entry">
+<span>“How Do Logic Gates Work?”</span> n.d. <em>Explain That Stuff</em>. Accessed October 12, 2021. <a href="http://www.explainthatstuff.com/logicgates.html">http://www.explainthatstuff.com/logicgates.html</a>.
+</div>
+<div id="ref-how_transistors_work" class="csl-entry">
+<span>“How Does a Transistor Work?”</span> n.d. Accessed December 14, 2021. <a href="https://www.physlink.com/education/askexperts/ae430.cfm">https://www.physlink.com/education/askexperts/ae430.cfm</a>.
+</div>
+<div id="ref-ligand-gated_2021" class="csl-entry">
+<span>“Ligand-Gated Ion Channel.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Ligand-gated_ion_channel&amp;oldid=1047592762">https://en.wikipedia.org/w/index.php?title=Ligand-gated_ion_channel&amp;oldid=1047592762</a>.
+</div>
+<div id="ref-ligand-gated_2011" class="csl-entry">
+<span>“Ligand-<span>Gated</span> <span>Ion</span> <span>Channels</span>.”</span> 2011. <em>British Journal of Pharmacology</em> 164 (Suppl 1): S115–35. <a href="https://doi.org/10.1111/j.1476-5381.2011.01649_4.x">https://doi.org/10.1111/j.1476-5381.2011.01649_4.x</a>.
+</div>
+<div id="ref-Wikipedia_logic_gate_2021" class="csl-entry">
+<span>“Logic Gate.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Logic_gate&amp;oldid=1058563875">https://en.wikipedia.org/w/index.php?title=Logic_gate&amp;oldid=1058563875</a>.
+</div>
+<div id="ref-Wikipedia_memory_2021" class="csl-entry">
+<span>“Memory Cell (Computing).”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Memory_cell_(computing)&amp;oldid=1055073514">https://en.wikipedia.org/w/index.php?title=Memory_cell_(computing)&amp;oldid=1055073514</a>.
+</div>
+<div id="ref-Wikipedia_OR_gate_2021" class="csl-entry">
+<span>“<span>OR</span> Gate.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=OR_gate&amp;oldid=1029393190">https://en.wikipedia.org/w/index.php?title=OR_gate&amp;oldid=1029393190</a>.
+</div>
+<div id="ref-Pokropivny2007" class="csl-entry">
+Pokropivny, V., Rünno Lõhmus, I. nova, Alex Pokropivny, and Sergei Vlassov. 2007. <em>Introduction in Nanomaterials and Nanotechnology</em>.
+</div>
+<div id="ref-Wikipedia_Silicon" class="csl-entry">
+<span>“Silicon - <span>Wikipedia</span>.”</span> n.d. Accessed October 13, 2021. <a href="https://en.wikipedia.org/wiki/Silicon">https://en.wikipedia.org/wiki/Silicon</a>.
+</div>
+<div id="ref-Wikipedia_silicon_2021" class="csl-entry">
+<span>“Silicon <span>Valley</span>.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Silicon_Valley&amp;oldid=1059899296">https://en.wikipedia.org/w/index.php?title=Silicon_Valley&amp;oldid=1059899296</a>.
+</div>
+<div id="ref-tom_ward_2017" class="csl-entry">
+Tom Ward. 2017. <span>“This <span>Could</span> <span>Mark</span> the <span>End</span> of the <span>Silicon</span> <span>Age</span>.”</span> <em>Futurism</em>. <a href="https://futurism.com/could-mark-end-silicon-age">https://futurism.com/could-mark-end-silicon-age</a>.
+</div>
+<div id="ref-transistor_count" class="csl-entry">
+<span>“Transistor Count.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Transistor_count&amp;oldid=1059186358">https://en.wikipedia.org/w/index.php?title=Transistor_count&amp;oldid=1059186358</a>.
+</div>
+<div id="ref-Wikipedia_unicode_2021" class="csl-entry">
+<span>“Unicode.”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Unicode&amp;oldid=1060083479">https://en.wikipedia.org/w/index.php?title=Unicode&amp;oldid=1060083479</a>.
+</div>
+<div id="ref-transistor_basics" class="csl-entry">
+V.Ryan. 2002. <span>“Transistor <span>Basics</span>.”</span> <a href="https://technologystudent.com/elec1/transis1.htm">https://technologystudent.com/elec1/transis1.htm</a>.
+</div>
+<div id="ref-ComputerHope_64-bit" class="csl-entry">
+<span>“What Is 64-Bit (<span>Wow64</span> and <span>X64</span>)?”</span> n.d. <em>ComputerHope</em>. Accessed December 14, 2021. <a href="https://www.computerhope.com/jargon/num/64bit.htm">https://www.computerhope.com/jargon/num/64bit.htm</a>.
+</div>
+<div id="ref-computerhope" class="csl-entry">
+<span>“What Is <span>ASCII</span> (<span>American</span> <span>Standard</span> <span>Code</span> for <span>Information</span> <span>Interexchange</span>)?”</span> n.d. Accessed October 12, 2021. <a href="https://www.computerhope.com/jargon/a/ascii.htm">https://www.computerhope.com/jargon/a/ascii.htm</a>.
+</div>
+<div id="ref-woodford_how_2007" class="csl-entry">
+Woodford, Chris. 2007. <span>“How Do Transistors Work?”</span> <em>Explain That Stuff</em>. <a href="http://www.explainthatstuff.com/howtransistorswork.html">http://www.explainthatstuff.com/howtransistorswork.html</a>.
+</div>
+<div id="ref-Wikipedia_word_length_2021" class="csl-entry">
+<span>“Word (Computer Architecture).”</span> 2021. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Word_(computer_architecture)&amp;oldid=1058922992">https://en.wikipedia.org/w/index.php?title=Word_(computer_architecture)&amp;oldid=1058922992</a>.
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="binary-data-to-computations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

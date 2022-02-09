@@ -2,7 +2,7 @@ introduction
 motivation
 target-audience
 curriculum
-the-basic-building-block-of-computers
+basic-building-block-of-computers
 transistors
 alu---arithmetic-logic-unit
 binary-data
