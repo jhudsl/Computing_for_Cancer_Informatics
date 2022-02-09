@@ -32,6 +32,7 @@ personal-computers
 shared-computers-or-servers
 computer-cluster
 computer-grid
+cloud-computing
 accessing-shared-computer-resources
 conclusion-2
 shared-computing-etiquette
