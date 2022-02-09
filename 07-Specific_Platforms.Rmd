@@ -1,7 +1,7 @@
 
 
 ```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
+ottr::set_knitr_image_path()
 ```
 
 # Specific Platforms
@@ -27,7 +27,7 @@ The open health imaging foundation (OHIF) is a web-based imaging analysis platfo
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports.", out.width= "100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2
 ")
 ```
 

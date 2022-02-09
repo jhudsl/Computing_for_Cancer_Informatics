@@ -31,7 +31,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |Publishing Maintenance Engineer|[Candace Savonen](https://www.cansavvy.com/)|
 |Technical Publishing Stylists|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
-|Package Developers ([Leanbuild](https://github.com/jhudsl/leanbuild))|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|Package Developers ([ottr](https://github.com/jhudsl/ottr))|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Art and Design**||
 |Illustrator|[Carrie Wright](https://carriewright11.github.io)|
 |**Funding**||
@@ -74,7 +74,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  htmltools     0.5.0      2020-06-16 [1] RSPM (R 4.0.1)                    
 ##  jquerylib     0.1.1      2020-04-30 [1] RSPM (R 4.0.0)                    
 ##  knitr         1.33       2022-01-26 [1] Github (yihui/knitr@a1052d1)      
-##  leanbuild     0.1.2      2022-01-26 [1] Github (jhudsl/leanbuild@1d387e1) 
+##  ottr     0.1.2      2022-01-26 [1] Github (jhudsl/ottr@1d387e1) 
 ##  lifecycle     1.0.0      2021-02-15 [1] CRAN (R 4.0.2)                    
 ##  magrittr      1.5        2014-11-22 [1] RSPM (R 4.0.0)                    
 ##  memoise       1.1.0      2017-04-21 [1] RSPM (R 4.0.0)                    
