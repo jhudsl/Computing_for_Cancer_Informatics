@@ -3,15 +3,19 @@ AES
 AiiDA
 AiiDAlab
 al
+ALO
 ALU
 ALUs
 AnVIL
 ArrayExpress
+ASIX
+ASKY
 bam
 Biostrings
 Blavatnik
 Bukner
 cBIBOP
+CDUs
 citable
 cybercriminal
 cybercriminals
@@ -34,9 +38,11 @@ fasta
 fastq
 FedRAMP
 FireCloud
+GDUs
 Goecks
 GPUs
 GTEx
+HCUP
 HealthCare
 HIPAA
 HDDs
@@ -44,9 +50,11 @@ HPC
 HTAN
 http
 https
+hyper-threading
 JHPCE
 IB
 IBM
+ionotropic
 iPlant
 IRB
 itcrtraining
@@ -60,6 +68,7 @@ Kammers
 Keychain
 Klarman
 Kubernettes
+ligand
 ottr
 macOS
 Markua
@@ -75,6 +84,7 @@ mypone
 NCI
 NCSA
 NHGRI
+NIS
 NLP
 n2c2
 OHIF
@@ -109,6 +119,7 @@ transcriptomic
 translational
 tranSMARt
 UE
+Uncode
 Unsplash
 Vick
 VPN
