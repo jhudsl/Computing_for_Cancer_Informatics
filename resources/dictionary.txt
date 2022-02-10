@@ -55,6 +55,7 @@ JHPCE
 IB
 IBM
 ionotropic
+iPhoto
 iPlant
 IRB
 itcrtraining
