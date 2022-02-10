@@ -5,7 +5,7 @@ ottr::set_knitr_image_path()
 
 # Shared Computing Etiquette
 
-In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements.
+In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the @doi_rules and the @JHPCE.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources", out.width="100%"}
@@ -32,7 +32,7 @@ One major aspect to consider is keeping the computers in the cluster safe from h
 
  - Use a good [secure password](https://its.lafayette.edu/policies/strongpasswords/) that is not easy for someone else to guess.
  
- Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers.
+ Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
  
  - Don't share your password and keep it safe!
  
@@ -107,8 +107,6 @@ If a resource has a ticket system for users to get support, use it instead of co
 Ultimately it is very important to learn about the rules, practices, and etiquette for the resource that you are using and to follow them. Otherwise, you could lose access. Often other users are a great resource!
  
 
-https://www.doi.gov/sites/doi.gov/files/uploads/DOI-RULES-OF-BEHAVIOR-FOR-COMPUTER-NETWORK-USERS-REFERENCE-GUIDE.pdf
-
 ## Interacting with shared resources
 
 Often you will need to use the command line to interact with a server from your personal computer. To do so on a Mac or a Linux computer you can typically do so using the terminal program that is already on your computer. For PC or Windows computer users, you can use programs like [MobaXterm](http://mobaxterm.mobatek.net/).
@@ -126,7 +124,7 @@ knitr::include_url(url = "https://files.fosswire.com/2007/08/fwunixref.pdf")
 
 Typically a program is used to schedule jobs. Remember that jobs are the individual computational tasks that you ask the server to run. For example, this could be something as simple as moving large files from one directory to another or as complex as running a complicated script on a file. 
 
-Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These prgorams have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well. 
+Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These programs have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well. 
 
 In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf) for more information on how people use SGE for the JHPCE shared resource.
 
@@ -155,7 +153,7 @@ In conclusion, here are some of the major take-home messages:
 1) Shared resources like high performance computing clusters need regulations so that computing resources are shared fairly to allow everyone to get the most work done.
 2) Paying attention to security is important to keep everyone's data and work on the server safe.
 3) Although we provided general guidelines, there are likely to be specific guidelines for other resources that you need to adhere to.
-4) Often such resources have a communication process to avoid overloading resource administrators/magers with too many requests. Be sure to follow the appropriate communication etiquette for the resources that you work with.
+4) Often such resources have a communication process to avoid overloading resource administrators/mangers with too many requests. Be sure to follow the appropriate communication etiquette for the resources that you work with.
 3) Although there are generally default limits for jobs, users can often consult with the appropriate communication infrastructure to ask to perform larger jobs.
 
 
