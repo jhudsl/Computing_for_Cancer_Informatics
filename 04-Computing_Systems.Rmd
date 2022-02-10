@@ -320,7 +320,7 @@ If your university or institution has a HPC [cluster](https://en.wikipedia.org/w
 
 
 If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
-[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
+[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources. See [here](https://portal.xsede.org/allocations/resource-info) for descriptions of the available resources.
 
 
 Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
@@ -354,7 +354,7 @@ We will also discuss how the use of these various computing options differ in th
 
 ## Conclusion
 
-We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer. 
+We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as given you more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer. 
 
 In conclusion, here are some of the major take-home messages:
 
@@ -367,6 +367,6 @@ In conclusion, here are some of the major take-home messages:
 7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity.
 8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
 9) Cloud computing is essentially the use of many servers accessed through the internet. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. We will talk more about the pros and cons of this option in the coming chapters.
-10) If your institute doesn't allow you to access a shared computing resource and you don't want to use a commercial cloud option, you could consider options like [Xsede](https://www.xsede.org/) and or [Jetstream2](https://jetstream-cloud.org/), which is a national resource that you can request access to.
+10) If your institute doesn't provide you access to a shared computing resource and you don't want to use a commercial cloud option, you could consider options like [Xsede](https://www.xsede.org/) and or [Jetstream2](https://jetstream-cloud.org/), which is a national resource that you can request access to.
 
 
