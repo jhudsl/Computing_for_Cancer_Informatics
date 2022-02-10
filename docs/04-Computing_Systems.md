@@ -2,7 +2,7 @@
 
 
 
-# Computing Systems
+# Computing Resources
 
 In this chapter we will describe the basics about data size and computing capacity. We will discuss the computing and storage requirements for many types of cancer related data, as well as options to perform informatics work that might require more intensive computing capacity than your personal computer.
 
@@ -35,7 +35,7 @@ These values will probably change very soon, and different computers vary widely
 
 This means that typical laptops can multitask quite well, have in some cases 16 gigabytes for random access memory to allow the CPU to work on relatively large tasks (as we can see from the previous table that GB are actually pretty large when you think about it), and possibly 1TB for the hard drive (and or SSD), meaning that you can store thousands of photos and files like PDFs, word documents etc. It turns out that you can store around 30,000 average size photos with 250GB, so a 1TB laptop can store quite a bit of data. Therefore overall, typical laptops today are pretty powerful compared to previous computers. Note that some programs require 16 or even 32 GB of memory to run.
 
-- **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference [@antonio_villas-boas_laptops_2019]. In fact, some such desktops may be the same price as a laptop but have much lower computing and storage capacity due to higher graphics processing capacity. This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find more expensive desktops with larger memory and storage options off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop [@antonio_villas-boas_laptops_2019]. However of course, they certainly aren't super portable!
+- **Desktops** can perform and store similarly and sometimes to a degree better than a laptop for a similar price.  Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference [@antonio_villas-boas_laptops_2019].  This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find desktops with larger memory and storage options right off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop [@antonio_villas-boas_laptops_2019]. However of course, desktops certainly aren't super portable!
 
 
 * Some **phones** can compete with laptops by performing 6 CPU tasks at once and storing 6 GB in memory and 250 GB of storage.  
@@ -183,13 +183,13 @@ These are computers that your lab might own, such as a laptop, a desktop, used b
 If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.
 
 
-### **Shared Computers or Servers**
+### **Shared Computing Resources**
 
 What if you decide that you do need more computational power than your personal computer? You may encounter times where certain informatics tasks take way too long or are not even possible. Evaluating the potential file sizes of the data that you might be working with is a good place to start. However, keep in mind that sometimes certain computations may require more memory than you expect. This is particularly true when working with genomic or image files which are often compressed. So what can you do when you face this issue?
 
 One great option, which can be quite affordable is using a server.
 
-In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed through a direct local network or the internet to perform computations or store data [@server_def]. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
+In terms of hardware, the term [server](https://techterms.com/definition/server) means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed by other computers using a local network or the internet to perform computations or store data [@server_def]. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read [here](https://en.wikipedia.org/wiki/Server_(computing)) to learn more [@server_2021]. 
 
 Using a group of computers is often a much more cost effective option than having one expensive supercomputer (a computer that individually has the computational power of many personal computers) to act as a server [@supercomputer_2022]. It turns out that buying several less powerful computers is cheaper. In some cases however, an institute or company might even have a sever with multiple supercomputers!
 
@@ -207,7 +207,7 @@ Here is what a server might look like:
 In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns. 
 
 
-Among shared computers/servers there are three major options: 
+Among shared computing resources/servers there are three major options: 
 
 * **Clusters** - institutional or national resources
 * **Grids** - institutional or national resources
@@ -216,7 +216,7 @@ Among shared computers/servers there are three major options:
 
 ### Computer Cluster
 
-In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network rather than the internet) work together to perform pieces of the same single task simultaneously [@computer_cluster_2022]. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) [@parallel_2021].
+In a [computing cluster](https://en.wikipedia.org/wiki/Computer_cluster) several of the **same** type of computer (often in close proximity and connected by a local area network with actual cables or an [intranet](https://www.igloosoftware.com/blog/internet-vs-intranet-vs-extranet-whats-the-difference/) rather than the internet) work together to perform pieces of the same single task simultaneously [@computer_cluster_2022]. The idea of performing multiple computations simultaneously is called [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing) [@parallel_2021].
 
 There are different designs or architectures for clusters. One common one is the [Beowulf cluster](https://en.wikipedia.org/wiki/Beowulf_cluster) in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called **client nodes** or simply **nodes**) perform [@beowulf_2022]. 
 
@@ -240,9 +240,14 @@ See [here](https://pediaa.com/difference-between-cluster-and-grid-computing/)  a
  
 ### "Cloud" computing
 
-More recently, the ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) has become a common computing option. The term "cloud" has become a widely used buzzword [@cha_cloud_2015] that can sound intimidating. However, cloud computing is basically the connection of **multiple servers** in multiple locations to one another [@cloud_2022] using the internet. In fact, many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need. 
+More recently, the ["Cloud"](https://en.wikipedia.org/wiki/Cloud_computing) has become a common computing option. The term "cloud" has become a widely used buzzword [@cha_cloud_2015] that actually has a few slightly different definitions that have changed overtime, making it a bit tricky to keep track of. However, the "cloud"  is typically meant to describe large computing resources that involve the connection of **multiple servers** in multiple locations to one another [@cloud_2022] using the internet. See [here](https://www.redhat.com/en/topics/cloud-computing/cloud-vs-virtualization) for a deeper description of what the term cloud means today and how it compares to other more traditional shared computing options @cloud_deeper.
 
-Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are national government funded resource options like Jetstream. Typically users pay only for the resources that they use, which can often make this an affordable option. We will compare computing options in another chapter coming up.
+Many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a more simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need. 
+
+Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources [@cloudvstrad].
+
+
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are newer national government funded resource options like [Jetstream](https://portal.xsede.org/jetstream) (described in the next section).  We will compare computing options in another chapter coming up.
 
 
 
@@ -259,11 +264,11 @@ It's important to remember that all of the shared computing options that we prev
 You may have access to a [HPC (which stands for High Performance Computing) cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) at your institute. This can be a great cost-effective and typically secure option.  
 
 
-If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like servers that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. Again, this means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
+If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like a server that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
 
 
 If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
-[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources.
+[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources. See [here](https://portal.xsede.org/allocations/resource-info) for descriptions of the available resources.
 
 
 Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
@@ -277,18 +282,23 @@ Here you can see a photo of Stampede2, one of the supercomputers that members of
 
 See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
 
-There is also now (as of late January 2022) an option to access XSEDE computing resources (as well as others) through a cloud environment option called [Jetstream](https://portal.xsede.org/jetstream). Note however that it is not intended for intensive computations but rather for testing workflows or smaller-scale computations. 
-
 Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
-We will also discuss how these options might differ from cloud computing options. Importantly there are some that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
+However, there is also now an option to access the different XSEDE computing resources through a cloud environment option called [Jetstream2](https://jetstream-cloud.org/).  
+
+Here is a video about Jetstream2:
+
+<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px"></iframe>
 
 
+
+
+We will also discuss how the use of these various computing options differ in the next chapters. Importantly there are also some computing platforms that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.
 
 
 ## Conclusion
 
-We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer. 
+We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as given you more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer. 
 
 In conclusion, here are some of the major take-home messages:
 
@@ -296,11 +306,11 @@ In conclusion, here are some of the major take-home messages:
 2) A byte is a group of 8 bits, file sizes are typically described using units based on bytes.
 3) A typical fancy laptop today might allow for up to 1 TB of storage, however this can quickly get used up if you are working with large data files. 
 4) Even if you have enough storage for a large file, you might not have enough RAM to actually work with a large data file. Your computer might be too slow to handle that type of work. In which case, you might want to consider using shared computing resources.
-5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them  perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
-6) The computers in a server  are optimized for assisting users with computations or storing data.
+5) A server (when describing hardware) is a single computer (typically a supercomputer if just one computer) or group of computers that others can share to help them perform more intensive computational tasks or store large amounts of data. People often connect to these over the internet, but servers can also be connected to by directly using wires in a local network (like in a department to different offices). 
+6) The computers in a server are optimized for assisting users with computations or storing data.
 7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity.
 8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
-9) Cloud computing is essentially the use of many servers through some company or institute. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. 
-10) If your institute doesn't allow you to access a shared computing resource, you could consider options like [Xsede](https://www.xsede.org/), which is a national resource that you can request access to or some of the other options that we will describe next.
+9) Cloud computing is essentially the use of many servers accessed through the internet. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. We will talk more about the pros and cons of this option in the coming chapters.
+10) If your institute doesn't provide you access to a shared computing resource and you don't want to use a commercial cloud option, you could consider options like [Xsede](https://www.xsede.org/) and or [Jetstream2](https://jetstream-cloud.org/), which is a national resource that you can request access to.
 
 
