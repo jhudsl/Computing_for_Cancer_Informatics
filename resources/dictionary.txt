@@ -17,6 +17,7 @@ Bukner
 cBIBOP
 CDUs
 citable
+Collaboratory
 cybercriminal
 cybercriminals
 cyberinfastructure
@@ -54,6 +55,7 @@ hyper-threading
 JHPCE
 IB
 IBM
+ICGC
 ionotropic
 iPhoto
 iPlant
@@ -91,6 +93,7 @@ n2c2
 OHIF
 omics
 OpenBEL
+PCAWG
 PKCS
 PoLP
 proteomic

@@ -100,7 +100,7 @@ This involves:
    * Not submitting too many jobs at once
    * Communicating with others to give them advanced warning if you are going to submit large or intensive jobs
    
-If you have a really large job that you need to perform, talk with the managers of the resource so that you can work out a time when perhaps fewer users would be inconvenienced. Consult the guidelines for your particular resource about how one let's people know about large jobs before you email the administrators of the resource directly. Often their are communciations systems in place for users to let eachother know about large jobs.
+If you have a really large job that you need to perform, talk with the managers of the resource so that you can work out a time when perhaps fewer users would be inconvenienced. Consult the guidelines for your particular resource about how one let's people know about large jobs before you email the administrators of the resource directly. Often their are communications systems in place for users to let each other know about large jobs.
 
 ### Communication Guidelines
 

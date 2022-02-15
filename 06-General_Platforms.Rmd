@@ -6,9 +6,9 @@ ottr::set_knitr_image_path()
 
 # General Platforms
 
-In this chapter we will provide examples of computing systems that you might find useful for your research. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
+In this chapter we will provide examples of computing platforms that are designed to help researchers and that you might find useful for your work. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
 ```
 
@@ -142,11 +142,19 @@ To learn more about Materials Cloud, check out this [article](https://www.nature
 knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf")
 ```
 
-## WebMeV
-https://webmev.tm4.org/#/about
+## Multiple Experiment Viewer (WebMeV)
+
+[WebMeV](https://webmev.tm4.org/#/about) is a free and open-source cloud-based web application with a graphical interface for analyzing genomic data. It is particularly designed for processing raw sequencing data and can now support larger-scale levels of data. The tools available mostly focus on RNA sequencing data, including differential expression analysis and gene set enrichment analysis. There is now also access to data from [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and the  [Therapeutically Applicable Research to Generate Effective Treatments (TARGET) project](https://ocg.cancer.gov/programs/target/data-matrix). See [here](https://web-mev.github.io/) for a guide on how to use the WebMeV application including a [case study](https://web-mev.github.io/rnaseq_case_study/).
 
 ## Overture
-https://dcc.icgc.org/
+
+Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. 
+
+These collaborations using Overture products can be found on the [case studies](https://www.overture.bio/case-studies/) page of the [Overture website](https://www.overture.bio/).
+
+For example, the [Cancer Genome Collaboratory](https://cancercollaboratory.org/) is one such collaboration. This is A cloud-based resource that allows researchers to perform analyses using [International Cancer Genome Consortium (ICGC)](https://en.wikipedia.org/wiki/International_Cancer_Genome_Consortium) cancer genome data, which includes tumor mutation data from the [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and the [Pan-Cancer Analysis of Whole Genomes (PCAWG)](https://dcc.icgc.org/pcawg) mutation data. See [here](https://cancercollaboratory.org/services-cloud-resources) for information about billing, storage capacity, access, and security. 
+
+ In addition, Overture products have also been used to create other data resources, such as the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)  which has childhood cancer and birth defect genomic data for over 76,000 samples, and the [National Cancer Institute's Genomic Data Commons Data portal](https://portal.gdc.cancer.gov/), which also includes [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8). The portal supports some basic [analyses]((https://portal.gdc.cancer.gov/analysis) as well for clinical data statistics and survival analysis. 
 
 Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible as table
 
