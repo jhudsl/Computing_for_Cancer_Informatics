@@ -11,7 +11,10 @@ ArrayExpress
 ASIX
 ASKY
 bam
+BaseSpace
+bioinformatics
 Biostrings
+BIRN
 Blavatnik
 Bukner
 cBIBOP
@@ -39,7 +42,9 @@ fasta
 fastq
 FedRAMP
 FireCloud
+GenePattern
 GDUs
+Globus
 Goecks
 GPUs
 GTEx
@@ -68,8 +73,10 @@ Jetstream
 Jupyter
 Kai
 Kammers
+KBase
 Keychain
 Klarman
+Knowlegebase
 Kubernettes
 ligand
 ottr
@@ -96,9 +103,11 @@ OpenBEL
 PCAWG
 PKCS
 PoLP
+PostgreSQL
 proteomic
 punchcards
 QuIP
+reproducibility
 RNA
 RSA
 RStudio
