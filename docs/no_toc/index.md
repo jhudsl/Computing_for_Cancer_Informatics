@@ -1,6 +1,6 @@
 --- 
 title: "Computing Management for Cancer Research"
-date: "2022-02-16"
+date: "2022-02-17"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
