@@ -132,13 +132,10 @@ To learn more about Materials Cloud, check out @talirz_materials_2020.
 knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf")
 ```
 
-## Multiple Experiment Viewer (WebMeV)
-
-[WebMeV](https://webmev.tm4.org/#/about) is a free and open-source cloud-based web application with a graphical interface for analyzing genomic data. It is particularly designed for processing raw sequencing data and can now support larger-scale levels of data. The tools available mostly focus on RNA sequencing data, including differential expression analysis and gene set enrichment analysis. There is now also access to data from [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and the  [Therapeutically Applicable Research to Generate Effective Treatments (TARGET) project](https://ocg.cancer.gov/programs/target/data-matrix). See [here](https://web-mev.github.io/) for a guide on how to use the WebMeV application including a [case study](https://web-mev.github.io/rnaseq_case_study/).
 
 ## Overture
 
-Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. 
+Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. It is compatible with Google, Microsoft Azure and Postgre SQL for storage options. 
 
 These collaborations using Overture products can be found on the [case studies](https://www.overture.bio/case-studies/) page of the [Overture website](https://www.overture.bio/).
 
@@ -146,6 +143,5 @@ For example, the [Cancer Genome Collaboratory](https://cancercollaboratory.org/)
 
  In addition, Overture products have also been used to create other data resources, such as the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)  which has childhood cancer and birth defect genomic data for over 76,000 samples, and the [National Cancer Institute's Genomic Data Commons Data portal](https://portal.gdc.cancer.gov/), which also includes [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8). The portal supports some basic [analyses]((https://portal.gdc.cancer.gov/analysis) as well for clinical data statistics and survival analysis. 
 
-Avocado - want to add in content about price, security, privacy/HIPAA, scalability/file/ram limits for each if possible as table
 
 
