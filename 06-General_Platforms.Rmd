@@ -134,7 +134,25 @@ For example, the [Cancer Genome Collaboratory](https://cancercollaboratory.org/)
 
 In addition, Overture products have also been used to create other data resources, such as the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)  which has childhood cancer and birth defect genomic data for over 76,000 samples, and the [National Cancer Institute's Genomic Data Commons Data portal](https://portal.gdc.cancer.gov/), which also includes [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8). The portal supports some basic [analyses]((https://portal.gdc.cancer.gov/analysis) as well for clinical data statistics and survival analysis. 
 
+## Globus
+
+Globus provides dvelopers of new platforms to manage, transfer, and share data with special attention to privacy and security. 
+
+It has been used for several platforms such as the  Systems Biology Knowledgebase (KBase), Biomedical Research Informatics Network (BIRN), and Globus Genomics. 
+
+
 ## Additional more specific platforms
+
+### BaseSpace Sequence Hub
+
+[BaseSpace](https://basespace.illumina.com/) is a platform that allows for data analysis of Illumina sequencing data and syncs easily with any Illumina sequencing machines that you might work with. There are many [applications](https://www.illumina.com/products/by-type/informatics-products/basespace-sequence-hub/apps.html) available to help you with your genomics research. They offer a 30 day free trial.
+
+### GenePattern
+
+[GenePattern](https://www.genepattern.org/) is similar to Galaxy in that it provides a web-based interface for genomic analyses. You can upload your own data, use workflows and pipelines form others and more! 
+
+See [here](https://www.genepattern.org/user-guide) to access their user guide and [here](https://notebook.genepattern.org/quickstart/) for a quickstart to using [GenePattern Notebook](https://notebook.genepattern.org/) which uses [Jupyter Notebooks](https://jupyter.org/) and GenePatten analysis tools to easily create data analysis reports. Users can also publish and share their notebooks with collaborators or the field, as well as access other people's notebooks that they can adapt for their own uses. See [here](https://notebook.genepattern.org/library/) for a collection of available notebooks. 
+
 
 ### ATLAS.ti
 
@@ -180,8 +198,6 @@ According to Fred Prior:
 
 See this [article](https://ascopubs.org/doi/full/10.1200/CCI.20.00001) for more information.
  
-
-
 
 
 
