@@ -126,7 +126,7 @@ To learn more about Materials Cloud, check out @talirz_materials_2020.
 
 ## Overture
 
-Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. It is compatible with Google, Microsoft Azure and Postgre SQL for storage options. 
+Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. It is compatible with Google, Microsoft Azure and PostgreSQL for storage options. 
 
 These collaborations using Overture products can be found on the [case studies](https://www.overture.bio/case-studies/) page of the [Overture website](https://www.overture.bio/).
 
@@ -136,7 +136,7 @@ In addition, Overture products have also been used to create other data resource
 
 ## Globus
 
-Globus provides dvelopers of new platforms to manage, transfer, and share data with special attention to privacy and security. 
+Globus provides developers of new platforms to manage, transfer, and share data with special attention to privacy and security. 
 
 It has been used for several platforms such as the  [Systems Biology Knowledgebase (KBase)](https://www.kbase.us/), which is focused on integrating data across plants and microbes, [Biomedical Research Informatics Network (BIRN)](https://en.wikipedia.org/wiki/Biomedical_Informatics_Research_Network), which is a collaborative project to bring biomedical researchers together and share resources and data [@helmer_enabling_2011], and [Globus Genomics](https://www.globusgenomics.org/genomics/about.html),which uses the Globus data management infrastructure, Amazon web services, and Galaxy workflows to assist researchers with their genomics research endeavors. 
 
@@ -151,7 +151,7 @@ It has been used for several platforms such as the  [Systems Biology Knowledgeba
 
 [GenePattern](https://www.genepattern.org/) is similar to Galaxy in that it provides a web-based interface for genomic analyses. You can upload your own data, use workflows and pipelines form others and more! 
 
-See [here](https://www.genepattern.org/user-guide) to access their user guide and [here](https://notebook.genepattern.org/quickstart/) for a quickstart to using [GenePattern Notebook](https://notebook.genepattern.org/) which uses [Jupyter Notebooks](https://jupyter.org/) and GenePatten analysis tools to easily create data analysis reports. Users can also publish and share their notebooks with collaborators or the field, as well as access other people's notebooks that they can adapt for their own uses. See [here](https://notebook.genepattern.org/library/) for a collection of available notebooks. 
+See [here](https://www.genepattern.org/user-guide) to access their user guide and [here](https://notebook.genepattern.org/quickstart/) for a quick start guide to using [GenePattern Notebook](https://notebook.genepattern.org/) which uses [Jupyter Notebooks](https://jupyter.org/) and GenePattern analysis tools to easily create data analysis reports. Users can also publish and share their notebooks with collaborators or the field, as well as access other people's notebooks that they can adapt for their own uses. See [here](https://notebook.genepattern.org/library/) for a collection of available notebooks. 
 
 
 ### ATLAS.ti
