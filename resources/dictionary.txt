@@ -11,6 +11,7 @@ ArrayExpress
 ASIX
 ASKY
 bam
+bioinformatics
 Biostrings
 Blavatnik
 Bukner
@@ -99,6 +100,7 @@ PoLP
 proteomic
 punchcards
 QuIP
+reproducibility
 RNA
 RSA
 RStudio
