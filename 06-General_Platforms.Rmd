@@ -124,15 +124,6 @@ See [here](https://www.sciencedirect.com/science/article/pii/S092702562030656X?v
 To learn more about Materials Cloud, check out @talirz_materials_2020.
 
 
-### ATLAS.ti
-
-[ATLAS.ti](https://atlasti.com/) is another option but particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses s.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
-
-```{r, echo = FALSE, fig.alt= "Cheat sheet of Unix commands at https://files.fosswire.com/2007/08/fwunixref.pdf"}
-knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf")
-```
-
-
 ## Overture
 
 Overture is a relatively new option for perform large-scale genomic data analyses. You can upload, download, manage, analyze and share your data with authentication and authorization methods to add security. Although designed for genomic research, the [data management system](https://www.overture.bio/documentation/dms/) can be used for other scientific domains. Currently, additional products are still being developed for analysis, visualization, and sharing. However, several collaborations have created new incredible resources using some of the existing and developing products that might be useful for your research. Alternatively, Overture has options to help you create your own platform, see [here](https://www.overture.bio/services/) for more information. It is compatible with Google, Microsoft Azure and Postgre SQL for storage options. 
@@ -141,7 +132,71 @@ These collaborations using Overture products can be found on the [case studies](
 
 For example, the [Cancer Genome Collaboratory](https://cancercollaboratory.org/) is one such collaboration. This is A cloud-based resource that allows researchers to perform analyses using [International Cancer Genome Consortium (ICGC)](https://en.wikipedia.org/wiki/International_Cancer_Genome_Consortium) cancer genome data, which includes tumor mutation data from the [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and the [Pan-Cancer Analysis of Whole Genomes (PCAWG)](https://dcc.icgc.org/pcawg) mutation data. See [here](https://cancercollaboratory.org/services-cloud-resources) for information about billing, storage capacity, access, and security. 
 
- In addition, Overture products have also been used to create other data resources, such as the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)  which has childhood cancer and birth defect genomic data for over 76,000 samples, and the [National Cancer Institute's Genomic Data Commons Data portal](https://portal.gdc.cancer.gov/), which also includes [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8). The portal supports some basic [analyses]((https://portal.gdc.cancer.gov/analysis) as well for clinical data statistics and survival analysis. 
+In addition, Overture products have also been used to create other data resources, such as the [Kids First Data Resource Portal](https://portal.kidsfirstdrc.org/login)  which has childhood cancer and birth defect genomic data for over 76,000 samples, and the [National Cancer Institute's Genomic Data Commons Data portal](https://portal.gdc.cancer.gov/), which also includes [The Cancer Genome Atlas (TCGA)](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas) and [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8). The portal supports some basic [analyses]((https://portal.gdc.cancer.gov/analysis) as well for clinical data statistics and survival analysis. 
+
+## Additional more specific platforms
+
+### ATLAS.ti
+
+[ATLAS.ti](https://atlasti.com/) is designed particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses s.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
+
+```{r, echo = FALSE, fig.alt= "Cheat sheet of Unix commands at https://files.fosswire.com/2007/08/fwunixref.pdf"}
+knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf")
+```
+
+
+
+### XNAT
+
+[XNAT](https://www.xnat.org/about/) offers computing resources and tools for performing imaging analysis and for storing and sharing imaging data in a HIPAA complaint manner (more on that in the coming). Developed by the [Bukner lab](https://cnl.rc.fas.harvard.edu/) previously at the Washington University and now at Harvard, it supports a variety of imaging data as well as other data types like clinical data.  Some tools can be used with a graphical interface and others with the command-line. See [here](https://wiki.xnat.org/documentation/case-studies) for example use cases. There is also a great deal of documentation available about how to use the tools and resources available at https://wiki.xnat.org/documentation.
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/ENk589mOkhI")
+```
+
+
+### OHIF
+
+The open health imaging foundation (OHIF) is a web-based imaging analysis platform that is widely used, particularly for radiology analysis, but it also supports whole-slide microscopy image analysis. It was developed by [Gordon Harris](https://ohif.org/team/) et al. and can be used for a variety of applications from cardiology to veterinary medicine. Check out these [example use cases](https://ohif.org/examples) of OHIF. OHIF also provides thorough documentation with images and videos about how to use the image viewer and tools available.
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports.", out.width= "100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2
+")
+```
+
+For those interested, Gordon Harris and others are also working on a project called [Cornerstone](https://docs.cornerstonejs.org/), with the goal of providing software for others to display medical images in web browsers.
+
+
+### PRISM
+
+
+  The Platform for Imaging in Precision Medicine called PRISM allows users to work with the vast data available from r the Cancer Imaging Archive (TCIA).
+
+According to Fred Prior:
+
+>It is designed to collect, curate and manage Radiology and Pathology images, clinical information associated with those images, annotations and image derived feature sets.  PRISM is designed to run on a Kubernettes cluster, but all of the components are containerized so they can run stand-alone or in an alternate orchestration framework.
+
+
+See this [article](https://ascopubs.org/doi/full/10.1200/CCI.20.00001) for more information.
+ 
+
+
+
+
+
+## Conclusion
+
+We hope that this chapter has given you some more perspective on how the various computing options available designed for researchers like you. We also hope that you may have learned about another platform that can help you to make your research faster and more flexible.
+
+In conclusion, here are some of the major take-home messages:
+
+1) Computing platforms are cyberinfastructures that allow you to perform analyses with existing data and or allow you to upload, work with, and share your own data. 
+
+2) There are quite a few platforms that are well developed with in depth documentation to support research quite broadly and allow users to work with a diverse set of data.
+
+3) There are also platforms that were designed for specific research needs. 
+
 
 
 
