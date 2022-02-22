@@ -7,16 +7,16 @@ ottr::set_knitr_image_path()
 
 # Data Management Decisions
 
-In this chapter we will discuss aspects that you should consider when deciding what data and computing management systems to use for your own work. 
+In this chapter we will discuss aspects that you should consider when deciding what data and computing systems to use for your work. 
 
-Include how to purchase a computer!
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_0")
 ```
 
 
-To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and "Cloud" computing, as well as the associated costs of each.
+To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with the benefits and drawbacks of various computing options. 
+
 
 ***Note:** This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [AnVIL project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).*
 
@@ -33,67 +33,97 @@ Choosing a computing platform involves both software and hardware decisions.
 
 ## Choosing a Computing Platform
 
-Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on many different considerations.  
+Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on several considerations.  
 
-![](images/Considerations.png)
+```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. What type of interface is needed? 2. Will data need extra privacy protection? 3. How computationally intensive will the work be? 4.How much data storage is needed?", out.width="100%"}
+ottr::include_slide("hhttps://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
+```
 
-### Important questions 
+
+### General Considerations
 
 Asking yourself and your research team these questions can help you find the right computing platform:
 
-1) Do I need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
+### Interface
+
+Will you need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
 
 What do we mean by this?
 
-A [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.
+A [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or simply just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example **click on** tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.
 
-[Galaxy](https://usegalaxy.org/) offers a graphical interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
+[Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
-![](images/Galaxy.png)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy Graphical User Interface", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_33")
+```
+
+
+Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
+```
 
 
 A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.
 
 For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
 
-![](images/Biostrings.png)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
+```
 
 
-A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI.
 
-![](images/both.png)
-2) Am I working with protected data that requires special security precautions?
+A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package with a GUI using RStudio", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
+```
+
+
+## Protected data
+
+Are you working with protected data that requires special security precautions?
 
 If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.
 
-![](images/HIPAA.jpg)
+```{r, fig.align='center', echo = FALSE, fig.alt= "HIPAA Logo", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
+```
+
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
 
-3) How computationally intensive are my tasks? 
 
-If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called "Cloud" computing (more on that later). 
+### Computation needs
 
+How computationally intensive are my tasks? 
 
-![](images/computationally_intensive.png)
-
-4) How much storage space do I need for both temporary and long-term data?
-
-![](images/Storage.png)
-
-If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or "Cloud" storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.
+If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called "Cloud" computing (see the previous chapters for more info if you have not already). 
 
 
-Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede
 
-1) Are my local resources sufficient? 
+### Storage needs
+
+How much storage space do I need for both temporary and long-term data?
+
+
+
+## Local or Remote?
+
+If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or "Cloud" storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.
+
+
+1) Are local resources sufficient? 
 
 When a local solution already works, one may rightly question the time required to migrate to the Cloud.  However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.
 
-2) Am I working with especially big or controlled access datasets? 
+2) Do you work with especially big or controlled access datasets? 
 
 Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud.  If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option.  Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPAA and FedRAMP.
 
-3) Do I need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
+3) Do you  need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 If Cloud Computing makes sense for you, then you’re in luck!  The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable.  As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.
 
@@ -101,17 +131,19 @@ If Cloud Computing makes sense for you, then you’re in luck!  The past decade 
 
 The state of Cloud computing is continually evolving.  Here, we highlight three main current benefits:
 
-https://jetstream-cloud.org/files/Jetstream-Outreach-C2Exchange-Sep2019.pdf
 
 1) **Sharing Workflows**  
 
 The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/). Using this, one can share not only what datasets they used but also every computational manipulation that was performed.
 
-![](images/Galaxy_history.png)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy history example", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_38")
+```
 
-By sharing such a history, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work with ease.
 
- 
+By sharing such a history, one can reproduce an analysis in its entirety (if they use the same data), allowing collaborators to offer comments and extend upon the work with ease.
+
+
 
 2) **Sharing Workflows between Platforms**
 
@@ -119,7 +151,9 @@ While sharing complete analysis histories is for the most part constrained to a 
 
 Shown here is a diagram of a single cell analysis pipeline published by the Klarman Cell Observatory on Dockstore:
 
-![](images/workflow.png)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Workflow", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_43")
+```
 
 This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra or DNAnexus.
 
@@ -128,7 +162,7 @@ This higher level abstraction coupled with container technology allows this mult
 
 The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
 
-![](images/cloud_Services.png)
+
 
 
 What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
@@ -156,9 +190,7 @@ While software platforms can help mitigate these challenges, Cloud computing sti
 A final challenge is that many IT support staff do not have extensive experience managing Cloud resources.  Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.  
 
 
-## Local Costs
-
-## Cloud Costs
+## Conclusions
 
 
 

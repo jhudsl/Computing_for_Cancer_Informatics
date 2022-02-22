@@ -62,6 +62,7 @@ IB
 IBM
 ICGC
 ionotropic
+Illumina
 iPhoto
 iPlant
 IRB
@@ -76,7 +77,7 @@ Kammers
 KBase
 Keychain
 Klarman
-Knowlegebase
+Knowledgebase
 Kubernettes
 ligand
 ottr
