@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-02-17" />
+<meta name="date" content="2022-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -193,12 +193,20 @@ div.csl-indent {
 <li class="chapter" data-level="7.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computing-platforms"><i class="fa fa-check"></i><b>7.1</b> Computing Platforms</a></li>
 <li class="chapter" data-level="7.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#choosing-a-computing-platform"><i class="fa fa-check"></i><b>7.2</b> Choosing a Computing Platform</a>
 <ul>
-<li class="chapter" data-level="7.2.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#important-questions"><i class="fa fa-check"></i><b>7.2.1</b> Important questions</a></li>
-<li class="chapter" data-level="7.2.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>7.2.2</b> Benefits of Cloud Computing</a></li>
-<li class="chapter" data-level="7.2.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>7.2.3</b> Challenges of Cloud Computing</a></li>
+<li class="chapter" data-level="7.2.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#general-considerations"><i class="fa fa-check"></i><b>7.2.1</b> General Considerations</a></li>
+<li class="chapter" data-level="7.2.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#interface"><i class="fa fa-check"></i><b>7.2.2</b> Interface</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-costs"><i class="fa fa-check"></i><b>7.3</b> Local Costs</a></li>
-<li class="chapter" data-level="7.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#cloud-costs"><i class="fa fa-check"></i><b>7.4</b> Cloud Costs</a></li>
+<li class="chapter" data-level="7.3" data-path="data-management-decisions.html"><a href="data-management-decisions.html#protected-data"><i class="fa fa-check"></i><b>7.3</b> Protected data</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#computation-needs"><i class="fa fa-check"></i><b>7.3.1</b> Computation needs</a></li>
+<li class="chapter" data-level="7.3.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#storage-needs"><i class="fa fa-check"></i><b>7.3.2</b> Storage needs</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="data-management-decisions.html"><a href="data-management-decisions.html#local-or-remote"><i class="fa fa-check"></i><b>7.4</b> Local or Remote?</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="data-management-decisions.html"><a href="data-management-decisions.html#benefits-of-cloud-computing"><i class="fa fa-check"></i><b>7.4.1</b> Benefits of Cloud Computing</a></li>
+<li class="chapter" data-level="7.4.2" data-path="data-management-decisions.html"><a href="data-management-decisions.html#challenges-of-cloud-computing"><i class="fa fa-check"></i><b>7.4.2</b> Challenges of Cloud Computing</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="data-management-decisions.html"><a href="data-management-decisions.html#conclusions"><i class="fa fa-check"></i><b>7.5</b> Conclusions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -259,10 +267,9 @@ div.csl-indent {
 </div>
 <div id="data-management-decisions" class="section level1" number="7">
 <h1><span class="header-section-number">Chapter 7</span> Data Management Decisions</h1>
-<p>In this chapter we will discuss aspects that you should consider when deciding what data and computing management systems to use for your own work.</p>
-<p>Include how to purchase a computer!</p>
-<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of specific genomics data management systems 3.Be aware of specific imaging data management systems  4.Be aware of specific clinical data management systems" width="100%" style="display: block; margin: auto;" /></p>
-<p>To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with computing options and costs. This course aims to provide research leaders with some guidance about making decisions for computing <a href="https://simple.wikipedia.org/wiki/Computer_hardware">hardware</a> (the physical parts of your computing platform) and <a href="https://simple.wikipedia.org/wiki/Software">software</a> (the code that tells the computing platform how to function). It will also describe the benefits and drawbacks of local and “Cloud” computing, as well as the associated costs of each.</p>
+<p>In this chapter we will discuss aspects that you should consider when deciding what data and computing systems to use for your work.</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_0.png" title="Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options." alt="Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options." width="100%" style="display: block; margin: auto;" /></p>
+<p>To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with the benefits and drawbacks of various computing options.</p>
 <p><em><strong>Note:</strong> This content was adapted from content by <a href="https://leanpub.com/u/cutsort">Frederick Tan</a> for the <a href="https://anvilproject.org/">AnVIL project</a>. See his course created with <a href="https://leanpub.com/u/jtleek">Jeff Leek</a>, <a href="https://leanpub.com/u/swheelan">Sarah Wheelan</a>, and <a href="https://leanpub.com/u/kaikammers">Kai Kammers</a> <a href="https://leanpub.com/universities/courses/jhu/anvil-intro">here</a>.</em></p>
 <div id="computing-platforms" class="section level2" number="7.1">
 <h2><span class="header-section-number">7.1</span> Computing Platforms</h2>
@@ -271,77 +278,83 @@ div.csl-indent {
 </div>
 <div id="choosing-a-computing-platform" class="section level2" number="7.2">
 <h2><span class="header-section-number">7.2</span> Choosing a Computing Platform</h2>
-<p>Choosing a <a href="https://en.wikipedia.org/wiki/Computing_platform">computing platform</a> depends on many different considerations.</p>
-<p><img src="images/Considerations.png" /></p>
-<div id="important-questions" class="section level3" number="7.2.1">
-<h3><span class="header-section-number">7.2.1</span> Important questions</h3>
+<p>Choosing a <a href="https://en.wikipedia.org/wiki/Computing_platform">computing platform</a> depends on several considerations.</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_5.png" title="General Considerations: 1. What type of interface is needed? 2. Will data need extra privacy protection? 3. How computationally intensive will the work be? 4.How much data storage is needed?" alt="General Considerations: 1. What type of interface is needed? 2. Will data need extra privacy protection? 3. How computationally intensive will the work be? 4.How much data storage is needed?" width="100%" style="display: block; margin: auto;" /></p>
+<div id="general-considerations" class="section level3" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> General Considerations</h3>
 <p>Asking yourself and your research team these questions can help you find the right computing platform:</p>
-<ol style="list-style-type: decimal">
-<li>Do I need a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</li>
-</ol>
+</div>
+<div id="interface" class="section level3" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Interface</h3>
+<p>Will you need a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a>, a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a>, or both?</p>
 <p>What do we mean by this?</p>
-<p>A <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical interface</a> or graphical user interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a “user-centered” design that creates a visual environment where users can for example click on tabs, boxes, or icons for to perform functions.</p>
-<p><a href="https://usegalaxy.org/">Galaxy</a> offers a graphical interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:</p>
-<p><img src="images/Galaxy.png" /></p>
+<p>A <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical user interface</a> or simply just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a “user-centered” design that creates a visual environment where users can for example <strong>click on</strong> tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.</p>
+<p><a href="https://usegalaxy.org/">Galaxy</a> offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_33.png" title="Galaxy Graphical User Interface" alt="Galaxy Graphical User Interface" width="100%" style="display: block; margin: auto;" /></p>
+<p>Another Graphical User Interface example comes from the <a href="https://ohif.org">OHIF image viewer</a> which has a tool bar for modifying, viewing and annotating images.</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" title="The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports." alt="The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" /></p>
 <p>A <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.</p>
 <p>For example, one could perform functions in R using Bioconductor packages such as <a href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">Biostrings</a> with a command line interface:</p>
-<p><img src="images/Biostrings.png" /></p>
-<p>A situation where you might use <strong>both</strong> a command line interface and a GUI, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development environment</a>, which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI.</p>
-<p><img src="images/both.png" />
-2) Am I working with protected data that requires special security precautions?</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_35.png" title="Command line interface using R and Bioconductor package" alt="Command line interface using R and Bioconductor package" width="100%" style="display: block; margin: auto;" /></p>
+<p>A situation where you might use <strong>both</strong> a command line interface and a GUI, is using <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> to perform an analysis in R with Bioconductor packages. <a href="https://en.wikipedia.org/wiki/RStudio">RStudio</a> is what is called an IDE or an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">integrated development environment</a>, which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_30.png" title="Command line interface using R and Bioconductor package with a GUI using RStudio" alt="Command line interface using R and Bioconductor package with a GUI using RStudio" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="protected-data" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Protected data</h2>
+<p>Are you working with protected data that requires special security precautions?</p>
 <p>If you are working with data that might be protected by <a href="https://www.hipaajournal.com/hipaa-compliance-checklist/">HIPAA</a>, such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.</p>
-<p><img src="images/HIPAA.jpg" />
-[<a href="https://www.paubox.com/blog/what-is-hipaa/">source</a>]</p>
-<ol start="3" style="list-style-type: decimal">
-<li>How computationally intensive are my tasks?</li>
-</ol>
-<p>If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called “Cloud” computing (more on that later).</p>
-<p><img src="images/computationally_intensive.png" /></p>
-<ol start="4" style="list-style-type: decimal">
-<li>How much storage space do I need for both temporary and long-term data?</li>
-</ol>
-<p><img src="images/Storage.png" /></p>
-<p>If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or “Cloud” storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further.</p>
-<p>Avocado - I want to modify this to highlight the difference between cloud computing by companies vs Xsede</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_43.png" title="HIPAA Logo" alt="HIPAA Logo" width="100%" style="display: block; margin: auto;" /></p>
+<p>[<a href="https://www.paubox.com/blog/what-is-hipaa/">source</a>]</p>
+<div id="computation-needs" class="section level3" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Computation needs</h3>
+<p>How computationally intensive are my tasks?</p>
+<p>If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called “Cloud” computing (see the previous chapters for more info if you have not already).</p>
+</div>
+<div id="storage-needs" class="section level3" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Storage needs</h3>
+<p>How much storage space do I need for both temporary and long-term data?</p>
+</div>
+</div>
+<div id="local-or-remote" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Local or Remote?</h2>
+<p>If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or “Cloud” storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further. See <span class="citation">(<a href="#ref-fischer_jetstream_2019" role="doc-biblioref"><strong>fischer_jetstream_2019?</strong></a>)</span> for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.</p>
 <ol style="list-style-type: decimal">
-<li>Are my local resources sufficient?</li>
+<li>Are local resources sufficient?</li>
 </ol>
 <p>When a local solution already works, one may rightly question the time required to migrate to the Cloud. However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Am I working with especially big or controlled access datasets?</li>
+<li>Do you work with especially big or controlled access datasets?</li>
 </ol>
 <p>Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud. If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option. Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPAA and FedRAMP.</p>
 <ol start="3" style="list-style-type: decimal">
-<li>Do I need to work with collaborators? Computational research increasingly involves larger and larger collaborations. While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.</li>
+<li>Do you need to work with collaborators? Computational research increasingly involves larger and larger collaborations. While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.</li>
 </ol>
 <p>If Cloud Computing makes sense for you, then you’re in luck! The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable. As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.</p>
-</div>
-<div id="benefits-of-cloud-computing" class="section level3" number="7.2.2">
-<h3><span class="header-section-number">7.2.2</span> Benefits of Cloud Computing</h3>
+<div id="benefits-of-cloud-computing" class="section level3" number="7.4.1">
+<h3><span class="header-section-number">7.4.1</span> Benefits of Cloud Computing</h3>
 <p>The state of Cloud computing is continually evolving. Here, we highlight three main current benefits:</p>
-<p><a href="https://jetstream-cloud.org/files/Jetstream-Outreach-C2Exchange-Sep2019.pdf" class="uri">https://jetstream-cloud.org/files/Jetstream-Outreach-C2Exchange-Sep2019.pdf</a></p>
 <ol style="list-style-type: decimal">
 <li><strong>Sharing Workflows</strong></li>
 </ol>
 <p>The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of <a href="https://usegalaxy.org/">Galaxy</a>. Using this, one can share not only what datasets they used but also every computational manipulation that was performed.</p>
-<p><img src="images/Galaxy_history.png" /></p>
-<p>By sharing such a history, one can reproduce an analysis in its entirety, allowing collaborators to offer comments and extend upon the work with ease.</p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_38.png" title="Galaxy history example" alt="Galaxy history example" width="100%" style="display: block; margin: auto;" /></p>
+<p>By sharing such a history, one can reproduce an analysis in its entirety (if they use the same data), allowing collaborators to offer comments and extend upon the work with ease.</p>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Sharing Workflows between Platforms</strong></li>
 </ol>
 <p>While sharing complete analysis histories is for the most part constrained to a particular software platform, a second benefit that has arisen is the ability to share Workflows between platforms.</p>
 <p>Shown here is a diagram of a single cell analysis pipeline published by the Klarman Cell Observatory on Dockstore:</p>
-<p><img src="images/workflow.png" /></p>
+<p><img src="resources/images/08-Computing_Decisions_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_43.png" title="Workflow" alt="Workflow" width="100%" style="display: block; margin: auto;" /></p>
 <p>This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra or DNAnexus.</p>
 <ol start="3" style="list-style-type: decimal">
 <li><strong>Using Commodity Hardware</strong></li>
 </ol>
 <p>The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.</p>
-<p><img src="images/cloud_Services.png" /></p>
 <p>What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers – importantly stopping the bill when your analysis is complete. Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.</p>
 </div>
-<div id="challenges-of-cloud-computing" class="section level3" number="7.2.3">
-<h3><span class="header-section-number">7.2.3</span> Challenges of Cloud Computing</h3>
+<div id="challenges-of-cloud-computing" class="section level3" number="7.4.2">
+<h3><span class="header-section-number">7.4.2</span> Challenges of Cloud Computing</h3>
 <p>Balancing these three benefits are four challenges:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Data Transfer</strong></li>
@@ -362,11 +375,8 @@ div.csl-indent {
 <p>A final challenge is that many IT support staff do not have extensive experience managing Cloud resources. Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management. Fortunately, large initiatives like AnVIL, <a href="https://usegalaxy.org/">Galaxy</a>, and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.</p>
 </div>
 </div>
-<div id="local-costs" class="section level2" number="7.3">
-<h2><span class="header-section-number">7.3</span> Local Costs</h2>
-</div>
-<div id="cloud-costs" class="section level2" number="7.4">
-<h2><span class="header-section-number">7.4</span> Cloud Costs</h2>
+<div id="conclusions" class="section level2" number="7.5">
+<h2><span class="header-section-number">7.5</span> Conclusions</h2>
 
 </div>
 </div>

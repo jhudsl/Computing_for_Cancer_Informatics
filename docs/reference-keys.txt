@@ -68,8 +68,12 @@ conclusion-4
 data-management-decisions
 computing-platforms
 choosing-a-computing-platform
-important-questions
+general-considerations
+interface
+protected-data
+computation-needs
+storage-needs
+local-or-remote
 benefits-of-cloud-computing
 challenges-of-cloud-computing
-local-costs
-cloud-costs
+conclusions

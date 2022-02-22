@@ -18,7 +18,7 @@ It is sometimes called a **processor** or **microprocessor** (but technically th
 
 The CPU is made up of several components, a few that are particularly important (two of which we have discussed): 
 
- * ALU  
+ * Arithmetic Logic Unit (ALU)  
  * Registers  
  * Control Unit (CU)  
  
