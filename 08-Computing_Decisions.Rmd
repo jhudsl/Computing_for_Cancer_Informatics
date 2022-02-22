@@ -59,7 +59,7 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 ```
 
 
-Another Graphical User Inteface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
+Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports.", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
