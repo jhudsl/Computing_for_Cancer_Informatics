@@ -155,13 +155,12 @@ Shown here is a diagram of an analysis pipeline to create a [custom reference](h
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117032ee319_0_8")
 ```
 
-This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra or DNAnexus.
+This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra, AnVIL, or [DNAnexus](https://www.dnanexus.com/), which is yet another computing platform company with generally more costs associated as compared to Terra or AnVIL.
 
 
 3) **Using Commodity Hardware**
 
 The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
-
 
 
 What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
@@ -176,11 +175,11 @@ Data transfer and data management remains a cumbersome task.  While storing data
 
 2) **Data Security**  
 
-Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records.
+Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. Some of the specialized research platforms allow for this as described in the previous chapter. 
 
 3) **Costs** 
 
-Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many Cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  We will briefly overview cost controls in the next section.
+Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many Cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
 
 While software platforms can help mitigate these challenges, Cloud computing still incurs costs from the underlying hardware providers. 
 
