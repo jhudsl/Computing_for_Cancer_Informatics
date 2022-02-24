@@ -7,7 +7,7 @@ ottr::set_knitr_image_path()
 
 # Data Management Decisions
 
-In this chapter we will discuss aspects that you should consider when deciding what data and computing systems to use for your work. 
+Now that we have discussed a bit about how computers perform computations and computing options, lets discuss more about how you might choose your computing platform. In this chapter we will discuss aspects that you should consider when deciding what computing resources to use for your work. 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options.", out.width="100%"}
@@ -21,17 +21,7 @@ To afford you the best opportunity to perform the informatics research that you 
 ***Note:** This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [AnVIL project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).*
 
 
-
-
-
-## Computing Platforms
-
-Now that we have discussed a bit about how computers perform computations and computing options, lets discuss more about how you might choose your computing platform. A computing platform, is all the [hardware](https://simple.wikipedia.org/wiki/Computer_hardware) (the physical parts of your computing platform) and [software](https://simple.wikipedia.org/wiki/Software) (the code that tells the computing platform how to function) necessary to create the environment in which you can perform your computational work.
-
-Choosing a computing platform involves both software and hardware decisions. 
-
-
-## Choosing a Computing Platform
+## General Computing Considerations
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on several considerations.  
 
@@ -40,9 +30,7 @@ ottr::include_slide("hhttps://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAb
 ```
 
 
-### General Considerations
-
-Asking yourself and your research team these questions can help you find the right computing platform:
+Asking yourself and your research team the following questions can help you find the right computing platform.
 
 ### Interface
 
@@ -82,12 +70,13 @@ A situation where you might use **both** a command line interface and a GUI, is 
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
 ```
 
+Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
 
 ## Protected data
 
 Are you working with protected data that requires special security precautions?
 
-If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data.
+If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both local and cloud shared computing resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "HIPAA Logo", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
@@ -100,19 +89,16 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 
 How computationally intensive are my tasks? 
 
-If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case, you might consider using a local server or what is called "Cloud" computing (see the previous chapters for more info if you have not already). 
-
-
+If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case you might consider using a local server or a cloud computing option (see the previous chapters for more info if you have not already). 
 
 ### Storage needs
 
 How much storage space do I need for both temporary and long-term data?
 
 
-
 ## Local or Remote?
 
-If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or "Cloud" storage options may work for you, depending on other considerations (security, data transfers) that we will discuss further. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.
+If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers). See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.
 
 
 1) Are local resources sufficient? 
@@ -123,13 +109,13 @@ When a local solution already works, one may rightly question the time required 
 
 Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud.  If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option.  Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPAA and FedRAMP.
 
-3) Do you  need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
+3) Do you need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 If Cloud Computing makes sense for you, then you’re in luck!  The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable.  As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.
 
 ### Benefits of Cloud Computing
 
-The state of Cloud computing is continually evolving.  Here, we highlight three main current benefits:
+The state of Cloud computing is continually evolving.  Here, we highlight four main current benefits:
 
 
 1) **Sharing history**  
@@ -165,17 +151,19 @@ The third Benefit we highlight is the increasing ease by which one can provision
 
 What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
 
+4) Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
+
 ### Challenges of Cloud Computing
 
 Balancing these three benefits are four challenges:
 
 1) **Data Transfer**  
 
-Data transfer and data management remains a cumbersome task.  While storing data in the "Cloud" has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth.
+Data transfer and data management remains a cumbersome task.  While storing data in the "Cloud" has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth. However if you have yet to start work on a local shared computing resource than the work to transfer may be comparable. Additionally if you plan to use public data that is accessible through a platform designed for research than you may in fact have less data transfer needs when working with a cloud computing option. 
 
 2) **Data Security**  
 
-Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. Some of the specialized research platforms allow for this as described in the previous chapter. 
+Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic.
 
 3) **Costs** 
 
@@ -187,8 +175,28 @@ While software platforms can help mitigate these challenges, Cloud computing sti
 
 A final challenge is that many IT support staff do not have extensive experience managing Cloud resources.  Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.  
 
+## Overall Decision Process
+
+We suggest evaluating your computing needs based on the following decision tree.
+
+<div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242"><div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/C660C4AD4516EA9D6EEABE9A9B7980244BE/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("C660C4AD4516EA9D6EEABE9A9B7980244BE",91242,0,"");</script><br/>
+
+Or click on this link: https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE
+
+```{r, echo = FALSE, out.width="100%"}
+knitr::include_url("https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE")
+```
 
 ## Conclusions
 
+We hope that this chapter has given you some more perspective on how to make important computing decisions to make the most out of your work.
+
+In conclusion, here are some of the major take-home messages:
+
+1) The following are imporant to consider when deciding between computing options: 1. Data STo. 
+
+2) There are quite a few platforms that are well developed with in depth documentation to support research quite broadly and allow users to work with a diverse set of data.
+
+3) There are also platforms that were designed for specific research needs. 
 
 
