@@ -10,12 +10,12 @@ ottr::set_knitr_image_path()
 Now that we have discussed a bit about how computers perform computations and computing options, lets discuss more about how you might choose your computing platform. In this chapter we will discuss aspects that you should consider when deciding what computing resources to use for your work. 
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options.", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options. 3. Know what to watch out for in computing decisions.", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_0")
 ```
 
 
-To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with the benefits and drawbacks of various computing options. 
+To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with the benefits and drawbacks of various computing options. First we will start out with some general considerations that you should think about when beginning to determine what computing option makes sense for your work.
 
 
 ***Note:** This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [AnVIL project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).*
@@ -25,19 +25,30 @@ To afford you the best opportunity to perform the informatics research that you 
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on several considerations.  
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. Will data need extra privacy protection? 2. Do I plan on collaborating with others outside of my institute? 3. How computationally intensive will the work be? 4.How much data storage is needed?", out.width="100%"}
-ottr::include_slide("hhttps://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
-```
-
-
 Asking yourself and your research team the following questions can help you find the right computing platform.
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. Will data need extra privacy protection? 2. Do I plan on collaborating with others outside of my institute? 3. How computationally intensive will the work be? 4.How much data storage is needed?", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
+```
+Let's take a bit of a deeper dive now for each of these considerations.
+
+## Computation needs
+
+Now that you know more about determining your personal computer's computing and storage capacity, as well as how to determine or estimate the files sizes that you might use for your research, you can begin to assess if your personal computer is up to the task. When determining what your computing needs might be, remember to evaluate how many files you might use in your analyses, the file sizes, the amount of RAM and CPUs (and possibly GPUs that your computer has) and some level of understanding for how intensive the computing tasks are that you plan to perform. How do you assess this?  If the files that you intend to use in your analysis are quite large for your computer's storage capacity, then it is likely that your computer might struggle to work with such files. This might also be the case if you plan to use many many smaller files. Finally, if you plan to perform many steps on your files in your analysis this may also require more computing resources than you have available on your current personal computer. Shared computing options will generally have the capacity to allow you to do your work, unless you have very large data needs and you hope to use a very specialized computing platform that may not support large-scale work. Checking with the local or remote computing options that you are interested in about the computing capacity ahead of time before you start an analysis if you have large data analysis plans would be a good idea.
+
+## Data storage
+
+Again, now that you know how to assess the data storage potential of your computer, you can decide if your computer can handle storing all the files that you might wish to use in your analysis. Think about your current data analysis plans but keep in mind your future plans as well. If you hope to replicate experiments with more samples, you might run out of storage. One way around this is to by external additional storage (which is also a good idea for backing up your data!). However, if you think that you might have much larger scale research plans in the future, you might want to think about shared computing options. Cloud computing platforms and more traditional servers have different storage capacities, so it is worth checking out the options that might be helpful for your research. Also keep in mind that it will take time to transfer your data, especially if your data is very large.
+
+## Multi-institute collaboration
+
+If you plan to work with others outside of your institute that would not have access to the same local shared computing resources, then remote computing options would be really helpful for allowing your collaborators to work on the same data together.
 
 ## Protected data
 
 Are you working with protected data that requires special security precautions?
 
-If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both local and cloud shared computing resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need.
+If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both traditional shared and cloud computing resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need. Although many cloud computing systems do not allow for extra privacy, there are many that do.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "HIPAA Logo", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
@@ -46,18 +57,8 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
 
 
-### Computation needs
-
-How computationally intensive are my tasks? 
-
-If you have a large amount of data and/or are performing complex analyses, you may require more computational power than your current laptop can provide. If this is the case you might consider using a local server or a cloud computing option (see the previous chapters for more info if you have not already). 
-
-### Storage needs
-
-How much storage space do I need for both temporary and long-term data?
 
 
-If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers). 
 
 
 
@@ -72,7 +73,7 @@ When a local computing resource solution already works, one may rightly question
 
 2) Do you want to work with especially big or controlled access datasets? 
 
-Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. Furthermore, if you work with data that requires extra privacy protection, more platforms are providing compliance with regulations like HIPAA and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
+Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based pleatforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. Furthermore, if you work with data that requires extra privacy protection, more platforms are providing compliance with regulations like HIPAA and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
 
 3) Do you need to work with collaborators?  Computational research increasingly involves larger and larger collaborations. While many systems exist to share work, the cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
