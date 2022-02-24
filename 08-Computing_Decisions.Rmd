@@ -96,22 +96,26 @@ If you have a large amount of data and/or are performing complex analyses, you m
 How much storage space do I need for both temporary and long-term data?
 
 
-## Local or Remote?
+If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers). 
 
-If you are working with large datasets you may also need storage options that go beyond what you currently have available. Local or cloud storage options may work for you, depending on other considerations (security, data transfers). See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.
+
+
+## Local shared resources vs cloud
+
+If you have determined that you indeed need more computing power than your personal lab computers. The next decision is between local shared resources and more traditional shared resources like XSEDE, and cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work.
 
 
 1) Are local resources sufficient? 
 
-When a local solution already works, one may rightly question the time required to migrate to the Cloud.  However, when local solutions are insufficient or unsustainable, then the Cloud becomes a competitive option.
+When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable, then the cloud becomes a competitive option.
 
-2) Do you work with especially big or controlled access datasets? 
+2) Do you want to work with especially big or controlled access datasets? 
 
-Increasingly large datasets like the NCBI Sequence Read Archive are being stored on the Cloud.  If your work relies on being able to access the entire dataset, then the Cloud may be your only practical option.  Furthermore, if you work with controlled access data, then more platforms are providing compliance with regulations like HIPAA and FedRAMP.
+Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. Furthermore, if you work with data that requires extra privacy protection, more platforms are providing compliance with regulations like HIPAA and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
 
-3) Do you need to work with collaborators?  Computational research increasingly involves larger and larger collaborations.  While many fragmented systems exist to share work, the Cloud presents an opportunity for everyone to share the exact same computational environment including hardware, software, and datasets.
+3) Do you need to work with collaborators?  Computational research increasingly involves larger and larger collaborations. While many systems exist to share work, the cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
-If Cloud Computing makes sense for you, then you’re in luck!  The past decade has seen the development of many efforts to make Cloud computing, easier, faster, and more affordable.  As each platform has their strengths and weaknesses, we will now discuss several opportunities and challenges that Cloud computing presents in the field of computational genomics.
+We will now discuss several opportunities and challenges that cloud computing currently presents.
 
 ### Benefits of Cloud Computing
 
@@ -141,13 +145,12 @@ Shown here is a diagram of an analysis pipeline to create a [custom reference](h
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117032ee319_0_8")
 ```
 
-This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra, AnVIL, or [DNAnexus](https://www.dnanexus.com/), which is yet another computing platform company with generally more costs associated as compared to Terra or AnVIL.
+This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra, AnVIL, or [DNAnexus](https://www.dnanexus.com/), which is yet another computing platform company, although with generally more costs associated as compared to Terra or AnVIL.
 
 
 3) **Using Commodity Hardware**
 
 The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
-
 
 What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
 
@@ -159,21 +162,23 @@ Balancing these three benefits are four challenges:
 
 1) **Data Transfer**  
 
-Data transfer and data management remains a cumbersome task.  While storing data in the "Cloud" has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth. However if you have yet to start work on a local shared computing resource than the work to transfer may be comparable. Additionally if you plan to use public data that is accessible through a platform designed for research than you may in fact have less data transfer needs when working with a cloud computing option. 
+Data transfer and data management remains a cumbersome task.  While storing data in the cloud has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth. However if you have yet to start work on a local shared computing resource than the work to transfer may be comparable. Additionally if you plan to use public data that is accessible through a platform designed for research than you may in fact have less data transfer needs when working with a cloud computing option. 
 
 2) **Data Security**  
 
-Most Cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic.
+Most cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. 
+
+Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic.
 
 3) **Costs** 
 
-Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many Cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
+Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
 
-While software platforms can help mitigate these challenges, Cloud computing still incurs costs from the underlying hardware providers. 
+While software platforms can help mitigate these challenges, cloud computing still incurs costs from the underlying hardware providers. 
 
 4) **IT**  
 
-A final challenge is that many IT support staff do not have extensive experience managing Cloud resources.  Should IT choose to support analysis on the Cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to Cloud computing by tackling many of these challenges.  
+A final challenge is that many IT support staff do not have extensive experience managing cloud resources.  Should IT choose to support analysis on the cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to cloud computing by tackling many of these challenges.  
 
 ## Overall Decision Process
 
@@ -193,10 +198,10 @@ We hope that this chapter has given you some more perspective on how to make imp
 
 In conclusion, here are some of the major take-home messages:
 
-1) The following are imporant to consider when deciding between computing options: 1. Data STo. 
+1) The following are important factors to consider when deciding between computing options: 1. Interface needs. 2. data needs for extra privacy protection, 3. computing needs, 4. data storage needs.
 
-2) There are quite a few platforms that are well developed with in depth documentation to support research quite broadly and allow users to work with a diverse set of data.
+2) When making computing decisions, first determine if your local machine has the capacity you need and then decide on local vs remote computing options.
 
-3) There are also platforms that were designed for specific research needs. 
+3) More and more cloud computing options are being developed and designed specifically for research, consider the above general factors when choosing between cloud-based options.
 
 
