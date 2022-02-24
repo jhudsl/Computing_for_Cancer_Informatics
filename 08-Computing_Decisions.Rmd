@@ -25,52 +25,13 @@ To afford you the best opportunity to perform the informatics research that you 
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on several considerations.  
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. What type of interface is needed? 2. Will data need extra privacy protection? 3. How computationally intensive will the work be? 4.How much data storage is needed?", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. Will data need extra privacy protection? 2. Do I plan on collaborating with others outside of my institute? 3. How computationally intensive will the work be? 4.How much data storage is needed?", out.width="100%"}
 ottr::include_slide("hhttps://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
 ```
 
 
 Asking yourself and your research team the following questions can help you find the right computing platform.
 
-### Interface
-
-Will you need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
-
-What do we mean by this?
-
-A [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or simply just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example **click on** tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.
-
-[Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy Graphical User Interface", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_33")
-```
-
-
-Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports.", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
-```
-
-
-A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.
-
-For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
-```
-
-
-
-A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package with a GUI using RStudio", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
-```
-
-Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
 
 ## Protected data
 
@@ -179,6 +140,49 @@ While software platforms can help mitigate these challenges, cloud computing sti
 4) **IT**  
 
 A final challenge is that many IT support staff do not have extensive experience managing cloud resources.  Should IT choose to support analysis on the cloud, they would face the aforementioned challenges of understanding and supporting data management, security compliance, and cost management.  Fortunately, large initiatives like AnVIL, [Galaxy](https://usegalaxy.org/), and CyVerse continue to work on democratizing access to cloud computing by tackling many of these challenges.  
+
+
+## Choosing between remote sharing options
+### Interface
+
+Will you need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
+
+What do we mean by this?
+
+A [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or simply just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example **click on** tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.
+
+[Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy Graphical User Interface", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_33")
+```
+
+
+Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
+```
+
+
+A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.
+
+For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
+```
+
+
+
+A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package with a GUI using RStudio", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
+```
+
+Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
+
 
 ## Overall Decision Process
 
