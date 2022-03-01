@@ -145,7 +145,7 @@ We will now discuss several opportunities and challenges that cloud computing cu
 
 ### Benefits of Cloud Computing
 
-The state of Cloud computing is continually evolving.  Here, we highlight four main current benefits:
+The state of Cloud computing is continually evolving.  Here, we highlight the main current benefits:
 
 
 1) **Sharing history**  
@@ -180,11 +180,17 @@ The third Benefit we highlight is the increasing ease by which one can provision
 
 What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
 
-4) Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
+4) **Less Etiquette**
+
+Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
+
+5) **Data Access**
+
+Easy access to large datasets that might be otherwise difficult to work with. Now many cloud computing resources, especially those designed for research, also allow users access to relevant datasets. 
 
 ### Challenges of Cloud Computing
 
-Balancing these three benefits are four challenges:
+Balancing these benefits are the following challenges:
 
 1) **Data Transfer**  
 
@@ -194,13 +200,13 @@ Data transfer and data management remains a cumbersome task.  While storing data
 
 Most cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. 
 
-Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic.
+Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic. Also keep in mind that although local shared resources like that of your university often have good security and data privacy policies and protection mechanisms, this is not always the case.
 
 3) **Costs** 
 
 Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
 
-While software platforms can help mitigate these challenges, cloud computing still incurs costs from the underlying hardware providers. 
+While software platforms can help mitigate these challenges, cloud computing still incurs costs from the underlying hardware providers. It can be a challenge to understand how this is billed.
 
 4) **IT**  
 
@@ -244,6 +250,10 @@ In conclusion, here are some of the major take-home messages:
 1) The three major computing decisions are: 1. Personal computer vs Shared resource, 2. Local shared resource vs. Remote Shared resource, 3. Which shared resource. Start first with determining if your personal computer can handle your work or if you have plans to collaborate with others at different institutes.
 
 2) The following are general considerations that can help you make each of the 3 decisions: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Does my data that need extra privacy protection? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10. What kind of interface would be helpful? 
+
+3) The main benefits of cloud options are easier sharing of data, code, and workflows even across different computing platforms, access to large amounts of computing resources, generally only need to pay for the resource you actually use, less need to be as conscious of proper etiquette for sharing computing resources.
+
+4) The main drawbacks of cloud options in general are: 1. if you were already using a shared resource then migrating to the cloud will require data transfer effort and time, 2. Some cloud computing options do not provide data privacy protection that may be needed for certain types of data, 3. costs calculations can be especially confusing and you will need to learn how it works for the particular resource that you are interested in using, 4. There will be less IT support form your local IT department as many of these resources have their own infrastructure, however many options provide their own guidance and support.
 
 
 3) More and more cloud computing options are being developed and designed specifically for research, consider the following questions when choosing between cloud-based options: 1. Does the resource offer the privacy protection needed? 2. Does the resource allow for me to use the data modalities I need? 3. Does the resource already have data that I might want? 4. Does the resource provide extra guidance that might be helpful for my work? 5. Does the resource offer the interface that I would like to work with? 6. Does the resource offer me access to a relevant community for my work that would be helpful?
