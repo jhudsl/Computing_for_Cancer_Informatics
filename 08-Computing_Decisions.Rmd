@@ -2,7 +2,7 @@
 
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Data Management Decisions
@@ -11,7 +11,7 @@ Now that we have discussed a bit about how computers perform computations and de
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options. 3. Know what to watch out for in computing decisions.", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_0")
 ```
 
 
@@ -20,7 +20,7 @@ To afford you the best opportunity to perform the informatics research that you 
 The following are the major decision points for your computing needs:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which shared resource?", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1175806cc27_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1175806cc27_0_0")
 ```
 
 
@@ -34,7 +34,7 @@ Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform
 Asking yourself and your research team the following questions can help you find the right computing platform.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Does my data that need extra privacy protection? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
 ```
 
 Let's take a bit of a deeper dive now for each of these considerations.
@@ -58,7 +58,7 @@ Are you working with protected data that requires special security precautions?
 If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both traditional shared and cloud computing resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need. Although many cloud computing systems do not allow for extra privacy, there are platforms that provide compliance with regulations like [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/) and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "HIPAA Logo", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
 ```
 
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
@@ -97,14 +97,14 @@ A [graphical user interface](https://www.omnisci.com/technical-glossary/graphica
 [Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy Graphical User Interface", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_33")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_33")
 ```
 
 
 Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports.", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd8d3f477a_159_2")
 ```
 
 
@@ -113,7 +113,7 @@ A [command line interface](https://searchwindowsserver.techtarget.com/definition
 For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
 ```
 
 
@@ -121,7 +121,7 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package with a GUI using RStudio", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_30")
 ```
 
 Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
@@ -153,7 +153,7 @@ The state of Cloud computing is continually evolving.  Here, we highlight four m
 The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/). Using this, one can share not only what datasets they used but also every computational manipulation that was performed.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Galaxy history example", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_38")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_38")
 ```
 
 
@@ -168,7 +168,7 @@ While sharing complete analysis histories is for the most part constrained to a 
 Shown here is a diagram of an analysis pipeline to create a [custom reference](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/advanced/references) for single cell 10x data using [cell ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) published by the Klarman Cell Observatory on [Dockstore](https://dockstore.org/workflows/github.com/klarman-cell-observatory/cumulus/Cellranger_create_reference:master?tab=dag). Users can launch the workflow on various supported platforms such as Terra or AnVIL.:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Workflow on Dockstore showing launch buttons with multiple platforms", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117032ee319_0_8")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117032ee319_0_8")
 ```
 
 This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra, AnVIL, or [DNAnexus](https://www.dnanexus.com/), which is yet another computing platform company, although with generally more costs associated as compared to Terra or AnVIL.
@@ -213,11 +213,12 @@ The final major decision, should you decide that you want to go with a remote sh
 
 This decision should be based on the following:
 
-1) Does the resource offer the privacy protection needed?
-2) Does the resource allow for me to use the data modalities I need?
-3) Does the resource already have data that I might want?
-4) Does the resource provide extra guidance that might be helpful for my work?
-5) Does the resource offer the interface that I would like to work with?
+```{r, fig.align='center', echo = FALSE, fig.alt= "1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with? 6) Does the resource offer me access to a relevant community for my work that would be helpful?", out.width="100%"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1175806cc27_0_27")
+```
+
+
 
 
 
@@ -240,10 +241,10 @@ We hope that this chapter has given you some more perspective on how to make imp
 
 In conclusion, here are some of the major take-home messages:
 
-1) The following are important factors to consider when deciding between computing options: 1. Interface needs. 2. data needs for extra privacy protection, 3. computing needs, 4. data storage needs.
+1) The three major computing decisions are: 1. Personal computer vs Shared resource, 2. Local shared resource vs. Remote Shared resource, 3. Which shared resource. Start first with determining if your personal computer can handle your work or if you have plans to collaborate with others at different institutes.
 
-2) When making computing decisions, first determine if your local machine has the capacity you need and then decide on local vs remote computing options.
+2) The following are general considerations that can help you make each of the 3 decisions: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Does my data that need extra privacy protection? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10. What kind of interface would be helpful? 
 
-3) More and more cloud computing options are being developed and designed specifically for research, consider the above general factors when choosing between cloud-based options.
 
+3) More and more cloud computing options are being developed and designed specifically for research, consider the following questions when choosing between cloud-based options: 1. Does the resource offer the privacy protection needed? 2. Does the resource allow for me to use the data modalities I need? 3. Does the resource already have data that I might want? 4. Does the resource provide extra guidance that might be helpful for my work? 5. Does the resource offer the interface that I would like to work with? 6. Does the resource offer me access to a relevant community for my work that would be helpful?
 
