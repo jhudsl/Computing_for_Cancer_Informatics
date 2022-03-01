@@ -33,7 +33,7 @@ Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform
 
 Asking yourself and your research team the following questions can help you find the right computing platform.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Does my data that need extra privacy protection? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Do I need extra privacy protection for my data? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
 ```
 
@@ -219,7 +219,7 @@ The final major decision, should you decide that you want to go with a remote sh
 
 This decision should be based on the following:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with? 6) Does the resource offer me access to a relevant community for my work that would be helpful?", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with?", out.width="100%"}
 
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1175806cc27_0_27")
 ```
