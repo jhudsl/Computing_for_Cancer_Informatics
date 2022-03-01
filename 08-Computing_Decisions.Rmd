@@ -19,7 +19,7 @@ To afford you the best opportunity to perform the informatics research that you 
 
 The following are the major decision points for your computing needs:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which shared resource?", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which Remote Shared Resource?", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1175806cc27_0_0")
 ```
 
@@ -47,15 +47,28 @@ Now that you know more about determining your personal computer's computing and 
 
 Again, now that you know how to assess the data storage potential of your computer, you can decide if your computer can handle storing all the files that you might wish to use in your analysis. Think about your current data analysis plans but keep in mind your future plans as well. If you hope to replicate experiments with more samples, you might run out of storage. One way around this is to by external additional storage (which is also a good idea for backing up your data!). However, if you think that you might have much larger scale research plans in the future, you might want to think about shared computing options. Cloud computing platforms and more traditional servers have different storage capacities, so it is worth checking out the options that might be helpful for your research. Also keep in mind that it will take time to transfer your data, especially if your data is very large.
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Even if your current personal computer can handle your computing and storage needs – consider if you will need more in the near future.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_57")
+```
+
+
+
 ### Multi-institute collaboration
 
 If you plan to work with others outside of your institute that would not have access to the same local shared computing resources, then remote computing options would be really helpful for allowing your collaborators to work on the same data together. Cloud platforms especially make it easier for collaboration, as everyone can share the exact same computational environment including hardware, software, and datasets.
 
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "If you plan on collaborating outside of your institute, consider remote shared resources.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_69")
+```
+
+
+
+
 ### Protected data
 
 Are you working with protected data that requires special security precautions?
-
-If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both traditional shared and cloud computing resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need. Although many cloud computing systems do not allow for extra privacy, there are platforms that provide compliance with regulations like [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/) and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "HIPAA Logo", out.width="100%"}
 ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_43")
@@ -63,28 +76,61 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
 
+If you are working with data that might be protected by [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/), such as electronic health records, then special security measures are required to ensure that only authorized users have access to the data. Be careful about both local and remote  shared resources. Sometimes extra privacy and data security measures are built in and at other times, you will need perform extra steps to get the data security and privacy that you need. Although many cloud computing systems do not allow for extra privacy, there are platforms that provide compliance with regulations like [HIPAA](https://www.hipaajournal.com/hipaa-compliance-checklist/) and [FedRAMP](https://blog.hootsuite.com/what-is-fedramp/).
+
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "If you need extra security and privacy protections for your data, be aware of any extra steps required for any shared computing resource! Some remote resources do not support this. If your personal computer can handle your computing tasks, you can also consider using it.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_79")
+```
 
 
 ### Costs
 
 Often local shared computing resources at your institute can be much less expensive than some of the common cloud computing options. However, this is not always the case and if you have very specific analysis goals in mind, the benefit of cloud computing resources, is that you typically only pay for the resources that you actually use. This does also involves learning how costs are calculated for the particular cloud resource, which can be a challenge, but many cloud platforms that were designed for research such as [Jetstream](https://jetstream-cloud.org/) or [Terra/AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases) can be very affordable and in some cases some small platforms offer free resources.  
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "How much money can I spend? Different resources will have different associated costs. Often local shared resources are affordable. If your personal computer can handle your computing tasks, you can also consider using it. Many remote options have free storage up to an amount.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_94")
+```
+
+
 ### Extra guidance
 
 Cloud computing platforms such as [Galaxy](https://galaxyproject.org/), [AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases), and [GenePattern](https://www.genepattern.org/) offer lots of training material and resources about how to actually perform analyses, especially for genomic analyses. Galaxy also supports other types of data, as do many other platforms, as described in the last chapter. Having the extra guidance like that offered with these types of platforms can be very beneficial to investigators that are trying out new methods!
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Some remote shared resources offer extra support for your informatics work. This can be important to pay attention to when considering which remote shared option to choose. Galaxy, AnVIL, GenePattern, and XNAT are examples of platforms that provide extra guidance.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_107")
+```
+
 ### Flexibility
 
 If you plan on working with multiple data modalities like for example both imaging and genomic data, consider computing options that are flexible for such analyses. Some cloud computing options designed for research are more general and supportive of this, such as [Galaxy](https://galaxyproject.org/) to some extent, as well as to a larger extent [SciServer](https://jhudatascience.org/Computing_for_Cancer_Informatics/research-platforms.html), [Jetstream](https://jetstream-cloud.org/), or [CyVerse](https://cyverse.rocks/about).
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, XSEDE and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_114")
+```
 
 
 ### Scalability
 
 If you hope to start using very large datasets or plan to collaborate with many people using many different data sets, then you might need to keep in mind the future storage and computing capacity of the computing resources that you are considering. Starting with an option that allows for much more data storage and computing such as many of the more general cloud computing options might be best for you in this case, as you might find yourself restricted by smaller cloud platforms or more traditional shared computing resources.
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "If you might work with really large data, make sure local shared resources will be up to the task, if not considered a remote resource that has large computation/storage capacity. Remote options like SciServer, CyVerse, Globus, Overture, and Jetstream can be helpful for using really large data.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_131")
+```
+
+
+
 ### Data access
 
 Some cloud computing options already have data available that may be of interest for you and your work. For example [Galaxy](https://galaxyproject.org/), [AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases), and [GenePattern](https://www.genepattern.org/) provide access to many genomic datasets. Smaller platforms can also have access to data that may be of specific more clinical interest to you as well such as the [Cancer Genome Collaboratory](https://cancercollaboratory.org/), which provides access to data from the [International Cancer Genome Consortium (ICGC)](https://en.wikipedia.org/wiki/International_Cancer_Genome_Consortium). 
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "If access to large controlled datasets be helpful for your work, consider cloud options that allow for this. Galaxy, AnVIL, PRISM, Terra, and GenePattern are options that provide access to controlled large datasets.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_152")
+```
 
 ### Interface
 
@@ -126,20 +172,34 @@ ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbE
 
 Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
 
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Make sure you consider the type of interface you would like to work with in deciding about shared remote options. Some support only a GUI, some only command line, others support both. Galaxy and CyVerse support both command line and GUI interfaces, while OHIF and GenePattern have only a GUI based interface.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_163")
+```
+
 ## Local shared resources vs remote shared resources
 
-Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources and more traditional shared resources, like XSEDE, and cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
+Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, like XSEDE and cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
 
 
-1) Are local shared computing resources sufficient? 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Choosing between local and remote shared resource options.", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_174")
+
+```
+
+
+1) **Are local shared computing resources sufficient?**
 
 When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable (say other users often use up most of the resources or a server is often down), then the cloud becomes a competitive option.
 
-2) Do you want to work with especially big or controlled access datasets? 
+2) **Do you want to work with especially big or controlled access datasets?**
 
 Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. 
 
-3) Do you need to work with collaborators?  Computational research increasingly involves larger and larger collaborations. While many systems exist to share work,  cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
+3) **Do you need to work with collaborators?**
+
+Computational research increasingly involves larger and larger collaborations. While many systems exist to share work,  cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 We will now discuss several opportunities and challenges that cloud computing currently presents.
 
@@ -216,6 +276,11 @@ A final challenge is that many IT support staff do not have extensive experience
 ## Choosing between remote sharing options
 
 The final major decision, should you decide that you want to go with a remote sharing option is to decide which remote computing resource to go with. 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Choosing the right remote shared option", out.width="100%"}
+ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_185")
+```
+
 
 This decision should be based on the following:
 
