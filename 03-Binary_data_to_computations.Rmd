@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Binary data to computations
@@ -9,7 +9,7 @@ Now that we are familiar with transistors and binary data, we will next discuss 
 
 
 ```{r, echo = FALSE, fig.alt= "Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today", out.width= "100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g11383d0152c_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g11383d0152c_0_0")
 ```
 
 
@@ -38,13 +38,13 @@ In addition to the main CPU or CPUs or cores (chose your favorite name), compute
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores.", out.width= "100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_381")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_381")
 ```
 
 Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency [@hyperthreading; @Wikipedia_hyper-threading]. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading [[@hyperthreading; @Wikipedia_hyper-threading].
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously.", out.width= "100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_75")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_75")
 ```
 
 ### **Memory or RAM** - short-term memory
@@ -104,7 +104,7 @@ Recall that we previously talked about how computers today are often called 64-b
 Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Image of a punchcard", out.width="100%"}
-ottr::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf96b1d997a_0_1")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf96b1d997a_0_1")
 ```
 
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
