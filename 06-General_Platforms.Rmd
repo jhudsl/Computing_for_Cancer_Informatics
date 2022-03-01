@@ -188,7 +188,7 @@ For those interested, Gordon Harris and others are also working on a project cal
 
 ### PRISM
 
-The Platform for Imaging in Precision Medicine called PRISM allows users to work with the vast data available from r the Cancer Imaging Archive (TCIA).
+The Platform for Imaging in Precision Medicine called PRISM allows users to work with the vast data available from the Cancer Imaging Archive (TCIA).
 
 According to Fred Prior:
 
