@@ -76,10 +76,10 @@ extra-guidance
 flexibility
 scalability
 data-access
-local-shared-resources-vs-cloud
+interface
+local-shared-resources-vs-remote-shared-resources
 benefits-of-cloud-computing
 challenges-of-cloud-computing
 choosing-between-remote-sharing-options
-interface
 overall-decision-process
 conclusions
