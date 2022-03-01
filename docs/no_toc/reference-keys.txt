@@ -57,10 +57,9 @@ sciserver
 materials-cloud
 overture
 globus
-additional-more-specific-platforms
 basespace-sequence-hub
-genepattern
 atlas.ti
+genepattern
 xnat
 ohif
 prism
