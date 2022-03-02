@@ -101,7 +101,10 @@ Recall that we previously talked about how computers today are often called 64-b
 
 ### Historical context
 
-Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
+Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. Data and code would be manually indicated by punching or creating a hole in the card in certain locations. For example, columns might indicate different numeric or alphabetical values. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine [@punched_card_2021]!
+
+There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Image of a punchcard", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf96b1d997a_0_1")
