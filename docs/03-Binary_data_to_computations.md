@@ -91,13 +91,18 @@ Recall that we previously talked about how computers today are often called 64-b
 
 ### Historical context
 
-Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine!
+Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. Data and code would be manually indicated by punching or creating a hole in the card in certain locations. For example, columns might indicate different numeric or alphabetical values. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine [@punched_card_2021]!
 
 <img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" title="Image of a punchcard" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" />
 
+There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+
+
+
 The first operating system just allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.
 
-See @OS_2017 for more information about operating systems and @punched_card_2021 for really interesting information about the history of punched cards.
+
+Check out this [video](https://www.youtube.com/watch?v=KG2M4ttzBnY) if you want to learn more about how these punch cards worked. See @OS_2017 for more information about operating systems and @punched_card_2021 for really interesting information about the history of punched cards.
 Also check out @hardware_history_2021 for really interesting and more extensive history about how computer hardware was developed.
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time (and now women and gender minorities are hopefully becoming more represented) : 
