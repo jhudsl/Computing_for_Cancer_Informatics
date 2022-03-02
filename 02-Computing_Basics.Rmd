@@ -131,12 +131,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
  
 
 
-Importantly, using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations [@Wikipedia_adder_2021]. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](
-https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
+Importantly, using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations [@Wikipedia_adder_2021]. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
 
+For example, to calculate the sum of 1 plus 1 we would need what is called a ["full adder"](https://en.wikipedia.org/wiki/Adder_(electronics)) which can be made a few ways but generally contains several logic gates that check the current status of the digits of the values being added. For example, part of an adder might check using logic if the first digit of the first number is the same as that of the second number to be summed with the first.  Recall that each of these gates would be made up of multiple transistors, thus many transistors would be required even for adding 1 and 1. For larger numbers we would need more full adders [@wiki_adder_2022; @adder_binary_2013]. Thus You can see how the need for many transistors adds up quickly! To better understand how this is possible, we need to first talk about how computers use the two binary states of current to represent numeric values. In other words, we need to talk about binary data.
 
-
-If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
+If you would like to learn more about these logic gates with circuit diagrams, check out this [website](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
 
 In case you are wondering about the semantics of phrases like the "flow of current", check this [discussion](https://electronics.stackexchange.com/questions/61780/isnt-current-flow-a-wrong-term).
 
@@ -147,21 +146,24 @@ In case you are wondering about the semantics of phrases like the "flow of curre
 An ALU performs arithmetic operations using values represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). Data like this is also called [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra),  based on George Boole system of algebra. These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system. What does this mean?
 With our decimal system when we reach a value of 10, we start to carry over the 1. With the binary system when we reach a value of 2, we start to carry over the 1 [@Wikipedia_boolean_2021].
 
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place.", out.width= "100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
-```
-
 Here we can see how the first 9 digits of the decimal system are represented in the binary system.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table showing how decimal values 0-10 are represented in the binary system.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_265")
 ```
 
+Now taking this a step deeper, we can see how addition works with binary data.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing how binary addition works. 0+0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place.", out.width= "100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
+```
+
+
+
 See [here](https://www.calculator.net/binary-calculator.html) to learn more about binary calculations [@binary_calc].
 
  
-
+This optional [video](https://www.youtube.com/watch?v=VBDoT8o4q00)explains further how transistors are used to add numbers together.
 
 ### Flip-flops and registers
 
@@ -171,7 +173,7 @@ A group of flip-flops is called a register [@Wikipedia_register_2021]. You may h
 
 You may also be wondering how letters and other symbols are stored in this binary system. 
 
-Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of this numeric number. In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits) [@Wikipedia_ascii_2021]. A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the computer can work with at a time [@Wikipedia_word_length_2021]. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Note that it is possible to combine registers to make  computations with larger numbers. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits. As you might guess 64-bit computers are more capable of faster speeds and greater precision (by giving more decimal places) when computing operations with values that are larger than 32 binary digits, as compared to such operations using a 32-bit computer.
+Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of this numeric number. 
 
 Below you can see the decimal value for some of the symbols and letters:
 
@@ -180,18 +182,23 @@ Below you can see the decimal value for some of the symbols and letters:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_187")
 ```
 
+In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits) [@Wikipedia_ascii_2021]. A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the computer can work with at a time [@Wikipedia_word_length_2021]. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Note that it is possible to combine registers to make  computations with larger numbers. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits. As you might guess 64-bit computers are more capable of faster speeds and greater precision (by giving more decimal places) when computing operations with values that are larger than 32 binary digits, as compared to such operations using a 32-bit computer.
+
+
+
 Note that ASCII has largely been replaced since 1991 for [Unicode](https://en.wikipedia.org/wiki/Unicode), which allows for more characters, supporting languages like Chinese that require far more characters than the 256 that ASCII could support [@Wikipedia_unicode_2021]. However Unicode works in a similar way[@Wikipedia_unicode_2021].
 
 Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with and after the computations are made, the computer then translates the data back to numeric and alphabetic form for us to understand. Thus computers do a lot of data conversions!
 
-Here's a video that puts everything we have explained so far together:
+Here's a great video that puts everything we have explained so far together:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
 knitr::include_url("https://www.youtube.com/embed/Xpk67YzOn5w")
 ```
 
 
-If you want to watch another optional video that explains things further and describes how transistors are used to add numbers together check out this [link](https://www.youtube.com/watch?v=VBDoT8o4q00).
+Again, if you want to watch another [video](https://www.youtube.com/watch?v=VBDoT8o4q00), this optional video that we told you about earlier explains how transistors are used to add numbers together. In this video you will see that many transistors (and several logic gates) are needed to even do a simple calculation of 1 + 1. You also learn that more complicated summations just require more transistors arranged in a similar manner. 
+
 
 
 
