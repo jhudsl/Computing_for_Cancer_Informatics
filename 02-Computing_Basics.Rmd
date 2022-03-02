@@ -190,7 +190,7 @@ Note that ASCII has largely been replaced since 1991 for [Unicode](https://en.wi
 
 Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with and after the computations are made, the computer then translates the data back to numeric and alphabetic form for us to understand. Thus computers do a lot of data conversions!
 
-Here's a video that puts everything we have explained so far together:
+Here's a great video that puts everything we have explained so far together:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
 knitr::include_url("https://www.youtube.com/embed/Xpk67YzOn5w")
