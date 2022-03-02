@@ -1,5 +1,5 @@
 --- 
-title: "Computing Management for Cancer Research"
+title: "Computing for Cancer Informatics"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
