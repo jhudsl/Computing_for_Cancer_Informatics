@@ -131,12 +131,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
  
 
 
-Importantly, using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations [@Wikipedia_adder_2021]. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](
-https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
+Importantly, using more complex arrangements of these logic gates can allow the computer to perform the arithmetic operations [@Wikipedia_adder_2021]. See [here](http://homepage.divms.uiowa.edu/~jones/assem/notes/08arith.shtml) and [here](https://en.wikipedia.org/wiki/Adder_(electronics)) for more information on how this works.
 
 
 
-If you would like to learn more about these gates with circuit diagrams, check out this [website] (http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
+If you would like to learn more about these gates with circuit diagrams, check out this [website](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1) and this [website](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) for some visualizations. This [website](https://www.explainthatstuff.com/logicgates.html) and this [website](https://www.electronics-tutorials.ws/logic/logic_1.html) also go into great detail.
 
 In case you are wondering about the semantics of phrases like the "flow of current", check this [discussion](https://electronics.stackexchange.com/questions/61780/isnt-current-flow-a-wrong-term).
 
@@ -147,16 +146,19 @@ In case you are wondering about the semantics of phrases like the "flow of curre
 An ALU performs arithmetic operations using values represented in binary digits called bits (0 or 1) (recall that this is based on a state of current). Data like this is also called [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra),  based on George Boole system of algebra. These values do not mean their typical meanings from what we know numerically, but instead follow arithmetic rules using 2 as the base, as opposed to 10 which we are familiar with for our decimal system. What does this mean?
 With our decimal system when we reach a value of 10, we start to carry over the 1. With the binary system when we reach a value of 2, we start to carry over the 1 [@Wikipedia_boolean_2021].
 
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place.", out.width= "100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
-```
-
 Here we can see how the first 9 digits of the decimal system are represented in the binary system.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table showing how decimal values 0-10 are represented in the binary system.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_265")
 ```
+
+Now taking this a step deeper, we can see how addition works with binary data.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing how binary addition works. 0 +0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place.", out.width= "100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_104")
+```
+
+
 
 See [here](https://www.calculator.net/binary-calculator.html) to learn more about binary calculations [@binary_calc].
 
