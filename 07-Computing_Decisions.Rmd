@@ -264,9 +264,9 @@ Some of the specialized research platforms allow for this as described in the pr
 
 Controlling costs, especially with regards to storage and computing, presents a third formidable challenge. Understanding how the billing works for each shared cloud platform can be very confusing and generally requires a bit of time to learn. It can be difficult to be aware of how much money is currently being spent and how to estimate how much money is likely to be spent in the future.  
 
-<div class = "warning">
+<div class = "notice">
 
-We highly suggest that users of cloud resources, be careful about how they inform students and other lab members about computing costs! We have unfortunately seen some very costly resource usage accidents. 
+To avoid costly accidents make sure you are aware of the billing for the resources you are using and you inform students and other lab members.
 
 </div>
 
