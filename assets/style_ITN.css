@@ -271,8 +271,8 @@ li.appendix span, li.part span { /* for TOC part names */
 /* Sidebar formating --------------------------------------------*/
 /* from r-pkgs.org*/
 
-div.warning{
-  border: 4px #e0471c;
+div.notice{
+  border: 4px #193a5c;
   border-style: solid;
   padding: 1em;
   margin: 1em 0;
@@ -284,8 +284,8 @@ div.warning{
   background-color: #e8ebee;
 }
 
-div.note{
-  background-image: url("../assets/warning.png");
+div.notice{
+  background-image: url("../assets/note.png");
 }
 
 div.warning{
