@@ -8,6 +8,12 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will provide examples of computing platforms that are designed to help researchers and that you might find useful for your work. Please note that we aim to provide a general overview of options and thus this is not a complete list. Let us know if there is a platform or system that you think we should include!
 
+<div class = "warning">
+
+`r emo::ji("warning")` ***Also, please be advised that we highly suggest you also read the next chapter, which will point out important considerations that you should make when deciding to work on a platform like those described in this chapter.*** `r emo::ji("warning")`
+
+</div>
+
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf5f8818810_1_171")
