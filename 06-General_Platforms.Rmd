@@ -141,12 +141,12 @@ Globus provides developers of new platforms to manage, transfer, and share data 
 It has been used for several platforms such as the  [Systems Biology Knowledgebase (KBase)](https://www.kbase.us/), which is focused on integrating data across plants and microbes, [Biomedical Research Informatics Network (BIRN)](https://en.wikipedia.org/wiki/Biomedical_Informatics_Research_Network), which is a collaborative project to bring biomedical researchers together and share resources and data [@helmer_enabling_2011], and [Globus Genomics](https://www.globusgenomics.org/genomics/about.html),which uses the Globus data management infrastructure, Amazon web services, and Galaxy workflows to assist researchers with their genomics research endeavors. 
 
 
-### BaseSpace Sequence Hub
+## BaseSpace Sequence Hub
 
 [BaseSpace](https://basespace.illumina.com/) is a platform that allows for data analysis of Illumina sequencing data and syncs easily with any Illumina sequencing machines that you might work with. There are many [applications](https://www.illumina.com/products/by-type/informatics-products/basespace-sequence-hub/apps.html) available to help you with your genomics research. They offer a 30 day free trial.
 
 
-### ATLAS.ti
+## ATLAS.ti
 
 [ATLAS.ti](https://atlasti.com/) is designed particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
 
@@ -156,13 +156,13 @@ knitr::include_url(url = "https://downloads.atlasti.com/docs/branding/atlasti_br
 
 
 
-### GenePattern
+## GenePattern
 
 [GenePattern](https://www.genepattern.org/) is similar to Galaxy in that it provides a web-based interface for genomic analyses. You can upload your own data, use workflows and pipelines form others and more! 
 
 See [here](https://www.genepattern.org/user-guide) to access their user guide and [here](https://notebook.genepattern.org/quickstart/) for a quick start guide to using [GenePattern Notebook](https://notebook.genepattern.org/) which uses [Jupyter Notebooks](https://jupyter.org/) and GenePattern analysis tools to easily create data analysis reports. Users can also publish and share their notebooks with collaborators or the field, as well as access other people's notebooks that they can adapt for their own uses. See [here](https://notebook.genepattern.org/library/) for a collection of available notebooks. 
 
-### XNAT
+## XNAT
 
 [XNAT](https://www.xnat.org/about/) offers computing resources and tools for performing imaging analysis and for storing and sharing imaging data in a HIPAA complaint manner (more on that in the coming). Developed by the [Bukner lab](https://cnl.rc.fas.harvard.edu/) previously at the Washington University and now at Harvard, it supports a variety of imaging data as well as other data types like clinical data.  Some tools can be used with a graphical interface and others with the command-line. See [here](https://wiki.xnat.org/documentation/case-studies) for example use cases. There is also a great deal of documentation available about how to use the tools and resources available at https://wiki.xnat.org/documentation.
 
@@ -171,7 +171,7 @@ knitr::include_url("https://www.youtube.com/embed/ENk589mOkhI")
 ```
 
 
-### OHIF
+## OHIF
 
 The [open health imaging foundation (OHIF)](https://ohif.org) is a web-based imaging analysis platform that is widely used, particularly for radiology analysis, but it also supports whole-slide microscopy image analysis. It was developed by [Gordon Harris](https://ohif.org/team/) et al. and can be used for a variety of applications from cardiology to veterinary medicine. Check out these [example use cases](https://ohif.org/examples) of OHIF. OHIF also provides thorough documentation with images and videos about how to use the image viewer and tools available.
 
@@ -184,7 +184,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 For those interested, Gordon Harris and others are also working on a project called [Cornerstone](https://docs.cornerstonejs.org/), with the goal of providing software for others to display medical images in web browsers.
 
 
-### PRISM
+## PRISM
 
 The Platform for Imaging in Precision Medicine called PRISM allows users to work with the vast data available from the Cancer Imaging Archive (TCIA).
 
