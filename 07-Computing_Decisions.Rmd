@@ -191,15 +191,15 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 1) **Are local shared computing resources sufficient?**
 
-When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable (say other users often use up most of the resources or a server is often down), then the cloud becomes a competitive option.
+When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable (say other users often use up most of the resources or a server is often down), then remote options may be worth considering.
 
 2) **Do you want to work with especially big or controlled access datasets?**
 
-Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. 
+Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then cloud computing resources may be your only practical option. 
 
-3) **Do you need to work with collaborators?**
+3) **Do you need to work with collaborators, especially those outside of your institute?**
 
-Computational research increasingly involves larger and larger collaborations. While many systems exist to share work,  cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
+Computational research increasingly involves larger and larger collaborations. While many systems exist to share work and more traditional remote shared resouces can work, cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 We will now discuss several opportunities and challenges that cloud computing currently presents.
 
@@ -238,15 +238,13 @@ This higher level abstraction coupled with container technology allows this mult
 
 The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
 
-What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
+What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need. This could be difficult to do with a local server, which might require a great deal of time to increase the storage and computing capacity of the server, and it might be cost prohibitive. 
 
 4) **Less Etiquette**
 
 Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
 
-5) **Data Access**
 
-Easy access to large datasets that might be otherwise difficult to work with. Now many cloud computing resources, especially those designed for research, also allow users access to relevant datasets. 
 
 ### Challenges of Cloud Computing
 
@@ -264,9 +262,14 @@ Some of the specialized research platforms allow for this as described in the pr
 
 3) **Costs** 
 
-Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
+Controlling costs, especially with regards to storage and computing, presents a third formidable challenge. Understanding how the billing works for each shared cloud platform can be very confusing and generally requires a bit of time to learn. It can be difficult to be aware of how much money is currently being spent and how to estimate how much money is likely to be spent in the future.  
 
-While software platforms can help mitigate these challenges, cloud computing still incurs costs from the underlying hardware providers. It can be a challenge to understand how this is billed.
+<div class = "warning">
+
+We highly suggest that users of cloud resources, be careful about how they inform students and other lab members about computing costs! We have unfortunately seen some very costly resource usage accidents. 
+
+</div>
+
 
 4) **IT**  
 

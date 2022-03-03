@@ -10,7 +10,7 @@ In this chapter we will provide examples of computing platforms that are designe
 
 <div class = "warning">
 
-`r emo::ji("warning")` ***Also, please be advised that we highly suggest you also read the next chapter, which will point out important considerations that you should make when deciding to work on a platform like those described in this chapter.*** `r emo::ji("warning")`
+ We highly suggest you also **read the next chapter**, which will point out important considerations to think about when deciding to work on a shared computing resource platform like those discussed in this chapter.
 
 </div>
 
