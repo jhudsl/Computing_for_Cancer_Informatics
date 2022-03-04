@@ -1,7 +1,7 @@
 
 
 
-# Binary data to computations
+# Binary Data to Computations
 
 Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data. 
 
