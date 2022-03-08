@@ -136,7 +136,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 Will you need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
 
-We described this a bit earlier, but here we will provide some more thurough examples.
+We described this a bit earlier, but here we will provide some more thorough examples.
 
 [Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
@@ -195,7 +195,7 @@ Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https:
 
 3) **Do you need to work with collaborators, especially those outside of your institute?**
 
-Computational research increasingly involves larger and larger collaborations. While many systems exist to share work and more traditional remote shared resouces can work, cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
+Computational research increasingly involves larger and larger collaborations. While many systems exist to share work and more traditional remote shared resources can work, cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 We will now discuss several opportunities and challenges that cloud computing currently presents.
 

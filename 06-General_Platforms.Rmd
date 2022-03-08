@@ -26,9 +26,9 @@ Many offer a [graphical user interface](https://www.omnisci.com/technical-glossa
 Some platforms also offer a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) which allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a GUI, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.
 
 
-### National Cancer Insitute Cloud Resources
+### National Cancer Institute Cloud Resources
 
-Funded by the [National Cancer Institute (NCI)](https://www.cancer.gov/), the [cancer research data commons](https://datascience.cancer.gov/data-commons) provides data access and computing infastructure for researchers through [three different platforms](https://dcf.gen3.org/cloud-resources), the [Cancer Genomics Cloud (CGC)](https://www.cancergenomicscloud.org/) which uses Google Cloud resources, the [Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)](https://isb-cgc.appspot.com/) which also uses Google Cloud resources, and [FireCloud](https://portal.firecloud.org/) from the Broad Institute, which uses Amazon Cloud resources. 
+Funded by the [National Cancer Institute (NCI)](https://www.cancer.gov/), the [cancer research data commons](https://datascience.cancer.gov/data-commons) provides data access and computing infrastructure for researchers through [three different platforms](https://dcf.gen3.org/cloud-resources), the [Cancer Genomics Cloud (CGC)](https://www.cancergenomicscloud.org/) which uses Google Cloud resources, the [Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)](https://isb-cgc.appspot.com/) which also uses Google Cloud resources, and [FireCloud](https://portal.firecloud.org/) from the Broad Institute, which uses Amazon Cloud resources. 
 
 ### Cancer Genomics Cloud
 
@@ -39,7 +39,7 @@ The platform is based on a partnership with [Seven Bridges](https://www.sevenbri
 
 ### Institute for Systems Biology (ISB) Cancer Gateway in the Cloud
 
-The [ISB-CRC](https://isb-cgc.appspot.com/) platform allows users to browse and data from the [Genomic Data Commons](https://gdc.cancer.gov/) and other sources, including sequencing and imaging data both public and controlled. They provide access pipeline tools, as well as to pipelines, workflows, and Notebooks written by others in R and Python to help users perform analyses. ISB also offers $300 in [free credits](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HowtoRequestCloudCredits.html) to try out theplatform. See [here](https://isb-cgc.appspot.com/how_to_discover/#0) for a user guide.
+The [ISB-CRC](https://isb-cgc.appspot.com/) platform allows users to browse and data from the [Genomic Data Commons](https://gdc.cancer.gov/) and other sources, including sequencing and imaging data both public and controlled. They provide access pipeline tools, as well as to pipelines, workflows, and Notebooks written by others in R and Python to help users perform analyses. ISB also offers $300 in [free credits](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HowtoRequestCloudCredits.html) to try out the platform. See [here](https://isb-cgc.appspot.com/how_to_discover/#0) for a user guide.
 
 
 ### Broad Institute FireCloud
@@ -235,7 +235,7 @@ We hope that this chapter has given you some more perspective on how the various
 
 In conclusion, here are some of the major take-home messages:
 
-1) Computing platforms are cyberinfastructures that allow you to perform analyses with existing data and or allow you to upload, work with, and share your own data. 
+1) Computing platforms are cyberinfrastructures that allow you to perform analyses with existing data and or allow you to upload, work with, and share your own data. 
 
 2) There are quite a few platforms that are well developed with in depth documentation to support research quite broadly and allow users to work with a diverse set of data.
 

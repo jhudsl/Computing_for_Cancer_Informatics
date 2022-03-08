@@ -6,6 +6,7 @@ al
 ALO
 ALU
 ALUs
+analytics
 AnVIL
 ArrayExpress
 ASIX
@@ -20,10 +21,12 @@ Bukner
 cBIBOP
 CDUs
 citable
+CGC
 Collaboratory
+CRC
 cybercriminal
 cybercriminals
-cyberinfastructure
+cyberinfrastructure
 CyVerse
 Dashlane
 decrypt
@@ -66,6 +69,7 @@ Illumina
 iPhoto
 iPlant
 IRB
+ISB
 itcrtraining
 ITN
 ITCR
