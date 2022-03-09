@@ -49,6 +49,10 @@ checking-status
 storage
 conclusion-3
 research-platforms
+national-cancer-institute-cloud-resources
+cancer-genomics-cloud
+institute-for-systems-biology-isb-cancer-gateway-in-the-cloud
+broad-institute-firecloud
 galaxy
 terra
 anvil
@@ -81,4 +85,4 @@ benefits-of-cloud-computing
 challenges-of-cloud-computing
 choosing-between-remote-sharing-options
 overall-decision-process
-conclusions
+conclusion-5
