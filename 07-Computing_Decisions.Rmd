@@ -136,9 +136,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 Will you need a [graphical interface](https://www.omnisci.com/technical-glossary/graphical-user-interface), a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI), or both?
 
-What do we mean by this?
-
-A [graphical user interface](https://www.omnisci.com/technical-glossary/graphical-user-interface) or simply just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations. They have a "user-centered" design that creates a visual environment where users can for example **click on** tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.
+We described this a bit earlier, but here we will provide some more thorough examples.
 
 [Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
@@ -154,14 +152,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 
 
-A [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a graphical interface, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.
+Recall, that a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows users to specify functions with code. 
 
 For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Command line interface using R and Bioconductor package", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_35")
 ```
-
 
 
 A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
@@ -171,7 +168,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 
 Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
-
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Make sure you consider the type of interface you would like to work with in deciding about shared remote options. Some support only a GUI, some only command line, others support both. Galaxy and CyVerse support both command line and GUI interfaces, while OHIF and GenePattern have only a GUI based interface.", out.width="100%"}
@@ -191,15 +187,15 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 1) **Are local shared computing resources sufficient?**
 
-When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable (say other users often use up most of the resources or a server is often down), then the cloud becomes a competitive option.
+When a local computing resource solution already works, one may rightly question the time required to learning how to use a new cloud-based platform. However, when local solutions are insufficient or unsustainable (say other users often use up most of the resources or a server is often down), then remote options may be worth considering.
 
 2) **Do you want to work with especially big or controlled access datasets?**
 
-Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then the cloud may be your only practical option. 
+Increasingly large datasets like the [Genotype -Tissue Expression (GTEx)](https://gtexportal.org/home/), [Therapeutically Applicable Research to Generate Effective Treatments (TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v24.p8) or [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) are being stored on the cloud-based platforms. If your work relies on being able to access a large dataset like this, then cloud computing resources may be your only practical option. 
 
-3) **Do you need to work with collaborators?**
+3) **Do you need to work with collaborators, especially those outside of your institute?**
 
-Computational research increasingly involves larger and larger collaborations. While many systems exist to share work,  cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
+Computational research increasingly involves larger and larger collaborations. While many systems exist to share work and more traditional remote shared resources can work, cloud platforms make it easier for everyone to share the exact same computational environment including hardware, software, and datasets.
 
 We will now discuss several opportunities and challenges that cloud computing currently presents.
 
@@ -238,15 +234,13 @@ This higher level abstraction coupled with container technology allows this mult
 
 The third Benefit we highlight is the increasing ease by which one can provision commodity hardware at scale.  
 
-What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need.
+What this means is that you can pay reasonable costs to complete your analysis in less time by renting hundreds to tens of thousands of Cloud-based computers -- importantly stopping the bill when your analysis is complete.  Specialized hardware like GPUs and large memory nodes are also available for rent allowing you to pay only for what you need. This could be difficult to do with a local server, which might require a great deal of time to increase the storage and computing capacity of the server, and it might be cost prohibitive. 
 
 4) **Less Etiquette**
 
 Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
 
-5) **Data Access**
 
-Easy access to large datasets that might be otherwise difficult to work with. Now many cloud computing resources, especially those designed for research, also allow users access to relevant datasets. 
 
 ### Challenges of Cloud Computing
 
@@ -262,11 +256,22 @@ Most cloud resources offer features that make it easier to access and share data
 
 Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic. Also keep in mind that although local shared resources like that of your university often have good security and data privacy policies and protection mechanisms, this is not always the case.
 
+<div class = "notice">
+
+Also make sure you check that consent forms for any data collection describe your data sharing intentions on shared resource platforms and have been approved by IRB.
+
+</div>
+
 3) **Costs** 
 
-Controlling costs, especially with regards to storage, presents a third formidable challenge.  As many cloud providers naturally want to encourage usage of their platforms, users must be aware of how much money is currently being spent and be able to project how much money is likely to be spent in the future.  
+Controlling costs, especially with regards to storage and computing, presents a third formidable challenge. Understanding how the billing works for each shared cloud platform can be very confusing and generally requires a bit of time to learn. It can be difficult to be aware of how much money is currently being spent and how to estimate how much money is likely to be spent in the future.  
 
-While software platforms can help mitigate these challenges, cloud computing still incurs costs from the underlying hardware providers. It can be a challenge to understand how this is billed.
+<div class = "notice">
+
+To avoid costly accidents make sure you are aware of the billing for the resources you are using and you inform students and other lab members.
+
+</div>
+
 
 4) **IT**  
 
@@ -300,7 +305,7 @@ We suggest evaluating your computing needs based on the following decision tree.
 
 <div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242"><div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/C660C4AD4516EA9D6EEABE9A9B7980244BE/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("C660C4AD4516EA9D6EEABE9A9B7980244BE",91242,0,"");</script><br/>
 
-## Conclusions
+## Conclusion
 
 We hope that this chapter has given you some more perspective on how to make important computing decisions to make the most out of your work.
 

@@ -171,6 +171,11 @@ Flip-flops are used for storing one bit of digital binary data. They are made of
 
 A group of flip-flops is called a register [@Wikipedia_register_2021]. You may have heard about a computer having a 64- or 32- bit operating system (more on this soon). These computers have registers with 64 bits or 32 bits respectively. Thus there are 64 flip-flops within the registers of a [64-bit](https://www.computerhope.com/jargon/num/64bit.htm) system [@ComputerHope_64-bit]. Each of these are capable of storing and processing binary values 64 digits in length (which works out to an unsigned integer in our decimal system of up to 2^64-1, or 18,446,744,073,709,551,615)[@ComputerHope_64-bit]! 
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Image showing 1 on a 64 -bit register in binary as 63 zeros followed by a 1, as well as the largest numberic unsigned value on a 64-bit register with 64 1s, which is equavlent to 18,446,744,073,709,551,615 in decimal", out.width= "100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_408")
+```
+
+
 You may also be wondering how letters and other symbols are stored in this binary system. 
 
 Letters are each assigned a numeric decimal value according to an encoding system such as the [ASCII system](https://www.computerhope.com/jargon/a/ascii.htm), and these are converted into the binary form of this numeric number. 
