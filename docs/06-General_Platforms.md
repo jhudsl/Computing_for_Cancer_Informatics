@@ -189,11 +189,11 @@ For those interested, Gordon Harris and others are also working on a project cal
 
 ## PRISM
 
-The Platform for Imaging in Precision Medicine called PRISM allows users to work with the vast data available from the Cancer Imaging Archive (TCIA).
+The Platform for Imaging in Precision Medicine called PRISM works behind the scenes in the Cancer Imaging Archive (TCIA) to allow users to work with the vast data available in TCIA, in terms of both imaging data and clinical information.  
 
 According to Fred Prior:
 
->It is designed to collect, curate and manage Radiology and Pathology images, clinical information associated with those images, annotations and image derived feature sets.  PRISM is designed to run on a Kubernettes cluster, but all of the components are containerized so they can run stand-alone or in an alternate orchestration framework.
+> It is designed to collect, curate and manage Radiology and Pathology images, clinical information associated with those images, annotations and image derived feature sets.  PRISM is designed to run on a Kubernettes cluster, but all of the components are containerized so they can run stand-alone or in an alternate orchestration framework.
 
 
 See this [article](https://ascopubs.org/doi/full/10.1200/CCI.20.00001) for more information.
