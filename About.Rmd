@@ -16,7 +16,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor|[Carrie Wright](https://carriewright11.github.io)|
-|Content Editors/Reviewers| [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
+|Content Editors/Reviewers| [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan), [Ava Hoffman](https://www.avahoffman.com/)|
 |Content Directors| [Jeff Leek](https://jtleek.com/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
 |Content Consultants ([Shared computing etiquette](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/shared-computing-etiquette.html))| [Brian Caffo](https://sites.google.com/view/bcaffo/home), [Mark Miller](https://www.linkedin.com/in/markmillerbaltimore/)|
 |Content Consultants ([Basic building block of computers](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/the-basic-building-block of-computers.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
