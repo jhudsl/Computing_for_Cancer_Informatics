@@ -4,7 +4,7 @@
 4-Computing-Resources.md
 5-Shared-Computing-Etiquette.md
 6-Research-Platforms.md
-7-Data-Management-Decisions.md
+7-Computing-Resource-Decisions.md
 About-This-Course.md
 About-the-Authors.md
 References.md
