@@ -3,7 +3,7 @@
 
 
 
-# Data Management Decisions
+# Computing Resource Decisions
 
 Now that we have discussed a bit about how computers perform computations and described a bit about computing options, lets discuss more about how you might choose the right computing resources for your work. In this chapter we will discuss aspects that you should consider when deciding between different computing resource options. 
 

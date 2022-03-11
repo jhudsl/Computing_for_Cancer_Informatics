@@ -68,7 +68,7 @@ xnat
 ohif
 prism
 conclusion-4
-data-management-decisions
+computing-resource-decisions
 general-computing-considerations
 computation-needs
 data-storage
