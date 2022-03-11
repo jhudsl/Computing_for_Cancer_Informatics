@@ -31,17 +31,20 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform) depends on several considerations.  
 
-Asking yourself and your research team the following questions can help you find the right computing platform.
+Asking yourself and your research team about the following considerations can help you find the right computing platform.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Do I need extra privacy protection for my data? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g115e0d5ae79_0_5")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1198aebfc2f_0_90")
 ```
+
+
+
 
 Let's take a bit of a deeper dive now for each of these considerations.
 
 ### Computation needs
 
-Now that you know more about determining your personal computer's computing and storage capacity, as well as how to determine or estimate the files sizes that you might use for your research, you can begin to assess if your personal computer is up to the task. When determining what your computing needs might be, remember to evaluate how many files you might use in your analyses, the file sizes, the amount of RAM and CPUs (and possibly GPUs that your computer has) and some level of understanding for how intensive the computing tasks are that you plan to perform. How do you assess this?  If the files that you intend to use in your analysis are quite large for your computer's storage capacity, then it is likely that your computer might struggle to work with such files. This might also be the case if you plan to use many many smaller files. Finally, if you plan to perform many steps on your files in your analysis this may also require more computing resources than you have available on your current personal computer. Shared computing options will generally have the capacity to allow you to do your work, unless you have very large data needs and you hope to use a very specialized computing platform that may not support large-scale work. Checking with the local or remote computing options that you are interested in about the computing capacity ahead of time before you start an analysis if you have large data analysis plans would be a good idea.
+Now that you know more about determining your personal computer's computing and storage capacity, as well as how to determine or estimate the files sizes that you might use for your research, you can begin to assess if your personal computer is up to the task. When determining what your computing needs might be, remember to evaluate how many files you might use in your analyses, the file sizes, the amount of RAM and CPUs (and possibly GPUs that your computer has) and some level of understanding for how intensive the computing tasks are that you plan to perform. How do you assess this?  If the files that you intend to use in your analysis are quite large for your computer's storage capacity, then it is likely that your computer might struggle to work with such files. This might also be the case if you plan to use many smaller files (such as hundreds or thousands, but smaller files can add up quickly). Finally, if you plan to perform many steps on your files in your analysis this may also require more computing resources than you have available on your current personal computer. Shared computing options will generally have the capacity to allow you to do your work, unless you have very large data needs and you hope to use a very specialized computing platform that may not support large-scale work. Checking with the local or remote computing options that you are interested in about the computing capacity ahead of time before you start an analysis if you have large data analysis plans would be a good idea. Cloud computing options can be great if you need more efficiency, as there are no job queues to worry about like with other more traditional shared resources. 
 
 ### Data storage
 
@@ -87,7 +90,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ### Costs
 
-Often local shared computing resources at your institute can be much less expensive than some of the common cloud computing options. However, this is not always the case and if you have very specific analysis goals in mind, the benefit of cloud computing resources, is that you typically only pay for the resources that you actually use. This does also involves learning how costs are calculated for the particular cloud resource, which can be a challenge, but many cloud platforms that were designed for research such as [Jetstream](https://jetstream-cloud.org/) or [Terra/AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases) can be very affordable and in some cases some small platforms offer free resources.  
+Often local shared computing resources at your institute can be much less expensive than some of the common cloud computing options. However, this is not always the case and if you have very specific analysis goals in mind, the benefit of cloud computing resources, is that you typically only pay for the resources that you actually use. This does also involve learning how costs are calculated for the particular cloud resource, which can be a challenge, but many cloud platforms that were designed for research such as [Jetstream](https://jetstream-cloud.org/) or [Terra/AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases) can be very affordable and in some cases some small platforms offer free resources or free trials initially to start.  
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "How much money can I spend? Different resources will have different associated costs. Often local shared resources are affordable. If your personal computer can handle your computing tasks, you can also consider using it. Many remote options have free storage up to an amount.", out.width="100%"}
@@ -176,7 +179,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Local shared resources vs remote shared resources
 
-Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, like XSEDE and cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like Jetstream for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
+Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, which include more traditional sharing resource options such as XSEDE, as well as more modern cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like [Jetstream](https://jetstream-cloud.org/) for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Choosing between local and remote shared resource options.", out.width="100%"}
@@ -201,7 +204,7 @@ We will now discuss several opportunities and challenges that cloud computing cu
 
 ### Benefits of Cloud Computing
 
-The state of Cloud computing is continually evolving.  Here, we highlight the main current benefits:
+The state of Cloud computing is continually evolving.  Here, we highlight some of the main current benefits:
 
 
 1) **Sharing history**  
@@ -240,7 +243,13 @@ What this means is that you can pay reasonable costs to complete your analysis i
 
 Relative to more traditional shared computing resources, you don't need to worry as much about sharing etiquette with cloud computing options because these resources typically have more than enough to go around. There is a trade off in that you will need to learn how to work with the cloud computing platform, however you can be more independent about what software you use and how many resources you use without bothering others.
 
+5)  **GUI Interface**
 
+Although you can work with software that has a GUI interface on a more traditional local or remote shared resource, having a GUI directly built into the computing environment is often not available, while many cloud computing options provide GUI systems, which can be helpful for users who are less familiar with writing code for the command line. 
+
+6) **General Security**
+
+Often cloud computing options, depending on the size of the resource, will have a team of people working on maintaining the security of the resource. Thus often these resources have more manpower to commit to security than some of the smaller local shared resources. That being said, it depends on the resource, it is a good idea to look into the security measures of resources that you are considering to use. Furthermore, this does not necessarily mean that the security meets the requirements for certain data privacy protections. See the next section for more on this.  
 
 ### Challenges of Cloud Computing
 
@@ -250,11 +259,11 @@ Balancing these benefits are the following challenges:
 
 Data transfer and data management remains a cumbersome task.  While storing data in the cloud has its advantages, it also has corresponding storage costs. Thus, careful planning is necessary with regards to what data will be stored where, as well as budgeting the time necessary to transfer data back and forth. However if you have yet to start work on a local shared computing resource than the work to transfer may be comparable. Additionally if you plan to use public data that is accessible through a platform designed for research than you may in fact have less data transfer needs when working with a cloud computing option. 
 
-2) **Data Security**  
+2) **Data Privacy**  
 
-Most cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of security**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. 
+Most cloud resources offer features that make it easier to access and share data, and these features often come at the **expense of data privacy**. Thus, special precautions must be implemented to securely store protected datasets such as human genome sequences and electronic health records. 
 
-Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra security protection - often this will not be automatic. Also keep in mind that although local shared resources like that of your university often have good security and data privacy policies and protection mechanisms, this is not always the case.
+Some of the specialized research platforms allow for this as described in the previous chapter. Make sure you check what is required to set up an extra privacy protection - often this will not be automatic. Also keep in mind that although local shared resources like that of your university often have good security and data privacy policies and protection mechanisms, this is not always the case. It is worth investigating the methods  the each resource uses that you are interested in. 
 
 <div class = "notice">
 
@@ -301,7 +310,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Overall Decision Process
 
-We suggest evaluating your computing needs based on the following decision tree.
+We suggest evaluating your computing needs based on the following decision tree. The tree reads from left to right and you can click on the image to zoom. 
 
 <div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242"><div id="C660C4AD4516EA9D6EEABE9A9B7980244BE_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=C660C4AD4516EA9D6EEABE9A9B7980244BE" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/C660C4AD4516EA9D6EEABE9A9B7980244BE/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("C660C4AD4516EA9D6EEABE9A9B7980244BE",91242,0,"");</script><br/>
 
@@ -311,14 +320,40 @@ We hope that this chapter has given you some more perspective on how to make imp
 
 In conclusion, here are some of the major take-home messages:
 
-1) The three major computing decisions are: 1. Personal computer vs Shared resource, 2. Local shared resource vs. Remote Shared resource, 3. Which shared resource. Start first with determining if your personal computer can handle your work or if you have plans to collaborate with others at different institutes.
+1) The three major computing decisions are: 
+ - Personal computer vs Shared resource
+ - Local shared resource vs. Remote Shared resource
+ -  Which shared resource. 
 
-2) The following are general considerations that can help you make each of the 3 decisions: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Does my data that need extra privacy protection? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10. What kind of interface would be helpful? 
+Start first with determining if your personal computer can handle your work or if you have plans to collaborate with others at different institutes.
+
+2) The following are general considerations that can help you make each of the 3 decisions:
+
+- How computationally intensive will the work be? 
+- How much data storage is and will be needed?
+- Do I plan on collaborating with others outside my institute? 
+-  Does my data that need extra privacy protection? 
+- How much money can I spend on computing? - Do I want extra guidance for my informatics work? 
+- Do I need flexibility? Might I work with more data modalities in the future?
+- Do I need scalability? Will I soon work with more data? 
+- Do I need access to large controlled datasets? 
+- What kind of interface would be helpful? 
 
 3) The main benefits of cloud options are easier sharing of data, code, and workflows even across different computing platforms, access to large amounts of computing resources, generally only need to pay for the resource you actually use, less need to be as conscious of proper etiquette for sharing computing resources.
 
-4) The main drawbacks of cloud options in general are: 1. if you were already using a shared resource then migrating to the cloud will require data transfer effort and time, 2. Some cloud computing options do not provide data privacy protection that may be needed for certain types of data, 3. costs calculations can be especially confusing and you will need to learn how it works for the particular resource that you are interested in using, 4. There will be less IT support form your local IT department as many of these resources have their own infrastructure, however many options provide their own guidance and support.
+4) The main drawbacks of cloud options in general are: 
+
+- If you were already using a shared resource then migrating to the cloud will require data transfer effort and time
+- Some cloud computing options do not provide data privacy protection that may be needed for certain types of data
+- Costs calculations can be especially confusing and you will need to learn how it works for the particular resource that you are interested in using
+- There will be less IT support form your local IT department as many of these resources have their own infrastructure, however many options provide their own guidance and support
 
 
-5) More and more cloud computing options are being developed and designed specifically for research, consider the following questions when choosing between cloud-based options: 1. Does the resource offer the privacy protection needed? 2. Does the resource allow for me to use the data modalities I need? 3. Does the resource already have data that I might want? 4. Does the resource provide extra guidance that might be helpful for my work? 5. Does the resource offer the interface that I would like to work with? 6. Does the resource offer me access to a relevant community for my work that would be helpful?
+5) More and more cloud computing options are being developed and designed specifically for research, consider the following questions when choosing between cloud-based options: 
+- Does the resource offer the privacy protection needed? 
+- Does the resource allow for me to use the data modalities I need?
+- Does the resource already have data that I might want? 
+- Does the resource provide extra guidance that might be helpful for my work? 
+- Does the resource offer the interface that I would like to work with? 
+- Does the resource offer me access to a relevant community for my work that would be helpful?
 
