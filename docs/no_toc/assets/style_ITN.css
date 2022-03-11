@@ -301,6 +301,11 @@ div.warning{
   background-color: #e8ebee;
 }
 
+div.warning{
+  background-image: url("../assets/warning.png");
+}
+
+
 div.rstudio-tip, div.tip, div.gotcha, div.design, div.hat{
   border: 4px #aed6d963;
   border-style: dashed solid;
