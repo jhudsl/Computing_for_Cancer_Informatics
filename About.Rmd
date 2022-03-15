@@ -21,7 +21,8 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Content Consultants ([Shared computing etiquette](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/shared-computing-etiquette.html))| [Brian Caffo](https://sites.google.com/view/bcaffo/home), [Mark Miller](https://www.linkedin.com/in/markmillerbaltimore/)|
 |Content Consultants ([Basic building block of computers](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/the-basic-building-block of-computers.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
 |Content Consultants ([Binary data to computations](https://jhudatascience.org/Computing_for_Cancer_Informatics/binary-data-to-computations.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
-|Acknowledgments |Garvi Sheth - thank you for your feedback|
+|Content Contributors (Galaxy section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | [Jeremy Goecks](https://goeckslab.org/people/jeremy.html)|
+|Acknowledgments |Garvi Sheth - Thank you for your feedback! <br> [Frederick Tan](https://leanpub.com/u/cutsort) - Thank you for your materials on cloud computing!|
 |**Production**||
 |Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
 |Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Candace Savonen](https://www.cansavvy.com/)|
