@@ -1,7 +1,5 @@
 # Computing for Cancer Informatics
 
-** This course is still a work in progress** The authors will be working on it for the next couple of months.
-
 
 This course was created from [this github template](https://github.com/jhudsl/OTTR_Template).
 
