@@ -17,12 +17,14 @@ bioinformatics
 Biostrings
 BIRN
 Blavatnik
+Bookdown
 Bukner
 cBIBOP
 CDUs
 citable
 CGC
 Collaboratory
+Coursera
 CRC
 cybercriminal
 cybercriminals
@@ -83,6 +85,7 @@ Keychain
 Klarman
 Knowledgebase
 Kubernettes
+Leanpub
 ligand
 ottr
 macOS
@@ -105,6 +108,7 @@ n2c2
 OHIF
 omics
 OpenBEL
+ottrpal
 PCAWG
 PKCS
 PoLP
