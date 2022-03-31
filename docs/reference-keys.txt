@@ -1,6 +1,8 @@
+available-course-formats
 introduction
 motivation
 target-audience
+topics-covered
 curriculum
 basic-building-block-of-computers
 transistors
