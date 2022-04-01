@@ -16,10 +16,7 @@ One of the key cancer informatics challenges is dealing with and managing the ex
 This course is intended for researchers (including postdocs and students) with limited to intermediate experience with informatics research. The conceptual material will also be useful for those in management roles who are collecting data and using informatics pipelines.
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "For individuals whom: Have no formal training in informatics. Are relatively new to informatics. Want to learn the basics of computers and shared computing resources. Want guidance for choosing computing options
-", out.width= "100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g11db82d2864_1_65")
-```
+<img src="resources/images/01-intro_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11db82d2864_1_65.png" title="For individuals whom: Have no formal training in informatics. Are relatively new to informatics. Want to learn the basics of computers and shared computing resources. Want guidance for choosing computing options" alt="For individuals whom: Have no formal training in informatics. Are relatively new to informatics. Want to learn the basics of computers and shared computing resources. Want guidance for choosing computing options" width="100%" style="display: block; margin: auto;" />
 
 ## Topics covered:
 
