@@ -17,7 +17,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |**Pedagogy**||
 |Lead Content Instructor|[Carrie Wright](https://carriewright11.github.io)|
 |Content Contributors (Galaxy section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | [Jeremy Goecks](https://goeckslab.org/people/jeremy.html)|
-|Content Contributors (Globus section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | [Brigitte Raumann]|
+|Content Contributors (Globus section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | Brigitte Raumann|
 |Content Consultants ([Basic Building Block of Computers](https://jhudatascience.org/Computing_for_Cancer_Informatics/basic-building-block-of-computers.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
 |Content Consultants ([Binary Data to Computations](https://jhudatascience.org/Computing_for_Cancer_Informatics/binary-data-to-computations.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
 |Content Consultants ([Shared Computing Etiquette](https://jhudatascience.org/Computing_for_Cancer_Informatics/shared-computing-etiquette.html))| [Brian Caffo](https://sites.google.com/view/bcaffo/home), [Mark Miller](https://www.linkedin.com/in/markmillerbaltimore/)|
