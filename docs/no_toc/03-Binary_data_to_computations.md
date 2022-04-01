@@ -1,7 +1,7 @@
 
 
 
-# Binary data to computations
+# Binary Data to Computations
 
 Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data. 
 
@@ -25,6 +25,8 @@ The CPU is made up of several components, a few that are particularly important 
 A group of these components together is called a **core**. Multiple cores together are also referred to as CPU**s**. As you can see describing this can get kinda tricky.
  
 The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time [@braunl_central_2008].
+
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png" title="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." alt="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." width="100%" style="display: block; margin: auto;" />
  
 Modern computers now have multiple cores. What does this mean?
 
@@ -64,6 +66,8 @@ Here's a great explanation for how HDDs work and the difference with SSDs. It wi
 
 
 See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.
+
+
 
 
 ### Hardware and software

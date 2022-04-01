@@ -1,6 +1,5 @@
 # Computing for Cancer Informatics
 
-
 This course was created from [this github template](https://github.com/jhudsl/OTTR_Template).
 
 You can see the rendered course material here:  https://jhudatascience.org/Computing_for_Cancer_Informatics
