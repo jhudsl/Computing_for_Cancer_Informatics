@@ -49,6 +49,7 @@ FedRAMP
 FireCloud
 GenePattern
 GDUs
+globus
 Globus
 Goecks
 GPUs
@@ -116,7 +117,9 @@ PostgreSQL
 proteomic
 punchcards
 QuIP
+Raumann
 reproducibility
+researchers'
 RNA
 RSA
 RStudio
