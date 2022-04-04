@@ -13,7 +13,7 @@ In this chapter we will provide examples of computing platforms that are designe
 </div>
 
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" title="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png){width=100%}
 
 The major advantage of these platforms is that users can analyze data where it lives, as many platforms host public data. However, some also allow you to upload your own data.  There is less need for data transfers back and forth to your personal computer, as you can analyze your data, store your data and share it in one place, saving time. Users can sometimes also share how they did their analysis as well, improving reproducibility practices. Additionally, another advantage is that some of these platforms also provide educational material on how to work with data.
 
@@ -48,21 +48,21 @@ This section was written by [Jeremy Goecks](https://goeckslab.org/people/jeremy.
 
 Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API. Galaxy (https://galaxyproject.org/) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_131.png" title="Galaxy can be accessed through a web browser and provides users with access to tools, datasets, computing resources, a graphical user interface (GUI) for users who would like to interact with Galaxy by clicking buttons and using drop-down menus and a programmtic API for users that would like to write code to interact with Galaxy" alt="Galaxy can be accessed through a web browser and provides users with access to tools, datasets, computing resources, a graphical user interface (GUI) for users who would like to interact with Galaxy by clicking buttons and using drop-down menus and a programmtic API for users that would like to write code to interact with Galaxy" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_131.png){width=100%}
 
 Galaxy is used daily by thousands of scientists across the world. A vibrant Galaxy community has deployed hundreds of Galaxy servers across the world, including more than 150 public and three large national/international servers in the United States, Europe, and Australia (https://usegalaxy.org, https://usegalaxy.eu, https://usegalaxy.org.au). The three national/international servers have more than 250,000 registered users who execute >500,000 analysis jobs each month. Galaxy has been cited more than 10,000 times with >20% from papers related to cancer. The Galaxy Tool Shed (https://usegalaxy.org/toolshed) provides a central location where developers can upload tools and visualizations and users can search and install tools and visualizations into any Galaxy server. Galaxy has a large presence in the cancer research community. Galaxy serves as an integration and/or analysis platform for 7 projects in the NCI ITCR program. There is also increasing use of Galaxy in key NIH initiatives such as the NCI Cancer Moonshot Human Tumor Atlas Network (HTAN) and the NHGRI Data Commons, called the AnVIL (https://anvilproject.org/).
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_135.png" title="Map of the 3 Galaxy servers" alt="Map of the 3 Galaxy servers" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_135.png){width=100%}
 
 
 Galaxy’s user interface, accessible via a web browser, provides access to all Galaxy functionality. The main Galaxy interface has three panels: available tools (left), running analyses and viewing data (middle), and a full history of tools run and datasets generated (right). 
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_111.png" title="Galaxy user interface showing the 3 panels: left = tools, middle = analysis and data, and right = history and generated datasets" alt="Galaxy user interface showing the 3 panels: left = tools, middle = analysis and data, and right = history and generated datasets" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_111.png){width=100%}
 
 
 Datasets for analysis in Galaxy can be **uploaded** from a laptop or desktop computer or obtained from public data repositories connected to Galaxy. With Galaxy, complex workflows composed of tens or even hundreds of analysis tools can be created and run. In Galaxy’s workflow interface, tools can be added and connected via a simple drag-and-drop approach. 
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_141.png" title="Galaxy workflow example showing the beginning steps of a workflow" alt="Galaxy workflow example showing the beginning steps of a workflow" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_141.png){width=100%}
 
 
 Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.
@@ -79,6 +79,11 @@ Importantly users can get access to use [Genotype -Tissue Expression (GTEx)](htt
 Users can pay for data storage and computing costs for Google Cloud through Terra. Users can browse data for free.
 
 Check out this video for more information:
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
 
 <iframe src="https://www.youtube.com/embed/3rH86vcAqK8" width="100%" height="400px"></iframe>
 
@@ -102,7 +107,7 @@ It relies on Terra for the cloud based compute environment, Dockstore for  stand
 
 See [here](https://learning.cyverse.org/en/latest/) to learn more.
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_0.png" title="CyVerse graphical interface for performing analyses" alt="CyVerse graphical interface for performing analyses" width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_0.png){width=100%}
 
 ## SciServer
 
@@ -115,7 +120,7 @@ As compared to Galaxy, this resources may be better for users with a bit more fa
 For @sciserver_2020 for more information.  
 
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_13.png" title="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." alt="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_13.png){width=100%}
 
 
 
@@ -123,7 +128,7 @@ For @sciserver_2020 for more information.
 
 Another resource that might be of interest to Python users, particular those who collaborate with material scientists, is Materials Cloud. It is designed to promote reproducible work, collaboration, and sharing of resources among scientists, particularly for simulations for the materials science field. Users can share data in a citable way, download data, upload data, share workflows, and perform analyzes.
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_6.png" title="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." alt="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_6.png){width=100%}
 
 This resource uses [AiiDAlab](https://www.materialscloud.org/work/aiidalab) as the computing environment for researchers, which is based on [AiiDA](https://www.nature.com/articles/s41597-020-00638-4). According to their website:
 
@@ -167,7 +172,7 @@ The University of Chicago develops and operates Globus and provides free file tr
 
 [ATLAS.ti](https://atlasti.com/) is designed particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
 
-<iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="672" height="400px"></iframe>
+<iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="100%" height="400px"></iframe>
 
 
 
@@ -189,7 +194,7 @@ See [here](https://www.genepattern.org/user-guide) to access their user guide an
 The [open health imaging foundation (OHIF)](https://ohif.org) is a web-based imaging analysis platform that is widely used, particularly for radiology analysis, but it also supports whole-slide microscopy image analysis. It was developed by [Gordon Harris](https://ohif.org/team/) et al. and can be used for a variety of applications from cardiology to veterinary medicine. Check out these [example use cases](https://ohif.org/examples) of OHIF. OHIF also provides thorough documentation with images and videos about how to use the image viewer and tools available.
 
 
-<img src="resources/images/06-General_Platforms_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" title="The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports." alt="The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" />
+![](resources/images/06-General_Platforms_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png){width=100%}
 
 For those interested, Gordon Harris and others are also working on a project called [Cornerstone](https://docs.cornerstonejs.org/), with the goal of providing software for others to display medical images in web browsers.
 

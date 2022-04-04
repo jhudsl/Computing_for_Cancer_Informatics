@@ -8,6 +8,9 @@ biblio-style: apalike
 link-citations: yes
 description: "This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research."
 favicon: assets/ITN_favicon.ico
+output:
+    bookdown::word_document2:
+      toc: true
 ---
 
 

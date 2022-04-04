@@ -71,7 +71,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  fs            1.5.0      2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.6.1      2022-01-22 [1] CRAN (R 4.0.2)                    
 ##  htmltools     0.5.0      2020-06-16 [1] RSPM (R 4.0.1)                    
-##  jquerylib     0.1.4      2021-04-26 [1] CRAN (R 4.0.2)                    
 ##  knitr         1.33       2022-02-15 [1] Github (yihui/knitr@a1052d1)      
 ##  lifecycle     1.0.0      2021-02-15 [1] CRAN (R 4.0.2)                    
 ##  magrittr      2.0.2      2022-01-26 [1] CRAN (R 4.0.2)                    

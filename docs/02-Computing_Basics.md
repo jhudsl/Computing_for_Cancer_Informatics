@@ -7,12 +7,12 @@ First we would like to start off with some background information about how comp
 
 If you are already more familiar with these topics, we hope that the next two chapters might fill in possible knowledge gaps, point you to more resources, or at least provide some entertaining information regarding the history and future of computers that might change your perspective.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_4.png" title="Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology" alt="Learning Objectives: 1. Describe what transistors do and their role in computers today, 2. Explain how digital data is used and stored by computers, 3. Recognize the fact that computers require all data to be in binary format, 4. Recognize that all computations come down to simple logical operations, 5.Recognize fundamental computational terminology" width="100%" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_4.png){width=100%}
 
  
 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_166.png" title="comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!" alt="comic: Ever wonder how computers work?It’s millions of tiny bees doing a lot of math, so you don’t have to!" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_166.png){width=100%}
 
 
 ## Transistors
@@ -23,36 +23,36 @@ Luckily, you are likely not going to need to become a bee keeper to perform your
 
 [Transistors](https://www.physlink.com/education/askexperts/ae430.cfm) are one of if not the most important basic building blocks of computers. There are many different types of transistors, but they often look like a rectangle with three prongs [@how_transistors_work].  
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_274.png" title="Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current" alt="Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_274.png){width=100%}
 
 
 [Transistors](https://technologystudent.com/elec1/transis1.htm) behave like electronic switches or gates that either allow or do not allow current to flow through a particular part of a circuit [@transistor_basics]. 
 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_10.png" title="Comic: Galdolf lego character from the Lord of the Rings saying: You shall not pass! (He is holding a large transistor.)" alt="Comic: Galdolf lego character from the Lord of the Rings saying: You shall not pass! (He is holding a large transistor.)" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_10.png){width=100%}
 
 [[Source](https://unsplash.com/photos/9paY25EHOBo)]
 
 Inside the plastic, is often [silicon](https://en.wikipedia.org/wiki/Silicon), or some other semiconductive crystal. Semiconductors materials are needed because they way that they conduct electricity can be modified by the application of more electricity, making them the perfect option for creating an electrical switch. Silicon is especially useful, because it doesn't cause the circuit to get very hot, unlike previously used materials. It is also very abundant, in fact, it is the second most common element of the Earth's crust! [@Wikipedia_Silicon].
 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_315.png" title="Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on." alt="Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_315.png){width=100%}
 
 If the transistor receives a small amount of current to one of the prongs (called the base), this turns it on, and allows the larger current for the circuit to pass through the transistor (from a prong called the collector to the prong called the emitter). 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_296.png" title="The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on." alt="The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_296.png){width=100%}
 
 If the base prong of the transistor does not receive a small current than the transistor is off and the current for the circuit is not allowed to flow through the transistor.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_328.png" title="Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through" alt="Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_328.png){width=100%}
 You may see how this is similar to ligand-gated ion or ionotropic channels in biological systems, where a channel remains closed and does not allow ions to pass through the membrane unless a ligand (like a neurotransmitter) binds to the channel protein, allowing the channel to open [@ligand-gated_2021; @ligand-gated_2011] and allowing ions to flow through the channel.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1077711c9e7_301_0.png" title="Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information." alt="Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1077711c9e7_301_0.png){width=100%}
 
 
 The two states for the flow of current ultimately allow for the storage and use of binary data, which we think of a zeros and ones, but it is really the absence or presence of current with a voltage beyond a threshold for this part of the circuit. 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_147.png" title="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." alt="Simplified illustration of how transistors work. If the transistor is given a digital data input of 1, it allows current to flow through, with a digital output of 1. Alternatively, if the the transistor is given a digital data input of 0, it does not allow current to flow through - with a digital output of 0." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_147.png){width=100%}
 
 
 Thus the physical components of a computer are ultimately based on the assessment of only two states of current (0 (or FALSE) = below a threshold and 1 (or TRUE) = above a threshold), which is much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this binary encoding of current as digital data is the basis for all the complex tasks that we use computers for everyday.  
@@ -60,12 +60,12 @@ Thus the physical components of a computer are ultimately based on the assessmen
 
 Very importantly transistors have gotten much smaller over time.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_27.png" title="Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today" alt="Graph showing how the size of transistors has changed from about 1 centimeters in the 1950s to 1-5 nanometers today" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_27.png){width=100%}
 
 The **smaller** size of transistors has allowed for many more transistors to be used inside computers. Check out @transistor_count for more information about how the number of transistors in computers has grown over time. Early computers had thousands of transistors; now some supercomputers have trillions [@transistor_count]!
 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_18.png" title="Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today" alt="Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_18.png){width=100%}
 
 [[Source](https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png)]
 
@@ -94,12 +94,12 @@ Let's take a moment to understand how networks of transistors work for AND and O
 
 In this illustration of the transistor [AND gate](https://en.wikipedia.org/wiki/AND_gate), there are two transistors where the current going to the collector for each transistor is in series. This means the transistors are sequentially placed one after the other, where one receives current first before the other. A resulting high current output only occurs when both of the transistors allow for the flow of current. If either transistor is off or both of the transistors are off, then the current is not allowed to flow through, and the resulting digital output is zero [@Wikipedia_AND_gate_and_2021]. 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_63.png" title="Illustration of logic AND gate showing transistors in series. If either or both of the transistors is off (receiving digital input of 0 in the form of no small current to base prong), then the gate  does not allow the current to flow through this part of the circuit. If both transistors are on then the current can flow through this part of the circuit." alt="Illustration of logic AND gate showing transistors in series. If either or both of the transistors is off (receiving digital input of 0 in the form of no small current to base prong), then the gate  does not allow the current to flow through this part of the circuit. If both transistors are on then the current can flow through this part of the circuit." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_63.png){width=100%}
 
 
 In our next simple illustration, the transistor OR gate has two transistors in parallel, meaning they are next to one another each receiving the flow of current at the same time. A resulting high current output can occur when either of the transistors allows for the flow of current [@Wikipedia_OR_gate_2021].
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_217.png" title="Illustration of logic OR gate showing transistors in parallel. If either or both of the transistors is on (receiving digital input of 1 in the form of a small current), then the gate allows the current to flow through this part of the circuit." alt="Illustration of logic OR gate showing transistors in parallel. If either or both of the transistors is on (receiving digital input of 1 in the form of a small current), then the gate allows the current to flow through this part of the circuit." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_217.png){width=100%}
  
 
 
@@ -120,11 +120,11 @@ With our decimal system when we reach a value of 10, we start to carry over the 
 
 Here we can see how the first 9 digits of the decimal system are represented in the binary system.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_265.png" title="Table showing how decimal values 0-10 are represented in the binary system." alt="Table showing how decimal values 0-10 are represented in the binary system." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_265.png){width=100%}
 
 Now taking this a step deeper, we can see how addition works with binary data.
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_104.png" title="Image showing how binary addition works. 0+0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place." alt="Image showing how binary addition works. 0+0 = 0, 0+1 = 1, 0+1 = 1, and 1+1 = 10. Why would this last calculation be true? It is because we can only use 0s and 1s and once we reach the value of 2 we need to carry over the 1 to left one place." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_104.png){width=100%}
 
 
 
@@ -139,7 +139,7 @@ Flip-flops are used for storing one bit of digital binary data. They are made of
 
 A group of flip-flops is called a register [@Wikipedia_register_2021]. You may have heard about a computer having a 64- or 32- bit operating system (more on this soon). These computers have registers with 64 bits or 32 bits respectively. Thus there are 64 flip-flops within the registers of a [64-bit](https://www.computerhope.com/jargon/num/64bit.htm) system [@ComputerHope_64-bit]. Each of these are capable of storing and processing binary values 64 digits in length (which works out to an unsigned integer in our decimal system of up to 2^64-1, or 18,446,744,073,709,551,615)[@ComputerHope_64-bit]! 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_408.png" title="Image showing 1 on a 64 -bit register in binary as 63 zeros followed by a 1, as well as the largest numberic unsigned value on a 64-bit register with 64 1s, which is equavlent to 18,446,744,073,709,551,615 in decimal" alt="Image showing 1 on a 64 -bit register in binary as 63 zeros followed by a 1, as well as the largest numberic unsigned value on a 64-bit register with 64 1s, which is equavlent to 18,446,744,073,709,551,615 in decimal" width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_408.png){width=100%}
 
 
 You may also be wondering how letters and other symbols are stored in this binary system. 
@@ -149,7 +149,7 @@ Letters are each assigned a numeric decimal value according to an encoding syste
 Below you can see the decimal value for some of the symbols and letters:
 
 
-<img src="resources/images/02-Computing_Basics_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_187.png" title="Chart showing the ASCII decimal assigned to various characters or letters and the binary number for that ASCII value. For example an upper case letter A is coded  064 in ASCII and the binary number eight bit number is 01000001." alt="Chart showing the ASCII decimal assigned to various characters or letters and the binary number for that ASCII value. For example an upper case letter A is coded  064 in ASCII and the binary number eight bit number is 01000001." width="100%" style="display: block; margin: auto;" />
+![](resources/images/02-Computing_Basics_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_187.png){width=100%}
 
 In the ASCII system, this ultimately works out to letters being stored by a standard 8 binary digits (or bits) [@Wikipedia_ascii_2021]. A group of 8 bits (8 digits of zeros and or ones) is called a byte [@computerhope]. Since this is consistent, this works well with computers that have registers that can store in sets of 8 bits. In fact, that is indeed how most computers work today. The "64-bit" part of what is called a 64-bit computer indicates what is called the [word size or word length](https://en.wikipedia.org/wiki/Word_(computer_architecture)), which is the maximum unit of data that the computer can work with at a time [@Wikipedia_word_length_2021]. This means that it can process binary numbers of up to 64 digits in length. Since 64 divided by 8 is 8, this means for a 64-bit computer, each register could store up to 64 bits or binary digits and thus can store 8 binary bytes. Note that it is possible to combine registers to make  computations with larger numbers. Since each letters or symbol is encode by a byte (8 bits), this means up to 8 letters or symbols can be stored by a single register at a time. Other computers may work with a 32-bit word size, meaning that the registers can accommodate only 4 bytes at a time or 32 binary digits. As you might guess 64-bit computers are more capable of faster speeds and greater precision (by giving more decimal places) when computing operations with values that are larger than 32 binary digits, as compared to such operations using a 32-bit computer.
 
@@ -160,6 +160,11 @@ Note that ASCII has largely been replaced since 1991 for [Unicode](https://en.wi
 Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with and after the computations are made, the computer then translates the data back to numeric and alphabetic form for us to understand. Thus computers do a lot of data conversions!
 
 Here's a great video that puts everything we have explained so far together:
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
 
 <iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px"></iframe>
 
