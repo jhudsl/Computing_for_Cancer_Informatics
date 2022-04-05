@@ -146,9 +146,16 @@ In addition, Overture products have also been used to create other data resource
 
 ## Globus
 
-Globus provides developers of new platforms to manage, transfer, and share data with special attention to privacy and security. 
+This section was written by Brigitte Raumann:
 
-It has been used for several platforms such as the  [Systems Biology Knowledgebase (KBase)](https://www.kbase.us/), which is focused on integrating data across plants and microbes, [Biomedical Research Informatics Network (BIRN)](https://en.wikipedia.org/wiki/Biomedical_Informatics_Research_Network), which is a collaborative project to bring biomedical researchers together and share resources and data [@helmer_enabling_2011], and [Globus Genomics](https://www.globusgenomics.org/genomics/about.html),which uses the Globus data management infrastructure, Amazon web services, and Galaxy workflows to assist researchers with their genomics research endeavors. See this [link](https://www.globus.org/user-stories) for more examples of how others have used Globus. 
+[Globus](www.globus.org) (www.globus.org) is a cloud-hosted service for secure, reliable research data management that allows data movement, synchronization, sharing, and discovery. Users access Globus services via a [web interface](https://app.globus.org/) or [command line interface](https://docs.globus.org/cli/).  Developers can [integrate Globus capabilities](https://www.globus.org/platform) into their research applications and [data portals](https://docs.globus.org/modern-research-data-portal/). 
+
+The [Globus Transfer](https://www.globus.org/data-transfer) service provides 'fire and forget' high-performance data transfer and synchronization between storage system such as laptops, supercomputers, tape archives, HPC clusters, scientific instruments, as well as public cloud storage. Globus enables researchers to share their data without the need to create temporary collaborator accounts on local storage systems and without the need to copy data to an external file sharing service. This technology ensures that data movement and sharing of hundreds of terabytes of data, in some cases petabytes of data, can be done in a manner that ensures data confidentiality, minimizes demands on researchers’ time, and makes efficient use of available cyberinfrastructure. Transfer and sharing of [protected data](https://www.globus.org/protected-data), such as HIPAA-regulated data, is also supported. Globus can also [automate tasks](https://www.globus.org/platform/services/flows) as simple as replicating data across multiple storage systems or as intricate as managing multiple conditional data analysis and results distribution tasks, with optional human intervention where needed for review and confirmation. 
+
+[User stories](https://www.globus.org/user-stories) and [usage briefs](https://www.globus.org/usage-brief-library) provide multiple examples of how users have widely applied Globus to research data management challenges. 
+
+The University of Chicago develops and operates Globus and provides free file transfer for users engaged in non-profit research. Institutions can [subscribe](https://www.globus.org/why-subscribe) to Globus to access additional features. Pricing is based on the research expenditures of the institution.
+
 
 
 ## BaseSpace Sequence Hub

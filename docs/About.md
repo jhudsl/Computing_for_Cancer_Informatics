@@ -16,12 +16,14 @@ These credits are based on our [course contributors table guidelines](https://gi
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor|[Carrie Wright](https://carriewright11.github.io)|
+|Content Contributors (Galaxy section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | [Jeremy Goecks](https://goeckslab.org/people/jeremy.html)|
+|Content Contributors (Globus section in [Computing Resources](https://jhudatascience.org/Computing_for_Cancer_Informatics/computing-resources.html)) | Brigitte Raumann|
+|Content Consultants ([Basic Building Block of Computers](https://jhudatascience.org/Computing_for_Cancer_Informatics/basic-building-block-of-computers.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
+|Content Consultants ([Binary Data to Computations](https://jhudatascience.org/Computing_for_Cancer_Informatics/binary-data-to-computations.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
+|Content Consultants ([Shared Computing Etiquette](https://jhudatascience.org/Computing_for_Cancer_Informatics/shared-computing-etiquette.html))| [Brian Caffo](https://sites.google.com/view/bcaffo/home), [Mark Miller](https://www.linkedin.com/in/markmillerbaltimore/)|
 |Content Editors/Reviewers| [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan), [Ava Hoffman](https://www.avahoffman.com/)|
 |Content Directors| [Jeff Leek](https://jtleek.com/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
-|Content Consultants ([Shared computing etiquette](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/shared-computing-etiquette.html))| [Brian Caffo](https://sites.google.com/view/bcaffo/home), [Mark Miller](https://www.linkedin.com/in/markmillerbaltimore/)|
-|Content Consultants ([Basic building block of computers](https://jhudatascience.org/https://jhudatascience.org/Computing_for_Cancer_Informatics/the-basic-building-block of-computers.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
-|Content Consultants ([Binary data to computations](https://jhudatascience.org/Computing_for_Cancer_Informatics/binary-data-to-computations.html))| [Adam Wright](https://www.linkedin.com/in/adam-wright-4151903/), [Stephen Edwards](https://www.linkedin.com/in/stephen-edwards-26925311/)|
-|Acknowledgments |Garvi Sheth - thank you for your feedback|
+|Acknowledgments |Garvi Sheth - Thank you for your feedback! <br> [Frederick Tan](https://leanpub.com/u/cutsort) - Thank you for your materials on cloud computing!|
 |**Production**||
 |Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
 |Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Candace Savonen](https://www.cansavvy.com/)|
@@ -51,7 +53,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2022-04-01                  
+##  date     2022-04-04                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            
@@ -69,7 +71,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  fs            1.5.0      2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.6.1      2022-01-22 [1] CRAN (R 4.0.2)                    
 ##  htmltools     0.5.0      2020-06-16 [1] RSPM (R 4.0.1)                    
-##  jquerylib     0.1.4      2021-04-26 [1] CRAN (R 4.0.2)                    
 ##  knitr         1.33       2022-02-15 [1] Github (yihui/knitr@a1052d1)      
 ##  lifecycle     1.0.0      2021-02-15 [1] CRAN (R 4.0.2)                    
 ##  magrittr      2.0.2      2022-01-26 [1] CRAN (R 4.0.2)                    

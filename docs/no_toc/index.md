@@ -1,6 +1,6 @@
 ---
 title: "Computing for Cancer Informatics"
-date: "2022-04-01"
+date: "2022-04-04"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -8,6 +8,9 @@ biblio-style: apalike
 link-citations: yes
 description: "This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research."
 favicon: assets/ITN_favicon.ico
+output:
+    bookdown::word_document2:
+      toc: true
 ---
 
 
