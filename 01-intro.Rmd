@@ -5,6 +5,8 @@
 ottrpal::set_knitr_image_path()
 ```
 
+AVOCADO: General comments (1) Not super relevant, but the .docx file in the github/docs folder is actually named Course_Name.docx. I doubt there will be many people looking through the /doc/ folder itself, but maybe the export code hasn’t been changed? Just a heads up!
+
 # Introduction
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Computing for Cancer Research. Written by: Carrie Wright. Contributed and Edited by: Sarah Wheelan and Jeff Leek", out.width= "100%"}
@@ -13,11 +15,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Motivation
 
-One of the key cancer informatics challenges is dealing with and managing the explosion of large data from multiple sources that are often too large to work with on typical personal computers. This course is designed to help researchers and investigators to understand the basics of computing and to familiarize them with various computing  options to ultimately help guide their decisions on the topic.
+One of the key challenges in cancer informatics is dealing with and managing the explosion of large data from multiple sources that are often too large to work with on typical personal computers. This course is designed to help researchers and investigators understand the basics of computing and to familiarize them with various computing options, ultimately helping their research decisions.
 
 ## Target Audience
 
-This course is intended for researchers (including postdocs and students) with limited to intermediate experience with informatics research. The conceptual material will also be useful for those in management roles who are collecting data and using informatics pipelines.
+This course is intended for researchers, including postdocs and students, with limited to intermediate experience with informatics research. The conceptual material will also be useful for those in management roles who are collecting data and using informatics pipelines.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "For individuals whom: Have no formal training in informatics. Are relatively new to informatics. Want to learn the basics of computers and shared computing resources. Want guidance for choosing computing options", out.width= "100%"}
@@ -34,7 +36,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Curriculum
 
-The course will cover the key underlying principles and concepts in computing. It will cover concrete discussions of the differences between cloud and local computing. The course will highlight a number of computing options and etiquette for using shared resources.
+The course will cover key underlying principles and concepts in computing. We will go over concrete discussions of the differences between cloud and local computing. The course will also highlight a number of computing options and etiquettes for using shared resources.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Overall Course Learning Objectives. This course will demonstrate how to: 1.Recognize various data management systems especially for cancer research related data, 2.Compare and make informed decisions about computation platforms (including economic considerations),3.Implement best practices for data security and privacy, 4. Share data safely and securely in a variety of contexts,5.Handle IRB and data access requests,6.Apply ethical consideration in data management workflows", out.width= "100%"}
