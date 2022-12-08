@@ -27,7 +27,7 @@ Luckily, you are likely not going to need to become a bee keeper to perform your
 
 
 
-[Transistors](https://www.physlink.com/education/askexperts/ae430.cfm) are some of the most, if not the most, important basic building blocks of computers. There are many different types of transistors, but a typical transistor often looks like a rectangle with three prongs [@how_transistors_work].  
+[Transistors](https://www.physlink.com/education/askexperts/ae430.cfm) are one of the most, if not the most, important basic building blocks of computers. There are many different types of transistors, but a typical transistor often looks like a rectangle with three prongs [@how_transistors_work]. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Anatomy of a transistor, rectangle with with three prongs for receiving or emitting current", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_274")
