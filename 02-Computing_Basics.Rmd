@@ -195,7 +195,7 @@ In the ASCII system, this ultimately works out to letters being stored by a stan
 
 Note that ASCII has largely been replaced since 1991 for [Unicode](https://en.wikipedia.org/wiki/Unicode), which allows for more characters, supporting languages like Chinese that require far more characters than the 256 that ASCII could support [@Wikipedia_unicode_2021]. However Unicode works in a similar way[@Wikipedia_unicode_2021].
 
-Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with; then, after the computations are made, the computer translates the data back to numeric, alphabetic, or other form of data easier for us to understand. Computers do a lot of data conversions!
+Keep in mind that ALUs can only work with binary data. All different types of data like letters, words, numbers, code, etc. ultimately get encoded as 0s and 1s first for the computer to work with. Then, after the computations are made, the computer translates the data back into a form that is easier for us to understand. Computers do a lot of data conversions!
 
 Here's a great video that puts everything we have explained so far together:
 
