@@ -56,7 +56,7 @@ If the transistor receives a small amount of current to one of the prongs called
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_296")
 ```
 
-If the base prong of the transistor does not receive the tiny current, then the transistor is turned off, not allowing the larger current for the circuit to flow through the transistor.
+If the base prong of the transistor does not receive the small current, then the transistor is turned off, not allowing the larger current for the circuit to flow through the transistor.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Depiction of two transistors, one is one and one is off. The one that is one receives current to the base prong and allows the current for this part of the circuit to pass through. The transistor that is off does not receive current to the base prong and thus the current that comes into the transistor from the circuit does not pass through", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_328")
