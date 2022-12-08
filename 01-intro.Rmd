@@ -5,7 +5,6 @@
 ottrpal::set_knitr_image_path()
 ```
 
-AVOCADO: General comments (1) Not super relevant, but the .docx file in the github/docs folder is actually named Course_Name.docx. I doubt there will be many people looking through the /doc/ folder itself, but maybe the export code hasn’t been changed? Just a heads up!
 
 # Introduction
 
