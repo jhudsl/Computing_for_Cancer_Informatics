@@ -50,7 +50,7 @@ Inside the plastic coating is often [silicon](https://en.wikipedia.org/wiki/Sili
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_315")
 ```
 
-If the transistor receives a tiny current in one of the prongs called the __base__, it is turned on, allowing another, larger current for the circuit to pass through the transistor, from a prong called the __collector__ to the prong called the __emitter__.
+If the transistor receives a small amount of current to one of the prongs called the __base__, this turns the transistor on, and allows the larger current for the circuit to pass through the transistor, from a prong called the __collector__ to a prong called the __emitter__.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "The transistor can turn on our of depending on if a small current is applied to the prong called the base. Another prong is called the collector which receives the current from the circuit and the final prong is called the emitter. It emits the current from the circuit if the transistor is on.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_296")
