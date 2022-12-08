@@ -84,7 +84,7 @@ One important point to note is that transistors have gotten much smaller over ti
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_27")
 ```
 
-The decrease in size of transistors has allowed for many more transistors to be used inside computers. Check out @transistor_count for more information about how the number of transistors in computers has grown over time. Early computers had thousands of transistors; now some supercomputers have trillions [@transistor_count]!
+This **decrease in the size** of transistors has allowed for many more transistors to be used inside computers. Check out @transistor_count for more information about how the number of transistors in computers has grown over time. Early computers had thousands of transistors; now some supercomputers have trillions [@transistor_count]!
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Graph showing that the number of transitors in circuit chipshas incresed from the thousands in the 1970s to 50 billion today", out.width= "100%"}
