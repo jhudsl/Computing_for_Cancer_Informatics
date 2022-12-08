@@ -36,7 +36,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Curriculum
 
-The course will cover key underlying principles and concepts in computing. We will go over concrete discussions of the differences between cloud and local computing. The course will also highlight a number of computing options and etiquettes for using shared resources.
+The course will cover key underlying principles and concepts in computing. We will go over concrete discussions of the differences between cloud and local computing. The course will also highlight a number of computing options and describe etiquette basics for using shared resources.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Overall Course Learning Objectives. This course will demonstrate how to: 1.Recognize various data management systems especially for cancer research related data, 2.Compare and make informed decisions about computation platforms (including economic considerations),3.Implement best practices for data security and privacy, 4. Share data safely and securely in a variety of contexts,5.Handle IRB and data access requests,6.Apply ethical consideration in data management workflows", out.width= "100%"}
