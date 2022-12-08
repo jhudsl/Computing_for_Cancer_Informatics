@@ -45,7 +45,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 Inside the plastic coating is often [silicon](https://en.wikipedia.org/wiki/Silicon), or some other semiconductive material. A __semiconductive__ material has an intermediate property of conducting electricity (conductivity) – it conducts electricity more easily than conductors (such as copper) and less easily than insulators (such as wood). Semiconductive materials are needed for transistors because the way that they conduct electricity can be **modified** by the application of more electricity, making them the perfect option for creating an electrical switch. Silicon is especially useful because, unlike previously used materials, it doesn't cause the circuit to get very hot. It is also very abundant - in fact, it is the second most common element of the Earth's crust! [@Wikipedia_Silicon].
 
-AVOCADO: In the first sentence "Inside the plastic surface" (line 46) I am not sure which is the best terminology. Plastic surface/cover/container/box?
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Anatomy of a transistor, the rectangular part of the transistor contains silicon and metal underneath a plastic insulating layer. It does not allow much current unless the transistor is on.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf6e632d05f_0_315")
