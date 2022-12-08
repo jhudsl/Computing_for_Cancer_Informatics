@@ -63,7 +63,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 You may see how this is similar to ligand-gated ion or ionotropic channels in biological systems, where a channel remains closed and does not allow ions to pass through the membrane unless a ligand (such as a neurotransmitter) binds to the channel protein, allowing the channel to open [@ligand-gated_2021; @ligand-gated_2011] and allowing ions to flow through the channel. In this case, the small electrical flow to the base prong acts somewhat like the ligand signal in the gated ion channel, activating the transistor so current can flow through the collector and emitter prongs.
 
-AVOCADO: I love the metaphor! I tried elaborating on the explanations - not 100% sure if it's accurate.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Ligand-gated ion channels, such as those found in neurons, will open and allow ions through the cellular membrane only if a ligand like a neurotransmitter has bound to the channel protein. We can think of this like the current applied to the base prong of a transistor that activates the transistor and allows current to flow from one side of the transistor to the other (from the collector to the emitter). See https://en.wikipedia.org/wiki/Ligand-gated_ion_channel for more information.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g1077711c9e7_301_0")
