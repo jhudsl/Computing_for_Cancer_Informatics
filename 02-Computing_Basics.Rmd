@@ -108,7 +108,6 @@ Finally, it is important to note that modern transistors have a 3D structure tha
 
 The ALU is responsible for performing simple operations by using networks of transistors.
 
-AVOCADO: Is “circuit” an official word for this term, or just a common term? I was a little confused reading this part.
 
 These simple operations include logical operations (AND, OR, NOT, etc.), and arithmetic operations (addition, subtraction, division, multiplication, etc.).  
 
