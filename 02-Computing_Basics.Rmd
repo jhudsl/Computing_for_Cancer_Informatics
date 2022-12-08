@@ -76,7 +76,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 
 
-Thus, the physical components of a computer are ultimately based on the assessment of only two states of current (0 or FALSE) = below a threshold; 1 or TRUE = above a threshold), which is much easier to create than if it we needed to assess more nuanced levels of current. It turns out that this binary encoding of current as digital data is the basis for all the complex tasks for which we use computers every day.  
+Thus, the physical components of a computer are ultimately based on the assessment of only two states of current (0 or FALSE) = below a threshold; 1 or TRUE = above a threshold), which is much easier to create than if we needed to assess more nuanced levels of current. It turns out that this binary encoding of current as digital data is the basis for all the complex tasks for which we use computers every day.  
 
 One important point to note is that transistors have gotten much smaller over time.
 
