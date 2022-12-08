@@ -106,7 +106,7 @@ Finally, it is important to note that modern transistors have a 3D structure tha
 
 ## ALU - Arithmetic Logic Unit
 
-The ALU is responsible for performing simple operations by using networks, in this case commonly called a __circuit__, of transistors. 
+The ALU is responsible for performing simple operations by using networks of transistors.
 
 AVOCADO: Is “circuit” an official word for this term, or just a common term? I was a little confused reading this part.
 
