@@ -218,5 +218,5 @@ In conclusion, here are some of the major take-home messages:
 1) Computers rely on millions to billions of tiny transistors
 2) Transistors act like electrical switches that allow for the storage and processing of digital binary data
 3) Binary data is essentially the encoding of current states in the hardware of a computer as zeros and ones
-4) As transistors got smaller, more transistors were included in computers, and computers became faster and more powerful (also due to other additional reasons)
+4) As transistors got smaller and more transistors were included in computers, computers became faster and more powerful (also due to other additional reasons)
 
