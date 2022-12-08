@@ -93,7 +93,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 [[Source](https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1971-2018.png)]
 
-Both the **smaller size** of the transistors and the **increased number** of transistors have in part allowed computers to become faster and more powerful [@Pokropivny2007]. Transistors are a key reason why we have seen such an explosion of computing power and storage, which has facilitated the incredible expansion of data that we have seen through history.
+Both the **smaller size** of the transistors and the **increased number** of transistors have in part allowed computers to become faster and more powerful [@Pokropivny2007]. Thus transistors are a key reason why we have seen such an explosion of computing power and storage, which has facilitated what we have seen in the incredible more recent expansion of data that we have seen.
 
 
 These silicon transistors became so important for the field of electronics that the time period of heavy computing development during the late 20th century and early 21st century has been coined the "Silicon Age". This is also why many places in the world that have many technological institutes are often given names containing the word "silicon", such as [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley) [@Wikipedia_silicon_2021]. Here is an interesting [article](https://futurism.com/could-mark-end-silicon-age) about what our next age might be about, and it has to do with changing the way we harness electrons (the current role of transistors) [@tom_ward_2017] --- this shows how important they are!
