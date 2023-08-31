@@ -1,6 +1,6 @@
 ---
 title: "Computing for Cancer Informatics"
-date: "2022-12-08"
+date: "2023-08-31"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -26,6 +26,6 @@ This course is part of a series of courses for the [Informatics Technology for C
 This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
 
 - The material for this course can be viewed without login requirement on this [Bookdown website](https://jhudatascience.org/Computing_for_Cancer_Informatics/). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](https://leanpub.com/universities/courses/jhu/computing-for-cancer-informatics).
+- This course can be taken for [free certification through Leanpub](https://leanpub.com/universities/courses/jhu/cancer-informatics-computing).
 - This course can be taken on [Coursera for certification here](https://www.coursera.org/learn/computing-for-cancer-informatics) (but it is not available for free on Coursera).
 - Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/jhudsl/Computing_for_Cancer_Informatics).
