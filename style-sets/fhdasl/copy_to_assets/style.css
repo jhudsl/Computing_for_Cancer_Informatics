@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Karla:400,400i,700,700i|Lora:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arimo:400,400i,700,700i|Tinos:400,400i,700,700i&display=swap');
 
 p.caption {
   color: #777;
@@ -43,44 +43,44 @@ pre code {
 /* ------------Links------------------ */
 
 .book .book-body .page-wrapper .page-inner section.normal a {
-  color: #e0471c;
+  color: #00C1D5;
 }
 
 
 /*------------- Body and header text---------------- */
 
 .book.font-family-1 {
-  font-family: 'Karla', arial, sans-serif;
+  font-family: Arial, 'Arimo', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Lora', arial, sans-serif;
+  font-family: 'Times New Roman', 'Tinos', serif;
 }
 
 
-.book .book-body .page-wrapper .page-inner section.normal h1, 
-.book .book-body .page-wrapper .page-inner section.normal h2, 
-.book .book-body .page-wrapper .page-inner section.normal h3, 
-.book .book-body .page-wrapper .page-inner section.normal h4, 
-.book .book-body .page-wrapper .page-inner section.normal h5, 
+.book .book-body .page-wrapper .page-inner section.normal h1,
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4,
+.book .book-body .page-wrapper .page-inner section.normal h5,
 .book .book-body .page-wrapper .page-inner section.normal h6 {
     margin-top: 2.275em;
     margin-bottom: 1em;
 }
 
 .title {
-  font-family: 'Lora';
+  font-family: 'Times New Roman', 'Tinos', serif;
   font-size: 4em !important;
-  color: #193a5c;
+  color: #1B365D;
   margin-top: 0.275em !important;
   margin-bottom: 0.35em !important;
 }
 
 .subtitle {
-  font-family: 'Lora';
-  color: #0b8d96;
+  font-family: 'Times New Roman', 'Tinos', serif;
+  color: #1B365D;
 }
-  
+
 
 /*----------DROP CAPS--------------*/
 
@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
 */
 
 .section.level1 > p:first-of-type:first-letter { /*drop cap for first p beneath level 1 headers only within class .section*/
-  color: #193a5c;
+  color: #1B365D;
   float: left;
   font-family: 'Abril Fatface', serif;
   font-size: 7em;
@@ -138,53 +138,51 @@ h1, h2, h3, h4 {
 /*---color of links in TOC----*/
 
 .book .book-summary a {
-color: #193a5c
+color: #1B365D
 }
 
 .summary{
-  font-family: 'Karla', sans-serif;
+  font-family: Arial, 'Arimo', sans-serif;
 }
 
 /* all TOC list items, basically */
-.book .book-summary ul.summary li a, 
+.book .book-summary ul.summary li a,
 .book .book-summary ul.summary li span {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #193a5c;
+  color: #1B365D;
 }
 
 .summary a:hover {
-  color: #e0471c !important;
-} 
+  color: #00C1D5 !important;
+}
 
 .book .book-summary ul.summary li.active>a { /*active TOC links*/
-  color: #e0471c !important;
+  color: #00C1D5 !important;
   border-left: solid 4px;
-  border-color: #e0471c;
+  border-color: #00C1D5;
   padding-left: 11px !important;
-} 
+}
 
 .trapezoid {
-  width: 130px;
+  width: 132px;
   text-align: center;
-  height: 15; 
   position: relative;
-  border-right: 50px solid transparent;
+    left: 10px;
+  border-right: 50px solid #ffb809;
   border-bottom: 50px solid #dbdbdb;
-  border-left: 50px solid transparent;
+  border-left: 50px solid #b842ca;
   box-sizing: content-box;
 }
-.trapezoid span { 
+.trapezoid span {
   position: absolute;
-  top: 5px;
+  top: 8px;
   bottom: 5px;
   left: 5%;
-  color: #fff;
+  color: #dbdbdb;
 }
-
-
 
 
 li.appendix span, li.part span { /* for TOC part names */
@@ -212,7 +210,6 @@ li.appendix span, li.part span { /* for TOC part names */
 }
 
 
-
 /*--- LOGO ---*/
 
 .toc-logo {
@@ -227,7 +224,7 @@ li.appendix span, li.part span { /* for TOC part names */
 }
 
 .summary > li:first-child {
-  height: auto !important; 
+  height: auto !important;
 }
 
 /* --------------Two columns--------------- */
@@ -267,162 +264,178 @@ li.appendix span, li.part span { /* for TOC part names */
   width: 50%;
 }
 
+.click_to_expand_block {
+    padding: 1em;
+    padding-top: .5em;
+    border: 1px grey;
+    background: #E8E8E8;
+    color: black;
+}
 
 /* Sidebar formating --------------------------------------------*/
 /* from r-pkgs.org*/
 
-div.notice{
-  border: 4px #193a5c;
-  border-style: solid;
+div.notice, div.warning, div.github, div.dictionary, div.reflection, div.question, div.ethics{
   padding: 1em;
   margin: 1em 0;
   padding-left: 100px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
   min-height: 120px;
-  background-color: #e8ebee;
+  background-repeat: no-repeat;
 }
 
+ div.motivations, div.question_box, div.data, div.money, div.plan, div.submit{
+  padding: 1em;
+  padding-left: 100px;
+  min-height: 55px;
+  background-repeat: no-repeat;
+}
+
+div.motivations{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/motivations.png");
+  display:flex;
+  align-items:center;
+}
+
+div.question_box{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/question_box.png");
+  display:flex;
+  align-items:center;
+}
+
+div.data{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/data.png");
+  display:flex;
+  align-items:center;
+}
+
+div.money{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/money.png");
+  display:flex;
+  align-items:center;
+}
+
+div.plan{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/plan.png");
+  display:flex;
+  align-items:center;
+}
+
+div.submit{
+  background-size: 70px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/submit.png");
+  display:flex;
+  align-items:center;
+}
+
+div.question{
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
+  background-repeat: no-repeat;
+  background-image: url("../assets/box_images/question.png");
+  display:flex;
+  align-items:center;
+  border: 4px #00C1D5;
+  border-style: solid;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.ethics{
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
+  background-image: url("../assets/box_images/justice.png");
+  border: 4px #b842ca;
+  border-style: solid;
+}
+
+
 div.notice{
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
   background-image: url("../assets/box_images/note.png");
+  border: 4px #00C1D5;
+  border-style: solid;
 }
 
 div.warning{
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
+  background-image: url("../assets/box_images/warning.png");
   border: 4px #e0471c;
   border-style: solid;
-  padding: 1em;
-  margin: 1em 0;
-  padding-left: 100px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
-  min-height: 120px;
-  background-color: #e8ebee;
 }
-
-div.warning{
-  background-image: url("../assets/box_images/warning.png");
-}
-
-
 
 div.github{
+
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
+  background-image: url("../assets/box_images/github.png");
   border: 4px #000000;
   border-style: solid;
-  padding: 1em;
-  margin: 1em 0;
-  padding-left: 100px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
-  min-height: 120px;
-  background-color: #e8ebee;
 }
 
-div.github{
-  background-image: url("../assets/box_images/github.png");
-}
 
 div.dictionary{
-  border: 4px #193a5c;
-  border-style: solid;
-  padding: 1em;
-  margin: 1em 0;
-  padding-left: 100px;
   background-size: 70px;
-  background-repeat: no-repeat;
   background-position: 15px center;
-  min-height: 120px;
   background-color: #e8ebee;
-}
-
-div.dictionary{
   background-image: url("../assets/box_images/dictionary.png");
-}
-
-div.reflection{
-  border: 4px #193a5c;
+  border: 4px black;
   border-style: solid;
+}
+
+
+div.dictionary_long{
   padding: 1em;
-  margin: 1em 0;
+  padding-top: 20px;
   padding-left: 100px;
-  background-size: 90px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
-  min-height: 120px;
+  min-height: 180px;
+  background-size: 70px;
   background-color: #e8ebee;
+  background-image: url("../assets/box_images/dictionary.png");
+  background-repeat: no-repeat;
+  background-position: top 70px left 20px;
+  border: 4px black;
+  border-style: solid;
 }
-
 div.reflection{
+  background-size: 90px;
+  background-position: 15px center;
+  background-color: #e8ebee;
   background-image: url("../assets/box_images/thinking_face.png");
+  border: 4px #00C1D5;
+  border-style: solid;
 }
 
-
-div.rstudio-tip, div.tip, div.gotcha, div.design, div.hat{
-  border: 4px #aed6d963;
-  border-style: dashed solid;
+div.blackbox{
   padding: 1em;
   margin: 1em 0;
-  padding-left: 100px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
   min-height: 120px;
-  color: #2ea8b3;
-  background-color: #fcfcfc;
-}
-
-
-div.rstudio-tip {
-  background-image: url("../images/divs/rstudio.png");
-}
-
-div.tip {
-  background-image: url("../images/divs/lightbulb.png");
-}
-
-div.gotcha {
-  background-image: url("../images/divs/gotcha_2.png");
-}
-
-div.design {
-  background-image: url("../images/divs/design.png");
-}
-
-div.hat {
-  background-image: url("../images/divs/hat.png");
-}
-
-/* for fancy bookdown cookbook */
-
-div.puzzle, div.fyi, div.demo, div.note {
-  padding: 1em;
-  margin: 1em 0;
-  padding-left: 100px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: 15px center;
-  min-height: 120px;
-  color: #1f5386;
-  background-color: #bed3ec;
-  border: solid 5px #dfedff;
-}
-
-div.puzzle {
-  background-image: url("../images/illos/Your-turn.png");
-}
-
-div.fyi {
-  background-image: url("../images/illos/fyi.png");
-}
-
-div.demo {
-  background-image: url("../images/illos/Live-code.png");
-}
-
-div.note {
-  background-image: url("../images/illos/lightbulb2.png");
+  border: 4px #000000;
+  border-style: solid;
+  outline: 5px solid #ffb808;
 }
 
 
@@ -441,12 +454,12 @@ div.note {
   margin-bottom: 0;
 }
 
-iframe { 
-   -moz-transform-origin: top left; 
-   -webkit-transform-origin: top left; 
-   -o-transform-origin: top left; 
-   -ms-transform-origin: top left; 
-   transform-origin: top left; 
+iframe {
+   -moz-transform-origin: top left;
+   -webkit-transform-origin: top left;
+   -o-transform-origin: top left;
+   -ms-transform-origin: top left;
+   transform-origin: top left;
 }
 
 .iframe-container {
@@ -513,14 +526,14 @@ a.anchor {
 }
 
 
-.hasAnchor:hover a.anchor, 
+.hasAnchor:hover a.anchor,
 a.anchor:hover {
   /*visibility: visible;*/
   opacity: 0.6;
 }
 
 /* disable anchors for headers with "no-anchor" class */
-.no-anchor .hasAnchor:hover a.anchor, 
+.no-anchor .hasAnchor:hover a.anchor,
 .no-anchor a.anchor:hover {
   opacity: 0 !important;
 }
@@ -545,7 +558,30 @@ a.anchor:hover {
 /* Footer */
 
 .footer {
-  font-family: "Lora", serif;
+  font-family: 'Times New Roman', 'Tinos', serif;
   font-size: .85em;
   color: #193a5c;
 }
+
+/* AnVIL style */
+/* Things above this comment should be identical to OTTR_Template style.css */
+/* Things below this comment are AnVIL customizations */
+
+.hero-image-container {
+  height: 100px;
+}
+
+.page-inner {
+  padding-top: 60px !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1,
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4,
+.book .book-body .page-wrapper .page-inner section.normal h5,
+.book .book-body .page-wrapper .page-inner section.normal h6 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
