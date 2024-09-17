@@ -119,12 +119,7 @@ If you wish to run a program with a graphical interface, then you might need to 
 
 If you are new to Unix commands check out this cheat sheet below.
 
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px"></iframe>
+<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px" data-external="1"></iframe>
 
 
 ## Running Jobs

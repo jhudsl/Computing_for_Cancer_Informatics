@@ -80,12 +80,7 @@ Users can pay for data storage and computing costs for Google Cloud through Terr
 
 Check out this video for more information:
 
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/3rH86vcAqK8" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/3rH86vcAqK8" width="100%" height="400px" data-external="1"></iframe>
 
 
 
@@ -172,7 +167,7 @@ The University of Chicago develops and operates Globus and provides free file tr
 
 [ATLAS.ti](https://atlasti.com/) is designed particularly for qualitative analysis. You can use a variety of data types including video, audio, images, surveys, and social media data. A variety of tools, particularly for text data analysis are provided for methods such as [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), which is the process of assigning a general tone or feeling to text and [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), which is the process of extracting certain characteristics from texts that are what is called a [named entity] or a real-world object - such as a person's name or address. Such analyses can be helpful for understanding behaviors that might be associated with cancer risk. Although this type of analysis can be performed using R or Python among other coding languages, ATLAS.ti offers a nice graphical user interface to perform these types of analyses.Furthermore ATLAS.ti offers a great deal of flexibility about such analyses using different data types easily.
 
-<iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="100%" height="400px"></iframe>
+<iframe src="https://downloads.atlasti.com/docs/branding/atlasti_brochure_v9_EN_interactive_202110.pdf" width="100%" height="400px" data-external="1"></iframe>
 
 
 
@@ -186,7 +181,7 @@ See [here](https://www.genepattern.org/user-guide) to access their user guide an
 
 [XNAT](https://www.xnat.org/about/) offers computing resources and tools for performing imaging analysis and for storing and sharing imaging data in a HIPAA complaint manner (more on that in the coming). Developed by the [Bukner lab](https://cnl.rc.fas.harvard.edu/) previously at the Washington University and now at Harvard, it supports a variety of imaging data as well as other data types like clinical data.  Some tools can be used with a graphical interface and others with the command-line. See [here](https://wiki.xnat.org/documentation/case-studies) for example use cases. There is also a great deal of documentation available about how to use the tools and resources available at https://wiki.xnat.org/documentation.
 
-<iframe src="https://www.youtube.com/embed/ENk589mOkhI" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/ENk589mOkhI" width="100%" height="400px" data-external="1"></iframe>
 
 
 ## OHIF

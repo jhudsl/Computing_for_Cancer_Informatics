@@ -163,12 +163,7 @@ Keep in mind that ALUs can only work with binary data. All different types of da
 
 Here's a great video that puts everything we have explained so far together:
 
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px" data-external="1"></iframe>
 
 
 Again, if you want to watch another [video](https://www.youtube.com/watch?v=VBDoT8o4q00), this optional video that we told you about earlier explains how transistors are used to add numbers together. In this video you will see that many transistors (and several logic gates) are needed to even do a simple calculation of 1 + 1. You will also learn that more complicated summations just require more transistors arranged in a similar manner. 

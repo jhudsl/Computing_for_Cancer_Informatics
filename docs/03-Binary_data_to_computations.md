@@ -62,12 +62,7 @@ SSDs allow for much faster reading and writing of files, as well as increased re
 
 Here's a great explanation for how HDDs work and the difference with SSDs. It will also introduce the concept of [caching](https://en.wikipedia.org/wiki/CPU_cache), which allows for faster use of data from storage for the CPU. It is a special kind of memory that's even faster and closer to the CPU than RAM [@Wikipedia_cache_2021]:
 
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px" data-external="1"></iframe>
 
 
 See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.

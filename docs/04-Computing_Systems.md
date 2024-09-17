@@ -288,12 +288,7 @@ However, there is also now an option to access the different XSEDE computing res
 
 Here is a video about Jetstream2:
 
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px" data-external="1"></iframe>
 
 
 
