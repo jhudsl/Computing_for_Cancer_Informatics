@@ -121,10 +121,10 @@ If you are new to Unix commands check out this cheat sheet below.
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px"></iframe>
+<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px" data-external="1"></iframe>
 
 
 ## Running Jobs
