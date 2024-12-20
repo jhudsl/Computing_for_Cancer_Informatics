@@ -113,7 +113,7 @@ Previously, back when a university might have one single computer, as they were 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf96b1d997a_0_1")
 ```
 
-There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+There were many [different kinds](https://www.jkmscott.net/data/PunchedCards/PunchedCards.html) of punch cards over time, see @scott_collection_2016 for a collection.
 
 
 
