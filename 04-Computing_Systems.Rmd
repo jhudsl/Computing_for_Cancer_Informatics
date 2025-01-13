@@ -295,7 +295,7 @@ Many of us use cloud storage regularly for Google Docs and backing up photos usi
 Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources [@cloudvstrad].
 
 
-Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are occasionally national government funded resource options like a former resource called [Jetstream](https://portal.xsede.org/) (described in the next section).  We will compare computing options in another chapter coming up.
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are occasionally national government funded resource options like Texas Advanced Computing Center (TACC) and others previously funded by the former project called [XSEDE](https://portal.xsede.org/) (described in the next section).  We will compare computing options in another chapter coming up.
 
 
 
@@ -308,7 +308,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 It's important to remember that all of the shared computing options that we previously described involve a [data center](https://en.wikipedia.org/wiki/Data_center) where are large number of computers are physically housed. 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede.", out.width= "100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_23")
 ```
 
@@ -320,11 +320,16 @@ If your university or institution has a HPC [cluster](https://en.wikipedia.org/w
 
 
 If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like the [Texas Advanced Computing Center (TACC)](https://en.wikipedia.org/wiki/Texas_Advanced_Computing_Center) which was funded by the National Science Foundation (NSF) [XSEDE](https://www.xsede.org/) program.
-Universities and non-profit researchers in the United States can request access to their computational and data storage resources. 
+Universities and non-profit researchers in the United States can request access to their computational and data storage resources. Other resource options include:
 
-Here you can see a photo of Stampede2, one of the supercomputers that members of TACC could utilize (it has now been replaced with Stampede3.
+- [San Diego Supercomputer Center (SDSC)](https://www.sdsc.edu/) at the University of California, San Diego
+- [National Institute for Computational Sciences (NICS)](https://www.nics.tennessee.edu/), at the University of Tennessee, Knoxville
+- [Pittsburgh Supercomputing Center (PSC)](https://www.psc.edu/) at the Carnegie Mellon University and University of Pittsburgh
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "An image of Stampede2 one of the supercomputers that members of Xsede can use.", out.width= "100%"}
+
+Here you can see a photo of Stampede2, one of the supercomputers that members of TACC could utilize (it has now been replaced with Stampede3).
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "An image of Stampede2 one of the supercomputers that members of TACC could use.", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_63")
 ```
 
@@ -337,14 +342,13 @@ See [this article about Stampede2 and the transition to Stampede3](https://tacc.
 
 Importantly when you use shared computers like national resources like [Stampede2](https://tacc.utexas.edu/systems/stampede2/) and [Stampede3](https://docs.tacc.utexas.edu/hpc/stampede3/), as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
-There is also an option to access the different XSEDE computing resources through a cloud environment option called [Jetstream2](https://jetstream-cloud.org/).  
+There is also an option to access national computing resources through a cloud environment option called [Jetstream2](https://jetstream-cloud.org/).  
 
 Here is a video about Jetstream2:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
 knitr::include_url("https://www.youtube.com/embed/NQ3flxJANTw")
 ```
-
 
 
 
