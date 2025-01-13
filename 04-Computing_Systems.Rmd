@@ -19,7 +19,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 Recall that the smallest unit of data is a bit, which is either a zero (0) or a one (1). A group of 8 bits is called a byte, and most computers, phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file that is 2 GB? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?
 
 
-First, let's take a look at how the size of binary data are typically described and what these mean in terms of bits and bytes:
+First, let's take a look at how the size of binary data is typically described and what this means in terms of bits and bytes:
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes", out.width="100%"}
