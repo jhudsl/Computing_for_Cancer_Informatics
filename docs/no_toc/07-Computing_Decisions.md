@@ -8,14 +8,14 @@
 Now that we have discussed a bit about how computers perform computations and described a bit about computing options, lets discuss more about how you might choose the right computing resources for your work. In this chapter we will discuss aspects that you should consider when deciding between different computing resource options. 
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_0.png" title="Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options. 3. Know what to watch out for in computing decisions." alt="Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options. 3. Know what to watch out for in computing decisions." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_0.png" alt="Learning Objectives: 1. Recognize the main aspects to focus on when deciding on what computing systems to use. 2. Be aware of the benefits and drawbacks of various options. 3. Know what to watch out for in computing decisions." width="100%" style="display: block; margin: auto;" />
 
 
 To afford you the best opportunity to perform the informatics research that you would like, it is useful to become familiar with the benefits and drawbacks of various computing options. First we will start out with some general considerations that you should think about when beginning to determine what computing option makes sense for your work.
 
 The following are the major decision points for your computing needs:
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1175806cc27_0_0.png" title="1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which Remote Shared Resource?" alt="1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which Remote Shared Resource?" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1175806cc27_0_0.png" alt="1. Personal vs Shared, 2. Local Shared vs Remote Shared 3. Which Remote Shared Resource?" width="100%" style="display: block; margin: auto;" />
 
 
 ***Note:** This content was adapted from content by [Frederick Tan](https://leanpub.com/u/cutsort) for the [AnVIL project](https://anvilproject.org/). See his course created with [Jeff Leek](https://leanpub.com/u/jtleek), [Sarah Wheelan](https://leanpub.com/u/swheelan), and [Kai Kammers](https://leanpub.com/u/kaikammers)   [here](https://leanpub.com/universities/courses/jhu/anvil-intro).*
@@ -27,7 +27,7 @@ Choosing a [computing platform](https://en.wikipedia.org/wiki/Computing_platform
 
 Asking yourself and your research team about the following considerations can help you find the right computing platform.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1198aebfc2f_0_90.png" title="General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Do I need extra privacy protection for my data? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?" alt="General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Do I need extra privacy protection for my data? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1198aebfc2f_0_90.png" alt="General Considerations: 1. How computationally intensive will the work be? 2. How much data storage is and will be needed? 3. Do I plan on collaborating with others outside my institute? 4. Do I need extra privacy protection for my data? 5. How much money can I spend on computing? 6. Do I want extra guidance for my informatics work? 7. Do I need flexibility? Might I work with more data modalities in the future? 8. Do I need scalability? Will I soon work with more data? 9. Do I need access to large controlled datasets? 10.What kind of interface would be helpful?" width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -42,7 +42,7 @@ Now that you know more about determining your personal computer's computing and 
 
 Again, now that you know how to assess the data storage potential of your computer, you can decide if your computer can handle storing all the files that you might wish to use in your analysis. Think about your current data analysis plans but keep in mind your future plans as well. If you hope to replicate experiments with more samples, you might run out of storage. One way around this is to by external additional storage (which is also a good idea for backing up your data!). However, if you think that you might have much larger scale research plans in the future, you might want to think about shared computing options. Cloud computing platforms and more traditional servers have different storage capacities, so it is worth checking out the options that might be helpful for your research. Also keep in mind that it will take time to transfer your data, especially if your data is very large.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_57.png" title="Even if your current personal computer can handle your computing and storage needs – consider if you will need more in the near future." alt="Even if your current personal computer can handle your computing and storage needs – consider if you will need more in the near future." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_57.png" alt="Even if your current personal computer can handle your computing and storage needs – consider if you will need more in the near future." width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -52,7 +52,7 @@ If you plan to work with others outside of your institute that would not have ac
 
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_69.png" title="If you plan on collaborating outside of your institute, consider remote shared resources." alt="If you plan on collaborating outside of your institute, consider remote shared resources." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_69.png" alt="If you plan on collaborating outside of your institute, consider remote shared resources." width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -61,7 +61,7 @@ If you plan to work with others outside of your institute that would not have ac
 
 Are you working with protected data that requires special security precautions?
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_43.png" title="HIPAA Logo" alt="HIPAA Logo" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_43.png" alt="HIPAA Logo" width="100%" style="display: block; margin: auto;" />
 
 [[source](https://www.paubox.com/blog/what-is-hipaa/)]
 
@@ -69,7 +69,7 @@ If you are working with data that might be protected by [HIPAA](https://www.hipa
 
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_79.png" title="If you need extra security and privacy protections for your data, be aware of any extra steps required for any shared computing resource! Some remote resources do not support this. If your personal computer can handle your computing tasks, you can also consider using it." alt="If you need extra security and privacy protections for your data, be aware of any extra steps required for any shared computing resource! Some remote resources do not support this. If your personal computer can handle your computing tasks, you can also consider using it." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_79.png" alt="If you need extra security and privacy protections for your data, be aware of any extra steps required for any shared computing resource! Some remote resources do not support this. If your personal computer can handle your computing tasks, you can also consider using it." width="100%" style="display: block; margin: auto;" />
 
 
 ### Costs
@@ -77,7 +77,7 @@ If you are working with data that might be protected by [HIPAA](https://www.hipa
 Often local shared computing resources at your institute can be much less expensive than some of the common cloud computing options. However, this is not always the case and if you have very specific analysis goals in mind, the benefit of cloud computing resources, is that you typically only pay for the resources that you actually use. This does also involve learning how costs are calculated for the particular cloud resource, which can be a challenge, but many cloud platforms that were designed for research such as [Jetstream](https://jetstream-cloud.org/) or [Terra/AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases) can be very affordable and in some cases some small platforms offer free resources or free trials initially to start.  
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_94.png" title="How much money can I spend? Different resources will have different associated costs. Often local shared resources are affordable. If your personal computer can handle your computing tasks, you can also consider using it. Many remote options have free storage up to an amount." alt="How much money can I spend? Different resources will have different associated costs. Often local shared resources are affordable. If your personal computer can handle your computing tasks, you can also consider using it. Many remote options have free storage up to an amount." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_94.png" alt="How much money can I spend? Different resources will have different associated costs. Often local shared resources are affordable. If your personal computer can handle your computing tasks, you can also consider using it. Many remote options have free storage up to an amount." width="100%" style="display: block; margin: auto;" />
 
 
 ### Extra guidance
@@ -85,20 +85,20 @@ Often local shared computing resources at your institute can be much less expens
 Cloud computing platforms such as [Galaxy](https://galaxyproject.org/), [AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases), and [GenePattern](https://www.genepattern.org/) offer lots of training material and resources about how to actually perform analyses, especially for genomic analyses. Galaxy also supports other types of data, as do many other platforms, as described in the last chapter. Having the extra guidance like that offered with these types of platforms can be very beneficial to investigators that are trying out new methods!
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_107.png" title="Some remote shared resources offer extra support for your informatics work. This can be important to pay attention to when considering which remote shared option to choose. Galaxy, AnVIL, GenePattern, and XNAT are examples of platforms that provide extra guidance." alt="Some remote shared resources offer extra support for your informatics work. This can be important to pay attention to when considering which remote shared option to choose. Galaxy, AnVIL, GenePattern, and XNAT are examples of platforms that provide extra guidance." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_107.png" alt="Some remote shared resources offer extra support for your informatics work. This can be important to pay attention to when considering which remote shared option to choose. Galaxy, AnVIL, GenePattern, and XNAT are examples of platforms that provide extra guidance." width="100%" style="display: block; margin: auto;" />
 
 ### Flexibility
 
 If you plan on working with multiple data modalities like for example both imaging and genomic data, consider computing options that are flexible for such analyses. Some cloud computing options designed for research are more general and supportive of this, such as [Galaxy](https://galaxyproject.org/) to some extent, as well as to a larger extent [SciServer](https://jhudatascience.org/Computing_for_Cancer_Informatics/research-platforms.html), [Jetstream](https://jetstream-cloud.org/), or [CyVerse](https://cyverse.rocks/about).
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_114.png" title="If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, XSEDE and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data." alt="If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, XSEDE and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_114.png" alt="If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, TACC and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data." width="100%" style="display: block; margin: auto;" />
 
 
 ### Scalability
 
 If you hope to start using very large datasets or plan to collaborate with many people using many different data sets, then you might need to keep in mind the future storage and computing capacity of the computing resources that you are considering. Starting with an option that allows for much more data storage and computing such as many of the more general cloud computing options might be best for you in this case, as you might find yourself restricted by smaller cloud platforms or more traditional shared computing resources.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_131.png" title="If you might work with really large data, make sure local shared resources will be up to the task, if not considered a remote resource that has large computation/storage capacity. Remote options like SciServer, CyVerse, Globus, Overture, and Jetstream can be helpful for using really large data." alt="If you might work with really large data, make sure local shared resources will be up to the task, if not considered a remote resource that has large computation/storage capacity. Remote options like SciServer, CyVerse, Globus, Overture, and Jetstream can be helpful for using really large data." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_131.png" alt="If you might work with really large data, make sure local shared resources will be up to the task, if not considered a remote resource that has large computation/storage capacity. Remote options like SciServer, CyVerse, Globus, Overture, and Jetstream can be helpful for using really large data." width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -107,7 +107,7 @@ If you hope to start using very large datasets or plan to collaborate with many 
 Some cloud computing options already have data available that may be of interest for you and your work. For example [Galaxy](https://galaxyproject.org/), [AnVIL](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases), and [GenePattern](https://www.genepattern.org/) provide access to many genomic datasets. Smaller platforms can also have access to data that may be of specific more clinical interest to you as well such as the [Cancer Genome Collaboratory](https://cancercollaboratory.org/), which provides access to data from the [International Cancer Genome Consortium (ICGC)](https://en.wikipedia.org/wiki/International_Cancer_Genome_Consortium). 
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_152.png" title="If access to large controlled datasets be helpful for your work, consider cloud options that allow for this. Galaxy, AnVIL, PRISM, Terra, and GenePattern are options that provide access to controlled large datasets." alt="If access to large controlled datasets be helpful for your work, consider cloud options that allow for this. Galaxy, AnVIL, PRISM, Terra, and GenePattern are options that provide access to controlled large datasets." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_152.png" alt="If access to large controlled datasets be helpful for your work, consider cloud options that allow for this. Galaxy, AnVIL, PRISM, Terra, and GenePattern are options that provide access to controlled large datasets." width="100%" style="display: block; margin: auto;" />
 
 ### Interface
 
@@ -117,36 +117,36 @@ We described this a bit earlier, but here we will provide some more thorough exa
 
 [Galaxy](https://usegalaxy.org/) offers a graphical user interface for performing analyses and tasks. For example in the following image we show a GUI for joining two files:
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_33.png" title="Galaxy Graphical User Interface" alt="Galaxy Graphical User Interface" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_33.png" alt="Galaxy Graphical User Interface" width="100%" style="display: block; margin: auto;" />
 
 
 Another Graphical User Interface example comes from the [OHIF image viewer](https://ohif.org) which has a tool bar for modifying, viewing and annotating images.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" title="The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports." alt="The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" alt="The OHIF Graphical User Interface has an image viewer (center) which  includes a tool bar (above center) to modify, view, and annotate images. A menu on the left allows users to access images related to the current patient in other studies, and a menu on the right is used for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" />
 
 
 Recall, that a [command line interface](https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI) (also known as a character interface) allows users to specify functions with code. 
 
 For example, one could perform functions in R using Bioconductor packages such as [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) with a command line interface:
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_35.png" title="Command line interface using R and Bioconductor package" alt="Command line interface using R and Bioconductor package" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_35.png" alt="Command line interface using R and Bioconductor package" width="100%" style="display: block; margin: auto;" />
 
 
 A situation where you might use **both** a command line interface and a GUI, is using [RStudio](https://en.wikipedia.org/wiki/RStudio) to perform an analysis in R with Bioconductor packages. [RStudio](https://en.wikipedia.org/wiki/RStudio) is what is called an IDE or an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment), which is an application that supports writing code. There are many tools to help you including a console for writing code in R with command line interfacing, as well as graphical interface tools. As shown in this example below, one can inspect and save a plot (that was created with the command line) by using a GUI. The plot was created using the same package as the one used in the command line interface example.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_30.png" title="Command line interface using R and Bioconductor package with a GUI using RStudio" alt="Command line interface using R and Bioconductor package with a GUI using RStudio" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g115e0d5ae79_0_30.png" alt="Command line interface using R and Bioconductor package with a GUI using RStudio" width="100%" style="display: block; margin: auto;" />
 
 Some cloud computing options will have either interface option while others will only have one. This is an important consideration when you decide what computing resources to use.
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_163.png" title="Make sure you consider the type of interface you would like to work with in deciding about shared remote options. Some support only a GUI, some only command line, others support both. Galaxy and CyVerse support both command line and GUI interfaces, while OHIF and GenePattern have only a GUI based interface." alt="Make sure you consider the type of interface you would like to work with in deciding about shared remote options. Some support only a GUI, some only command line, others support both. Galaxy and CyVerse support both command line and GUI interfaces, while OHIF and GenePattern have only a GUI based interface." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_163.png" alt="Make sure you consider the type of interface you would like to work with in deciding about shared remote options. Some support only a GUI, some only command line, others support both. Galaxy and CyVerse support both command line and GUI interfaces, while OHIF and GenePattern have only a GUI based interface." width="100%" style="display: block; margin: auto;" />
 
 ## Local shared resources vs remote shared resources
 
-Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, which include more traditional sharing resource options such as XSEDE, as well as more modern cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like [Jetstream](https://jetstream-cloud.org/) for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
+Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, which include more traditional sharing resource options such as [TACC](https://tacc.utexas.edu/), as well as more modern cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like [Jetstream](https://jetstream-cloud.org/) for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_174.png" title="Choosing between local and remote shared resource options." alt="Choosing between local and remote shared resource options." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_174.png" alt="Choosing between local and remote shared resource options." width="100%" style="display: block; margin: auto;" />
 
 
 1) **Are local shared computing resources sufficient?**
@@ -172,7 +172,7 @@ The state of Cloud computing is continually evolving.  Here, we highlight some o
 
 The first major benefit is the increasing ease with which one can share and collaborate on research projects. Shown here is the History feature of [Galaxy](https://usegalaxy.org/). Using this, one can share not only what datasets they used but also every computational manipulation that was performed.
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_38.png" title="Galaxy history example" alt="Galaxy history example" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_38.png" alt="Galaxy history example" width="100%" style="display: block; margin: auto;" />
 
 
 By sharing such a history, one can reproduce an analysis in its entirety (if they use the same data), allowing collaborators to offer comments and extend upon the work with ease.
@@ -185,7 +185,7 @@ While sharing complete analysis histories is for the most part constrained to a 
 
 Shown here is a diagram of an analysis pipeline to create a [custom reference](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/advanced/references) for single cell 10x data using [cell ranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) published by the Klarman Cell Observatory on [Dockstore](https://dockstore.org/workflows/github.com/klarman-cell-observatory/cumulus/Cellranger_create_reference:master?tab=dag). Users can launch the workflow on various supported platforms such as Terra or AnVIL.:
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117032ee319_0_8.png" title="Workflow on Dockstore showing launch buttons with multiple platforms" alt="Workflow on Dockstore showing launch buttons with multiple platforms" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117032ee319_0_8.png" alt="Workflow on Dockstore showing launch buttons with multiple platforms" width="100%" style="display: block; margin: auto;" />
 
 This higher level abstraction coupled with container technology allows this multistep analysis to be run with relative ease on supporting platforms like Terra, AnVIL, or [DNAnexus](https://www.dnanexus.com/), which is yet another computing platform company, although with generally more costs associated as compared to Terra or AnVIL.
 
@@ -248,12 +248,12 @@ A final challenge is that many IT support staff do not have extensive experience
 
 The final major decision, should you decide that you want to go with a remote sharing option is to decide which remote computing resource to go with. 
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_185.png" title="Choosing the right remote shared option" alt="Choosing the right remote shared option" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g117b5133acc_71_185.png" alt="Choosing the right remote shared option" width="100%" style="display: block; margin: auto;" />
 
 
 This decision should be based on the following:
 
-<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1175806cc27_0_27.png" title="1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with?" alt="1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with?" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/07-Computing_Decisions_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1175806cc27_0_27.png" alt="1) Does the resource offer the privacy protection needed? 2) Does the resource allow for me to use the data modalities I need? 3) Does the resource already have data that I might want? 4) Does the resource provide extra guidance that might be helpful for my work? 5) Does the resource offer the interface that I would like to work with?" width="100%" style="display: block; margin: auto;" />
 
 
 

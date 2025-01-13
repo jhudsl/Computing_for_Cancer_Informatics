@@ -1,6 +1,6 @@
 ---
 title: "Computing for Cancer Informatics"
-date: "2024-09-04"
+date: "2025-01-13"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

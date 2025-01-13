@@ -6,7 +6,7 @@
 Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data. 
 
 
-<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png" title="Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today" alt="Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today" width="100%" />
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png" alt="Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today" width="100%" />
 
 
 ### **CPU** - Central Processing Unit
@@ -26,7 +26,7 @@ A group of these components together is called a **core**. Multiple cores togeth
  
 The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers, so that the ALU can perform the operations on the right data stored in the registers at the right time [@braunl_central_2008].
 
-<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png" title="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." alt="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png" alt="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." width="100%" style="display: block; margin: auto;" />
  
 Modern computers now have multiple cores. What does this mean?
 
@@ -35,11 +35,11 @@ This means that there are multiple groups of the above components that can each 
 In addition to the main CPU or CPUs or cores (chose your favorite name), computers may be equipped with specialized processors called [GPUs](https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#) which stands for graphics processing units that are especially efficient at tasks involving images [@GPU]. Thus often tasks that involve images are done using the GPU(s) and not the CPU(s). This frees up the CPU(s) to continue on the tasks not involving images more efficiently. Note however, that GPU processors are also "generally programmable" (meaning they can work with different types of data) and can also be used to perform tasks that don't involve images [@GPU]. It's also really good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for running a task more efficiently overall. People also use GPU graphics cards which can add additional GPUs for more computational power [@GPU].
 
 
-<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" title="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" />
 
 Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of the same core is idle or waiting for a given task,  another part of the same core can work to perform another task. This isn't as efficient as a having another core or CPU, but it does improve efficiency [@hyperthreading; @Wikipedia_hyper-threading]. So many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. Since it is now much easier to produce chips with multiple cores and because there are some security concerns with hyper-threading, the field seems to be moving away from hyper-threading [[@hyperthreading; @Wikipedia_hyper-threading].
 
-<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png" title="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." alt="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png" alt="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." width="100%" style="display: block; margin: auto;" />
 
 ### **Memory or RAM** - short-term memory
 
@@ -62,7 +62,7 @@ SSDs allow for much faster reading and writing of files, as well as increased re
 
 Here's a great explanation for how HDDs work and the difference with SSDs. It will also introduce the concept of [caching](https://en.wikipedia.org/wiki/CPU_cache), which allows for faster use of data from storage for the CPU. It is a special kind of memory that's even faster and closer to the CPU than RAM [@Wikipedia_cache_2021]:
 
-<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px" data-external="1"></iframe>
 
 
 See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.
@@ -97,9 +97,9 @@ Recall that we previously talked about how computers today are often called 64-b
 
 Previously, back when a university might have one single computer, as they were so large and expensive (they didn't use those nifty small transistors of today), computers didn't have sophisticated operating systems and only one task could be performed at a time by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs (including sometimes data) could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. Data and code would be manually indicated by punching or creating a hole in the card in certain locations. For example, columns might indicate different numeric or alphabetical values. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine [@punched_card_2021]!
 
-<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" title="Image of a punchcard" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Binary_data_to_computations_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" />
 
-There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+There were many [different kinds](https://www.jkmscott.net/data/PunchedCards/PunchedCards.html) of punch cards over time, see @scott_collection_2016 for a collection.
 
 
 
@@ -111,7 +111,7 @@ Also check out @hardware_history_2021 for really interesting and more extensive 
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time (and now women and gender minorities are hopefully becoming more represented) : 
 
-* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523) [@visions_women_2017]
+* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://pages.memoryoftheworld.org/library/Josh%20O%27Connor/Women%20pioneered%20computer%20programming.%20Then%20men%20took%20their%20industry%20over_%20%28321%29/Women%20pioneered%20computer%20programming.%20Then%20-%20Josh%20O%27Connor.pdf) [@visions_women_2017]
 * [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer) [@untold_2019]
 
 

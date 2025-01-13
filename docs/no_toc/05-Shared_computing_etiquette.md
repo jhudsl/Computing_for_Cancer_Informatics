@@ -6,7 +6,7 @@
 In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the @doi_rules and the @JHPCE.
 
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" title="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" />
 
 We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) cluster resource as an example to motivate the need for usage rules and proper sharing etiquette for such resources.
 
@@ -26,12 +26,12 @@ Each cluster or other shared computing resource will have different rules and re
 
 One major aspect to consider is keeping the computers in the cluster safe from harm. You wouldn't want to lose your precious data stored on the cluster and neither would your colleagues!
 
- - Use a good [secure password](https://its.lafayette.edu/policies/strongpasswords/) that is not easy for someone else to guess.
+ - Use a good [secure password](https://help.lafayette.edu/guidelines-for-strong-passwords/) that is not easy for someone else to guess.
  
  Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
  
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" title="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" />
 
  
  - Don't share your password and keep it safe!
@@ -39,7 +39,7 @@ One major aspect to consider is keeping the computers in the cluster safe from h
  If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember. Make sure that you abide by any rules regarding storing passwords that might be required by the resource you intend to use. 
  
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
  
  
  - Don't access a server on a computer that is not authorized to do so.
@@ -119,7 +119,7 @@ If you wish to run a program with a graphical interface, then you might need to 
 
 If you are new to Unix commands check out this cheat sheet below.
 
-<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="672" height="400px"></iframe>
+<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="672" height="400px" data-external="1"></iframe>
 
 
 ## Running Jobs
@@ -128,7 +128,7 @@ Typically a program is used to schedule jobs. Remember that jobs are the individ
 
 Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These programs have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well. 
 
-In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf) for more information on how people use SGE for the JHPCE shared resource.
+In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/orient/images/sge-orient.pdf) for more information on how people use SGE for the JHPCE shared resource.
 
 ### Specifying memory (RAM) needs
 
