@@ -156,7 +156,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 [[source](https://www.mdpi.com/2078-2489/8/4/131)]
 
 
-Note that depending on the study requirements, several images may be needed for each sample. As such, data storage needs can add up quickly.
+Note that depending on the study requirements, several images may be needed for each sample. Therefore, data storage needs can add up quickly.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Example table of overall file storage needs for samples in imaging studies.", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfb2e21ecdc_0_25")
