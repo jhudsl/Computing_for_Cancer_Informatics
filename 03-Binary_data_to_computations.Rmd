@@ -123,7 +123,7 @@ The first operating system allowed different programs to be run sequentially wit
 Check out this [video](https://www.youtube.com/watch?v=KG2M4ttzBnY) if you want to learn more about how these punch cards worked. See @OS_2017 for more information about operating systems and @punched_card_2021 for really interesting information about the history of punched cards.
 Also check out @hardware_history_2021 for more interesting and extensive history about how computer hardware was developed.
 
-Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially, computer science was actually thought of as a field for women; however, this changed over time to be skewed in the opposite direction. Nowadays, women and gender minorities are hopefully becoming more represented in this field.
+Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially, computer science was actually thought of as a field for women; however, this changed over time to be skewed in the opposite direction. Women and gender minorities are hopefully becoming more represented in this field.
 
 * [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523) [@visions_women_2017]
 * [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer) [@untold_2019]
