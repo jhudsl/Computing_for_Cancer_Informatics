@@ -115,7 +115,7 @@ Previously, back when computers were so large and expensive that one whole unive
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf96b1d997a_0_1")
 ```
 
-There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+There were many [different kinds](https://www.jkmscott.net/data/PunchedCards/PunchedCards.html) of punch cards over time, see @scott_collection_2016 for a collection.
 
 
 
@@ -127,7 +127,7 @@ Also check out @hardware_history_2021 for more interesting and extensive history
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially, computer science was actually thought of as a field for women; however, this changed over time to be skewed in the opposite direction. Women and gender minorities are hopefully becoming more represented in this field. See our [leadership course](https://jhudatascience.org/Informatics_Research_Leadership/promoting-diversity-equity-and-inclusion.html) for tips on how to better support more inclusive practices in our research labs.
 
-* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523) [@visions_women_2017]
+* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://pages.memoryoftheworld.org/library/Josh%20O%27Connor/Women%20pioneered%20computer%20programming.%20Then%20men%20took%20their%20industry%20over_%20%28321%29/Women%20pioneered%20computer%20programming.%20Then%20-%20Josh%20O%27Connor.pdf) [@visions_women_2017]
 * [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer) [@untold_2019]
 
 

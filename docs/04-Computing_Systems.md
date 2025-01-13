@@ -247,7 +247,7 @@ Many of us use cloud storage regularly for Google Docs and backing up photos usi
 Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources [@cloudvstrad].
 
 
-Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are newer national government funded resource options like [Jetstream](https://portal.xsede.org/jetstream) (described in the next section).  We will compare computing options in another chapter coming up.
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are occasionally national government funded resource options like Texas Advanced Computing Center (TACC) and others previously funded by the former project called [XSEDE](https://portal.xsede.org/) (described in the next section).  We will compare computing options in another chapter coming up.
 
 
 
@@ -267,34 +267,37 @@ You may have access to a [HPC (which stands for High Performance Computing) clus
 If your university or institution has a HPC [cluster](https://en.wikipedia.org/wiki/Computer_cluster), this means that they have a group of computers acting like a server that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer! 
 
 
-If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like [Xsede](https://www.xsede.org/).
-[Xsede](https://www.xsede.org/) is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources. See [here](https://portal.xsede.org/allocations/resource-info) for descriptions of the available resources.
+If your institute doesn't have a shared computing resource like the HPCs we just described, you could also consider a national resource option like the [Texas Advanced Computing Center (TACC)](https://en.wikipedia.org/wiki/Texas_Advanced_Computing_Center) which was funded by the National Science Foundation (NSF) [XSEDE](https://www.xsede.org/) program.
+Universities and non-profit researchers in the United States can request access to their computational and data storage resources. Other resource options include:
+
+- [San Diego Supercomputer Center (SDSC)](https://www.sdsc.edu/) at the University of California, San Diego
+- [National Institute for Computational Sciences (NICS)](https://www.nics.tennessee.edu/), at the University of Tennessee, Knoxville
+- [Pittsburgh Supercomputing Center (PSC)](https://www.psc.edu/) at the Carnegie Mellon University and University of Pittsburgh
 
 
-Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.
+Here you can see a photo of Stampede2, one of the supercomputers that members of TACC could utilize (it has now been replaced with Stampede3).
 
 ![](resources/images/04-Computing_Systems_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_63.png){width=100%}
 
 
-[[source](https://www.xsede.org/ecosystem/resources)]
+[[source](https://www.xsede.org/)]
 
 > Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin's flagship supercomputers.
 
-See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
+See [this article about Stampede2 and the transition to Stampede3](https://tacc.utexas.edu/news/latest-news/2023/07/24/taccs-new-stampede3-advances-nsf-supercomputing-ecosystem/) for more information about their resources and see [their getting started website](https://tacc.utexas.edu/use-tacc/getting-started) on how you could possibly use their resources.
 
-Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
+Importantly when you use shared computers like national resources like [Stampede2](https://tacc.utexas.edu/systems/stampede2/) and [Stampede3](https://docs.tacc.utexas.edu/hpc/stampede3/), as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
-However, there is also now an option to access the different XSEDE computing resources through a cloud environment option called [Jetstream2](https://jetstream-cloud.org/).  
+There is also an option to access national computing resources through a cloud environment option called [Jetstream2](https://jetstream-cloud.org/).  
 
 Here is a video about Jetstream2:
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px"></iframe>
-
+<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px" data-external="1"></iframe>
 
 
 
@@ -316,6 +319,6 @@ In conclusion, here are some of the major take-home messages:
 7) A supercomputer is a computer that has much more storage, memory, and computing capacity than a typical personal computer. Supercomputers are generally much more expensive than using a group of more typical computers that together would have the same collective computing and storage capacity.
 8) There are two general types of servers: clusters and grids. Cluster approaches work by having several computers working on pieces of the same task simultaneously in a method called parallel computing. Grid approaches work by having different types of computers working on different tasks. 
 9) Cloud computing is essentially the use of many servers accessed through the internet. This is often more reliable because there are many servers to use, even if one other users are performing large tasks or if a server goes down. We will talk more about the pros and cons of this option in the coming chapters.
-10) If your institute doesn't provide you access to a shared computing resource and you don't want to use a commercial cloud option, you could consider options like [Xsede](https://www.xsede.org/) and or [Jetstream2](https://jetstream-cloud.org/), which is a national resource that you can request access to.
+10) If your institute doesn't provide you access to a shared computing resource and you don't want to use a commercial cloud option, you could consider options like [TACC](https://en.wikipedia.org/wiki/Texas_Advanced_Computing_Center) and or [Jetstream2](https://jetstream-cloud.org/), which is a national resource that you can request access to.
 
 

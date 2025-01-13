@@ -26,7 +26,7 @@ Each cluster or other shared computing resource will have different rules and re
 
 One major aspect to consider is keeping the computers in the cluster safe from harm. You wouldn't want to lose your precious data stored on the cluster and neither would your colleagues!
 
- - Use a good [secure password](https://its.lafayette.edu/policies/strongpasswords/) that is not easy for someone else to guess.
+ - Use a good [secure password](https://help.lafayette.edu/guidelines-for-strong-passwords/) that is not easy for someone else to guess.
  
  Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
  
@@ -121,10 +121,10 @@ If you are new to Unix commands check out this cheat sheet below.
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px"></iframe>
+<iframe src="https://files.fosswire.com/2007/08/fwunixref.pdf" width="100%" height="400px" data-external="1"></iframe>
 
 
 ## Running Jobs
@@ -133,7 +133,7 @@ Typically a program is used to schedule jobs. Remember that jobs are the individ
 
 Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These programs have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well. 
 
-In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf) for more information on how people use SGE for the JHPCE shared resource.
+In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/orient/images/sge-orient.pdf) for more information on how people use SGE for the JHPCE shared resource.
 
 ### Specifying memory (RAM) needs
 
