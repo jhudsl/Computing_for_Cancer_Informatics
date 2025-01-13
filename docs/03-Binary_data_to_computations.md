@@ -64,10 +64,10 @@ Here's a great explanation for how HDDs work and the difference with SSDs. It wi
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/wI0upu9eVcw?start=22" width="100%" height="400px" data-external="1"></iframe>
 
 
 See this [link](https://computer.howstuffworks.com/solid-state-drive.htm) for more information about how SSDs work, and see [here](https://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work) for an in depth explanation.
@@ -104,7 +104,7 @@ Previously, back when a university might have one single computer, as they were 
 
 ![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png){width=100%}
 
-There were many [different kinds](https://www.jkmscott.net/data/Punched%20Cards.html) of punch cards over time, see @scott_collection_2016 for a collection.
+There were many [different kinds](https://www.jkmscott.net/data/PunchedCards/PunchedCards.html) of punch cards over time, see @scott_collection_2016 for a collection.
 
 
 
@@ -116,7 +116,7 @@ Also check out @hardware_history_2021 for really interesting and more extensive 
 
 Also, here is some fascinating additional reading on the role of women as computer operators starting in the 1940s. Initially computer science was actually thought of as a field for women, however this changed over time (and now women and gender minorities are hopefully becoming more represented) : 
 
-* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://timeline.com/women-pioneered-computer-programming-then-men-took-their-industry-over-c2959b822523) [@visions_women_2017]
+* [Article titled: Woman pioneered computer programming. Then men took their industry over](https://pages.memoryoftheworld.org/library/Josh%20O%27Connor/Women%20pioneered%20computer%20programming.%20Then%20men%20took%20their%20industry%20over_%20%28321%29/Women%20pioneered%20computer%20programming.%20Then%20-%20Josh%20O%27Connor.pdf) [@visions_women_2017]
 * [Article titled: Untold History of AI: Invisible Women Programmed America's First Electronic Computer The “human computers” who operated ENIAC have received little credit](https://spectrum.ieee.org/untold-history-of-ai-invisible-woman-programmed-americas-first-electronic-computer) [@untold_2019]
 
 

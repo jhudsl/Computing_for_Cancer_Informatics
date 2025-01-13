@@ -165,10 +165,10 @@ Here's a great video that puts everything we have explained so far together:
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/Xpk67YzOn5w" width="100%" height="400px" data-external="1"></iframe>
 
 
 Again, if you want to watch another [video](https://www.youtube.com/watch?v=VBDoT8o4q00), this optional video that we told you about earlier explains how transistors are used to add numbers together. In this video you will see that many transistors (and several logic gates) are needed to even do a simple calculation of 1 + 1. You will also learn that more complicated summations just require more transistors arranged in a similar manner. 
