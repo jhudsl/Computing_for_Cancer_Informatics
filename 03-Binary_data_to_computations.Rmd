@@ -16,7 +16,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ### **CPU** - Central Processing Unit
 
 
-The CPU, the “Central Processing Unit”, is often called **the brain** of the computer. Like its name, it is one of the most important and prominent parts of the computer, performing and orchestrating computational tasks; as such, it has some other confusing names [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
+The CPU, the “Central Processing Unit”, is often called **the brain** of the computer. Like its name, it is one of the most important and prominent parts of the computer, performing and orchestrating computational tasks [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
 The CPU is sometimes called a **processor** or **microprocessor** (however, technically, these terms include both the CPU and other elements). The CPU is often what people are referring to when they describe a **"computer chip"** (which again, technically includes other elements) [@braunl_central_2008, @CPU_redhat, @Wikipedia_CPU_2021]. 
 
