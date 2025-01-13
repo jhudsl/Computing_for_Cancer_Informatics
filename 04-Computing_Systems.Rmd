@@ -178,7 +178,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ### Checking file sizes on Mac
 
-If you own a Mac and want to check the size of a particular file, you can find it by locating your file within a finder window. You can open a new finder window by clicking on the button that looks like a square with two colors and a face (see image below), typically in the bottom left corner on your dock (which means the strip of icons on your Mac screen) to help you navigate to different application programs.
+If you own a Mac and want to check the size of a particular file, you can find it by locating your file within a finder window. You can open a new finder window by clicking on the button that looks like a square with two colors and a face (see image below), typically in the bottom left corner on your dock (the strip of icons on your Mac screen) to help you navigate to different application programs.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Mac finder button", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gf9c252d058_0_120")
