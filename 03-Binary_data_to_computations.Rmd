@@ -66,7 +66,7 @@ We can also store data that we aren't directly using when our computer is perfor
 
 Hard disk drives store memory using [magnetic methods](https://www.extremetech.com/computing/88078-how-a-hard-drive-works) [@hard_drive_works], while solid-state drives store memory using chips that have, guess what?
 
-They are made of yet again the important basic building block of computers, the tiny bees - oops, I mean transistors! - just like the CPU chip! You see how these transistors are really important?
+They are made of yet again the important basic building block of computers, the tiny bees - oops, I mean transistors! - just like the CPU chip! See how important transistors are!?
 
 SSDs allow for much faster reading and writing of files, as well as increased reliability. However, they are more expensive and can eventually wear out [@SSD]. 
 
