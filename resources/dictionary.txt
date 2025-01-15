@@ -103,6 +103,7 @@ mypone
 NCI
 NCSA
 NHGRI
+NICS
 NIS
 NLP
 n2c2
@@ -115,6 +116,7 @@ PKCS
 PoLP
 PostgreSQL
 proteomic
+PSC
 punchcards
 QuIP
 Raumann
@@ -127,6 +129,7 @@ scalable
 scalability
 SciServer
 SciUIs
+SDSC
 SkyServer
 semiconductive
 SGE
