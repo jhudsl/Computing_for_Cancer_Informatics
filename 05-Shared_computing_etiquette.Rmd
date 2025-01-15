@@ -167,7 +167,7 @@ Often you will be given a home directory which will likely be backed up. However
 
 ## Conclusion
 
-We hope that this chapter has given you some more knowledge about why and how computing resources are shared.
+We hope that this chapter has given you some more knowledge about why and how more traditional shared computing resources are shared.
 
 In conclusion, here are some of the major take-home messages:
 
