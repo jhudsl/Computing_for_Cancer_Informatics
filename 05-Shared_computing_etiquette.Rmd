@@ -5,7 +5,7 @@ ottrpal::set_knitr_image_path()
 
 # Shared Computing Etiquette
 
-In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Although different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the @doi_rules and the @JHPCE.
+In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the @doi_rules and the @JHPCE.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources", out.width="100%"}
