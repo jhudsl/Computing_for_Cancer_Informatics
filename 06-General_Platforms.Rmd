@@ -232,7 +232,7 @@ For those interested, Gordon Harris and others are also working on a project cal
 
 ## PRISM
 
-The Platform for Imaging in Precision Medicine, called PRISM. works behind the scenes in the Cancer Imaging Archive (TCIA) to allow users to work with the vast data available in TCIA, in terms of both imaging data and clinical information.  
+The Platform for Imaging in Precision Medicine, called PRISM, works behind the scenes in the Cancer Imaging Archive (TCIA) to allow users to work with the vast data available in TCIA, in terms of both imaging data and clinical information.  
 
 According to Fred Prior:
 
