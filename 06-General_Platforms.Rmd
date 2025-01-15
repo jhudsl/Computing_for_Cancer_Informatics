@@ -111,7 +111,7 @@ According to their website:
 
 > By providing a unified environment for data management and compute, AnVIL eliminates the need for data movement, allows for active threat detection and monitoring, and provides elastic, shared computing resources that can be acquired by researchers as needed.
 
-AnVIL relies on Terra for the cloud based compute environment, Dockstore for  standardized tools and workflows, Gen3 for data management for querying and organizing data, Galaxy tools and environment for analyses with less code requirements, and [Bioconductor](https://www.bioconductor.org/) tools for R programming users. 
+AnVIL relies on Terra for the cloud based compute environment, Dockstore for standardized tools and workflows, Gen3 for data management for querying and organizing data, Galaxy tools and environment for analyses with less code requirements, and [Bioconductor](https://www.bioconductor.org/) tools for R programming users. 
 
 [Bioconductor](https://www.bioconductor.org/) is a project with the mission to catalog, support, and disseminate bioinformatics open-source R packages. Packages have to go through a review process before being included. 
 
