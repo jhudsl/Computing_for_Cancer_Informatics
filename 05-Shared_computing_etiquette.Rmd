@@ -14,7 +14,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) cluster resource as an example to motivate the need for usage rules and proper sharing etiquette for such resources.
 
-First, let's learn a bit about this JHPCE. For this particular resource, there are about 400 active users. It is optimized for genomic and biomedical research and has 4,000 cores! That's right: as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically only have around 8 cores. The JHPCE also has 28TB of RAM and 14 PB of storage!
+First, let's learn a bit about this JHPCE. For this particular resource, there are about 400 active users. It is optimized for genomic and biomedical research and has 4,000 cores! That's right; as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would currently typically only have around 8 cores. The JHPCE also has 28TB of RAM and 14 PB of storage!
 
 Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers' computer might have something like 16 GB of RAM and 1TB of storage. 
 
