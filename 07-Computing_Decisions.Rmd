@@ -15,7 +15,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 
 
-To choose the best opportunity to perform the informatics research for you, it is useful to become familiar with the benefits and drawbacks of various computing options. First, we will start out with some general considerations that you should think about when beginning to determine what computing option makes sense for your work.
+To help you make an informed decision about computing resources, it is useful to become familiar with the benefits and drawbacks of various computing options. First, we will start out with some general considerations that you should think about when beginning to determine what computing option makes sense for your work.
 
 The following are the major decision points for your computing needs:
 
