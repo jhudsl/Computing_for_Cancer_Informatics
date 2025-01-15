@@ -111,7 +111,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 If you plan on working with multiple data modalities like for example both imaging and genomic data, consider computing options that are flexible for such analyses. Some cloud computing options designed for research are more general and supportive of this, such as [Galaxy](https://galaxyproject.org/) to some extent, as well as to a larger extent [SciServer](https://jhudatascience.org/Computing_for_Cancer_Informatics/research-platforms.html), [Jetstream](https://jetstream-cloud.org/), or [CyVerse](https://cyverse.rocks/about).
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, XSEDE and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data.", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "If you might use a variety of types of data, local shared resources or more general remote shared resources allow for this. This can be important to pay attention to when considering which shared resource option to choose. SciServer, CyVerse, TACC and Jetstream are examples of platforms that provide allow for storage and usage of multiple types of data.", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g117b5133acc_71_114")
 ```
 
@@ -179,7 +179,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Local shared resources vs remote shared resources
 
-Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, which include more traditional sharing resource options such as XSEDE, as well as more modern cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like [Jetstream](https://jetstream-cloud.org/) for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
+Often the first decision about cloud computing resources is based on determining if your personal computer can handle your work. If you have already determined that you indeed need more computing power than your personal lab computers, the next decision is between local shared resources (like an institutional server) and remote shared resources, which include more traditional sharing resource options such as [TACC](https://tacc.utexas.edu/), as well as more modern cloud computing options. See  @fischer_jetstream_2019 for more information about the costs and benefits of using a cloud option like [Jetstream](https://jetstream-cloud.org/) for your computational work. We will now discuss some questions that you might ask yourself to make the decision between local and remote shared computing resources.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Choosing between local and remote shared resource options.", out.width="100%"}

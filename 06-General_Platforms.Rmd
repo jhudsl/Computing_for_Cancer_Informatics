@@ -52,7 +52,7 @@ The [ISB-CRC](https://isb-cgc.appspot.com/) platform allows users to browse and 
 
 ### Galaxy
 
-This section was written by [Jeremy Goecks](https://goeckslab.org/people/jeremy.html):
+This section was written by [Jeremy Goecks](https://www.goeckslab.org/members/jeremy-goecks.html):
 
 Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API. Galaxy (https://galaxyproject.org/) enables accessible, reproducible, and collaborative biomedical data science regardless of informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used simply through a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.
 
@@ -118,9 +118,11 @@ AnVIL relies on Terra for the cloud based compute environment, Dockstore for  st
 
 ## CyVerse
 
+
 [CyVerse](https://cyverse.rocks/about) is a similar computing platform that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called [Atmosphere](https://cyverse.org/refocusing-atmosphere-to-support-cloud-native-development), which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with [Jetstream](https://jetstream-cloud.org/). This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started through funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
 
-See [here](https://learning.cyverse.org/en/latest/) to learn more.
+
+See [here](https://learning.cyverse.org/) to learn more.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "CyVerse graphical interface for performing analyses", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd56752f25_0_0
