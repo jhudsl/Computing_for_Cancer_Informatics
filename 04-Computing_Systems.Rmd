@@ -307,7 +307,7 @@ Furthermore, this also allows for more opportunity to scale your work to a large
 
 
 
-Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are occasionally national government funded resource options like the Texas Advanced Computing Center (TACC) and others previously funded by the former project called [XSEDE](https://portal.xsede.org/) (described in the next section).  We will compare computing options in another chapter coming up.
+Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. **Somewhere these companies have clusters of computers that paying customers use through the internet.**  In addition to these commercial options, there are occasionally national government funded resource options (described in the next section).  We will compare computing options in another chapter coming up.
 
 
 
