@@ -6,7 +6,7 @@
 Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data. 
 
 
-![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png){width=100%}
+![](03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png){width=100%}
 
 
 ### **CPU** - Central Processing Unit
@@ -28,7 +28,7 @@ A group of these components together is called a **core**. Multiple cores togeth
  
 The component that we haven't yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers so that the ALU can perform the operations on the right data stored in the registers at the right time [@braunl_central_2008].
 
-![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png){width=100%}
+![](03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png){width=100%}
  
 Modern computers now have multiple cores. What does this mean?
 
@@ -39,11 +39,11 @@ In addition to the main CPU (or CPUs, or cores, depending on your favorite name)
 
 
 
-![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png){width=100%}
+![](03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png){width=100%}
 
 Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel [@Wikipedia_hyper-threading]. The idea is that while part of a core is idle or waiting for a given task, another part of the same core can work to perform another task. This isn't as efficient as a having an additional core or CPU, but it does improve efficiency [@hyperthreading; @Wikipedia_hyper-threading]. Many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus, a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. That being said, as it is now much easier to produce chips with multiple cores, and because there are some security concerns with hyper-threading, the trend of the computing field nowadays seems to be moving away from hyper-threading [[@hyperthreading; @Wikipedia_hyper-threading].
 
-![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png){width=100%}
+![](03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png){width=100%}
 
 ### **Memory or RAM** - short-term memory
 
@@ -113,7 +113,7 @@ This can be important because if you try to use an operating system that expects
 
 Previously, back when computers were so large and expensive that one whole university might have had just one computer (they didn't have those nifty small transistors of today), computers didn't have sophisticated operating systems. During that era, only one task could be performed at a time, by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs, and sometimes data, could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. Data and code would be manually indicated by punching or creating a hole in the card in certain locations. For example, columns might indicate different numeric or alphabetical values. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine [@punched_card_2021]!
 
-![](resources/images/03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png){width=100%}
+![](03-Binary_data_to_computations_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png){width=100%}
 
 There were many [different kinds](https://www.jkmscott.net/data/PunchedCards/PunchedCards.html) of punch cards over time, see @scott_collection_2016 for a collection.
 
