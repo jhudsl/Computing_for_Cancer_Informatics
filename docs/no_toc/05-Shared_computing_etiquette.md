@@ -6,7 +6,7 @@
 In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the @doi_rules and the @JHPCE.
 
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" />
+<img src="05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" />
 
 We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) cluster resource as an example to motivate the need for usage rules and proper sharing etiquette for such resources.
 
@@ -31,7 +31,7 @@ One major aspect to consider is keeping the computers in the cluster safe from h
  Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
  
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" />
+<img src="05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" />
 
  
  - Don't share your password and keep it safe!
@@ -39,7 +39,7 @@ One major aspect to consider is keeping the computers in the cluster safe from h
  If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac). Alternatively, if you have a different type of computer or don't like the Mac Keychain, consider options like [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily the  Mac Keychain does not come at any extra cost and can be helpful for safely storing all the passwords we use regularly safely. These are especially good options if your password is too long or difficult for you to remember. Make sure that you abide by any rules regarding storing passwords that might be required by the resource you intend to use. 
  
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
+<img src="05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
  
  
  - Don't access a server on a computer that is not authorized to do so.
@@ -96,7 +96,7 @@ If you have a really large job that you need to perform, talk with the managers 
 
 The illustration below depicts how timing can affect the user experience in using a shared resource. If many people are using the same resource at the same time, especially using up the resources with a heavy task, it might slow down other users, or hinder them from performing their jobs fully. It might be a good idea to target a time frame when you know the resource will likely be less crowded.
 
-<img src="resources/images/05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11bbe6ab7c6_0_4.png" alt="This diagram depicts how efficiency or job speed can differ according to how many people are using the resource, and according to which jobs are being run using the resource. If you need to run a task that needs computing power, it might be a good idea to use a time when you know fewer people will be using the resource at the same time." width="100%" style="display: block; margin: auto;" />
+<img src="05-Shared_computing_etiquette_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11bbe6ab7c6_0_4.png" alt="This diagram depicts how efficiency or job speed can differ according to how many people are using the resource, and according to which jobs are being run using the resource. If you need to run a task that needs computing power, it might be a good idea to use a time when you know fewer people will be using the resource at the same time." width="100%" style="display: block; margin: auto;" />
 
 
 ### Communication Guidelines

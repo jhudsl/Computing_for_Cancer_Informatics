@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Binary Data to Computations | Computing for Cancer Informatics</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Binary Data to Computations | Computing for Cancer Informatics" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-01-24" />
+<meta name="date" content="2025-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
@@ -280,7 +281,7 @@ div.csl-indent {
 <div id="binary-data-to-computations" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Binary Data to Computations<a href="binary-data-to-computations.html#binary-data-to-computations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Now that we are familiar with transistors and binary data, we will next discuss how computers process and store data.</p>
-<p><img src="resources/images/03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png" alt="Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today" width="100%" /></p>
+<p><img src="03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_0.png" alt="Learning Objectives: 1. Describe what a computer chip is and the basics of how it works, 2. Understand how computers use and store data, 3. Explain the difference between RAM and long-term storage like hard disk drives and solid-state drives, 4. Recognize what aspects of a computer are hardware or software 5. Describe how the operating system is involved in telling the computer what computations to process, 6. Explain how computing systems have evolved to what they are today" width="100%" /></p>
 <div id="cpu---central-processing-unit" class="section level3 hasAnchor" number="3.0.1">
 <h3><span class="header-section-number">3.0.1</span> <strong>CPU</strong> - Central Processing Unit<a href="binary-data-to-computations.html#cpu---central-processing-unit" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The CPU, the “Central Processing Unit”, is often called <strong>the brain</strong> of the computer. Like its name, it is one of the most important and prominent parts of the computer, performing and orchestrating computational tasks <span class="citation"><span>“Central Processing Unit”</span> (<a href="#ref-Wikipedia_CPU_2021">2021</a>)</span>.</p>
@@ -295,13 +296,13 @@ div.csl-indent {
 </ul>
 <p>A group of these components together is called a <strong>core</strong>. Multiple cores together are also referred to as CPU<strong>s</strong>. As you can see, describing these structures can get a little tricky because of all the confusing terminology!</p>
 <p>The component that we haven’t yet discussed, the Control Unit, coordinates the ALU and the data stored in the registers so that the ALU can perform the operations on the right data stored in the registers at the right time <span class="citation">(<a href="#ref-braunl_central_2008">Bräunl 2008</a>)</span>.</p>
-<p><img src="resources/images/03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png" alt="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1076ceee833_0_1.png" alt="Figure of how the processor/chip/ or CPU which includes the ALU, registers and the Control Unit are grouped together." width="100%" style="display: block; margin: auto;" /></p>
 <p>Modern computers now have multiple cores. What does this mean?</p>
 <p>This means that there are multiple groups of the above components that can each process data within the same computer. A dual core CPU is a chip with two cores. A quad-core CPU is a chip with 4 cores and so on. This allows modern computers to perform multiple tasks at the same time, instead of performing tasks sequentially. For example, a typical laptop with 4 cores nowadays can perform 4 tasks simultaneously. This ability to multitask makes our computers much faster than they used to be <span class="citation">(<a href="#ref-Wikipedia_CPU_2021"><span>“Central Processing Unit”</span> 2021</a>)</span>.</p>
 <p>In addition to the main CPU (or CPUs, or cores, depending on your favorite name), computers may be equipped with specialized processors called <a href="https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#">GPUs</a>, which stands for graphics processing units, that are especially efficient at tasks involving images <span class="citation">(<a href="#ref-GPU">gaming et al. n.d.</a>)</span>. Therefore, tasks that involve images are often performed using the GPU(s) and not the CPU(s). This enables more efficient processing of data by freeing up the CPU(s) to focus on tasks not involving images. Note, however, that GPU processors are also “generally programmable” (meaning they can work with different types of data) and can also be used to perform tasks that don’t involve images <span class="citation">(<a href="#ref-GPU">gaming et al. n.d.</a>)</span>. They are also very good at doing something called parallel processing, which means dividing up a single task into multiple pieces that can be run simultaneously and thus allowing for individual task processes to be more effective overall. People also use GPU graphics cards to add additional GPUs to their computers for more computational power <span class="citation">(<a href="#ref-GPU">gaming et al. n.d.</a>)</span>.</p>
-<p><img src="resources/images/03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf6e632d05f_0_381.png" alt="A computer chip is also sometimes called the CPU. Inside this CPU or chip  are often multiple cores." width="100%" style="display: block; margin: auto;" /></p>
 <p>Hyper-threading is also an option for improving processing. This technology started in 2002 by Intel <span class="citation">(<a href="#ref-Wikipedia_hyper-threading"><span>“Hyper-Threading - <span>Wikipedia</span>”</span> n.d.</a>)</span>. The idea is that while part of a core is idle or waiting for a given task, another part of the same core can work to perform another task. This isn’t as efficient as a having an additional core or CPU, but it does improve efficiency <span class="citation">(<a href="#ref-hyperthreading"><span>“What <span>Is</span> <span class="nocase">Hyper-threading</span> <span></span> <span>HP</span>® <span>Tech</span> <span>Takes</span>”</span> n.d.</a>; <a href="#ref-Wikipedia_hyper-threading"><span>“Hyper-Threading - <span>Wikipedia</span>”</span> n.d.</a>)</span>. Many modern computer chips actually use all three efficiency boosters (having multiple cores, having GPUs, and using hyper-threading). Thus, a chip with 4 cores that also has hyper-threading can work on 8 tasks simultaneously. That being said, as it is now much easier to produce chips with multiple cores, and because there are some security concerns with hyper-threading, the trend of the computing field nowadays seems to be moving away from hyper-threading [<span class="citation">(<a href="#ref-hyperthreading"><span>“What <span>Is</span> <span class="nocase">Hyper-threading</span> <span></span> <span>HP</span>® <span>Tech</span> <span>Takes</span>”</span> n.d.</a>; <a href="#ref-Wikipedia_hyper-threading"><span>“Hyper-Threading - <span>Wikipedia</span>”</span> n.d.</a>)</span>.</p>
-<p><img src="resources/images/03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png" alt="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_75.png" alt="A computer chip that has hyper-threading can perform more tasks by single cores more efficiently. Thus a 4 core chip with hyper-threading can work on 8 tasks simultaneously." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="memory-or-ram---short-term-memory" class="section level3 hasAnchor" number="3.0.2">
 <h3><span class="header-section-number">3.0.2</span> <strong>Memory or RAM</strong> - short-term memory<a href="binary-data-to-computations.html#memory-or-ram---short-term-memory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -343,7 +344,7 @@ div.csl-indent {
 <div id="historical-context" class="section level3 hasAnchor" number="3.0.6">
 <h3><span class="header-section-number">3.0.6</span> Historical context<a href="binary-data-to-computations.html#historical-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Previously, back when computers were so large and expensive that one whole university might have had just one computer (they didn’t have those nifty small transistors of today), computers didn’t have sophisticated operating systems. During that era, only one task could be performed at a time, by one person at a time. Back then, tasks were just manually started, prioritized, and scheduled by humans. Tasks or programs, and sometimes data, could be printed or punched on cards (called punchcards, punch cards or punched cards) that would be loaded into the machine. Data and code would be manually indicated by punching or creating a hole in the card in certain locations. For example, columns might indicate different numeric or alphabetical values. It could really be a pain for users if they accidentally dropped the cards for the program they wanted to run, as you can imagine <span class="citation">(<a href="#ref-punched_card_2021"><span>“Punched Card”</span> 2021</a>)</span>!</p>
-<p><img src="resources/images/03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Binary_data_to_computations_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_1.png" alt="Image of a punchcard" width="100%" style="display: block; margin: auto;" /></p>
 <p>There were many <a href="https://www.jkmscott.net/data/PunchedCards/PunchedCards.html">different kinds</a> of punch cards over time, see <span class="citation">Scott (<a href="#ref-scott_collection_2016">2016</a>)</span> for a collection.</p>
 <p>The first operating system allowed different programs to be run sequentially without someone manually starting each one. Now our personal computers can perform multiple tasks at the same time and schedule future tasks that our automatically run.</p>
 <p>Check out this <a href="https://www.youtube.com/watch?v=KG2M4ttzBnY">video</a> if you want to learn more about how these punch cards worked. See <span class="citation">Tj (<a href="#ref-OS_2017">2017</a>)</span> for more information about operating systems and <span class="citation"><span>“Punched Card”</span> (<a href="#ref-punched_card_2021">2021</a>)</span> for really interesting information about the history of punched cards.
@@ -473,42 +474,42 @@ Visions, New. 2017. <span>“Women Pioneered Computer Programming. <span>Then</s
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

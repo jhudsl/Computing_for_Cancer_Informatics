@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Computing Resources | Computing for Cancer Informatics</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Computing Resources | Computing for Cancer Informatics" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-01-24" />
+<meta name="date" content="2025-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
@@ -280,13 +281,13 @@ div.csl-indent {
 <div id="computing-resources" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Computing Resources<a href="computing-resources.html#computing-resources" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In this chapter we will describe the basics about data size and computing capacity. We will discuss the computing and storage requirements for many types of cancer-related data, as well as options to perform informatics work that might require more intensive computing capacity than your personal computer.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_9.png" alt="Learning Objectives: 1. Name units of size for binary data, 2. State the computing and storage capacity of typical computers today, 3. Determine the range of storage and computing capacity required for various bioinformatics studies, 4. Recognize different methods for performing intensive computations or storing large data, 5. Explain how server and cloud computing works" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_9.png" alt="Learning Objectives: 1. Name units of size for binary data, 2. State the computing and storage capacity of typical computers today, 3. Determine the range of storage and computing capacity required for various bioinformatics studies, 4. Recognize different methods for performing intensive computations or storing large data, 5. Explain how server and cloud computing works" width="100%" style="display: block; margin: auto;" /></p>
 <div id="data-sizes" class="section level2 hasAnchor" number="4.1">
 <h2><span class="header-section-number">4.1</span> Data Sizes<a href="computing-resources.html#data-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Recall that the smallest unit of data is a bit, which is either a zero (0) or a one (1). A group of 8 bits is called a byte, and most computers, phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file that is 2 GB? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?</p>
 <p>First, let’s take a look at how the size of binary data is typically described and what this means in terms of bits and bytes:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb6624a387_0_1.png" alt="Cartoon - One character says:Hey I'm so stoked. I have a super cool computer now, it has yodabytes. The other character says: Do you mean yottabytes. The original character says: Nope, I have lots of files about Yoda! The other character says: Oh dear..." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb6624a387_0_1.png" alt="Cartoon - One character says:Hey I'm so stoked. I have a super cool computer now, it has yodabytes. The other character says: Do you mean yottabytes. The original character says: Nope, I have lots of files about Yoda! The other character says: Oh dear..." width="100%" style="display: block; margin: auto;" /></p>
 <p>Now that we know how to describe binary data sizes, let’s next think about how much computing capacity typical computers have today.</p>
 </div>
 <div id="computing-capacity" class="section level2 hasAnchor" number="4.2">
@@ -301,7 +302,7 @@ div.csl-indent {
 <li><p><strong>Desktops</strong> can perform and store data similarly to laptops. However, they sometimes have slightly better performance and storage compared to a laptop for a similar price. Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. Furthermore, desktops often have better graphics processing capacity and displays <span class="citation">(<a href="#ref-antonio_villas-boas_laptops_2019">Antonio Villas-Boas 2019</a>)</span>. This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find desktops with larger memory and storage options right off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop <span class="citation">(<a href="#ref-antonio_villas-boas_laptops_2019">Antonio Villas-Boas 2019</a>)</span>. However of course, desktops certainly aren’t super portable!</p></li>
 <li><p>Some <strong>phones</strong> can compete with laptops by performing 6 CPU tasks at once and storing 6 GB in memory and 250 GB of storage.</p></li>
 </ul>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1084414e81e_0_0.png" alt="Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1084414e81e_0_0.png" alt="Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it." width="100%" style="display: block; margin: auto;" /></p>
 <p>Check out this <a href="https://www.apple.com/mac/compare/?modelList=iMac,MacBook-Pro-14,MacBook-Pro-16-2021">link</a> to compare the prices of different Macs and this <a href="https://www.hp.com/us-en/shop/slp/weekly-deals">link</a> to compare specs for PC computers from HP.</p>
 <p>If you want to get really in-depth comparisons between different PC or Windows computers, check out this <a href="https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM">link</a> <span class="citation">(<a href="#ref-userbenchmark"><span>“<span>UserBenchmark</span>: <span>Core</span> I7-<span>11700K</span> <span>Build</span> <span>Comparisons</span>”</span> n.d.</a>)</span>.</p>
 <div id="checking-your-computer-capacity---mac" class="section level3 hasAnchor" number="4.2.1">
@@ -309,18 +310,18 @@ div.csl-indent {
 <p>Now, what about <strong>your</strong> computer? How do you know how many cores it has or how much memory and storage it has?</p>
 <p>If you have a Mac, you can click on the apple symbol on the far left of your screen. Then click on the “About This Mac” button.</p>
 <p>You might see something like this:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_69.png" alt="Result of pressing `About this Mac` button of a typical Mac today" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_69.png" alt="Result of pressing `About this Mac` button of a typical Mac today" width="100%" style="display: block; margin: auto;" /></p>
 <p>First, we see the operating system is called MacOS Mojave.</p>
 <p>Next, we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a <a href="http://www.techopedia.com/definition/5498/clock-cycle">clock cycle</a>) <span class="citation">(<a href="#ref-clock_cycle"><span>“What Is a <span>Clock</span> <span>Cycle</span>? - <span>Definition</span> from <span>Techopedia</span>”</span> n.d.</a>)</span>. That’s a lot compared to older computers in the 1980s, which had clock cycle rates or <a href="https://en.wikipedia.org/wiki/Clock_rate">clock rates</a> in the MegaHertz range <span class="citation">(<a href="#ref-clock_rate"><span>“Clock Rate”</span> 2021</a>)</span>!
 If we look deeper into this chip, we would learn that it has 4 cores and has hyper-threading. This allows it to effectively perform 8 tasks at once <span class="citation">(<a href="#ref-hyperthreading"><span>“What <span>Is</span> <span class="nocase">Hyper-threading</span> <span></span> <span>HP</span>® <span>Tech</span> <span>Takes</span>”</span> n.d.</a>)</span>.
 Below, we see that there are 16 Gigabytes of memory - this is how much RAM it has - and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3). This means that the RAM can process 2,133,000,000 commands every second <span class="citation">(<a href="#ref-RAM_speed">Josh Covington 2017</a>; <a href="#ref-mukherjee_ram_2019">Mukherjee 2019</a>)</span>. You can checkout more about what this means at this blog post <span class="citation">Scott Thornton (<a href="#ref-scott_thornton_RAM">2021</a>)</span>. Generally evaluating the amount of RAM is helpful in assessing performance <span class="citation">(<a href="#ref-RAM_speed">Josh Covington 2017</a>; <a href="#ref-mukherjee_ram_2019">Mukherjee 2019</a>)</span>.</p>
 <p>If we click on the storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what type of files are accounting for that particular section of storage that is being used.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_80.png" alt="Mac storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_80.png" alt="Mac storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="checking-your-computer-capacity---windowspc" class="section level3 hasAnchor" number="4.2.2">
 <h3><span class="header-section-number">4.2.2</span> Checking your computer capacity - Windows/PC<a href="computing-resources.html#checking-your-computer-capacity---windowspc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you have a PC or Windows computer, the steps may vary depending on your operating system, but try the following:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_96.png" alt="Windows/PC Start button" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_96.png" alt="Windows/PC Start button" width="100%" style="display: block; margin: auto;" /></p>
 <ol style="list-style-type: decimal">
 <li>click the “Start” button (It’s the button on the bottom left that looks like a grid with 4 squares together)</li>
 <li>click “Settings” button (It’s gear-shaped)</li>
@@ -328,12 +329,12 @@ Below, we see that there are 16 Gigabytes of memory - this is how much RAM it ha
 <li>click “About”</li>
 </ol>
 <p>See this <a href="https://www.businessinsider.com/how-to-find-computer-specs-windows-10">link</a> for more information.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_90.png" alt="Windows/PC about section" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_107.png" alt=" Example of a Windows/PC computer processor and memory information" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_90.png" alt="Windows/PC about section" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_107.png" alt=" Example of a Windows/PC computer processor and memory information" width="100%" style="display: block; margin: auto;" /></p>
 <p>Here we can see that this computer has an Intel(R) Core(TM) i7-4790K CPU @ 4.00 GHz 4.00 GHz chip and 16 Gigabytes of RAM.
 If we look up this chip we can see that it has 4 cores and 8 threads (due to hyper-threading) allowing for 8 tasks at a time.</p>
 <p>To find out more information about your storage, click the “Storage” button within the “System” tab.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_114.png" alt="Windows/PC storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_114.png" alt="Windows/PC storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
 <p>Here we can see that this computer has 466 GB + 465 GB = 932 GB across the two drives. The <strong>C: drive</strong> is typically for the operating system, and the <strong>D: drive</strong> is typically where you would install application programs and save files. There are 1000 GB in a TB; therefore, we can see that this computer has about the same storage as the Mac that we just looked at.</p>
 </div>
 </div>
@@ -341,45 +342,45 @@ If we look up this chip we can see that it has 4 cores and 8 threads (due to hyp
 <h2><span class="header-section-number">4.3</span> File Sizes<a href="computing-resources.html#file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Now let’s think about the files that we might need for our research, how big are files typically for genomic, imaging, and clinical research?</p>
 <p>Recall this table from earlier about digital data size units:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
 <div id="genomic-data-file-sizes" class="section level3 hasAnchor" number="4.3.1">
 <h3><span class="header-section-number">4.3.1</span> Genomic data file sizes<a href="computing-resources.html#genomic-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Genomic data files can be quite large and can require quite a bit of storage and processing power.</p>
 <p>Below is a table of the approximate sizes of some common file types:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_0.png" alt="Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_0.png" alt="Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="imaging-data-file-sizes" class="section level3 hasAnchor" number="4.3.2">
 <h3><span class="header-section-number">4.3.2</span> Imaging Data File Sizes<a href="computing-resources.html#imaging-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Imaging data, although often smaller than genomic data, can start to add up quickly with multiple images and samples.</p>
 <p>Here is a table of average file sizes for various medical imaging modalities from <span class="citation">Liu et al. (<a href="#ref-liu_imaging_2017">2017</a>)</span>:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_35.png" alt="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." width="100%" style="display: block; margin: auto;" />
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_35.png" alt="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." width="100%" style="display: block; margin: auto;" />
 [<a href="https://www.mdpi.com/2078-2489/8/4/131">source</a>]</p>
 <p>Note that depending on the study requirements, several images may be needed for each sample. Therefore, data storage needs can add up quickly.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_25.png" alt="Example table of overall file storage needs for samples in imaging studies." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_25.png" alt="Example table of overall file storage needs for samples in imaging studies." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="clinical-data-file-sizes" class="section level3 hasAnchor" number="4.3.3">
 <h3><span class="header-section-number">4.3.3</span> Clinical Data File Sizes<a href="computing-resources.html#clinical-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Really large clinical datasets can also produce sizable file sizes. For example the <a href="https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp">Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)</a> contains data on more than seven million hospital stays in the United States with regional information.</p>
 <p>According to the NIS website, it “enables analyses of rare conditions, uncommon treatments, and special populations” <span class="citation">(<a href="#ref-NIS"><span>“<span>NIS</span> <span>Database</span> <span>Documentation</span>”</span> n.d.</a>)</span>.</p>
 <p>Looking at the <a href="https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp">file sizes</a> for the NIS data for different states across years, you can see that there are files for some states which can be as large as 24,000 MB or 2.4 GB for California <span class="citation">(<a href="#ref-NIS"><span>“<span>NIS</span> <span>Database</span> <span>Documentation</span>”</span> n.d.</a>)</span>. You can see how this could add up across years and states quite quickly.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_42.png" alt="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_42.png" alt="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="checking-file-sizes-on-mac" class="section level3 hasAnchor" number="4.3.4">
 <h3><span class="header-section-number">4.3.4</span> Checking file sizes on Mac<a href="computing-resources.html#checking-file-sizes-on-mac" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you own a Mac and want to check the size of a particular file, you can find it by locating your file within a finder window. You can open a new finder window by clicking on the button that looks like a square with two colors and a face (see image below), typically in the bottom left corner on your dock (the strip of icons on your Mac screen) to help you navigate to different application programs.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_120.png" alt="Mac finder button" width="100%" style="display: block; margin: auto;" />
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_120.png" alt="Mac finder button" width="100%" style="display: block; margin: auto;" />
 Once you open a finder window, you can navigate to one of your files.</p>
 <p>If you have the view setting that looks like 4 lines, you will get information about the size of each file.
-<img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_133.png" alt="Finder windows show file sizes on a Mac" width="100%" style="display: block; margin: auto;" /></p>
+<img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_133.png" alt="Finder windows show file sizes on a Mac" width="100%" style="display: block; margin: auto;" /></p>
 <p>You can right click on a file and click the “Get Info” button. This will give you more specific information.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_128.png" alt="Right clicking on a file in the finder window can give you more info about a file." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_128.png" alt="Right clicking on a file in the finder window can give you more info about a file." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="checking-file-sizes-on-pcwindows" class="section level3 hasAnchor" number="4.3.5">
 <h3><span class="header-section-number">4.3.5</span> Checking file sizes on PC/Windows<a href="computing-resources.html#checking-file-sizes-on-pcwindows" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Similar to the process of checking file sizes on a Mac, if you’re using a Windows or PC computer, you can navigate to your files by first opening the File Explorer application by typing this in the search bar next to the “start” button.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_139.png" alt="Finding the File Explorer on a Windows/PC computer" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_139.png" alt="Finding the File Explorer on a Windows/PC computer" width="100%" style="display: block; margin: auto;" /></p>
 <p>Then navigate to your file of interest, which will show information about the size in one of the columns to the right. If you hover over the file name, you will get more specific information.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_145.png" alt="File sizes are listed for each file within File Explorer windows on Windows/PC computers" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_145.png" alt="File sizes are listed for each file within File Explorer windows on Windows/PC computers" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 <div id="computing-options" class="section level2 hasAnchor" number="4.4">
@@ -387,7 +388,7 @@ Once you open a finder window, you can navigate to one of your files.</p>
 <div id="personal-computers" class="section level3 hasAnchor" number="4.4.1">
 <h3><span class="header-section-number">4.4.1</span> <strong>Personal computers</strong><a href="computing-resources.html#personal-computers" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>These are computers that your lab might own, such as laptops or desktops, used by one individual or maybe a few individuals in your lab.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_3.png" alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_3.png" alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." width="100%" style="display: block; margin: auto;" /></p>
 <p>If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, as your project expands and you start working with more and complex data, you might require connecting your personal computers to shared computers for more computational power and/or storage.</p>
 </div>
 <div id="shared-computing-resources" class="section level3 hasAnchor" number="4.4.2">
@@ -399,7 +400,7 @@ Once you open a finder window, you can navigate to one of your files.</p>
 <p>For example, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality. These computers are designed to optimize data storage and computational power. For instance, they often don’t have capabilities to support a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical user interface</a>, meaning the visual display output that you see on your personal computer <span class="citation">(<a href="#ref-GUI"><span>“What Is a <span>Graphical</span> <span>User</span> <span>Interface</span>? <span>Definition</span> and <span>FAQs</span> <span></span> <span>OmniSci</span>”</span> n.d.</a>)</span>.</p>
 <p>Instead, they are typically only accessed by using a <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a>, meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface <span class="citation">(<a href="#ref-command-line_2022"><span>“Command-Line Interface”</span> 2022</a>)</span>. In order to support this they have memory, processors or CPUs, and storage, like your laptop.</p>
 <p>Here is what a server might look like:</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" /></p>
 <p>In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns.</p>
 <p>Among shared computing resources/servers, there are three major options:</p>
 <ul>
@@ -430,12 +431,12 @@ Users need to write their scripts in a way that can be performed by multiple com
 <p>Many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a simpler cluster or grid. Even if one or multiple servers are down, you can often still use the other servers for the computations that you might need.</p>
 <p>Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources <span class="citation">(<a href="#ref-cloudvstrad"><span>“Cloud <span>Computing</span> Vs. <span>Traditional</span> <span>IT</span> <span>Infrastructure</span> <span></span> <span>Leading</span> <span>Edge</span>”</span> n.d.</a>)</span>.</p>
 <p>Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. <strong>Somewhere these companies have clusters of computers that paying customers use through the internet.</strong> In addition to these commercial options, there are occasionally national government funded resource options (described in the next section). We will compare computing options in another chapter coming up.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" alt="Cloud computing options" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" alt="Cloud computing options" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="accessing-shared-computer-resources" class="section level3 hasAnchor" number="4.4.6">
 <h3><span class="header-section-number">4.4.6</span> Accessing Shared Computer Resources<a href="computing-resources.html#accessing-shared-computer-resources" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>It’s important to remember that all of the shared computing options that we previously described involve a <a href="https://en.wikipedia.org/wiki/Data_center">data center</a> where a large number of computers are physically housed.</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_23.png" alt="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_23.png" alt="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources" width="100%" style="display: block; margin: auto;" /></p>
 <p>You may have access to a <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC (which stands for High Performance Computing) cluster</a> at your institute. This can be a great cost-effective and typically secure option.</p>
 <p>If your university or institution has a HPC <a href="https://en.wikipedia.org/wiki/Computer_cluster">cluster</a>, this means that they have a group of computers acting like a server that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer!</p>
 <p>If your institute doesn’t have a shared computing resource like the HPCs we just described, you could also consider a national resource option like the <a href="https://en.wikipedia.org/wiki/Texas_Advanced_Computing_Center">Texas Advanced Computing Center (TACC)</a> which was funded by the National Science Foundation (NSF) <a href="https://www.xsede.org/">XSEDE</a> program.
@@ -446,7 +447,7 @@ Universities and non-profit researchers in the United States can request access 
 <li><a href="https://www.psc.edu/">Pittsburgh Supercomputing Center (PSC)</a> at the Carnegie Mellon University and University of Pittsburgh</li>
 </ul>
 <p>Here you can see a photo of Stampede2, one of the supercomputers that members of TACC could utilize (it has now been replaced with Stampede3).</p>
-<p><img src="resources/images/04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_63.png" alt="An image of Stampede2 one of the supercomputers that members of TACC could use." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="04-Computing_Systems_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_63.png" alt="An image of Stampede2 one of the supercomputers that members of TACC could use." width="100%" style="display: block; margin: auto;" /></p>
 <p>[<a href="https://www.xsede.org/">source</a>]</p>
 <blockquote>
 <p>Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin’s flagship supercomputers.</p>
@@ -598,42 +599,42 @@ Scott Thornton. 2021. <span>“What Is <span>DDR</span> (<span>Double</span> <sp
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>
