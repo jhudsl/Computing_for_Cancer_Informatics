@@ -6,4 +6,3 @@ CONTRIBUTING.md
 LICENSE.md
 code_of_conduct.md
 README.md
-getting_started.md
