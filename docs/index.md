@@ -1,6 +1,6 @@
 ---
 title: "Computing for Cancer Informatics"
-date: "2025-08-12"
+date: "2025-10-21"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -18,7 +18,7 @@ output:
 
 # About This Course {-}
 
-This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at [www.itcrtraining.org](www.itcrtraining.org) for more information. Except where otherwise indicated, the contents of this course are available for use under the Creative Commons Attribution 4.0 license. You are free to adapt and share the work, but you must give appropriate credit, provide a link to the license, and indicate if changes were made. Sample attribution: Computing for Cancer Informatics by Johns Hopkins Data Science Lab (CC-BY 4.0). You can download the illustrations by clicking [here](https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit?usp=sharing).
+This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our [website](https://www.itcrtraining.org){target="_blank"} at itcrtraining.org for more information. Except where otherwise indicated, the contents of this course are available for use under the Creative Commons Attribution 4.0 license. You are free to adapt and share the work, but you must give appropriate credit, provide a link to the license, and indicate if changes were made. Sample attribution: Computing for Cancer Informatics by Johns Hopkins Data Science Lab (CC-BY 4.0). You can download the illustrations by clicking [here](https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit?usp=sharing).
 
 
 ## Available course formats
@@ -27,5 +27,5 @@ This course is available in multiple formats which allows you to take it in the 
 
 - The material for this course can be viewed without login requirement on this [Bookdown website](https://jhudatascience.org/Computing_for_Cancer_Informatics/). This format might be most appropriate for you if you rely on screen-reader technology.
 - This course can be taken for [free certification through Leanpub](https://leanpub.com/universities/courses/jhu/cancer-informatics-computing).
-- This course can be taken on [Coursera for certification here](https://www.coursera.org/learn/computing-for-cancer-informatics) (but it is not available for free on Coursera).
+- This course can be taken on [Coursera for certification for a fee here](https://www.coursera.org/learn/computing-for-cancer-informatics) (but it is not available for free on Coursera).
 - Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/jhudsl/Computing_for_Cancer_Informatics).
