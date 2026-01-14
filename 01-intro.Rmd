@@ -14,7 +14,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ## Motivation
 
-One of the key challenges in cancer informatics is dealing with and managing the explosion of large data from multiple sources that are often too large to work with on typical personal computers. This course is designed to help researchers and investigators understand the basics of computing and to familiarize them with various computing options, ultimately helping their research decisions.
+One of the key challenges in cancer informatics is dealing with and managing the explosion of large data from multiple sources that are often too large to work with on typical personal computers. This course is designed to help researchers and investigators understand the basics of computing and to familiarize them with various computing options, ultimately helping their research decisions. 
 
 ## Target Audience
 
