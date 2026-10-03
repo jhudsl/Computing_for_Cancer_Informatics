@@ -20,6 +20,7 @@ One of the key challenges in cancer informatics is dealing with and managing the
 
 This course is intended for researchers, including postdocs and students, with limited to intermediate experience with informatics research. The conceptual material will also be useful for those in management roles who are collecting data and using informatics pipelines.
 
+This course may be especially useful for someone who wants to understand the computing resources that are being used while they build GitHub Actions following a GHA workshop such as the materials found here: [https://github.com/<your-username>/github-actions-workshop](https://github.com/<your-username>/github-actions-workshop)
 
 ```{r for_individuals_who, fig.align='center', echo = FALSE, fig.alt= "For individuals whom: Have no formal training in informatics. Are relatively new to informatics. Want to learn the basics of computers and shared computing resources. Want guidance for choosing computing options", out.width= "100%"}
 
